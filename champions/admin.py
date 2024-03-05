@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Champion
+from .models import Champion, Skill
 
 # Register your models here.
 
@@ -9,10 +9,13 @@ class ChampionAdmin(admin.ModelAdmin):
     list_display = (
         "name",
         "cost",
-        "display_synergies",
+        "skill",
     )
 
-    def display_synergies(self, obj):
-        return ", ".join([synergy.name for synergy in obj.synergies.all()])
 
-    display_synergies.short_description = "Synergies"
+@admin.register(Skill)
+class SkillAdmin(admin.ModelAdmin):
+    list_display = (
+        "name",
+        "skill_type",
+    )

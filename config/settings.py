@@ -30,7 +30,13 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [
+THIRD_PARTY_APPS = [
+    "rest_framework",
+    "rest_framework.authtoken",
+    "corsheaders",
+]
+
+CUSTOM_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -39,17 +45,22 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "champions.apps.ChampionsConfig",
     "synergies.apps.SynergiesConfig",
+    "augments.apps.AugmentsConfig",
+    "portals.apps.PortalsConfig",
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+
+INSTALLED_APPS = THIRD_PARTY_APPS + CUSTOM_APPS
 
 ROOT_URLCONF = "config.urls"
 
