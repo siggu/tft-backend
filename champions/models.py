@@ -42,7 +42,6 @@ class Champion(models.Model):
         on_delete=models.CASCADE,
         null=True,
     )
-    avatar = models.ImageField(null=True)
 
     @property
     def dps(self):
@@ -75,7 +74,6 @@ class Skill(models.Model):
     description = models.CharField(
         max_length=300,
     )
-    avatar = models.ImageField(null=True)
 
     def __str__(self):
         return self.name

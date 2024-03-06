@@ -10,9 +10,6 @@ class Origin(models.Model):
         "champions.Champion",
         related_name="origins",
     )
-    avartar = models.ImageField(
-        null=True,
-    )
 
     def __str__(self):
         return self.name
@@ -26,9 +23,6 @@ class Job(models.Model):
     champion = models.ManyToManyField(
         "champions.Champion",
         related_name="jobs",
-    )
-    avartar = models.ImageField(
-        null=True,
     )
 
     def __str__(self):

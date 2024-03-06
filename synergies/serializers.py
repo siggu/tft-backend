@@ -12,7 +12,6 @@ class OriginSerializer(ModelSerializer):
             "name",
             "description",
             "champions",
-            "avartar",
         )
         depth = 1
 
@@ -25,7 +24,11 @@ class JobSerializer(ModelSerializer):
 
     class Meta:
         model = Job
-        fields = ("name", "description", "champions")
+        fields = (
+            "name",
+            "description",
+            "champions",
+        )
         depth = 1
 
     def get_champions(self, obj):

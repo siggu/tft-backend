@@ -47,6 +47,7 @@ CUSTOM_APPS = [
     "synergies.apps.SynergiesConfig",
     "augments.apps.AugmentsConfig",
     "portals.apps.PortalsConfig",
+    "medias.apps.MediasConfig",
 ]
 
 MIDDLEWARE = [
@@ -61,6 +62,10 @@ MIDDLEWARE = [
 ]
 
 INSTALLED_APPS = THIRD_PARTY_APPS + CUSTOM_APPS
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+]
 
 ROOT_URLCONF = "config.urls"
 
@@ -134,3 +139,7 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+MEDIA_ROOT = "uploads"
+
+MEDIA_URL = "user-upload/"

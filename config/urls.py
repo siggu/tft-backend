@@ -17,6 +17,8 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static
+from django.conf import settings
 
 
 urlpatterns = [
@@ -25,4 +27,4 @@ urlpatterns = [
     path("api/v1/augments/", include("augments.urls")),
     path("api/v1/portals/", include("portals.urls")),
     path("api/v1/synergies/", include("synergies.urls")),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

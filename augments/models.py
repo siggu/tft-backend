@@ -21,9 +21,6 @@ class Augment(models.Model):
     description = models.CharField(
         max_length=200,
     )
-    image = models.ImageField(
-        null=True,
-    )
 
     def __str__(self):
         return self.name
