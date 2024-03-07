@@ -1,5 +1,4 @@
 from rest_framework.serializers import ModelSerializer, SerializerMethodField
-from champions.serializers import ChampionSerializer
 from .models import Origin, Job
 from medias.serializers import PhotoSerializer
 

@@ -1,6 +1,7 @@
 from rest_framework.serializers import ModelSerializer, SerializerMethodField
 from .models import Champion, Skill
 from medias.serializers import PhotoSerializer
+from synergies.serializers import OriginSerializer, JobSerializer
 
 
 class ChampionSerializer(ModelSerializer):
@@ -17,9 +18,20 @@ class ChampionSerializer(ModelSerializer):
         depth = 1
 
 
+class SkillSerializer(ModelSerializer):
+    photos = PhotoSerializer(read_only=True, many=True)
+
+    class Meta:
+        model = Skill
+        fields = "__all__"
+
+
 class ChampionDetailSerializer(ModelSerializer):
     dps = SerializerMethodField()
     photos = PhotoSerializer(read_only=True, many=True)
+    origin = OriginSerializer(read_only=True, many=True)
+    job = JobSerializer(read_only=True, many=True)
+    skill = SkillSerializer()
 
     class Meta:
         model = Champion
@@ -28,11 +40,3 @@ class ChampionDetailSerializer(ModelSerializer):
 
     def get_dps(self, obj):
         return obj.dps
-
-
-class SkillSerializer(ModelSerializer):
-    photos = PhotoSerializer(read_only=True, many=True)
-
-    class Meta:
-        model = Skill
-        fields = "__all__"
