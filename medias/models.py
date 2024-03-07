@@ -21,6 +21,13 @@ class Photo(models.Model):
         on_delete=models.CASCADE,
         related_name="photos",
     )
+    skill = models.ForeignKey(
+        "champions.Skill",
+        null=True,
+        blank=True,
+        on_delete=models.CASCADE,
+        related_name="photos",
+    )
     portal = models.ForeignKey(
         "portals.Portal",
         null=True,

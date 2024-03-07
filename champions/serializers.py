@@ -31,6 +31,8 @@ class ChampionDetailSerializer(ModelSerializer):
 
 
 class SkillSerializer(ModelSerializer):
+    photos = PhotoSerializer(read_only=True, many=True)
+
     class Meta:
         model = Skill
         fields = "__all__"

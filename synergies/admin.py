@@ -6,6 +6,7 @@ from .models import Origin, Job
 @admin.register(Origin)
 class OriginAdmin(admin.ModelAdmin):
     list_display = (
+        "pk",
         "name",
         "get_champions",
     )
