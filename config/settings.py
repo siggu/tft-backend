@@ -48,6 +48,7 @@ CUSTOM_APPS = [
     "augments.apps.AugmentsConfig",
     "portals.apps.PortalsConfig",
     "medias.apps.MediasConfig",
+    "comps.apps.CompsConfig",
 ]
 
 MIDDLEWARE = [

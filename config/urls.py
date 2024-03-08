@@ -27,4 +27,5 @@ urlpatterns = [
     path("api/v1/augments/", include("augments.urls")),
     path("api/v1/portals/", include("portals.urls")),
     path("api/v1/synergies/", include("synergies.urls")),
+    path("api/v1/comps/", include("comps.urls")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
