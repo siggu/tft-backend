@@ -71,9 +71,8 @@ class Skill(models.Model):
     max_mana = models.PositiveIntegerField(
         null=True,
     )
-    description = models.CharField(
-        max_length=300,
-    )
+    description = models.TextField(default='스킬설명입력')
+    effect = models.TextField(default='스킬효과입력')
 
     def __str__(self):
         return self.name
