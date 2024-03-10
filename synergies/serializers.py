@@ -8,13 +8,8 @@ class OriginSerializer(ModelSerializer):
 
     class Meta:
         model = Origin
-        fields = (
-            "pk",
-            "name",
-            "description",
-            "photos",
-        )
         depth = 1
+        fields = "__all__"
 
 
 class JobSerializer(ModelSerializer):
@@ -22,10 +17,5 @@ class JobSerializer(ModelSerializer):
 
     class Meta:
         model = Job
-        fields = (
-            "pk",
-            "name",
-            "description",
-            "photos",
-        )
+        fields = "__all__"
         depth = 1
