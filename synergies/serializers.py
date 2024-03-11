@@ -8,8 +8,8 @@ class OriginSerializer(ModelSerializer):
 
     class Meta:
         model = Origin
-        depth = 1
         fields = "__all__"
+        depth=1
 
 
 class JobSerializer(ModelSerializer):
@@ -18,4 +18,4 @@ class JobSerializer(ModelSerializer):
     class Meta:
         model = Job
         fields = "__all__"
-        depth = 1
+        depth=1

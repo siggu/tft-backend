@@ -1,3 +1,5 @@
+# push할때 마다 바뀌는 것들
+config/__pycache__
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

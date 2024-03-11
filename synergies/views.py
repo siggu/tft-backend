@@ -9,13 +9,18 @@ from .models import Origin, Job
 
 # Create your views here.
 class Origins(APIView):
-    def get(self, reqeust):
+    def get(self, request):
         origins = Origin.objects.all()
-        serializer = serializers.OriginSerializer(
-            origins,
-            many=True,
-        )
-        return Response(serializer.data)
+        origin_data = []
+        for origin in origins:
+            origin_info = {
+                'id': origin.id,
+                'name': origin.name,
+                'champions': [champion.name for champion in origin.champions.all()]  # 여기서 champion_set은 Champion 모델에서 Origin에 대한 역참조 이름입니다.
+            }
+            origin_data.append(origin_info)
+        return Response(origin_data)
+
     
 class OriginName(APIView):
     def get_object(self,name):
