@@ -3,6 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.exceptions import NotFound
 
+
 from . import serializers
 from .models import Origin, Job
 
@@ -11,15 +12,11 @@ from .models import Origin, Job
 class Origins(APIView):
     def get(self, request):
         origins = Origin.objects.all()
-        origin_data = []
-        for origin in origins:
-            origin_info = {
-                'id': origin.id,
-                'name': origin.name,
-                'champions': [champion.name for champion in origin.champions.all()]  # 여기서 champion_set은 Champion 모델에서 Origin에 대한 역참조 이름입니다.
-            }
-            origin_data.append(origin_info)
-        return Response(origin_data)
+        serializer = serializers.JobSerializer(
+            origins,
+            many=True,
+        )
+        return Response(serializer.data)
 
     
 class OriginName(APIView):
@@ -31,9 +28,16 @@ class OriginName(APIView):
         
     def get(self, reqeust,name):
         origin = self.get_object(name)
+        origin_data = []
+        origin_info = {
+            'id': origin.id,
+            'name': origin.name,
+            'synergy_champions': [{"champion_name":champion.name, "champion_pk":champion.pk} for champion in origin.champions.all()]  # 여기서 champions Champion 모델에서 Origin에 대한 역참조 이름입니다.
+        }
+        origin_data.append(origin_info)
 
-        serializer = serializers.OriginSerializer(origin)
-        return Response(serializer.data)
+        serializer = serializers.OriginSerializer(origin_info)
+        return Response(origin_info)
 
 
 class Jobs(APIView):

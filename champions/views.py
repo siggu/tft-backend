@@ -11,7 +11,7 @@ from .models import Champion, Skill
 class Champions(APIView):
     def get(self, request):
         champions = Champion.objects.all()
-        serializer = serializers.ChampionSerializer(
+        serializer = serializers.ChampionDetailSerializer(
             champions,
             many=True,
         )
