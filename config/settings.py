@@ -50,6 +50,7 @@ CUSTOM_APPS = [
     "medias.apps.MediasConfig",
     "comps.apps.CompsConfig",
     "items.apps.ItemsConfig",
+    "encounters.apps.EncountersConfig",
 ]
 
 MIDDLEWARE = [
