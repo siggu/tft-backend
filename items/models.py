@@ -9,11 +9,8 @@ class Item(models.Model):
     description = models.TextField(
     )
     effect = models.TextField(
+        blank=True
     )
-    class GenerableItem(models.BooleanField):
-        SILVER = ("silver", "Silver")
-        GOLD = ("gold", "Gold")
-        PRISMATIC = ("prismatic", "Prismatic")
 
     generableItem = models.BooleanField(default = True)
 

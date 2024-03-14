@@ -49,6 +49,13 @@ class Photo(models.Model):
         on_delete=models.CASCADE,
         related_name="photos",
     )
+    item = models.ForeignKey(
+        "items.Item",
+        null=True,
+        blank=True,
+        on_delete=models.CASCADE,
+        related_name="photos",
+    )
 
     def __str__(self):
         return self.description
