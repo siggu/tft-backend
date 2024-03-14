@@ -14,4 +14,5 @@ class PhotoAdmin(admin.ModelAdmin):
         "portal",
         "origin",
         "job",
+        "encounter",
     )
