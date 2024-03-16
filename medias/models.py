@@ -29,7 +29,7 @@ class Photo(models.Model):
         related_name="photos",
     )
     portal = models.ForeignKey(
-        "portals.Portal",
+        "portals.PortalType",
         null=True,
         blank=True,
         on_delete=models.CASCADE,

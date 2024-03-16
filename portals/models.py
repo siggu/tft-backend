@@ -5,6 +5,23 @@ from django.db import models
 class Portal(models.Model):
     """Model definition for Portals"""
 
+    name = models.CharField(
+        max_length=30,
+    )
+    description = models.CharField(
+        max_length=200,
+    )
+    portal_type = models.ForeignKey(
+        "PortalType",
+        on_delete=models.CASCADE,
+        null=True,
+    )
+
+    def __str__(self):
+        return self.name
+
+
+class PortalType(models.Model):
     class TypeChoices(models.TextChoices):
         CHAMP = ("champ", "Champ")
         COMBAT = ("combat", "Combat")
@@ -18,12 +35,6 @@ class Portal(models.Model):
         choices=TypeChoices.choices,
         default="champ",
     )
-    name = models.CharField(
-        max_length=30,
-    )
-    description = models.CharField(
-        max_length=200,
-    )
 
     def __str__(self):
-        return self.name
+        return self.portal_type
