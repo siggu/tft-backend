@@ -12,7 +12,7 @@ from .models import Origin, Job, SynergyTier, SynergyStack
 class Origins(APIView):
     def get(self, request):
         origins = Origin.objects.all()
-        serializer = serializers.JobSerializer(
+        serializer = serializers.OriginSerializer(
             origins,
             many=True,
         )
