@@ -15,5 +15,4 @@ class PhotoAdmin(admin.ModelAdmin):
         "origin",
         "job",
         "encounter",
-        "item",
     )

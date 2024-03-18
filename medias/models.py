@@ -49,13 +49,6 @@ class Photo(models.Model):
         on_delete=models.CASCADE,
         related_name="photos",
     )
-    item = models.ForeignKey(
-        "items.Item",
-        null=True,
-        blank=True,
-        on_delete=models.CASCADE,
-        related_name="photos",
-    )
     encounter = models.ForeignKey(
         "encounters.Encounter",
         null=True,
