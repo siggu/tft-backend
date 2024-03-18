@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer, SerializerMethodField
-from .models import Origin, Job
+from .models import Origin, Job, SynergyTier, SynergyStack
 from medias.serializers import PhotoSerializer
 
 
@@ -9,7 +9,7 @@ class OriginSerializer(ModelSerializer):
     class Meta:
         model = Origin
         fields = "__all__"
-        depth=1
+        depth = 1
 
 
 class JobSerializer(ModelSerializer):
@@ -18,4 +18,16 @@ class JobSerializer(ModelSerializer):
     class Meta:
         model = Job
         fields = "__all__"
-        depth=1
+        depth = 1
+
+
+class SynergyTierSerializer(ModelSerializer):
+    class Meta:
+        model = SynergyTier
+        fields = "__all__"
+
+
+class SynergyStackSerializer(ModelSerializer):
+    class Meta:
+        model = SynergyStack
+        fields = "__all__"
