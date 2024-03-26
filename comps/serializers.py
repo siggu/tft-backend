@@ -14,7 +14,7 @@ class CompSerializer(ModelSerializer):
     class Meta:
         model = Comp
         fields = "__all__"
-        depth = 2
+        depth = 3
 
 
 class CompElementSerializer(ModelSerializer):
