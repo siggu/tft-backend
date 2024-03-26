@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from .models import Comp
+from .models import Comp, CompElement
 from medias.serializers import PhotoSerializer
 from synergies.serializers import OriginSerializer, JobSerializer
 from champions.serializers import ChampionDetailSerializer
@@ -13,4 +13,11 @@ class CompSerializer(ModelSerializer):
 
     class Meta:
         model = Comp
+        fields = "__all__"
+        depth = 2
+
+
+class CompElementSerializer(ModelSerializer):
+    class Meta:
+        model = CompElement
         fields = "__all__"
