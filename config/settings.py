@@ -11,16 +11,22 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import os
+import environ
+
+env = environ.Env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
 
 # Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
+# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-5$8$o7=c!ruux!rb(1)bqzr!$65!tzu^h$zx(q2wo0ge3npsdc"
+SECRET_KEY = env("SECRET_KEY")
+RIOT_API_KEY = env("RIOT_API_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -51,6 +57,7 @@ CUSTOM_APPS = [
     "comps.apps.CompsConfig",
     "items.apps.ItemsConfig",
     "encounters.apps.EncountersConfig",
+    "profiles.apps.ProfilesConfig",
 ]
 
 MIDDLEWARE = [
