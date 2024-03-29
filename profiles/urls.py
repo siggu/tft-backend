@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import fetch_and_save_puuid
+from .views import SummonerPuuidAPIView
 
 urlpatterns = [
-    path("fetch-puuid/", fetch_and_save_puuid, name="fetch_and_save_puuid"),
+    path("fetch-puuid/", SummonerPuuidAPIView.as_view()),
 ]

@@ -6,11 +6,6 @@ from .models import SummonerPuuid
 @admin.register(SummonerPuuid)
 class SummonerPuuidAdmin(admin.ModelAdmin):
     list_display = (
-        "id",
-        "accountId",
-        "puuid",
         "name",
-        "profileIconId",
-        "revisionDate",
-        "summonerLevel",
+        "puuid",
     )
