@@ -1,9 +1,11 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.exceptions import NotFound
 from . import serializers
-from .models import SummonerPuuid
+from .models import (
+    SummonerPuuid,
+    SummonerMatchesByPuuid,
+)  # 필요한 모델을 임포트해야 합니다.
 import requests
 import os
 
@@ -45,6 +47,44 @@ class SummonerPuuidAPIView(APIView):
                 return Response(
                     {
                         "error": "Failed to fetch summoner puuid",
+                        "status_code": response.status_code,
+                    },
+                    status=response.status_code,
+                )
+        except Exception as e:
+            return Response({"error": str(e)}, status=500)
+
+
+class SummonerMathcesByPuuidAPIView(APIView):
+    def get(self, request):
+        matches = SummonerMatchesByPuuid.objects.all()
+        serializer = serializers.SummonerMatchesByPuuidSerializer(
+            matches,
+            many=True,
+        )
+        return Response(serializer.data)
+
+    def post(self, request):
+        try:
+            puuid = request.data.get("puuid")
+            if not puuid:
+                return Response(
+                    {"error": "puuid is required in the request data"}, status=400
+                )
+
+            api_key = os.getenv("RIOT_API_KEY")
+            url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{puuid}?api_key={api_key}"
+            response = requests.get(url)
+            if response.status_code == 200:
+                matches_data = response.json()
+
+                for match_data in matches_data:
+                    match = SummonerMatchesByPuuid.objects.create()
+                return Response({"message": "Match data saved successfully!"})
+            else:
+                return Response(
+                    {
+                        "error": "Failed to fetch match data",
                         "status_code": response.status_code,
                     },
                     status=response.status_code,

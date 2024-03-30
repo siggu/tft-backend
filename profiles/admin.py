@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import SummonerPuuid
+from .models import SummonerPuuid, SummonerMatchesByPuuid
 
 
 # Register your models here.
@@ -8,4 +8,12 @@ class SummonerPuuidAdmin(admin.ModelAdmin):
     list_display = (
         "name",
         "puuid",
+    )
+
+
+@admin.register(SummonerMatchesByPuuid)
+class SummonerMatchesByPuuidAdmin(admin.ModelAdmin):
+    list_display = (
+        "summoner_puuid",
+        "match_id",
     )
