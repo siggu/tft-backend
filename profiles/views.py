@@ -1,16 +1,14 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.exceptions import NotFound
 from . import serializers
-from .models import (
-    SummonerPuuid,
-    SummonerMatchesByPuuid,
-)  # 필요한 모델을 임포트해야 합니다.
+from .models import SummonerPuuid, SummonerMatchesByPuuid
 import requests
 import os
 
 
-class SummonerPuuidAPIView(APIView):
+class SummonerProfileAPIView(APIView):
     def get(self, request):
         summonerpuuids = SummonerPuuid.objects.all()
         serializer = serializers.SummonerPuuidSerializer(
@@ -40,7 +38,7 @@ class SummonerPuuidAPIView(APIView):
                 return Response(
                     {
                         "message": "Summoner puuid fetched and saved successfully!",
-                        "data": summoner_puuid.id,
+                        "data": summoner_puuid.puuid,
                     }
                 )
             else:
@@ -55,8 +53,27 @@ class SummonerPuuidAPIView(APIView):
             return Response({"error": str(e)}, status=500)
 
 
+class SummonerProfileDetailAPIView(APIView):
+    def get_object(self, name):
+        try:
+            return SummonerPuuid(name=name)
+        except SummonerPuuid.DoesNotExist:
+            return NotFound
+
+    def get(self, request, name):
+        summonerpuuid = self.get_object(name)
+        serializer = serializers.SummonerPuuidSerializer(summonerpuuid)
+        return Response(serializer.data)
+
+
 class SummonerMathcesByPuuidAPIView(APIView):
-    def get(self, request):
+    def get_object(self, pk):
+        try:
+            return SummonerPuuid.objects(pk=pk)
+        except SummonerPuuid.DoesNotExist:
+            return NotFound
+
+    def get(self, request, pk):
         matches = SummonerMatchesByPuuid.objects.all()
         serializer = serializers.SummonerMatchesByPuuidSerializer(
             matches,
@@ -64,16 +81,17 @@ class SummonerMathcesByPuuidAPIView(APIView):
         )
         return Response(serializer.data)
 
-    def post(self, request):
+    def post(self, request, pk):
         try:
-            puuid = request.data.get("puuid")
-            if not puuid:
+            summonerpuuids = self.get_object(pk)
+            if not summonerpuuids:
                 return Response(
-                    {"error": "puuid is required in the request data"}, status=400
+                    {"error": "summonerpuuids is required in the request data"},
+                    status=400,
                 )
 
             api_key = os.getenv("RIOT_API_KEY")
-            url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{puuid}?api_key={api_key}"
+            url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerpuuids}?api_key={api_key}"
             response = requests.get(url)
             if response.status_code == 200:
                 matches_data = response.json()
