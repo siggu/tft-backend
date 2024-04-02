@@ -4,14 +4,7 @@ from .models import Comp, CompElement
 
 @admin.register(Comp)
 class CompAdmin(admin.ModelAdmin):
-    list_display = (
-        "name",
-        "get_champions",
-        # "elements",
-    )
-
-    def get_champions(self, obj):
-        return ",".join([champion.name for champion in obj.champions.all()])
+    list_display = ("name",)
 
 
 @admin.register(CompElement)
