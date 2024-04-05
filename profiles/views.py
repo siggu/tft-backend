@@ -54,50 +54,48 @@ class SummonerProfileAPIView(APIView):
 
 
 class SummonerProfileDetailAPIView(APIView):
-    def get_object(self, name):
+    def get_object(self, summonerName):
         try:
-            return SummonerPuuid(name=name)
+            return SummonerPuuid.objects.get(name=summonerName)
         except SummonerPuuid.DoesNotExist:
-            return NotFound
+            raise NotFound
 
-    def get(self, request, name):
-        summonerpuuid = self.get_object(name)
+    def get(self, request, summonerName):
+        summonerpuuid = self.get_object(summonerName)
         serializer = serializers.SummonerPuuidSerializer(summonerpuuid)
         return Response(serializer.data)
 
 
 class SummonerMathcesByPuuidAPIView(APIView):
-    def get_object(self, pk):
+    def get_object(self, summonerPuuid):
         try:
-            return SummonerPuuid.objects(pk=pk)
-        except SummonerPuuid.DoesNotExist:
-            return NotFound
+            return SummonerMatchesByPuuid.objects.get(summoner_puuid=summonerPuuid)
+        except SummonerMatchesByPuuid.DoesNotExist:
+            raise NotFound
 
-    def get(self, request, pk):
-        matches = SummonerMatchesByPuuid.objects.all()
+    def get(self, request, summonerPuuid):
+        summonerMatches = self.get_object(summonerPuuid)
         serializer = serializers.SummonerMatchesByPuuidSerializer(
-            matches,
+            summonerMatches,
             many=True,
         )
         return Response(serializer.data)
 
-    def post(self, request, pk):
-        try:
-            summonerpuuids = self.get_object(pk)
-            if not summonerpuuids:
-                return Response(
-                    {"error": "summonerpuuids is required in the request data"},
-                    status=400,
-                )
+    def post(self, request, summonerPuuid):
+        summonerpuuid = summonerPuuid
+        api_key = os.getenv("RIOT_API_KEY")
+        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerpuuid}/ids?start=0&count=1&api_key={api_key}"
 
-            api_key = os.getenv("RIOT_API_KEY")
-            url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerpuuids}?api_key={api_key}"
+        try:
             response = requests.get(url)
             if response.status_code == 200:
                 matches_data = response.json()
 
                 for match_data in matches_data:
-                    match = SummonerMatchesByPuuid.objects.create()
+                    match = SummonerMatchesByPuuid.objects.create(
+                        summoner_puuid=summonerpuuid,
+                        match_id=match_data["match_id"],
+                    )
                 return Response({"message": "Match data saved successfully!"})
             else:
                 return Response(
