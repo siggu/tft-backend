@@ -67,11 +67,17 @@ class SummonerProfileDetailAPIView(APIView):
 
 
 class SummonerMathcesByPuuidAPIView(APIView):
+    # def get_object(self, summonerPuuid):
+    #     try:
+    #         return SummonerMatchesByPuuid.objects.get(summoner_puuid=summonerPuuid)
+    #     except SummonerMatchesByPuuid.DoesNotExist:
+    #         raise NotFound
+
     def get_object(self, summonerPuuid):
         try:
-            return SummonerMatchesByPuuid.objects.get(summoner_puuid=summonerPuuid)
-        except SummonerMatchesByPuuid.DoesNotExist:
-            raise NotFound
+            return SummonerPuuid.objects.get(puuid=summonerPuuid)
+        except SummonerPuuid.DoesNotExist:
+            return NotFound
 
     def get(self, request, summonerPuuid):
         summonerMatches = self.get_object(summonerPuuid)
@@ -82,21 +88,43 @@ class SummonerMathcesByPuuidAPIView(APIView):
         return Response(serializer.data)
 
     def post(self, request, summonerPuuid):
-        summonerpuuid = summonerPuuid
+        summoner_instance = self.get_object(summonerPuuid)
+
+        if not summoner_instance:
+            return Response(
+                {"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND
+            )
+
         api_key = os.getenv("RIOT_API_KEY")
-        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerpuuid}/ids?start=0&count=1&api_key={api_key}"
+        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerPuuid}/ids?start=0&count=3&api_key={api_key}"
 
         try:
             response = requests.get(url)
             if response.status_code == 200:
                 matches_data = response.json()
 
-                for match_data in matches_data:
-                    match = SummonerMatchesByPuuid.objects.create(
-                        summoner_puuid=summonerpuuid,
-                        match_id=match_data["match_id"],
+                if isinstance(matches_data, list) and matches_data:
+                    match_instances = []
+                    for match_id in matches_data:
+                        match_instances.append(
+                            SummonerMatchesByPuuid(
+                                summoner_puuid=summoner_instance, match_id=match_id
+                            )
+                        )
+
+                    # 한 번에 매치들을 생성하고 저장
+                    SummonerMatchesByPuuid.objects.bulk_create(match_instances)
+
+                    return Response(
+                        {
+                            "message": f"{len(matches_data)} match data saved successfully!"
+                        }
                     )
-                return Response({"message": "Match data saved successfully!"})
+                else:
+                    return Response(
+                        {"error": "No match_id found in the response"},
+                        status=status.HTTP_404_NOT_FOUND,
+                    )
             else:
                 return Response(
                     {
@@ -106,4 +134,6 @@ class SummonerMathcesByPuuidAPIView(APIView):
                     status=response.status_code,
                 )
         except Exception as e:
-            return Response({"error": str(e)}, status=500)
+            return Response(
+                {"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )

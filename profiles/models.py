@@ -6,7 +6,7 @@ from django.db import models
 class SummonerPuuid(models.Model):
     id = models.CharField(max_length=100, primary_key=True)
     accountId = models.CharField(max_length=100)
-    puuid = models.CharField(max_length=100)
+    puuid = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=30, default="소환사닉네임")
     profileIconId = models.PositiveIntegerField(default=0)
     revisionDate = models.PositiveIntegerField(default=0)
@@ -17,7 +17,12 @@ class SummonerPuuid(models.Model):
 
 
 class SummonerMatchesByPuuid(models.Model):
-    summoner_puuid = models.ForeignKey("SummonerPuuid", on_delete=models.CASCADE)
+    summoner_puuid = models.ForeignKey(
+        SummonerPuuid,
+        on_delete=models.CASCADE,
+        to_field="puuid",
+        # related_name="matches",
+    )
     match_id = models.CharField(max_length=100)
 
     def __str__(self):
