@@ -23,7 +23,7 @@ class SummonerMatchesByPuuid(models.Model):
         to_field="puuid",
         related_name="matches",
     )
-    match_id = models.CharField(max_length=100, unique=True)
+    match_id = models.CharField(max_length=100)
 
     def __str__(self):
         return f"{self.summoner_puuid} - {self.match_id}"
@@ -197,3 +197,22 @@ class Info(models.Model):
     tft_game_type = models.CharField(max_length=20)
     tft_set_core_name = models.CharField(max_length=20)
     tft_set_number = models.PositiveIntegerField(default=0)
+
+
+# metadata + info
+class SummonerMatchByMatchId(models.Model):
+    match_id = models.CharField(max_length=100, primary_key=True)
+
+    metadata = models.ForeignKey(
+        Metadata,
+        related_name="matchinfo",
+        on_delete=models.CASCADE,
+    )
+    info = models.ForeignKey(
+        Info,
+        related_name="matchinfo",
+        on_delete=models.CASCADE,
+    )
+
+    def __str__(self):
+        return str(self.match_id)
