@@ -5,7 +5,12 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.exceptions import NotFound
 from . import serializers
-from .models import SummonerPuuid, SummonerMatchesByPuuid, SummonerMatchByMatchId
+from .models import (
+    SummonerPuuid,
+    SummonerMatchesByPuuid,
+    SummonerMatchByMatchId,
+    MatchDetailsByMatchId,
+)
 import requests
 import os
 
@@ -27,6 +32,7 @@ class SummonerProfileAPIView(APIView):
 
         try:
             response = requests.get(url)
+            print("response", response)
             if response.status_code == 200:
                 data = response.json()
                 summoner_puuid = SummonerPuuid.objects.create(
@@ -94,7 +100,7 @@ class SummonerMathcesByPuuidAPIView(APIView):
             )
 
         # api_key = os.getenv("RIOT_API_KEY")
-        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerName}/ids?start=0&count=3&api_key={api_key}"
+        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerName}/ids?start=0&count=20&api_key={api_key}"
 
         try:
             response = requests.get(url)
@@ -141,16 +147,19 @@ class SummonerMathcesByPuuidAPIView(APIView):
 class SummonerMatchByMatchIdAPIView(APIView):
     def get_object(self, matchId):
         try:
-            return SummonerMatchByMatchId.objects.get(match_id=matchId)
-        except SummonerMatchByMatchId.DoesNotExist:
+            return MatchDetailsByMatchId.objects.get(match_id=matchId)
+        except MatchDetailsByMatchId.DoesNotExist:
             raise NotFound
 
     def get(self, request, summonerName, matchId):
         summonerMatch = self.get_object(matchId)
-        serializer = serializers.SummonerMatchByMatchIdSerializer(
-            summonerMatch,
-        )
-        return Response(serializer.data)
+        try:
+            serializer = serializers.MatchDetailsByMatchIdSerializer(
+                summonerMatch,
+            )
+            return Response(serializer.data)
+        except summonerMatch.DoesNotExist:
+            raise NotFound
 
     def post(self, request, summonerName, matchId):
         if not matchId:
@@ -160,18 +169,24 @@ class SummonerMatchByMatchIdAPIView(APIView):
 
         api_key = os.getenv("RIOT_API_KEY")
         url = f"https://asia.api.riotgames.com/tft/match/v1/matches/{matchId}?api_key={api_key}"
-
+        print("url", url)
         try:
-            response = requests.get(url)
+            api_response = requests.get(url)
 
-            if response.status_code == 200:
-                data = response.json()
-                return Response(data, status=status.HTTP_200_OK)
+            if api_response.status_code == 200:
+                data = api_response.json()
+
+                push_data = MatchDetailsByMatchId.objects.create(
+                    match_id=matchId,
+                    match_detail=data,
+                )
+
+                return Response(push_data)
             else:
                 return Response(
                     {
                         "error": "Failed to fetch match data",
-                        "status_code": response.status_code,
+                        "status_code": api_response.status_code,
                     },
                     status=status.HTTP_500_INTERNAL_SERVER_ERROR,
                 )

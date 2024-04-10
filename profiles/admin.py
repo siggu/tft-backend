@@ -1,5 +1,10 @@
 from django.contrib import admin
-from .models import SummonerPuuid, SummonerMatchesByPuuid, SummonerMatchByMatchId
+from .models import (
+    SummonerPuuid,
+    SummonerMatchesByPuuid,
+    SummonerMatchByMatchId,
+    MatchDetailsByMatchId,
+)
 
 
 # Register your models here.
@@ -24,4 +29,12 @@ class SummonerMatchByMatchIdAdmin(admin.ModelAdmin):
     list_display = (
         "metadata",
         "info",
+    )
+
+
+@admin.register(MatchDetailsByMatchId)
+class MatchDetailsByMatchIdAdmin(admin.ModelAdmin):
+    list_display = (
+        "match_id",
+        "match_detail",
     )

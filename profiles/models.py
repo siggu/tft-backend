@@ -216,3 +216,15 @@ class SummonerMatchByMatchId(models.Model):
 
     def __str__(self):
         return str(self.match_id)
+
+
+# 매치 데이터 JSON으로 때려박기
+class MatchDetailsByMatchId(models.Model):
+    match_id = models.CharField(
+        max_length=100,
+        primary_key=True,
+    )
+    match_detail = models.JSONField(
+        "json",
+        default=dict,
+    )

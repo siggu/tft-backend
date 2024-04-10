@@ -1,5 +1,10 @@
 from rest_framework import serializers
-from .models import SummonerPuuid, SummonerMatchesByPuuid, SummonerMatchByMatchId
+from .models import (
+    SummonerPuuid,
+    SummonerMatchesByPuuid,
+    SummonerMatchByMatchId,
+    MatchDetailsByMatchId,
+)
 
 
 class SummonerPuuidSerializer(serializers.ModelSerializer):
@@ -17,4 +22,10 @@ class SummonerMatchesByPuuidSerializer(serializers.ModelSerializer):
 class SummonerMatchByMatchIdSerializer(serializers.ModelSerializer):
     class Meta:
         model = SummonerMatchByMatchId
+        fields = "__all__"
+
+
+class MatchDetailsByMatchIdSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MatchDetailsByMatchId
         fields = "__all__"
