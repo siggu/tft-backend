@@ -99,8 +99,8 @@ class SummonerMathcesByPuuidAPIView(APIView):
                 {"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND
             )
 
-        # api_key = os.getenv("RIOT_API_KEY")
-        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summonerName}/ids?start=0&count=20&api_key={api_key}"
+        api_key = os.getenv("RIOT_API_KEY")
+        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=3&api_key={api_key}"
 
         try:
             response = requests.get(url)
