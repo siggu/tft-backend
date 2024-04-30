@@ -18,6 +18,3 @@ class ChampionDetailSerializer(ModelSerializer):
         model = Champion
         fields = "__all__"
         depth = 1
-
-    def get_dps(self, obj):
-        return obj.dps

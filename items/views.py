@@ -19,7 +19,7 @@ class Items(APIView):
         if serializer.is_valid():
             item_obj = serializer.save()
             item_obj_serializer = serializers.ItemSerializer(item_obj)
-            print
+
             return Response(item_obj_serializer.data)
         else:
             print("serializer error!!!!")
