@@ -9,10 +9,6 @@ class PhotoAdmin(admin.ModelAdmin):
         "file",
         "description",
         "augment",
-        "champion",
-        "skill",
         "portal",
-        "origin",
-        "job",
         "encounter",
     )

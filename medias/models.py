@@ -14,36 +14,8 @@ class Photo(models.Model):
         on_delete=models.CASCADE,
         related_name="photos",
     )
-    champion = models.ForeignKey(
-        "champions.Champion",
-        null=True,
-        blank=True,
-        on_delete=models.CASCADE,
-        related_name="photos",
-    )
-    skill = models.ForeignKey(
-        "champions.Skill",
-        null=True,
-        blank=True,
-        on_delete=models.CASCADE,
-        related_name="photos",
-    )
     portal = models.ForeignKey(
         "portals.PortalType",
-        null=True,
-        blank=True,
-        on_delete=models.CASCADE,
-        related_name="photos",
-    )
-    origin = models.ForeignKey(
-        "synergies.Origin",
-        null=True,
-        blank=True,
-        on_delete=models.CASCADE,
-        related_name="photos",
-    )
-    job = models.ForeignKey(
-        "synergies.Job",
         null=True,
         blank=True,
         on_delete=models.CASCADE,
