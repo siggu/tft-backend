@@ -1,0 +1,2557 @@
+[
+  {
+    "teamBuilderKey": "ac80267f71bc9386e411b92ed7cb9b5c6287be80",
+    "name": "초반 빌드업 요약",
+    "cost": 30,
+    "data": {
+      "slots": [
+        {
+          "index": 2,
+          "champion": "Riven",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Garen",
+          "star": 2
+        },
+        {
+          "index": 4,
+          "champion": "Jax",
+          "star": 2
+        },
+        {
+          "index": 14,
+          "champion": "Zoe",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Sivir",
+          "star": 2,
+          "items": [
+            "GuinsoosRageblade",
+            "InfinityEdge"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle"
+        },
+        {
+          "index": 23,
+          "champion": "Zyra",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet"
+          ]
+        }
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "da194c2e0b76a9e1c3c61e86fde36f6e590fbca5",
+    "name": "4용군주 이렐리아",
+    "cost": 105,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Diana",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "MonkeyKing",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Galio",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "LeeSin",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Riven",
+          "star": 2
+        },
+        {
+          "index": 10,
+          "champion": "Rakan",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Irelia",
+          "star": 2,
+          "items": [
+            "InfinityEdge",
+            "GuinsoosRageblade",
+            "RedBuffItem"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofSpeed"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Hwei",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "Janna",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "DragonlordCrest",
+        "InspiringEpitaph",
+        "Harmacist2"
+      ],
+      "set": "set11"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "3fc184152a8252975eb34a0e754d630ff50eae6b",
+    "name": "도자기 애쉬 애니",
+    "tag": "hot",
+    "cost": 96,
+    "data": {
+      "slots": [
+        {
+          "index": 2,
+          "champion": "Nautilus",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "WarmogsArmor",
+            "BrambleVest"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Annie",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "WarmogsArmor",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Amumu",
+          "star": 2
+        },
+        {
+          "index": 9,
+          "champion": "Lissandra",
+          "star": 2,
+          "items": [
+            "SpearofShojin"
+          ]
+        },
+        {
+          "index": 21,
+          "champion": "Ashe",
+          "star": 2,
+          "items": [
+            "GuinsoosRageblade",
+            "LastWhisper",
+            "InfinityEdge"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Lux",
+          "star": 2
+        },
+        {
+          "index": 24,
+          "champion": "Azir",
+          "star": 2
+        },
+        {
+          "index": 26,
+          "champion": "KogMaw",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "Lillia",
+          "star": 2,
+          "items": [
+            "BlueSentinel",
+            "ArcaneGauntlet",
+            "RabadonsDeathcap"
+          ]
+        }
+      ],
+      "augments": [
+        "Harmacist2",
+        "Porcelain",
+        "InspiringEpitaph"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "1a2d7ef37d0790c259e0c42aa8ec5ea772786a69",
+    "name": "4난동꾼 4재주꾼 카이사",
+    "tag": "hot",
+    "cost": 72,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Aatrox",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Sylas",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "IonicSpark"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Galio",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "BrambleVest"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Riven",
+          "star": 2
+        },
+        {
+          "index": 15,
+          "champion": "Sivir",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Kaisa",
+          "star": 2,
+          "items": [
+            "InfinityEdge",
+            "LastWhisper",
+            "SpearofShojin"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofSpeed"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Xayah",
+          "star": 2,
+          "items": [
+            "InfinityEdge",
+            "GiantSlayer",
+            "LordsEdge"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Teemo",
+          "star": 2,
+          "items": [
+            "Morellonomicon"
+          ]
+        }
+      ],
+      "augments": [
+        "Trickshot",
+        "YouHaveMySword",
+        "HealingOrbsII"
+      ],
+      "set": "set11"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "a925cec5aa87b3864e08a7170f00e4cb5813e57c",
+    "name": "7필연 아펠리오스 신드라",
+    "tag": "hot",
+    "cost": 69,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Ornn",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Sett",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Thresh",
+          "star": 3,
+          "items": [
+            "IronWill",
+            "IonicSpark",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Yasuo",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Aphelios",
+          "star": 3,
+          "items": [
+            "GuinsoosRageblade",
+            "InfinityEdge",
+            "RedBuffItem"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Syndra",
+          "star": 2,
+          "items": [
+            "BlueSentinel",
+            "LudensEcho",
+            "ArcaneGauntlet"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Kindred",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "Ahri",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "YouHaveMyBow",
+        "InspiringEpitaph",
+        "BigGrabBag"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "5d7b533fc713096d7833466540e95877b0c899d8",
+    "name": "7신화 4기원자 릴리아",
+    "tag": "updated",
+    "cost": 87,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Nautilus",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "WarmogsArmor",
+            "BrambleVest"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "TahmKench",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Annie",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "IonicSpark",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "ChoGath",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Neeko",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Lillia",
+          "star": 2,
+          "items": [
+            "BlueSentinel",
+            "ArcaneGauntlet",
+            "RabadonsDeathcap"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Azir",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Hwei",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "Morellonomicon"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "KogMaw",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "MythicCrest",
+        "Harmacist2",
+        "OldMansWalkingStick"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "a0dd8341f2197804197f12b315859531b585422f",
+    "name": "4난동꾼 바드 리롤",
+    "tag": "updated",
+    "cost": 75,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Riven",
+          "star": 2
+        },
+        {
+          "index": 1,
+          "champion": "Sylas",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "IonicSpark"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "Annie",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Galio",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "TahmKench",
+          "star": 3,
+          "items": [
+            "IronWill",
+            "SteadfastHeart",
+            "DragonsClaw"
+          ]
+        },
+        {
+          "index": 14,
+          "champion": "Sivir",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Bard",
+          "star": 3,
+          "items": [
+            "GuinsoosRageblade",
+            "GuinsoosRageblade",
+            "HextechGunblade"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofSpeed"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Lillia",
+          "star": 2,
+          "items": [
+            "BlueSentinel",
+            "RabadonsDeathcap",
+            "ArcaneGauntlet"
+          ]
+        }
+      ],
+      "augments": [
+        "PumpingUp2",
+        "PandorasItems2",
+        "HealingOrbsII"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "b6d635327077a1a3a2b96f8c5d1c55fcf7360994",
+    "name": "6암영 요네 리롤",
+    "tag": "updated",
+    "cost": 78,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Darius",
+          "star": 2
+        },
+        {
+          "index": 1,
+          "champion": "Sylas",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "IonicSpark"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "Kayn",
+          "star": 2,
+          "items": [
+            "GuardianAngel",
+            "HandofJustice",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Yone",
+          "star": 3,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "Quicksilver"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Ornn",
+          "star": 2,
+          "items": [
+            "Evenshroud"
+          ]
+        },
+        {
+          "index": 5,
+          "champion": "Sett",
+          "star": 2
+        },
+        {
+          "index": 6,
+          "champion": "Yorick",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Alune",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "Morellonomicon",
+            "LudensEcho"
+          ]
+        }
+      ],
+      "augments": [
+        "Umbral",
+        "GargantuanResolve",
+        "InspiringEpitaph"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "560504ab178828941d5d7e480e93c91f3d4371cd",
+    "name": "6결투가 리롤",
+    "cost": 78,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Yasuo",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Qiyana",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Volibear",
+          "star": 3,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "TitansResolve"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "LeeSin",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Diana",
+          "star": 2,
+          "items": [
+            "IronWill"
+          ]
+        },
+        {
+          "index": 13,
+          "champion": "MonkeyKing",
+          "star": 2
+        },
+        {
+          "index": 26,
+          "champion": "Tristana",
+          "star": 3,
+          "items": [
+            "InfinityEdge",
+            "LastWhisper",
+            "RunaansHurricane"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "Irelia",
+          "star": 2,
+          "items": [
+            "InfinityEdge",
+            "RedBuffItem",
+            "GiantSlayer"
+          ]
+        }
+      ],
+      "augments": [
+        "Duelist",
+        "GargantuanResolve",
+        "InspiringEpitaph"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "89b4fbc468ef77abb888c971cebc9ca355d4d54e",
+    "name": "4용군주 카이사",
+    "cost": 105,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Volibear",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "LeeSin",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Ornn",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "SunfireCape"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Diana",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Udyr",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "TattooofVitality"
+          ]
+        },
+        {
+          "index": 21,
+          "champion": "Kaisa",
+          "star": 2,
+          "items": [
+            "InfinityEdge",
+            "LastWhisper",
+            "SpearofShojin"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Xayah",
+          "star": 2,
+          "items": [
+            "InfinityEdge",
+            "GiantSlayer",
+            "LordsEdge"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Azir",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "Janna",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "InspiringEpitaph",
+        "YouHaveMySword",
+        "Formation2"
+      ],
+      "set": "set11"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "ea15d9802182acefd8d0ad7376a024e90e7ca39b",
+    "name": "4용군주 리 신",
+    "cost": 90,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Khazix",
+          "star": 2
+        },
+        {
+          "index": 1,
+          "champion": "Qiyana",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "LeeSin",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "SteraksGage"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "MonkeyKing",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "GuardianAngel",
+            "TitansResolve"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Kayn",
+          "star": 2,
+          "items": [
+            "GuardianAngel",
+            "HandofJustice",
+            "LastWhisper"
+          ]
+        },
+        {
+          "index": 5,
+          "champion": "Diana",
+          "star": 2
+        },
+        {
+          "index": 10,
+          "champion": "Rakan",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Morgana",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "Morellonomicon",
+            "RabadonsDeathcap"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "Janna",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "DragonlordCrest",
+        "NotToday",
+        "Dragonlord"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "db34278997c58423e93dc462fc6ee01795b2a0ca",
+    "name": "4용군주 아지르 흐웨이",
+    "cost": 114,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Udyr",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "LeeSin",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Ornn",
+          "star": 2,
+          "items": [
+            "Redemption",
+            "WarmogsArmor",
+            "IronWill"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "MonkeyKing",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "GuardianAngel"
+          ]
+        },
+        {
+          "index": 5,
+          "champion": "Diana",
+          "star": 2
+        },
+        {
+          "index": 10,
+          "champion": "Rakan",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Azir",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "RabadonsDeathcap",
+            "NashorsTooth"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Hwei",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "Morellonomicon",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "Janna",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "JeweledLotus",
+        "Harmacist2",
+        "Diversify2"
+      ],
+      "set": "set11"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "d8e17eeea283514fa3fd95bdc973f35d54259d6b",
+    "name": "4용군주 잔나 리롤",
+    "cost": 75,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "LeeSin",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Riven",
+          "star": 3,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "SteraksGage"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Galio",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "WarmogsArmor",
+            "BrambleVest"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Diana",
+          "star": 3,
+          "items": [
+            "IronWill",
+            "SteadfastHeart",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 10,
+          "champion": "Rakan",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Janna",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "GuinsoosRageblade",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofMight"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Zyra",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Soraka",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "Dragonlord",
+        "BigGrabBag",
+        "DragonlordCrest"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "63cee05d4d926fe64857492456e4743b0ee579dd",
+    "name": "[환영 칼날] 쉔",
+    "cost": 66,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "ChoGath",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Ornn",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Yorick",
+          "star": 3,
+          "items": [
+            "BrambleVest",
+            "DragonsClaw",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Thresh",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Malphite",
+          "star": 2
+        },
+        {
+          "index": 7,
+          "champion": "MonkeyKing",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Shen",
+          "star": 3,
+          "items": [
+            "GuinsoosRageblade",
+            "GuinsoosRageblade",
+            "GiantSlayer"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Morgana",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "Morellonomicon",
+            "NashorsTooth"
+          ]
+        }
+      ],
+      "augments": [
+        "ShenCarry",
+        "Behemoth",
+        "HealingOrbsII"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "16bb2929eaba15613d1f9337d8bdb3551398e6ef",
+    "name": "잔나 리븐 리롤",
+    "tag": "updated",
+    "cost": 72,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "LeeSin",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Riven",
+          "star": 3,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "SteraksGage"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Diana",
+          "star": 3,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "SteadfastHeart"
+          ]
+        },
+        {
+          "index": 10,
+          "champion": "Rakan",
+          "star": 2
+        },
+        {
+          "index": 14,
+          "champion": "Zyra",
+          "star": 3
+        },
+        {
+          "index": 21,
+          "champion": "Janna",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "GuinsoosRageblade",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofMight"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Zoe",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Soraka",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "Dragonlord",
+        "BigGrabBag",
+        "DragonlordCrest"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "aac9a28fe816c31094536ac4f6a23d84f5fb4b0d",
+    "name": "6난동꾼 리븐 리롤",
+    "tag": "updated",
+    "cost": 66,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Kobuko",
+          "star": 2
+        },
+        {
+          "index": 1,
+          "champion": "Aatrox",
+          "star": 3
+        },
+        {
+          "index": 2,
+          "champion": "Riven",
+          "star": 3,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Galio",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Sylas",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "IonicSpark"
+          ]
+        },
+        {
+          "index": 5,
+          "champion": "TahmKench",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Zyra",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "LudensEcho",
+            "ArcaneGauntlet"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofAid"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Morgana",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "Bruiser",
+        "GargantuanResolve",
+        "Formation2"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "03591958b8236a489cb5212522d413a51f3164c5",
+    "name": "7신화 바드 리롤",
+    "tag": "updated",
+    "cost": 90,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Neeko",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Nautilus",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Annie",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "TahmKench",
+          "star": 3,
+          "items": [
+            "IronWill",
+            "SteadfastHeart",
+            "DragonsClaw"
+          ]
+        },
+        {
+          "index": 21,
+          "champion": "Bard",
+          "star": 3,
+          "items": [
+            "GuinsoosRageblade",
+            "GuinsoosRageblade",
+            "HextechGunblade"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Lillia",
+          "star": 2,
+          "items": [
+            "BlueSentinel",
+            "ArcaneGauntlet",
+            "RabadonsDeathcap"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Kaisa",
+          "star": 2
+        },
+        {
+          "index": 24,
+          "champion": "Hwei",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "KogMaw",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "PumpingUp2",
+        "PandorasItems2",
+        "Formation2"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "4ad6c4f4bb360159a8f71240db0c79c7dc981447",
+    "name": "7이야기꾼 이렐리아",
+    "cost": 66,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Riven",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "LeeSin",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "SteraksGage"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Galio",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "WarmogsArmor",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Garen",
+          "star": 2
+        },
+        {
+          "index": 14,
+          "champion": "Sivir",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Irelia",
+          "star": 2,
+          "items": [
+            "GuinsoosRageblade",
+            "InfinityEdge",
+            "RedBuffItem"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofSpeed",
+            "ScrollofHaste",
+            "TomeofSwiftness"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Zoe",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "Zyra",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "JeweledLotus",
+        "Harmacist2",
+        "InspiringEpitaph"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "107e549d6a04d7ea429400ddb2f04db01946e814",
+    "name": "천계 케인 오공",
+    "cost": 78,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Neeko",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Kayn",
+          "star": 2,
+          "items": [
+            "GuardianAngel",
+            "LastWhisper",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "MonkeyKing",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "LeeSin",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 5,
+          "champion": "Qiyana",
+          "star": 2
+        },
+        {
+          "index": 6,
+          "champion": "Malphite",
+          "star": 2
+        },
+        {
+          "index": 7,
+          "champion": "Khazix",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Morgana",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "Morellonomicon",
+            "ArcaneGauntlet"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Soraka",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "HeavenlyCrest",
+        "InspiringEpitaph",
+        "LittleBuddies"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "e386d46c5a9cef743678a78e0c63e880b29f7651",
+    "name": "숲지기 나르 킨드레드",
+    "cost": 60,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Shen",
+          "star": 3
+        },
+        {
+          "index": 2,
+          "champion": "Gnar",
+          "star": 3,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Ornn",
+          "star": 2,
+          "items": [
+            "Evenshroud",
+            "IronWill",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "RekSai",
+          "star": 3
+        },
+        {
+          "index": 5,
+          "champion": "Aatrox",
+          "star": 3
+        },
+        {
+          "index": 6,
+          "champion": "Illaoi",
+          "star": 2
+        },
+        {
+          "index": 7,
+          "champion": "Kayn",
+          "star": 2,
+          "items": [
+            "HandofJustice",
+            "HandofJustice",
+            "GuardianAngel"
+          ]
+        },
+        {
+          "index": 21,
+          "champion": "Kindred",
+          "star": 3,
+          "items": [
+            "BlueSentinel",
+            "Morellonomicon",
+            "RabadonsDeathcap"
+          ]
+        }
+      ],
+      "augments": [
+        "Dryad",
+        "GargantuanResolve",
+        "Harmacist2"
+      ],
+      "umbralType": "left"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "15f665e1f1caee6404e391ec8b96b502643bbac0",
+    "name": "5신화 4기원자 릴리아",
+    "cost": 75,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Nautilus",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Sylas",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "IonicSpark"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Annie",
+          "star": 2,
+          "items": [
+            "BrambleVest",
+            "DragonsClaw",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "TahmKench",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Neeko",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Alune",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "Morellonomicon"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Lillia",
+          "star": 2,
+          "items": [
+            "BlueSentinel",
+            "ArcaneGauntlet",
+            "RabadonsDeathcap"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "KogMaw",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "Harmacist2",
+        "OldMansWalkingStick",
+        "BigGrabBag"
+      ],
+      "umbralType": "left"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "a18a9fff0061d004b9cc453a2021050d99b2dba8",
+    "name": "4현자 모르가나 오공",
+    "cost": 81,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Riven",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "MonkeyKing",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "GuardianAngel",
+            "TitansResolve"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Galio",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "WarmogsArmor",
+            "DragonsClaw"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Kayn",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "HandofJustice",
+            "GuardianAngel"
+          ]
+        },
+        {
+          "index": 5,
+          "champion": "Diana",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Morgana",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "Morellonomicon",
+            "ArcaneGauntlet"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofMight",
+            "ScrollofForce",
+            "TomeofPower"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Soraka",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "Zyra",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "JeweledLotus",
+        "HealingOrbsII",
+        "InspiringEpitaph"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "c9ad31bbf8b7b19017874be01da7e0d1937c1516",
+    "name": "6혼령 세나 리롤",
+    "cost": 57,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Jax",
+          "star": 2
+        },
+        {
+          "index": 1,
+          "champion": "Kayn",
+          "star": 2,
+          "items": [
+            "GuardianAngel",
+            "HandofJustice",
+            "HandofJustice"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "Aatrox",
+          "star": 3,
+          "items": [
+            "ThiefsGloves"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Shen",
+          "star": 3,
+          "items": [
+            "IronWill",
+            "WarmogsArmor",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Illaoi",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Senna",
+          "star": 3,
+          "items": [
+            "GuinsoosRageblade",
+            "InfinityEdge",
+            "LastWhisper"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Caitlyn",
+          "star": 2
+        },
+        {
+          "index": 23,
+          "champion": "Morgana",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "Morellonomicon",
+            "ArcaneGauntlet"
+          ]
+        }
+      ],
+      "augments": [
+        "Ghostly",
+        "YouHaveMySword",
+        "InspiringEpitaph"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "65069ce28a11ef310b24a8f0eb7c2b640a52dbe8",
+    "name": "먹그림자 카이사",
+    "cost": 81,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Jax",
+          "star": 2
+        },
+        {
+          "index": 1,
+          "champion": "Illaoi",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Volibear",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Aatrox",
+          "star": 2,
+          "items": [
+            "TatooofProtection",
+            "SunfireCape",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Ornn",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Udyr",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "TattooofVitality"
+          ]
+        },
+        {
+          "index": 21,
+          "champion": "Kaisa",
+          "star": 2,
+          "items": [
+            "InfinityEdge",
+            "LastWhisper",
+            "SpearofShojin"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "Xayah",
+          "star": 2,
+          "items": [
+            "InfinityEdge",
+            "GiantSlayer",
+            "LordsEdge"
+          ]
+        }
+      ],
+      "augments": [
+        "JeweledLotus",
+        "HealingOrbsII",
+        "InspiringEpitaph"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "6193ebd4dc4a067cc71b5dcc6a9a97776fec2e68",
+    "name": "6비전 마법사 신드라",
+    "cost": 75,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Illaoi",
+          "star": 2,
+          "items": [
+            "IronWill",
+            "WarmogsArmor",
+            "DragonsClaw"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "Sett",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Thresh",
+          "star": 2,
+          "items": [
+            "SunfireCape",
+            "IronWill",
+            "IonicSpark"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Neeko",
+          "star": 2
+        },
+        {
+          "index": 9,
+          "champion": "Lissandra",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "HextechGunblade"
+          ]
+        },
+        {
+          "index": 21,
+          "champion": "Syndra",
+          "star": 2,
+          "items": [
+            "BlueSentinel",
+            "ArcaneGauntlet",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Ahri",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "Lux",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "ArcanistCrest",
+        "Harmacist2",
+        "OldMansWalkingStick"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "2ce0ff1ba720e19c71bc2678727a313d299a6732",
+    "name": "4도자기 4파수꾼 애쉬",
+    "cost": 81,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Illaoi",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Sett",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Amumu",
+          "star": 3,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "SteadfastHeart"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Nautilus",
+          "star": 2,
+          "items": [
+            "SunfireCape",
+            "IronWill",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 10,
+          "champion": "Lissandra",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "HextechGunblade"
+          ]
+        },
+        {
+          "index": 21,
+          "champion": "Ashe",
+          "star": 2,
+          "items": [
+            "GuinsoosRageblade",
+            "LastWhisper",
+            "InfinityEdge"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Caitlyn",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "Lux",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "Harmacist2",
+        "YouHaveMyBow",
+        "Porcelain"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "e60017e5e1b305143394da5cfae4eba68eb5d154",
+    "name": "도자기 럭스 아무무",
+    "cost": 90,
+    "data": {
+      "slots": [
+        {
+          "index": 2,
+          "champion": "Nautilus",
+          "star": 2,
+          "items": [
+            "SunfireCape",
+            "WarmogsArmor",
+            "DragonsClaw"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Amumu",
+          "star": 3,
+          "items": [
+            "BrambleVest",
+            "DragonsClaw",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Sett",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Illaoi",
+          "star": 2
+        },
+        {
+          "index": 10,
+          "champion": "Lissandra",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Ashe",
+          "star": 2
+        },
+        {
+          "index": 24,
+          "champion": "Syndra",
+          "star": 2,
+          "items": [
+            "BlueSentinel",
+            "ArcaneGauntlet",
+            "RabadonsDeathcap"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "Lux",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "NashorsTooth"
+          ]
+        }
+      ],
+      "augments": [
+        "Harmacist2",
+        "Porcelain",
+        "OldMansWalkingStick"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "e7325fe405d24ee0602b18a3d0523b336f6b1cca",
+    "name": "[아이템 숙성] 천계/케일",
+    "cost": 87,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "Khazix",
+          "star": 2,
+          "items": [
+            "ZzRotPortal"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "MonkeyKing",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Neeko",
+          "star": 2,
+          "items": [
+            "AegisoftheLegion",
+            "AegisoftheLegion",
+            "AegisoftheLegion"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Qiyana",
+          "star": 2,
+          "items": [
+            "ZzRotPortal"
+          ]
+        },
+        {
+          "index": 5,
+          "champion": "Malphite",
+          "star": 2,
+          "items": [
+            "ZzRotPortal"
+          ]
+        },
+        {
+          "index": 9,
+          "champion": "Voidspawn"
+        },
+        {
+          "index": 10,
+          "champion": "Rakan",
+          "star": 2
+        },
+        {
+          "index": 16,
+          "champion": "Voidspawn"
+        },
+        {
+          "index": 17,
+          "champion": "Lissandra",
+          "star": 2,
+          "items": [
+            "OrnnItemRanduinsOmen",
+            "OrnnItemRanduinsOmen"
+          ]
+        },
+        {
+          "index": 18,
+          "champion": "Voidspawn"
+        },
+        {
+          "index": 23,
+          "champion": "Hwei",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "Morellonomicon",
+            "OrnnItemBlackCleaver"
+          ]
+        },
+        {
+          "index": 24,
+          "champion": "Soraka",
+          "star": 2,
+          "items": [
+            "NeedlesslyBigGem"
+          ]
+        }
+      ],
+      "augments": [
+        "FineVintage",
+        "BigGrabBag",
+        "StationarySupportII"
+      ],
+      "set": "set11"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "77aab680c31651e8a3970a5010a729512fd120e4",
+    "name": "[야밤의 흡수] 요릭",
+    "cost": 75,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Udyr",
+          "star": 2
+        },
+        {
+          "index": 1,
+          "champion": "Thresh",
+          "star": 2
+        },
+        {
+          "index": 2,
+          "champion": "Ornn",
+          "star": 2,
+          "items": [
+            "SunfireCape",
+            "IonicSpark",
+            "Redemption"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Yorick",
+          "star": 3,
+          "items": [
+            "SteadfastHeart",
+            "DragonsClaw",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Shen",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "ChoGath",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Alune",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "LudensEcho"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "Azir",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "GuinsoosRageblade"
+          ]
+        }
+      ],
+      "augments": [
+        "YorickCarry",
+        "Behemoth",
+        "Commander_Ascension"
+      ],
+      "set": "set11",
+      "umbralType": "left"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "b70a8b7db5ddae3125275dc48e6e27bfee5ded0a",
+    "name": "[행운의 손바닥] 코부코",
+    "cost": 60,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Riven",
+          "star": 2
+        },
+        {
+          "index": 1,
+          "champion": "Sylas",
+          "star": 2,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "WarmogsArmor"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "RekSai",
+          "star": 3,
+          "items": [
+            "SunfireCape",
+            "Redemption",
+            "IonicSpark"
+          ]
+        },
+        {
+          "index": 3,
+          "champion": "Kobuko",
+          "star": 3,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "DragonsClaw"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Galio",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "TahmKench",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Soraka",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "LudensEcho",
+            "ArcaneGauntlet"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kayle",
+          "items": [
+            "TalismanofAid"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Zyra",
+          "star": 2
+        }
+      ],
+      "augments": [
+        "KobukoCarry",
+        "Bruiser",
+        "BruiserCrest"
+      ]
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "2383351bb9bf786b23eda1fc962491a2d3fa1c22",
+    "name": "숲지기 나르 세나 리롤",
+    "cost": 45,
+    "data": {
+      "slots": [
+        {
+          "index": 0,
+          "champion": "Gnar",
+          "star": 3,
+          "items": [
+            "Bloodthirster",
+            "TitansResolve",
+            "TitansResolve"
+          ]
+        },
+        {
+          "index": 1,
+          "champion": "Jax",
+          "star": 3
+        },
+        {
+          "index": 2,
+          "champion": "RekSai",
+          "star": 3
+        },
+        {
+          "index": 3,
+          "champion": "Aatrox",
+          "star": 3,
+          "items": [
+            "SunfireCape",
+            "Redemption",
+            "TitansResolve"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Ornn",
+          "star": 2
+        },
+        {
+          "index": 21,
+          "champion": "Senna",
+          "star": 3,
+          "items": [
+            "GuinsoosRageblade",
+            "LastWhisper",
+            "TatooofBombardment"
+          ]
+        },
+        {
+          "index": 22,
+          "champion": "Kindred",
+          "star": 2
+        },
+        {
+          "index": 27,
+          "champion": "Caitlyn",
+          "star": 3
+        }
+      ],
+      "augments": [
+        "Dryad",
+        "GargantuanResolve",
+        "HealingOrbsII"
+      ],
+      "set": "set11"
+    },
+    "season": "set11"
+  },
+  {
+    "teamBuilderKey": "74e8e98b8cc09d6e84ee60ec1e0a754d49d4a599",
+    "name": "신화 코그모 리롤",
+    "cost": 51,
+    "data": {
+      "slots": [
+        {
+          "index": 1,
+          "champion": "ChoGath",
+          "star": 3,
+          "items": [
+            "IronWill",
+            "Redemption",
+            "DragonsClaw"
+          ]
+        },
+        {
+          "index": 2,
+          "champion": "Illaoi",
+          "star": 2
+        },
+        {
+          "index": 3,
+          "champion": "Neeko",
+          "star": 3,
+          "items": [
+            "SunfireCape",
+            "WarmogsArmor",
+            "DragonsClaw"
+          ]
+        },
+        {
+          "index": 4,
+          "champion": "Nautilus",
+          "star": 2
+        },
+        {
+          "index": 5,
+          "champion": "Malphite",
+          "star": 3
+        },
+        {
+          "index": 21,
+          "champion": "KogMaw",
+          "star": 3,
+          "items": [
+            "BlueSentinel",
+            "ArcaneGauntlet",
+            "NashorsTooth"
+          ]
+        },
+        {
+          "index": 23,
+          "champion": "Lillia",
+          "star": 2,
+          "items": [
+            "SpearofShojin",
+            "ArcaneGauntlet",
+            "RabadonsDeathcap"
+          ]
+        },
+        {
+          "index": 27,
+          "champion": "Caitlyn",
+          "star": 3,
+          "items": [
+            "SpearofShojin",
+            "InfinityEdge",
+            "LastWhisper"
+          ]
+        }
+      ],
+      "augments": [
+        "Sniper",
+        "JeweledLotus",
+        "HealingOrbsII"
+      ]
+    },
+    "season": "set11"
+  }
+]
