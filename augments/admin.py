@@ -6,6 +6,9 @@ from .models import Augment
 @admin.register(Augment)
 class AugmentAdmin(admin.ModelAdmin):
     list_display = (
+        "key",
+        "tier",
         "name",
+        "desc",
         "tier",
     )

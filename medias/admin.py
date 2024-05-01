@@ -8,7 +8,6 @@ class PhotoAdmin(admin.ModelAdmin):
     list_display = (
         "file",
         "description",
-        "augment",
         "portal",
         "encounter",
     )
