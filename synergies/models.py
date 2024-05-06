@@ -5,7 +5,7 @@ class Trait(models.Model):
     """Model Definition for Lines"""
 
     key = models.CharField(
-        max_length=10,
+        max_length=20,
         primary_key=True,
     )
     ingameKey = models.CharField(max_length=20)
@@ -72,7 +72,7 @@ class Trait(models.Model):
         null=True,
     )
     stats1 = models.TextField(
-        max_length=100,
+        max_length=200,
         blank=True,
         null=True,
     )
