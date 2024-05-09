@@ -7,11 +7,13 @@ from .models import Item
 class ItemAdmin(admin.ModelAdmin):
     search_fields = ["name"]
     list_display = (
+        "key",
         "name",
         "description",
-        "effect",
-        "generableItem",
+        "shortDesc",
         "composition1",
         "composition2",
-        "tags",
+        "tag1",
+        "tag2",
+        "tag3",
     )

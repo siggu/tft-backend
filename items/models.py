@@ -5,22 +5,53 @@ class Item(models.Model):
     """Model definition for Items"""
 
     key = models.CharField(max_length=40, default="Eng_Key")
-
+    ingameKey = models.CharField(max_length=40, default="TFT_")
     name = models.CharField(max_length=40)
-    inGameKey = models.CharField(max_length=40, default="TFT_")
     description = models.TextField()
-    effect = models.TextField(blank=True)
-
-    generableItem = models.BooleanField(default=True)
-
+    shortDesc = models.TextField(blank=True)
+    imageUrl = models.URLField(
+        default="https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
+    )
     composition1 = models.CharField(blank=True, max_length=50)
     composition2 = models.CharField(blank=True, max_length=50)
+    isFromItem = models.BooleanField(
+        blank=True,
+        null=True,
+    )
+    isNormal = models.BooleanField(
+        blank=True,
+        null=True,
+    )
+    isEmblem = models.BooleanField(
+        blank=True,
+        null=True,
+    )
+    isSupport = models.BooleanField(
+        blank=True,
+        null=True,
+    )
+    isArtifact = models.BooleanField(
+        blank=True,
+        null=True,
+    )
+    isRadiant = models.BooleanField(
+        blank=True,
+        null=True,
+    )
+    isUnique = models.BooleanField(
+        blank=True,
+        null=True,
+    )
+    isNew = models.BooleanField(
+        blank=True,
+        null=True,
+    )
 
     class TagChoice(models.TextChoices):
         # 태그 - 아이템 유형
 
         # 재료가 되는 기본 아이템
-        BASIC = ("basic", "Basic")
+        FROMITEM = ("fromitem", "Fromitem")
 
         # 조합 가능한 아이템 (상징 미포함)
         NORMAL = ("normal", "Normal")
@@ -32,18 +63,31 @@ class Item(models.Model):
         SUPPORT = ("support", "Support")
 
         # 오른 아이템
-        ARTIFAC = ("artifact", "Artifact")
+        ARTIFACT = ("artifact", "Artifact")
 
         # 찬란한 아이템
         RADIANT = ("radiant", "Radiant")
 
-        # 기타 아이템
-        ETC = ("etc", "Etc")
+        # 고유 아이템
+        UNIQUE = ("unique", "Unique")
 
-    tags = models.TextField(choices=TagChoice.choices, default="Normal")
+        # 새로 나온 아이템
+        NEW = ("new", "New")
 
-    imageUrl = models.URLField(
-        default="https://ih1.redbubble.net/image.2477120866.6033/raf,750x1000,075,t,101010:01c5ca27c6.u1.jpg",
+    tag1 = models.TextField(
+        choices=TagChoice.choices,
+        blank=True,
+        null=True,
+    )
+    tag2 = models.TextField(
+        choices=TagChoice.choices,
+        blank=True,
+        null=True,
+    )
+    tag3 = models.TextField(
+        choices=TagChoice.choices,
+        blank=True,
+        null=True,
     )
 
     def __str__(self):
