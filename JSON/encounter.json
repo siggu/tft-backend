@@ -1,0 +1,4474 @@
+[
+    {
+      "apiName": "TFT11_Encounter_Ashe_FutureSight",
+      "associatedChampion": "TFT11_Ashe",
+      "choices": [],
+      "desc": "다음 상대를 확인합니다.",
+      "encounterDesc": "게임이 끝날 때까지 애쉬가 다음 상대를 공개합니다.",
+      "icon": "ASSETS/Characters/TFT11_Ashe/HUD/TFT11_Ashe_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Ashe_FutureSight_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        1
+      ],
+      "title": "애쉬",
+      "org": {
+        "choices": [],
+        "desc": "다음 상대를 확인합니다.",
+        "encounterDesc": "게임이 끝날 때까지 애쉬가 다음 상대를 공개합니다."
+      },
+      "_key": "TFT11_Encounter_Ashe_FutureSight",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_ashe.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_ashe.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Yorick_RerollsCost1_Limited",
+      "associatedChampion": "TFT11_Yorick",
+      "choices": [],
+      "desc": "새로고침 비용이 1 감소합니다. (최소 1골드)<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "요릭이 다음 3라운드 동안 상점 새로고침 비용을 1 감소시킵니다.",
+      "icon": "ASSETS/Characters/TFT11_Yorick/HUD/TFT11_Yorick_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Yorick_RerollsCost1_Limited_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "요릭",
+      "org": {
+        "choices": [],
+        "desc": "새로고침 비용이 1 감소합니다. (최소 1골드)<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "요릭이 다음 3라운드 동안 상점 새로고침 비용을 1 감소시킵니다."
+      },
+      "_key": "TFT11_Encounter_Yorick_RerollsCost1_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_yorick.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_yorick.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Gnar_BonusRerollNextAugment",
+      "associatedChampion": "TFT11_Gnar",
+      "choices": [],
+      "desc": "다음 증강 선택을 추가로 1번 새로고침할 수 있습니다.",
+      "encounterDesc": "나르가 다음 증강 제안을 추가로 1회 새로고침할 수 있게 해줍니다.",
+      "icon": "ASSETS/Characters/TFT11_Gnar/HUD/TFT11_Gnar_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Gnar_BonusRerollNextAugment_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "나르",
+      "org": {
+        "choices": [],
+        "desc": "다음 증강 선택을 추가로 1번 새로고침할 수 있습니다.",
+        "encounterDesc": "나르가 다음 증강 제안을 추가로 1회 새로고침할 수 있게 해줍니다."
+      },
+      "_key": "TFT11_Encounter_Gnar_BonusRerollNextAugment",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_gnar.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_gnar.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_KhaZix_GainNextAugment",
+      "associatedChampion": "TFT11_KhaZix",
+      "choices": [],
+      "desc": "카직스가 다음 증강을 즉시 제공합니다.",
+      "encounterDesc": "카직스가 다음 증강을 즉시 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_KhaZix/HUD/TFT11_KhaZix_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_KhaZix_GainNextAugment_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "카직스",
+      "org": {
+        "choices": [],
+        "desc": "카직스가 다음 증강을 즉시 제공합니다.",
+        "encounterDesc": "카직스가 다음 증강을 즉시 제공합니다."
+      },
+      "_key": "TFT11_Encounter_KhaZix_GainNextAugment",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_khazix.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_khazix.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Syndra_FourCostTwoStarCarousel",
+      "associatedChampion": "TFT11_Syndra",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 2성 4단계가 됩니다.",
+      "encounterDesc": "신드라가 공동 선택에 2성 4단계 챔피언을 해방합니다.",
+      "icon": "ASSETS/Characters/TFT11_Syndra/HUD/TFT11_Syndra_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Syndra_FourCostTwoStarCarousel_Tooltip",
+      "rounds": [
+        6,
+        7
+      ],
+      "stages": [
+        4
+      ],
+      "title": "신드라",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 2성 4단계가 됩니다.",
+        "encounterDesc": "신드라가 공동 선택에 2성 4단계 챔피언을 해방합니다."
+      },
+      "_key": "TFT11_Encounter_Syndra_FourCostTwoStarCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_syndra.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_syndra.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Udyr_Rerolls",
+      "associatedChampion": "TFT11_Udyr",
+      "choices": [],
+      "desc": "무료 새로고침을 얻습니다.",
+      "encounterDesc": "우디르가 사용할 때까지 지속되는 무료 새로고침 4회를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Udyr/HUD/TFT11_Udyr_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Udyr_Rerolls_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "우디르",
+      "org": {
+        "choices": [],
+        "desc": "무료 새로고침을 얻습니다.",
+        "encounterDesc": "우디르가 사용할 때까지 지속되는 무료 새로고침 4회를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Udyr_Rerolls",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_udyr.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_udyr.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Kindred_TrainingDummies_Limited",
+      "associatedChampion": "TFT11_Kindred",
+      "choices": [],
+      "desc": "훈련 봇 2개를 획득합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "킨드레드가 3라운드 동안 유지되는 훈련 봇 3개를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Kindred/HUD/TFT11_Kindred_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Kindred_TrainingDummies_Limited_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "킨드레드",
+      "org": {
+        "choices": [],
+        "desc": "훈련 봇 2개를 획득합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "킨드레드가 3라운드 동안 유지되는 훈련 봇 3개를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Kindred_TrainingDummies_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kindred.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kindred.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Ashe_FutureSight_Limited",
+      "associatedChampion": "TFT11_Ashe",
+      "choices": [],
+      "desc": "다음 상대를 확인합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "다음 플레이어 대상 전투 3번 동안 애쉬가 다음 상대를 공개합니다.",
+      "icon": "ASSETS/Characters/TFT11_Ashe/HUD/TFT11_Ashe_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Ashe_FutureSight_Limited_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "애쉬",
+      "org": {
+        "choices": [],
+        "desc": "다음 상대를 확인합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "다음 플레이어 대상 전투 3번 동안 애쉬가 다음 상대를 공개합니다."
+      },
+      "_key": "TFT11_Encounter_Ashe_FutureSight_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_ashe.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_ashe.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_XayahRakan_RecombobulateChoice",
+      "associatedChampion": "TFT11_Rakan",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Gain10Gold",
+          "desc": "10골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "10골드를 획득합니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Recombobulate",
+          "desc": "전장에 대격변 생성기의 효과를 적용합니다. 자석 제거기 2개를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "전장에 대격변 생성기의 효과를 적용합니다. 자석 제거기 2개를 획득합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "라칸이 전장에 대격변 생성기의 효과를 적용하도록 독려합니다. 아니면 골드를 몇 푼 쥐여줄지도 모릅니다.",
+      "icon": "ASSETS/Characters/TFT11_XayahRakanDummy/HUD/TFT11_XayahRakan_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_XayahRakan_Recomb_Tooltip",
+      "rounds": [
+        5,
+        6
+      ],
+      "stages": [
+        3
+      ],
+      "title": "라칸",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Gain10Gold",
+            "desc": "10골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "10골드를 획득합니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Recombobulate",
+            "desc": "전장에 대격변 생성기의 효과를 적용합니다. 자석 제거기 2개를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "전장에 대격변 생성기의 효과를 적용합니다. 자석 제거기 2개를 획득합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "라칸이 전장에 대격변 생성기의 효과를 적용하도록 독려합니다. 아니면 골드를 몇 푼 쥐여줄지도 모릅니다."
+      },
+      "_key": "TFT11_Encounter_XayahRakan_RecombobulateChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_xayahrakan.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_xayahrakan.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Amumu_ThreeCostTwoStarCarousel",
+      "associatedChampion": "TFT11_Amumu",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 2성 3단계가 됩니다.",
+      "encounterDesc": "공동 선택이 아무무의 2성 3단계 친구들로 채워집니다!",
+      "icon": "ASSETS/Characters/TFT11_Amumu/HUD/TFT11_Amumu_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Amumu_ThreeCostTwoStarCarousel_Tooltip",
+      "rounds": [
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4
+      ],
+      "title": "아무무",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 2성 3단계가 됩니다.",
+        "encounterDesc": "공동 선택이 아무무의 2성 3단계 친구들로 채워집니다!"
+      },
+      "_key": "TFT11_Encounter_Amumu_ThreeCostTwoStarCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_amumu.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_amumu.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Diana_SalvageBin_Limited",
+      "associatedChampion": "TFT11_Diana",
+      "choices": [],
+      "desc": "1라운드 동안 유닛 판매 시 장착한 아이템이 분해됩니다.",
+      "encounterDesc": "이 라운드에 유닛을 판매하면 다이애나가 유닛의 완성 아이템을 조합 아이템으로 분해합니다.",
+      "icon": "ASSETS/Characters/TFT11_Diana/HUD/TFT11_Diana_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Diana_SalvageBin_Limited_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "다이애나",
+      "org": {
+        "choices": [],
+        "desc": "1라운드 동안 유닛 판매 시 장착한 아이템이 분해됩니다.",
+        "encounterDesc": "이 라운드에 유닛을 판매하면 다이애나가 유닛의 완성 아이템을 조합 아이템으로 분해합니다."
+      },
+      "_key": "TFT11_Encounter_Diana_SalvageBin_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_diana.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_diana.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Azir_ShiftAugmentRounds",
+      "associatedChampion": "TFT11_Azir",
+      "choices": [],
+      "desc": "3-2 및 4-2 증강을 무작위 라운드로 옮깁니다.",
+      "encounterDesc": "아지르가 3-2 및 4-2 증강을 무작위 라운드로 옮깁니다.",
+      "icon": "ASSETS/Characters/TFT11_Azir/HUD/TFT11_Azir_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Azir_ShiftAugmentRounds_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        1
+      ],
+      "title": "아지르",
+      "org": {
+        "choices": [],
+        "desc": "3-2 및 4-2 증강을 무작위 라운드로 옮깁니다.",
+        "encounterDesc": "아지르가 3-2 및 4-2 증강을 무작위 라운드로 옮깁니다."
+      },
+      "_key": "TFT11_Encounter_Azir_ShiftAugmentRounds",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_azir.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_azir.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Hwei_DummyEscort",
+      "associatedChampion": "TFT11_Hwei",
+      "choices": [],
+      "desc": "훈련 봇을 보호하세요. 남은 라운드: <TFTBonus>0</TFTBonus><br>",
+      "encounterDesc": "흐웨이가 다음 5라운드 동안 훈련 봇을 그려냅니다. 훈련 봇이 플레이어 대상 전투에서 생존할 때마다 1골드를 획득합니다.",
+      "icon": "ASSETS/Characters/TFT11_Hwei/HUD/TFT11_Hwei_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Hwei_DummyEscort_Tooltip",
+      "rounds": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5
+      ],
+      "title": "흐웨이",
+      "org": {
+        "choices": [],
+        "desc": "훈련 봇을 보호하세요. 남은 라운드: <TFTBonus>@TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus><br>",
+        "encounterDesc": "흐웨이가 다음 5라운드 동안 훈련 봇을 그려냅니다. 훈련 봇이 플레이어 대상 전투에서 생존할 때마다 1골드를 획득합니다."
+      },
+      "_key": "TFT11_Encounter_Hwei_DummyEscort",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_hwei.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_hwei.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Neeko_5CostSpirit_Limited",
+      "associatedChampion": "TFT11_Neeko",
+      "choices": [],
+      "desc": "일시적으로 5단계 챔피언을 획득합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "니코가 플레이어 대상 전투를 3회 도와줄 무작위 5단계 유닛의 영혼을 소환합니다.",
+      "icon": "ASSETS/Characters/TFT11_Neeko/HUD/TFT11_Neeko_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Neeko_5CostSpirit_Limited_Tooltip",
+      "rounds": [
+        6,
+        7
+      ],
+      "stages": [
+        4,
+        5,
+        6
+      ],
+      "title": "니코",
+      "org": {
+        "choices": [],
+        "desc": "일시적으로 5단계 챔피언을 획득합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "니코가 플레이어 대상 전투를 3회 도와줄 무작위 5단계 유닛의 영혼을 소환합니다."
+      },
+      "_key": "TFT11_Encounter_Neeko_5CostSpirit_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_neeko.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_neeko.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Darius_XPReroll",
+      "associatedChampion": "TFT11_Darius",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_20XP",
+          "desc": "20 경험치",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "20 경험치"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_10Rerolls",
+          "desc": "무료 새로고침 10회",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "무료 새로고침 10회"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "다리우스가 20의 경험치 또는 무료 새로고침 10회의 선택지를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Darius/HUD/TFT11_Darius_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Darius_XPReroll_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "다리우스",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_20XP",
+            "desc": "20 경험치",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "20 경험치"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_10Rerolls",
+            "desc": "무료 새로고침 10회",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "무료 새로고침 10회"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "다리우스가 20의 경험치 또는 무료 새로고침 10회의 선택지를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Darius_XPReroll",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_darius.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_darius.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Morgana_FourCostCarousel",
+      "associatedChampion": "TFT11_Morgana",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 4단계가 됩니다.",
+      "encounterDesc": "모르가나가 공동 선택을 4단계 챔피언으로 채웁니다.",
+      "icon": "ASSETS/Characters/TFT11_Morgana/HUD/TFT11_Morgana_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Morgana_FourCostCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "모르가나",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 4단계가 됩니다.",
+        "encounterDesc": "모르가나가 공동 선택을 4단계 챔피언으로 채웁니다."
+      },
+      "_key": "TFT11_Encounter_Morgana_FourCostCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_morgana.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_morgana.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Neeko_LesserDuplicatorCarousel",
+      "associatedChampion": "TFT11_Neeko",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 하급 챔피언 복제기를 추가로 가집니다.",
+      "encounterDesc": "니코가 공동 선택의 모든 챔피언에게 하급 챔피언 복제기를 추가합니다!",
+      "icon": "ASSETS/Characters/TFT11_Neeko/HUD/TFT11_Neeko_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Neeko_LesserDuplicatorCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "title": "니코",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 하급 챔피언 복제기를 추가로 가집니다.",
+        "encounterDesc": "니코가 공동 선택의 모든 챔피언에게 하급 챔피언 복제기를 추가합니다!"
+      },
+      "_key": "TFT11_Encounter_Neeko_LesserDuplicatorCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_neeko.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_neeko.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Teemo_SpatulaCarousel",
+      "associatedChampion": "TFT11_Teemo",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 뒤집개를 추가로 가집니다.",
+      "encounterDesc": "티모가 공동 선택의 모든 챔피언에게 황금 뒤집개를 추가합니다!",
+      "icon": "ASSETS/Characters/TFT11_Teemo/HUD/TFT11_Teemo_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Teemo_SpatulaCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "title": "티모",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 뒤집개를 추가로 가집니다.",
+        "encounterDesc": "티모가 공동 선택의 모든 챔피언에게 황금 뒤집개를 추가합니다!"
+      },
+      "_key": "TFT11_Encounter_Teemo_SpatulaCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_teemo.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_teemo.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Zoe_OddLevels",
+      "associatedChampion": "TFT11_Zoe",
+      "choices": [],
+      "desc": "이번 게임에서 홀수 레벨만 존재합니다. 경험치 값이 조정됩니다.",
+      "encounterDesc": "조이가 이번 게임에서 홀수 레벨만 존재하도록 현실을 조작합니다.",
+      "icon": "ASSETS/Characters/TFT11_Zoe/HUD/TFT11_Zoe_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Zoe_OddLevels_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        1
+      ],
+      "title": "조이",
+      "org": {
+        "choices": [],
+        "desc": "이번 게임에서 홀수 레벨만 존재합니다. 경험치 값이 조정됩니다.",
+        "encounterDesc": "조이가 이번 게임에서 홀수 레벨만 존재하도록 현실을 조작합니다."
+      },
+      "_key": "TFT11_Encounter_Zoe_OddLevels",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_zoe.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_zoe.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Jax_GoldRerollChoice",
+      "associatedChampion": "TFT11_Jax",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_3Rerolls",
+          "desc": "새로고침 3회를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_3Rerolls"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_2x2cost",
+          "desc": "무작위 2단계 챔피언 2명을 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_2x2cost"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "잭스가 선택지를 제시합니다. 새로고침과 챔피언 중에서 선택하여 받을 수 있습니다.",
+      "icon": "ASSETS/Characters/TFT11_Jax/HUD/TFT11_Jax_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Jax_GoldRerollChoice_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "잭스",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_3Rerolls",
+            "desc": "새로고침 3회를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_3Rerolls"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_2x2cost",
+            "desc": "무작위 2단계 챔피언 2명을 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_2x2cost"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "잭스가 선택지를 제시합니다. 새로고침과 챔피언 중에서 선택하여 받을 수 있습니다."
+      },
+      "_key": "TFT11_Encounter_Jax_GoldRerollChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_jax.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_jax.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Thresh_ArtifactCarousel",
+      "associatedChampion": "TFT11_Thresh",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 유물 아이템을 가집니다.",
+      "encounterDesc": "쓰레쉬가 모든 챔피언이 유물을 가지고 있는 공동 선택을 해방합니다.",
+      "icon": "ASSETS/Characters/TFT11_Thresh/HUD/TFT11_Thresh_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Thresh_ArtifactCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "title": "쓰레쉬",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 유물 아이템을 가집니다.",
+        "encounterDesc": "쓰레쉬가 모든 챔피언이 유물을 가지고 있는 공동 선택을 해방합니다."
+      },
+      "_key": "TFT11_Encounter_Thresh_ArtifactCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_thresh.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_thresh.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Syndra_ShiftAugmentRounds",
+      "associatedChampion": "TFT11_Syndra",
+      "choices": [],
+      "desc": "2-1 및 4-2 증강을 무작위 라운드로 옮깁니다.",
+      "encounterDesc": "신드라가 2-1 및 4-2 증강을 무작위 라운드로 옮깁니다.",
+      "icon": "ASSETS/Characters/TFT11_Syndra/HUD/TFT11_Syndra_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Syndra_ShiftAugmentRounds_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        1
+      ],
+      "title": "신드라",
+      "org": {
+        "choices": [],
+        "desc": "2-1 및 4-2 증강을 무작위 라운드로 옮깁니다.",
+        "encounterDesc": "신드라가 2-1 및 4-2 증강을 무작위 라운드로 옮깁니다."
+      },
+      "_key": "TFT11_Encounter_Syndra_ShiftAugmentRounds",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_syndra.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_syndra.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Neeko_1CostSpirit_Limited",
+      "associatedChampion": "TFT11_Neeko",
+      "choices": [],
+      "desc": "일시적으로 3성 1단계 챔피언을 획득합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "니코가 플레이어 대상 전투를 3회 도와줄 무작위 1단계 3성 유닛의 영혼을 소환합니다.",
+      "icon": "ASSETS/Characters/TFT11_Neeko/HUD/TFT11_Neeko_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Neeko_1CostSpirit_Limited_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "니코",
+      "org": {
+        "choices": [],
+        "desc": "일시적으로 3성 1단계 챔피언을 획득합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "니코가 플레이어 대상 전투를 3회 도와줄 무작위 1단계 3성 유닛의 영혼을 소환합니다."
+      },
+      "_key": "TFT11_Encounter_Neeko_1CostSpirit_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_neeko.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_neeko.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Yasuo_BackRowHealth_Limited",
+      "associatedChampion": "TFT11_Yasuo",
+      "choices": [],
+      "desc": "후방 3열의 유닛이 200의 추가 체력을 지니고 전투를 시작합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "다음 플레이어 대상 전투 4번 동안 야스오가 후방 3열의 유닛에게 200의 임시 체력을 부여합니다.",
+      "icon": "ASSETS/Characters/TFT11_Yasuo/HUD/TFT11_Yasuo_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Yasuo_BackRowHealth_Limited_Tooltip",
+      "rounds": [
+        4,
+        5,
+        6,
+        7,
+        3
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "야스오",
+      "org": {
+        "choices": [],
+        "desc": "후방 3열의 유닛이 200의 추가 체력을 지니고 전투를 시작합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "다음 플레이어 대상 전투 4번 동안 야스오가 후방 3열의 유닛에게 200의 임시 체력을 부여합니다."
+      },
+      "_key": "TFT11_Encounter_Yasuo_BackRowHealth_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_yasuo.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_yasuo.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Yone_BonusRerollNextAugment",
+      "associatedChampion": "TFT11_Yone",
+      "choices": [],
+      "desc": "다음 증강 선택을 추가로 2번 새로고침할 수 있습니다.",
+      "encounterDesc": "요네가 다음 증강 제안을 추가로 2회 새로고침할 수 있게 해줍니다.",
+      "icon": "ASSETS/Characters/TFT11_Yone/HUD/TFT11_Yone_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Yone_BonusRerollNextAugment_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "요네",
+      "org": {
+        "choices": [],
+        "desc": "다음 증강 선택을 추가로 2번 새로고침할 수 있습니다.",
+        "encounterDesc": "요네가 다음 증강 제안을 추가로 2회 새로고침할 수 있게 해줍니다."
+      },
+      "_key": "TFT11_Encounter_Yone_BonusRerollNextAugment",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_yone.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_yone.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Senna_StreakChoice",
+      "associatedChampion": "TFT11_Senna",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_5WinStreak",
+          "desc": "현재 연승이 6이 됩니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "현재 연승이 6이 됩니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_5LossStreak",
+          "desc": "현재 연패가 6이 됩니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "현재 연패가 6이 됩니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_3Gold",
+          "desc": "3골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "3골드를 획득합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "세나가 연승 또는 연패를 설정하도록 제안합니다.",
+      "icon": "ASSETS/Characters/TFT11_Senna/HUD/TFT11_Senna_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Senna_StreakChoice_Tooltip",
+      "rounds": null,
+      "stages": [
+        3,
+        4
+      ],
+      "title": "세나",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_5WinStreak",
+            "desc": "현재 연승이 6이 됩니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "현재 연승이 6이 됩니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_5LossStreak",
+            "desc": "현재 연패가 6이 됩니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "현재 연패가 6이 됩니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_3Gold",
+            "desc": "3골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "3골드를 획득합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "세나가 연승 또는 연패를 설정하도록 제안합니다."
+      },
+      "_key": "TFT11_Encounter_Senna_StreakChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_senna.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_senna.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Ahri_TeamBuffChoice",
+      "associatedChampion": "TFT11_Ahri",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_HPTeamBuff",
+          "desc": "아군이 150의 체력을 얻습니다.",
+          "effects": {
+            "AD": "null",
+            "AP": "null",
+            "HP": 150
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "아군이 150의 체력을 얻습니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_APTeamBuff",
+          "desc": "아군이 18의 주문력을 얻습니다.",
+          "effects": {
+            "AD": "null",
+            "AP": 18,
+            "HP": "null"
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "아군이 18의 주문력을 얻습니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_ADTeamBuff",
+          "desc": "아군이 15%의 공격력을 얻습니다.",
+          "effects": {
+            "AD": 0.15000000596046448,
+            "AP": "null",
+            "HP": "null"
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "아군이 15%의 공격력을 얻습니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "아리가 게임이 끝날 때까지 모든 아군에게 전투의 축복을 부여합니다.",
+      "icon": "ASSETS/Characters/TFT11_Ahri/HUD/TFT11_Ahri_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Ahri_TeamBuffChoice_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "아리",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_HPTeamBuff",
+            "desc": "아군이 150의 체력을 얻습니다.",
+            "effects": {
+              "AD": "null",
+              "AP": "null",
+              "HP": 150
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "아군이 150의 체력을 얻습니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_APTeamBuff",
+            "desc": "아군이 18의 주문력을 얻습니다.",
+            "effects": {
+              "AD": "null",
+              "AP": 18,
+              "HP": "null"
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "아군이 18의 주문력을 얻습니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_ADTeamBuff",
+            "desc": "아군이 15%의 공격력을 얻습니다.",
+            "effects": {
+              "AD": 0.15000000596046448,
+              "AP": "null",
+              "HP": "null"
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "아군이 15%의 공격력을 얻습니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "아리가 게임이 끝날 때까지 모든 아군에게 전투의 축복을 부여합니다."
+      },
+      "_key": "TFT11_Encounter_Ahri_TeamBuffChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_ahri.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_ahri.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Illaoi_RerollsThisRound",
+      "associatedChampion": "TFT11_Illaoi",
+      "choices": [],
+      "desc": "이 라운드에만 무료 새로고침을 얻습니다.",
+      "encounterDesc": "일라오이가 이 라운드에 무료 새로고침 8회를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Illaoi/HUD/TFT11_Illaoi_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Illaoi_RerollsThisRound_Tooltip",
+      "rounds": [
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "일라오이",
+      "org": {
+        "choices": [],
+        "desc": "이 라운드에만 무료 새로고침을 얻습니다.",
+        "encounterDesc": "일라오이가 이 라운드에 무료 새로고침 8회를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Illaoi_RerollsThisRound",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_illaoi.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_illaoi.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Sett_TrainingDummies",
+      "associatedChampion": "TFT11_Sett",
+      "choices": [],
+      "desc": "훈련 봇 2개를 획득합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "다음 3라운드 동안 세트가 훈련 봇을 빌려줍니다.",
+      "icon": "ASSETS/Characters/TFT11_Sett/HUD/TFT11_Sett_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Sett_TrainingDummies_Tooltip",
+      "rounds": [
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4
+      ],
+      "title": "세트",
+      "org": {
+        "choices": [],
+        "desc": "훈련 봇 2개를 획득합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "다음 3라운드 동안 세트가 훈련 봇을 빌려줍니다."
+      },
+      "_key": "TFT11_Encounter_Sett_TrainingDummies",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_sett.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_sett.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Nautilus_KillDeathGold",
+      "associatedChampion": "TFT11_Nautilus",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GoldOnKill",
+          "desc": "처치 시 50% 확률로 1골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "처치 시 50% 확률로 1골드를 획득합니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GoldOnDeath",
+          "desc": "아군 사망 시 50% 확률로 1골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "아군 사망 시 50% 확률로 1골드를 획득합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다. 추가로 <TFTBonus>0</TFTBonus>라운드 동안 유지됩니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "노틸러스가 적 처치 또는 아군 사망 시 골드를 제공합니다. 3라운드 동안 지속됩니다.",
+      "icon": "ASSETS/Characters/TFT11_Nautilus/HUD/TFT11_Nautilus_Square.TFT_Set11.dds",
+      "name": "TFT11_Encounter_Nautilus_KillDeathGold",
+      "rounds": [
+        4,
+        5,
+        6,
+        7,
+        3
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "노틸러스",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GoldOnKill",
+            "desc": "처치 시 50% 확률로 1골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "처치 시 50% 확률로 1골드를 획득합니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GoldOnDeath",
+            "desc": "아군 사망 시 50% 확률로 1골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "아군 사망 시 50% 확률로 1골드를 획득합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다. 추가로 <TFTBonus>@TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>라운드 동안 유지됩니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "노틸러스가 적 처치 또는 아군 사망 시 골드를 제공합니다. 3라운드 동안 지속됩니다."
+      },
+      "_key": "TFT11_Encounter_Nautilus_KillDeathGold",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_nautilus.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_nautilus.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Ahri_BestowHealth",
+      "associatedChampion": "TFT11_Ahri",
+      "choices": [],
+      "desc": "모든 플레이어가 체력을 얻습니다.",
+      "encounterDesc": "아리의 입맞춤이 플레이어 체력을 증가시킵니다.",
+      "icon": "ASSETS/Characters/TFT11_Ahri/HUD/TFT11_Ahri_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Ahri_BestowHealth_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "아리",
+      "org": {
+        "choices": [],
+        "desc": "모든 플레이어가 체력을 얻습니다.",
+        "encounterDesc": "아리의 입맞춤이 플레이어 체력을 증가시킵니다."
+      },
+      "_key": "TFT11_Encounter_Ahri_BestowHealth",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_ahri.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_ahri.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Morgana_GoldOrUpgrade",
+      "associatedChampion": "TFT11_Morgana",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_StarUp2Cost",
+          "desc": "다음에 구매하는 2단계 챔피언을 업그레이드합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "다음에 구매하는 2단계 챔피언을 업그레이드합니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Gain10Gold",
+          "desc": "10골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "10골드를 획득합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "모르가나가 선택지를 제시합니다. 다음 2단계 챔피언을 업그레이드하거나 골드를 획득할 수 있습니다.",
+      "icon": "ASSETS/Characters/TFT11_Morgana/HUD/TFT11_Morgana_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Morgana_GoldOrUpgrade",
+      "rounds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "모르가나",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_StarUp2Cost",
+            "desc": "다음에 구매하는 2단계 챔피언을 업그레이드합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "다음에 구매하는 2단계 챔피언을 업그레이드합니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Gain10Gold",
+            "desc": "10골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "10골드를 획득합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "모르가나가 선택지를 제시합니다. 다음 2단계 챔피언을 업그레이드하거나 골드를 획득할 수 있습니다."
+      },
+      "_key": "TFT11_Encounter_Morgana_GoldOrUpgrade",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_morgana.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_morgana.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Ornn_ArtifactArmory",
+      "associatedChampion": "TFT11_Ornn",
+      "choices": [],
+      "desc": "유물을 선택합니다.",
+      "encounterDesc": "오른이 유물 선택지를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Ornn/HUD/TFT11_Ornn_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Ornn_ArtifactArmory_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "오른",
+      "org": {
+        "choices": [],
+        "desc": "유물을 선택합니다.",
+        "encounterDesc": "오른이 유물 선택지를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Ornn_ArtifactArmory",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_ornn.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_ornn.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Alune_CompletedCarousel",
+      "associatedChampion": "TFT11_Alune",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 완성 아이템을 추가로 가집니다.",
+      "encounterDesc": "알룬이 공동 선택의 모든 챔피언에게 완성 아이템을 추가합니다.",
+      "icon": "ASSETS/Characters/TFT11_Alune/HUD/TFT11_Alune_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Alune_CompletedCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "알룬",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 완성 아이템을 추가로 가집니다.",
+        "encounterDesc": "알룬이 공동 선택의 모든 챔피언에게 완성 아이템을 추가합니다."
+      },
+      "_key": "TFT11_Encounter_Alune_CompletedCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_alune.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_alune.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Lux_ShiftAugmentRounds",
+      "associatedChampion": "TFT11_Lux",
+      "choices": [],
+      "desc": "4-2 증강을 무작위 라운드로 옮깁니다.",
+      "encounterDesc": "럭스가 4-2 증강을 무작위 라운드로 옮깁니다.",
+      "icon": "ASSETS/Characters/TFT11_Lux/HUD/TFT11_Lux_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Lux_ShiftAugmentRounds_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2
+      ],
+      "title": "럭스",
+      "org": {
+        "choices": [],
+        "desc": "4-2 증강을 무작위 라운드로 옮깁니다.",
+        "encounterDesc": "럭스가 4-2 증강을 무작위 라운드로 옮깁니다."
+      },
+      "_key": "TFT11_Encounter_Lux_ShiftAugmentRounds",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_lux.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_lux.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Bard_Level3Start",
+      "associatedChampion": "TFT11_Bard",
+      "choices": [],
+      "desc": "플레이어가 3레벨부터 시작합니다.",
+      "encounterDesc": "바드가 각 플레이어의 레벨을 3레벨로 올립니다!",
+      "icon": "ASSETS/Characters/TFT11_Bard/HUD/TFT11_Bard_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Bard_Level3Start_Tooltip",
+      "rounds": null,
+      "stages": [
+        1
+      ],
+      "title": "바드",
+      "org": {
+        "choices": [],
+        "desc": "플레이어가 3레벨부터 시작합니다.",
+        "encounterDesc": "바드가 각 플레이어의 레벨을 3레벨로 올립니다!"
+      },
+      "_key": "TFT11_Encounter_Bard_Level3Start",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_bard.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_bard.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Malphite_BenchPopOff_Limited",
+      "associatedChampion": "TFT11_Malphite",
+      "choices": [],
+      "desc": "챔피언을 대기석에 보내 장착한 아이템을 해제할 수 있습니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "이 라운드: 유닛을 대기석에 배치할 때마다 말파이트가 유닛의 아이템을 떨어뜨립니다.",
+      "icon": "ASSETS/Characters/TFT11_Malphite/HUD/TFT11_Malphite_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Malphite_BenchPopOff_Limited_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6,
+        2
+      ],
+      "title": "말파이트",
+      "org": {
+        "choices": [],
+        "desc": "챔피언을 대기석에 보내 장착한 아이템을 해제할 수 있습니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "이 라운드: 유닛을 대기석에 배치할 때마다 말파이트가 유닛의 아이템을 떨어뜨립니다."
+      },
+      "_key": "TFT11_Encounter_Malphite_BenchPopOff_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_malphite.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_malphite.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Volibear_ThreeCostCarousel",
+      "associatedChampion": "TFT11_Volibear",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 3단계가 됩니다.",
+      "encounterDesc": "볼리베어가 공동 선택을 3단계 챔피언으로 채웁니다.",
+      "icon": "ASSETS/Characters/TFT11_Volibear/HUD/TFT11_Volibear_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Volibear_ThreeCostCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "볼리베어",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 3단계가 됩니다.",
+        "encounterDesc": "볼리베어가 공동 선택을 3단계 챔피언으로 채웁니다."
+      },
+      "_key": "TFT11_Encounter_Volibear_ThreeCostCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_volibear.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_volibear.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Shen_StarterPackEarly",
+      "associatedChampion": "TFT11_Shen",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitArcanist",
+          "desc": "비전 마법사",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "비전 마법사"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitBehemoth",
+          "desc": "거대 괴수",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "거대 괴수"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitDuelist",
+          "desc": "결투가",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "결투가"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitInvokers",
+          "desc": "기원자",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "기원자"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitReaper",
+          "desc": "사신",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "사신"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitBrawler",
+          "desc": "난동꾼",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "난동꾼"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Kit2Cost",
+          "desc": "2단계",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "2단계"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Kit3Cost",
+          "desc": "3단계",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "3단계"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitSniper",
+          "desc": "저격수",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "저격수"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitWarden",
+          "desc": "파수꾼",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "파수꾼"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_KitTrickshot",
+          "desc": "재주꾼",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "재주꾼"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "쉔이 챔피언과 조합 아이템 1개가 들어 있는 초보자 꾸러미 선택지를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Shen/HUD/TFT11_Shen_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Shen_StarterPackEarly_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "쉔",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitArcanist",
+            "desc": "비전 마법사",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "비전 마법사"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitBehemoth",
+            "desc": "거대 괴수",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "거대 괴수"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitDuelist",
+            "desc": "결투가",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "결투가"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitInvokers",
+            "desc": "기원자",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "기원자"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitReaper",
+            "desc": "사신",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "사신"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitBrawler",
+            "desc": "난동꾼",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "난동꾼"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Kit2Cost",
+            "desc": "2단계",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "2단계"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Kit3Cost",
+            "desc": "3단계",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "3단계"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitSniper",
+            "desc": "저격수",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "저격수"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitWarden",
+            "desc": "파수꾼",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "파수꾼"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_KitTrickshot",
+            "desc": "재주꾼",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "재주꾼"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "쉔이 챔피언과 조합 아이템 1개가 들어 있는 초보자 꾸러미 선택지를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Shen_StarterPackEarly",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_shen.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_shen.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_LeeSin_TreasureArmory",
+      "associatedChampion": "TFT11_LeeSin",
+      "choices": [],
+      "desc": "보물 무기고를 획득합니다.",
+      "encounterDesc": "리 신이 최대 10회 새로고침할 수 있는 보물 무기고를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_LeeSin/HUD/TFT11_LeeSin_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_LeeSin_TreasureArmory_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6,
+        2
+      ],
+      "title": "리 신",
+      "org": {
+        "choices": [],
+        "desc": "보물 무기고를 획득합니다.",
+        "encounterDesc": "리 신이 최대 10회 새로고침할 수 있는 보물 무기고를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_LeeSin_TreasureArmory",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_leesin.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_leesin.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Lissandra_TradeGoldForComponentChoice",
+      "associatedChampion": "TFT11_Lissandra",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_TradeGoldForComponent",
+          "desc": "0골드를 무작위 조합 아이템으로 교환합니다. 현재 0골드를 보유하고 있습니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_TradeGoldForComponent"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_DeclineTheOffer",
+          "desc": "제안을 거절합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "제안을 거절합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "리산드라가 플레이어가 원하는 만큼의 조합 아이템을 판매합니다.",
+      "icon": "ASSETS/Characters/TFT11_Lissandra/HUD/TFT11_Lissandra_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Lissandra_TradeGold_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        5,
+        6
+      ],
+      "title": "리산드라",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_TradeGoldForComponent",
+            "desc": "@TFTUnitProperty.item:TFT11_Encounter_ChoiceItem_GoldForComponent_GoldAmount@골드를 무작위 조합 아이템으로 교환합니다. 현재 @TFTUnitProperty.item:TFT11_Encounter_ChoiceItem_GoldForComponent_CurrentGold@골드를 보유하고 있습니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_TradeGoldForComponent"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_DeclineTheOffer",
+            "desc": "제안을 거절합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "제안을 거절합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "리산드라가 플레이어가 원하는 만큼의 조합 아이템을 판매합니다."
+      },
+      "_key": "TFT11_Encounter_Lissandra_TradeGoldForComponentChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_lissandra.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_lissandra.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Kayn_PlayerDeathStart",
+      "associatedChampion": "TFT11_Kayn",
+      "choices": [],
+      "desc": "5-4에 게임이 종료됩니다. 이 시점의 순위가 최종 순위입니다.",
+      "encounterDesc": "5-4에 게임이 종료됩니다. 이 시점의 순위가 최종 순위입니다.",
+      "icon": "ASSETS/Characters/TFT11_Kayn/HUD/TFT11_Kayn_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Kayn_PlayerDeathStart_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        1
+      ],
+      "title": "케인",
+      "org": {
+        "choices": [],
+        "desc": "5-4에 게임이 종료됩니다. 이 시점의 순위가 최종 순위입니다.",
+        "encounterDesc": "5-4에 게임이 종료됩니다. 이 시점의 순위가 최종 순위입니다."
+      },
+      "_key": "TFT11_Encounter_Kayn_PlayerDeathStart",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kayn.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kayn.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Kindred_RedBlueChoice",
+      "associatedChampion": "TFT11_Kindred",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Red",
+          "desc": "빨강",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "빨강"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Blue",
+          "desc": "파랑",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "파랑"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "킨드레드가 빨강 혹은 파랑의 선택지를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Kindred/HUD/TFT11_Kindred_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Kindred_RedBlueChoice_Tooltip",
+      "rounds": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "킨드레드",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Red",
+            "desc": "빨강",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "빨강"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Blue",
+            "desc": "파랑",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "파랑"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "킨드레드가 빨강 혹은 파랑의 선택지를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Kindred_RedBlueChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kindred.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kindred.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Darius_SpoilsOfWar",
+      "associatedChampion": "TFT11_Darius",
+      "choices": [],
+      "desc": "적 챔피언이 죽을 때 30% 확률로 전리품을 떨어뜨립니다.",
+      "encounterDesc": "적 챔피언이 죽을 때 30% 확률로 전리품을 떨어뜨립니다.",
+      "icon": "ASSETS/Characters/TFT11_Darius/HUD/TFT11_Darius_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Darius_SpoilsOfWar_Tooltip",
+      "rounds": [
+        1
+      ],
+      "stages": [
+        1
+      ],
+      "title": "다리우스",
+      "org": {
+        "choices": [],
+        "desc": "적 챔피언이 죽을 때 30% 확률로 전리품을 떨어뜨립니다.",
+        "encounterDesc": "적 챔피언이 죽을 때 30% 확률로 전리품을 떨어뜨립니다."
+      },
+      "_key": "TFT11_Encounter_Darius_SpoilsOfWar",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_darius.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_darius.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Darius_PandorasBench_Limited",
+      "associatedChampion": "TFT11_Darius",
+      "choices": [],
+      "desc": "라운드 시작 시 표시된 대기석에 있는 챔피언이 무작위 챔피언으로 바뀝니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "5라운드 동안 다리우스가 표시된 대기석에 있는 챔피언을 같은 단계의 무작위 챔피언으로 변신시킵니다.",
+      "icon": "ASSETS/Characters/TFT11_Darius/HUD/TFT11_Darius_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Darius_PandorasBench_Limited_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "title": "다리우스",
+      "org": {
+        "choices": [],
+        "desc": "라운드 시작 시 표시된 대기석에 있는 챔피언이 무작위 챔피언으로 바뀝니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "5라운드 동안 다리우스가 표시된 대기석에 있는 챔피언을 같은 단계의 무작위 챔피언으로 변신시킵니다."
+      },
+      "_key": "TFT11_Encounter_Darius_PandorasBench_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_darius.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_darius.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Yorick_MinimumSevenUnits",
+      "associatedChampion": "TFT11_Yorick",
+      "choices": [],
+      "desc": "언제나 최소 7명의 챔피언을 배치할 수 있습니다.",
+      "encounterDesc": "요릭이 레벨에 상관없이 항상 최소 7명의 챔피언을 배치할 수 있게 해줍니다. 10골드를 획득합니다.",
+      "icon": "ASSETS/Characters/TFT11_Yorick/HUD/TFT11_Yorick_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Yorick_MinimumSevenUnits_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        1
+      ],
+      "title": "요릭",
+      "org": {
+        "choices": [],
+        "desc": "언제나 최소 7명의 챔피언을 배치할 수 있습니다.",
+        "encounterDesc": "요릭이 레벨에 상관없이 항상 최소 7명의 챔피언을 배치할 수 있게 해줍니다. 10골드를 획득합니다."
+      },
+      "_key": "TFT11_Encounter_Yorick_MinimumSevenUnits",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_yorick.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_yorick.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Kindred_LifeDeathItemChoice",
+      "associatedChampion": "TFT11_Kindred",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveGiantSlayer",
+          "desc": "거인 학살자",
+          "effects": {
+            "AD": 0.30000001192092896,
+            "AP": 20,
+            "AS": 10,
+            "HealthThreshold": 1600,
+            "LargeBonusPct": 25
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Giant_Slayer.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveGiantSlayer"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveRedemption",
+          "desc": "구원",
+          "effects": {
+            "AoEDamageReduction": 10,
+            "HealTickRate": 5,
+            "Health": 150,
+            "HexRadius": 1,
+            "Mana": 15,
+            "MaxHeal": 1000,
+            "MissingHealthHeal": 15
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Redemption.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveRedemption"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveWarmogs",
+          "desc": "워모그의 갑옷",
+          "effects": {
+            "BonusPercentHP": 0.07999999821186066,
+            "Health": 600
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Warmogs_Armor.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveWarmogs"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveSteadfast",
+          "desc": "굳건한 심장",
+          "effects": {
+            "Armor": 20,
+            "BaseDamageReduction": 8,
+            "CritChance": 20,
+            "EmpowerDamageReduction": 15,
+            "Health": 250,
+            "ThresholdForEmpower": 0.5
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Behemoth.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveSteadfast"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveSunfire",
+          "desc": "태양불꽃 망토",
+          "effects": {
+            "Armor": 20,
+            "BurnDuration": 10,
+            "BurnPercent": 1,
+            "GrievousWoundsPercent": 33,
+            "Health": 250,
+            "HexRange": 2,
+            "ICD": 2,
+            "MonsterCap": 100
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Sunfire_Cape.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveSunfire"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveGunblade",
+          "desc": "마법공학 총검",
+          "effects": {
+            "AD": 0.15000000596046448,
+            "AP": 15,
+            "Omnivamp": 22
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Hextech_Gunblade.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveGunblade"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveHoJ",
+          "desc": "정의의 손길",
+          "effects": {
+            "BaseAD": 0.15000000596046448,
+            "BaseHeal": 15,
+            "BaseSP": 15,
+            "BonusSP": 15,
+            "CritChance": 20,
+            "Mana": 15,
+            "{693a77ae}": 0.15000000596046448,
+            "{a60806db}": 66.66699981689453
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Hand_of_Justice.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveHoJ"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveRageblade",
+          "desc": "구인수의 격노검",
+          "effects": {
+            "AP": 10,
+            "AS": 15,
+            "AttackSpeedPerStack": 5
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Guinsoos_Rageblade.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveRageblade"
+        }
+      ],
+      "desc": "효과를 선택합니다. 추가로 <TFTBonus>0</TFTBonus>라운드 동안 유지됩니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "킨드레드가 3라운드 동안 유지되는 임시 아이템을 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Kindred/HUD/TFT11_Kindred_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Kindred_LifeDeathItemChoice",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "킨드레드",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveGiantSlayer",
+            "desc": "거인 학살자",
+            "effects": {
+              "AD": 0.30000001192092896,
+              "AP": 20,
+              "AS": 10,
+              "HealthThreshold": 1600,
+              "LargeBonusPct": 25
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Giant_Slayer.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveGiantSlayer"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveRedemption",
+            "desc": "구원",
+            "effects": {
+              "AoEDamageReduction": 10,
+              "HealTickRate": 5,
+              "Health": 150,
+              "HexRadius": 1,
+              "Mana": 15,
+              "MaxHeal": 1000,
+              "MissingHealthHeal": 15
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Redemption.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveRedemption"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveWarmogs",
+            "desc": "워모그의 갑옷",
+            "effects": {
+              "BonusPercentHP": 0.07999999821186066,
+              "Health": 600
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Warmogs_Armor.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveWarmogs"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveSteadfast",
+            "desc": "굳건한 심장",
+            "effects": {
+              "Armor": 20,
+              "BaseDamageReduction": 8,
+              "CritChance": 20,
+              "EmpowerDamageReduction": 15,
+              "Health": 250,
+              "ThresholdForEmpower": 0.5
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Behemoth.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveSteadfast"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveSunfire",
+            "desc": "태양불꽃 망토",
+            "effects": {
+              "Armor": 20,
+              "BurnDuration": 10,
+              "BurnPercent": 1,
+              "GrievousWoundsPercent": 33,
+              "Health": 250,
+              "HexRange": 2,
+              "ICD": 2,
+              "MonsterCap": 100
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Sunfire_Cape.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveSunfire"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveGunblade",
+            "desc": "마법공학 총검",
+            "effects": {
+              "AD": 0.15000000596046448,
+              "AP": 15,
+              "Omnivamp": 22
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Hextech_Gunblade.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveGunblade"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveHoJ",
+            "desc": "정의의 손길",
+            "effects": {
+              "BaseAD": 0.15000000596046448,
+              "BaseHeal": 15,
+              "BaseSP": 15,
+              "BonusSP": 15,
+              "CritChance": 20,
+              "Mana": 15,
+              "{693a77ae}": 0.15000000596046448,
+              "{a60806db}": 66.66699981689453
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Hand_of_Justice.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveHoJ"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveRageblade",
+            "desc": "구인수의 격노검",
+            "effects": {
+              "AP": 10,
+              "AS": 15,
+              "AttackSpeedPerStack": 5
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Guinsoos_Rageblade.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveRageblade"
+          }
+        ],
+        "desc": "효과를 선택합니다. 추가로 <TFTBonus>@TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>라운드 동안 유지됩니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "킨드레드가 3라운드 동안 유지되는 임시 아이템을 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Kindred_LifeDeathItemChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kindred.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kindred.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Soraka_SupportArmory",
+      "associatedChampion": "TFT11_Soraka",
+      "choices": [],
+      "desc": "지원 아이템을 선택합니다.",
+      "encounterDesc": "소라카가 지원 아이템 선택지를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Soraka/HUD/TFT11_Soraka_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Soraka_SupportArmory_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "소라카",
+      "org": {
+        "choices": [],
+        "desc": "지원 아이템을 선택합니다.",
+        "encounterDesc": "소라카가 지원 아이템 선택지를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Soraka_SupportArmory",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_soraka.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_soraka.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Qiyana_RadiantArmory",
+      "associatedChampion": "TFT11_Qiyana",
+      "choices": [],
+      "desc": "찬란한 아이템을 선택합니다.",
+      "encounterDesc": "키아나가 찬란한 아이템 선택지를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Qiyana/HUD/TFT11_Qiyana_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Qiyana_RadiantArmory_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "키아나",
+      "org": {
+        "choices": [],
+        "desc": "찬란한 아이템을 선택합니다.",
+        "encounterDesc": "키아나가 찬란한 아이템 선택지를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Qiyana_RadiantArmory",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_qiyana.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_qiyana.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Janna_ZephyrTime",
+      "associatedChampion": "TFT11_Janna",
+      "choices": [],
+      "desc": "임시 서풍 2개를 획득합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "잔나가 3라운드 후에 사라지는 서풍 2개를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Janna/HUD/TFT11_Janna_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Janna_ZephyrTime_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "잔나",
+      "org": {
+        "choices": [],
+        "desc": "임시 서풍 2개를 획득합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "잔나가 3라운드 후에 사라지는 서풍 2개를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Janna_ZephyrTime",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_janna.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_janna.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Teemo_BonusAugmentRerollsThisGame",
+      "associatedChampion": "TFT11_Teemo",
+      "choices": [],
+      "desc": "이번 게임에서 증강을 추가로 1회 새로고침할 수 있습니다.",
+      "encounterDesc": "티모가 현재 게임에서 증강을 추가로 한 번 더 새로고침할 수 있게 해줍니다!",
+      "icon": "ASSETS/Characters/TFT11_Teemo/HUD/TFT11_Teemo_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Teemo_BonusAugmentRolls_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2,
+        1
+      ],
+      "title": "티모",
+      "org": {
+        "choices": [],
+        "desc": "이번 게임에서 증강을 추가로 1회 새로고침할 수 있습니다.",
+        "encounterDesc": "티모가 현재 게임에서 증강을 추가로 한 번 더 새로고침할 수 있게 해줍니다!"
+      },
+      "_key": "TFT11_Encounter_Teemo_BonusAugmentRerollsThisGame",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_teemo.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_teemo.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Hwei_TailoredShopSlot",
+      "associatedChampion": "TFT11_Hwei",
+      "choices": [],
+      "desc": "이번 게임에서는 상점 첫 슬롯에 전장에 있는 챔피언과 특성이 같은 챔피언이 등장합니다.",
+      "encounterDesc": "흐웨이가 게임이 끝날 때까지 첫 번째 상점 슬롯을 플레이어의 전장에 맞게 조정합니다.",
+      "icon": "ASSETS/Characters/TFT11_Hwei/HUD/TFT11_Hwei_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Hwei_TailoredShopSlot_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        1
+      ],
+      "title": "흐웨이",
+      "org": {
+        "choices": [],
+        "desc": "이번 게임에서는 상점 첫 슬롯에 전장에 있는 챔피언과 특성이 같은 챔피언이 등장합니다.",
+        "encounterDesc": "흐웨이가 게임이 끝날 때까지 첫 번째 상점 슬롯을 플레이어의 전장에 맞게 조정합니다."
+      },
+      "_key": "TFT11_Encounter_Hwei_TailoredShopSlot",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_hwei.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_hwei.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Sivir_SpeedIncrease",
+      "associatedChampion": "TFT11_Sivir",
+      "choices": [],
+      "desc": "모두가 훨씬 더 빨라집니다.",
+      "encounterDesc": "시비르의 결집의 외침으로 더욱 빨라집니다.",
+      "icon": "ASSETS/Characters/TFT11_Sivir/HUD/TFT11_Sivir_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Sivir_SpeedIncrease_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "시비르",
+      "org": {
+        "choices": [],
+        "desc": "모두가 훨씬 더 빨라집니다.",
+        "encounterDesc": "시비르의 결집의 외침으로 더욱 빨라집니다."
+      },
+      "_key": "TFT11_Encounter_Sivir_SpeedIncrease",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_sivir.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_sivir.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Udyr_ComponentChoice",
+      "associatedChampion": "TFT11_Udyr",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_BoarStance",
+          "desc": "멧돼지 - 방어",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "멧돼지 - 방어"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_BearStance",
+          "desc": "곰 - 공격",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "곰 - 공격"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_PhoenixStance",
+          "desc": "불사조 - 마법",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "불사조 - 마법"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_InsufficientGold",
+          "desc": "이 정령에 바칠 골드가 부족합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "이 정령에 바칠 골드가 부족합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "우디르가 선택한 정령에 따라 조합 아이템 2개를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Udyr/HUD/TFT11_Udyr_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Udyr_ComponentChoice_Tooltip",
+      "rounds": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "우디르",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_BoarStance",
+            "desc": "멧돼지 - 방어",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "멧돼지 - 방어"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_BearStance",
+            "desc": "곰 - 공격",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "곰 - 공격"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_PhoenixStance",
+            "desc": "불사조 - 마법",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "불사조 - 마법"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_InsufficientGold",
+            "desc": "이 정령에 바칠 골드가 부족합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "이 정령에 바칠 골드가 부족합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "우디르가 선택한 정령에 따라 조합 아이템 2개를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Udyr_ComponentChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_udyr.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_udyr.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Irelia_FreeCarousel",
+      "associatedChampion": "TFT11_Irelia",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 자유롭게 움직일 수 있습니다.",
+      "encounterDesc": "이렐리아가 모든 플레이어를 해방하여 이번 공동 선택에서 자유롭게 움직일 수 있게 합니다.",
+      "icon": "ASSETS/Characters/TFT11_Irelia/HUD/TFT11_Irelia_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Irelia_FreeCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "이렐리아",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 자유롭게 움직일 수 있습니다.",
+        "encounterDesc": "이렐리아가 모든 플레이어를 해방하여 이번 공동 선택에서 자유롭게 움직일 수 있게 합니다."
+      },
+      "_key": "TFT11_Encounter_Irelia_FreeCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_irelia.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_irelia.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_XayahRakan_RecombobulateChoice_Stage2",
+      "associatedChampion": "TFT11_Rakan",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_5Gold",
+          "desc": "5골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "5골드를 획득합니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Recombobulate",
+          "desc": "전장에 대격변 생성기의 효과를 적용합니다. 자석 제거기 2개를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "전장에 대격변 생성기의 효과를 적용합니다. 자석 제거기 2개를 획득합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "라칸이 전장에 대격변 생성기의 효과를 적용하도록 독려합니다. 아니면 골드를 몇 푼 쥐여줄지도 모릅니다.",
+      "icon": "ASSETS/Characters/TFT11_XayahRakanDummy/HUD/TFT11_XayahRakan_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_XayahRakan_Recomb2_Tooltip",
+      "rounds": [
+        3,
+        4
+      ],
+      "stages": [
+        2
+      ],
+      "title": "라칸",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_5Gold",
+            "desc": "5골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "5골드를 획득합니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Recombobulate",
+            "desc": "전장에 대격변 생성기의 효과를 적용합니다. 자석 제거기 2개를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "전장에 대격변 생성기의 효과를 적용합니다. 자석 제거기 2개를 획득합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "라칸이 전장에 대격변 생성기의 효과를 적용하도록 독려합니다. 아니면 골드를 몇 푼 쥐여줄지도 모릅니다."
+      },
+      "_key": "TFT11_Encounter_XayahRakan_RecombobulateChoice_Stage2",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_xayahrakan.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_xayahrakan.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Aatrox_HealthXPChoice",
+      "associatedChampion": "TFT11_Aatrox",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_ComponentAnvil",
+          "desc": "조합 아이템 모루를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "조합 아이템 모루를 획득합니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_15Health",
+          "desc": "15의 체력을 얻습니다.",
+          "effects": {
+            "{cd5eb5cd}": 15
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_15Health"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Gain10Gold",
+          "desc": "10골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "10골드를 획득합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "아트록스가 조합 아이템 모루, 플레이어 체력 또는 골드를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Aatrox/HUD/TFT11_Aatrox_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Aatrox_HealthXPChoice_Tooltip",
+      "rounds": null,
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "title": "아트록스",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_ComponentAnvil",
+            "desc": "조합 아이템 모루를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "조합 아이템 모루를 획득합니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_15Health",
+            "desc": "15의 체력을 얻습니다.",
+            "effects": {
+              "{cd5eb5cd}": 15
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_15Health"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Gain10Gold",
+            "desc": "10골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "10골드를 획득합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "아트록스가 조합 아이템 모루, 플레이어 체력 또는 골드를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Aatrox_HealthXPChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_aatrox.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_aatrox.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Amumu_Fontot",
+      "associatedChampion": "TFT11_Amumu",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_FON",
+          "desc": "강력한 보상을 제공하는 고난이도 PvE 라운드에 도전합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_FON"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_TOT",
+          "desc": "팀 규모가 +1 증가합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_TOT"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "아무무는 친구가 되려는 누구에게나 놀라운 선물을 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Amumu/HUD/TFT11_Amumu_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Amumu_Fontot_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "아무무",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_FON",
+            "desc": "강력한 보상을 제공하는 고난이도 PvE 라운드에 도전합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_FON"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_TOT",
+            "desc": "팀 규모가 +1 증가합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_TOT"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "아무무는 친구가 되려는 누구에게나 놀라운 선물을 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Amumu_Fontot",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_amumu.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_amumu.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Lux_TempSupportItems",
+      "associatedChampion": "TFT11_Lux",
+      "choices": [],
+      "desc": "무작위 임시 지원 아이템 2개를 획득합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "럭스가 무작위 지원 아이템 2개를 제공합니다. 아이템은 3라운드 후에 사라집니다.",
+      "icon": "ASSETS/Characters/TFT11_Lux/HUD/TFT11_Lux_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Lux_TempSupportItems_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "럭스",
+      "org": {
+        "choices": [],
+        "desc": "무작위 임시 지원 아이템 2개를 획득합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "럭스가 무작위 지원 아이템 2개를 제공합니다. 아이템은 3라운드 후에 사라집니다."
+      },
+      "_key": "TFT11_Encounter_Lux_TempSupportItems",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_lux.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_lux.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Malphite_BenchPopOff",
+      "associatedChampion": "TFT11_Malphite",
+      "choices": [],
+      "desc": "챔피언을 대기석에 보내 장착한 아이템을 해제할 수 있습니다.",
+      "encounterDesc": "유닛을 대기석에 배치할 때마다 말파이트가 유닛의 아이템을 떨어뜨립니다.",
+      "icon": "ASSETS/Characters/TFT11_Malphite/HUD/TFT11_Malphite_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Malphite_BenchPopOff_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "말파이트",
+      "org": {
+        "choices": [],
+        "desc": "챔피언을 대기석에 보내 장착한 아이템을 해제할 수 있습니다.",
+        "encounterDesc": "유닛을 대기석에 배치할 때마다 말파이트가 유닛의 아이템을 떨어뜨립니다."
+      },
+      "_key": "TFT11_Encounter_Malphite_BenchPopOff",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_malphite.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_malphite.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_TahmKench_FeedTheFrog",
+      "associatedChampion": "TFT11_TahmKench",
+      "choices": [],
+      "desc": "플레이어가 물고기를 더 많이 잡을수록 모두가 전리품을 더 많이 얻습니다!",
+      "encounterDesc": "웅덩이에서 탐 켄치에게 줄 물고기를 잡으세요. 탐 켄치가 더 많은 물고기를 먹을수록 모두가 더 많은 전리품을 얻습니다!",
+      "icon": "ASSETS/Characters/TFT11_TahmKench/HUD/TFT11_TahmKench_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_TahmKench_FeedTheFrog_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "title": "탐 켄치",
+      "org": {
+        "choices": [],
+        "desc": "플레이어가 물고기를 더 많이 잡을수록 모두가 전리품을 더 많이 얻습니다!",
+        "encounterDesc": "웅덩이에서 탐 켄치에게 줄 물고기를 잡으세요. 탐 켄치가 더 많은 물고기를 먹을수록 모두가 더 많은 전리품을 얻습니다!"
+      },
+      "_key": "TFT11_Encounter_TahmKench_FeedTheFrog",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_tahmkench.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_tahmkench.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Qiyana_RadiantCarousel",
+      "associatedChampion": "TFT11_Qiyana",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 찬란한 아이템을 가집니다.",
+      "encounterDesc": "키아나가 공동 선택의 모든 챔피언이 찬란한 아이템을 갖도록 명령합니다.",
+      "icon": "ASSETS/Characters/TFT11_Qiyana/HUD/TFT11_Qiyana_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Qiyana_RadiantCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "키아나",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 찬란한 아이템을 가집니다.",
+        "encounterDesc": "키아나가 공동 선택의 모든 챔피언이 찬란한 아이템을 갖도록 명령합니다."
+      },
+      "_key": "TFT11_Encounter_Qiyana_RadiantCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_qiyana.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_qiyana.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Annie_HighEndShoppingOrInterestChoice_Limited",
+      "associatedChampion": "TFT11_Annie",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_HighEndShopping_Limited",
+          "desc": "3라운드 동안 상점 레벨이 1 증가합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "3라운드 동안 상점 레벨이 1 증가합니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_DoubleInterest_Limited",
+          "desc": "3라운드 동안 이자가 두 배가 됩니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "3라운드 동안 이자가 두 배가 됩니다."
+        }
+      ],
+      "desc": "효과를 선택합니다. 추가로 <TFTBonus>0</TFTBonus>라운드 동안 유지됩니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "애니가 다음 몇 라운드 동안 더 나은 상점 또는 더 많은 골드를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Annie/HUD/TFT11_Annie_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Annie_HighEnd_Limited_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3
+      ],
+      "title": "애니",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_HighEndShopping_Limited",
+            "desc": "3라운드 동안 상점 레벨이 1 증가합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "3라운드 동안 상점 레벨이 1 증가합니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_DoubleInterest_Limited",
+            "desc": "3라운드 동안 이자가 두 배가 됩니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "3라운드 동안 이자가 두 배가 됩니다."
+          }
+        ],
+        "desc": "효과를 선택합니다. 추가로 <TFTBonus>@TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>라운드 동안 유지됩니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "애니가 다음 몇 라운드 동안 더 나은 상점 또는 더 많은 골드를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Annie_HighEndShoppingOrInterestChoice_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_annie.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_annie.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Teemo_WinOrLoseChoice",
+      "associatedChampion": "TFT11_Teemo",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_PredictWin",
+          "desc": "내가 승리할 거야! 보상: 10골드",
+          "effects": {
+            "{6fa60d84}": 14
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_PredictWin"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_PredictLose",
+          "desc": "내가 패배할 거야! 보상: 7골드",
+          "effects": {
+            "{6fa60d84}": 7
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_PredictLose"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "다음 전투의 결과를 예상합니다. 정답을 맞히면 티모가 보상을 제공합니다!",
+      "icon": "ASSETS/Characters/TFT11_Teemo/HUD/TFT11_Teemo_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Teemo_WinOrLoseChoice_Tooltip",
+      "rounds": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5
+      ],
+      "title": "티모",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_PredictWin",
+            "desc": "내가 승리할 거야!<br>보상: 10골드",
+            "effects": {
+              "{6fa60d84}": 14
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_PredictWin"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_PredictLose",
+            "desc": "내가 패배할 거야!<br>보상: 7골드",
+            "effects": {
+              "{6fa60d84}": 7
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_PredictLose"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "다음 전투의 결과를 예상합니다. 정답을 맞히면 티모가 보상을 제공합니다!"
+      },
+      "_key": "TFT11_Encounter_Teemo_WinOrLoseChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_teemo.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_teemo.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_KhaZix_XPCosts3",
+      "associatedChampion": "TFT11_KhaZix",
+      "choices": [],
+      "desc": "이번 게임에서 경험치 비용이 1 감소합니다. (최소 1골드)",
+      "encounterDesc": "카직스가 이번 게임에서 경험치 비용을 4골드 대신 3골드로 만듭니다. 진화하세요!",
+      "icon": "ASSETS/Characters/TFT11_KhaZix/HUD/TFT11_KhaZix_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_KhaZix_XPCosts3_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        5,
+        4,
+        3
+      ],
+      "title": "카직스",
+      "org": {
+        "choices": [],
+        "desc": "이번 게임에서 경험치 비용이 1 감소합니다. (최소 1골드)",
+        "encounterDesc": "카직스가 이번 게임에서 경험치 비용을 4골드 대신 3골드로 만듭니다. 진화하세요!"
+      },
+      "_key": "TFT11_Encounter_KhaZix_XPCosts3",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_khazix.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_khazix.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Gnar_TwoCostTwoStarCarousel",
+      "associatedChampion": "TFT11_Gnar",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 2성 2단계가 됩니다.",
+      "encounterDesc": "나르가 공동 선택을 2성 2단계 챔피언으로 채웁니다.",
+      "icon": "ASSETS/Characters/TFT11_Gnar/HUD/TFT11_Gnar_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Gnar_TwoCostTwoStarCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "나르",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 2성 2단계가 됩니다.",
+        "encounterDesc": "나르가 공동 선택을 2성 2단계 챔피언으로 채웁니다."
+      },
+      "_key": "TFT11_Encounter_Gnar_TwoCostTwoStarCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_gnar.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_gnar.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_FortuneYordle_DanceWithMe",
+      "associatedChampion": "TFT11_FortuneYord",
+      "choices": [],
+      "desc": "춤추는 사람이 많을수록 모두가 획득하는 전리품이 늘어납니다!",
+      "encounterDesc": "코부코가 함께 춤을 추자고 제안합니다! 더 많은 플레이어가 참가할수록 보상이 좋아집니다.",
+      "icon": "ASSETS/Characters/TFT11_FortuneYord/HUD/TFT11_Kobuko_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_FortuneYordle_DanceWithMe_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "title": "코부코",
+      "org": {
+        "choices": [],
+        "desc": "춤추는 사람이 많을수록 모두가 획득하는 전리품이 늘어납니다!",
+        "encounterDesc": "코부코가 함께 춤을 추자고 제안합니다! 더 많은 플레이어가 참가할수록 보상이 좋아집니다."
+      },
+      "_key": "TFT11_Encounter_FortuneYordle_DanceWithMe",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kobuko.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kobuko.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Lillia_ShiftAugmentRounds",
+      "associatedChampion": "TFT11_Lillia",
+      "choices": [],
+      "desc": "이번 게임의 모든 증강을 무작위 라운드로 옮깁니다.",
+      "encounterDesc": "릴리아가 모든 증강을 무작위 라운드로 옮깁니다!",
+      "icon": "ASSETS/Characters/TFT11_Lillia/HUD/TFT11_Lillia_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Lillia_ShiftAugmentRounds_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        1
+      ],
+      "title": "릴리아",
+      "org": {
+        "choices": [],
+        "desc": "이번 게임의 모든 증강을 무작위 라운드로 옮깁니다.",
+        "encounterDesc": "릴리아가 모든 증강을 무작위 라운드로 옮깁니다!"
+      },
+      "_key": "TFT11_Encounter_Lillia_ShiftAugmentRounds",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_lillia.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_lillia.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Hwei_FiveCostCarousel",
+      "associatedChampion": "TFT11_Hwei",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 5단계가 됩니다.",
+      "encounterDesc": "흐웨이가 공동 선택 전체를 5단계 챔피언으로 칠합니다.",
+      "icon": "ASSETS/Characters/TFT11_Hwei/HUD/TFT11_Hwei_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Hwei_FiveCostCarousel_Tooltip",
+      "rounds": [
+        6,
+        7
+      ],
+      "stages": [
+        5,
+        6,
+        4
+      ],
+      "title": "흐웨이",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 5단계가 됩니다.",
+        "encounterDesc": "흐웨이가 공동 선택 전체를 5단계 챔피언으로 칠합니다."
+      },
+      "_key": "TFT11_Encounter_Hwei_FiveCostCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_hwei.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_hwei.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Tristana_GiveGold",
+      "associatedChampion": "TFT11_Tristana",
+      "choices": [],
+      "desc": "추가 골드를 획득합니다.",
+      "encounterDesc": "트리스타나가 골드를 선물합니다!",
+      "icon": "ASSETS/Characters/TFT11_Tristana/HUD/TFT11_Tristana_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Tristana_GiveGold_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        1
+      ],
+      "title": "트리스타나",
+      "org": {
+        "choices": [],
+        "desc": "추가 골드를 획득합니다.",
+        "encounterDesc": "트리스타나가 골드를 선물합니다!"
+      },
+      "_key": "TFT11_Encounter_Tristana_GiveGold",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_tristana.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_tristana.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Azir_Rerolls",
+      "associatedChampion": "TFT11_Azir",
+      "choices": [],
+      "desc": "무료 새로고침을 얻습니다.",
+      "encounterDesc": "아지르가 사용할 때까지 지속되는 무료 새로고침 6회를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Azir/HUD/TFT11_Azir_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Azir_Rerolls_Tooltip",
+      "rounds": [
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "아지르",
+      "org": {
+        "choices": [],
+        "desc": "무료 새로고침을 얻습니다.",
+        "encounterDesc": "아지르가 사용할 때까지 지속되는 무료 새로고침 6회를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Azir_Rerolls",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_azir.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_azir.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Janna_TreasureArmory",
+      "associatedChampion": "TFT11_Janna",
+      "choices": [],
+      "desc": "보물 무기고를 획득합니다.",
+      "encounterDesc": "잔나가 최대 10회 새로고침할 수 있는 보물 무기고를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Janna/HUD/TFT11_Janna_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Janna_TreasureArmory_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6,
+        2
+      ],
+      "title": "잔나",
+      "org": {
+        "choices": [],
+        "desc": "보물 무기고를 획득합니다.",
+        "encounterDesc": "잔나가 최대 10회 새로고침할 수 있는 보물 무기고를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Janna_TreasureArmory",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_janna.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_janna.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Shen_SupportCarousel",
+      "associatedChampion": "TFT11_Shen",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 지원 아이템을 가집니다.",
+      "encounterDesc": "쉔이 공동 선택의 모든 챔피언에게 지원 아이템이 있는지 지켜봅니다.",
+      "icon": "ASSETS/Characters/TFT11_Shen/HUD/TFT11_Shen_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Shen_SupportCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "쉔",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 지원 아이템을 가집니다.",
+        "encounterDesc": "쉔이 공동 선택의 모든 챔피언에게 지원 아이템이 있는지 지켜봅니다."
+      },
+      "_key": "TFT11_Encounter_Shen_SupportCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_shen.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_shen.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Yone_DoubleComponentCarousel",
+      "associatedChampion": "TFT11_Yone",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 공격 조합 아이템을 추가로 가집니다.",
+      "encounterDesc": "요네가 공동 선택의 모든 챔피언에게 공격 조합 아이템을 추가합니다.",
+      "icon": "ASSETS/Characters/TFT11_Yone/HUD/TFT11_Yone_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Yone_DoubleComponentCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "요네",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 공격 조합 아이템을 추가로 가집니다.",
+        "encounterDesc": "요네가 공동 선택의 모든 챔피언에게 공격 조합 아이템을 추가합니다."
+      },
+      "_key": "TFT11_Encounter_Yone_DoubleComponentCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_yone.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_yone.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Kayn_PlayerDeathFinish",
+      "associatedChampion": "TFT11_Kayn",
+      "choices": [],
+      "desc": "지금 게임이 종료됩니다.",
+      "encounterDesc": "지금 게임이 종료됩니다. 현재 순위가 최종 순위입니다.",
+      "icon": "ASSETS/Characters/TFT11_Kayn/HUD/TFT11_Kayn_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Kayn_PlayerDeathFinish_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": null,
+      "title": "케인",
+      "org": {
+        "choices": [],
+        "desc": "지금 게임이 종료됩니다.",
+        "encounterDesc": "지금 게임이 종료됩니다. 현재 순위가 최종 순위입니다."
+      },
+      "_key": "TFT11_Encounter_Kayn_PlayerDeathFinish",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kayn.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kayn.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Udyr_SupportChoice",
+      "associatedChampion": "TFT11_Udyr",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveLocket",
+          "desc": "강철의 솔라리 펜던트",
+          "effects": {
+            "BonusResists": 20,
+            "Health": 250,
+            "HexRange": 2,
+            "ShieldDuration": 20,
+            "ShieldValue": 250
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT9_SupportItems/Locket_of_the_Iron_Solari.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveLocket"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GiveZekes",
+          "desc": "지크의 전령",
+          "effects": {
+            "AttackSpeed": 30,
+            "Health": 250,
+            "HexRange": 2
+          },
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT9_SupportItems/Zekes_Herald.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GiveZekes"
+        }
+      ],
+      "desc": "효과를 선택합니다. 추가로 <TFTBonus>0</TFTBonus>라운드 동안 유지됩니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "우디르가 3라운드 동안 유지되는 지원 아이템을 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Udyr/HUD/TFT11_Udyr_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Udyr_SupportChoice_Tooltip",
+      "rounds": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "우디르",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveLocket",
+            "desc": "강철의 솔라리 펜던트",
+            "effects": {
+              "BonusResists": 20,
+              "Health": 250,
+              "HexRange": 2,
+              "ShieldDuration": 20,
+              "ShieldValue": 250
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT9_SupportItems/Locket_of_the_Iron_Solari.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveLocket"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GiveZekes",
+            "desc": "지크의 전령",
+            "effects": {
+              "AttackSpeed": 30,
+              "Health": 250,
+              "HexRange": 2
+            },
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT9_SupportItems/Zekes_Herald.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GiveZekes"
+          }
+        ],
+        "desc": "효과를 선택합니다. 추가로 <TFTBonus>@TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>라운드 동안 유지됩니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "우디르가 3라운드 동안 유지되는 지원 아이템을 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Udyr_SupportChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_udyr.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_udyr.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Alune_CompletedArmory",
+      "associatedChampion": "TFT11_Alune",
+      "choices": [],
+      "desc": "완성 아이템을 선택합니다.",
+      "encounterDesc": "알룬이 완성 아이템 선택지를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Alune/HUD/TFT11_Alune_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Alune_CompletedArmory_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "알룬",
+      "org": {
+        "choices": [],
+        "desc": "완성 아이템을 선택합니다.",
+        "encounterDesc": "알룬이 완성 아이템 선택지를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Alune_CompletedArmory",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_alune.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_alune.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_TahmKench_GoldOrComponent",
+      "associatedChampion": "TFT11_TahmKench",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_ComponentAnvil",
+          "desc": "조합 아이템 모루를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "조합 아이템 모루를 획득합니다."
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_Gain10Gold",
+          "desc": "10골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "10골드를 획득합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "탐 켄치가 조합 아이템 모루 또는 골드를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_TahmKench/HUD/TFT11_TahmKench_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_TahmKench_GoldOrComponent_Tooltip",
+      "rounds": [
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "탐 켄치",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_ComponentAnvil",
+            "desc": "조합 아이템 모루를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "조합 아이템 모루를 획득합니다."
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_Gain10Gold",
+            "desc": "10골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "10골드를 획득합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "탐 켄치가 조합 아이템 모루 또는 골드를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_TahmKench_GoldOrComponent",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_tahmkench.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_tahmkench.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_ChoGath_TradeShopSlotForComponents",
+      "associatedChampion": "TFT11_ChoGath",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GainComponentsLoseShopSlot",
+          "desc": "상점 슬롯 한 개를 영원히 잃고 조합 아이템 모루 3개를 획득합니다.",
+          "effects": {
+            "{7f8afef1}": 3
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_GainComponentsLoseShopSlot"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_DeclineTheOffer",
+          "desc": "제안을 거절합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "제안을 거절합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "허기를 달래준다면 초가스가 은혜를 갚습니다.",
+      "icon": "ASSETS/Characters/TFT11_ChoGath/HUD/TFT11_ChoGath_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_ChoGath_TradeShopSlot_Tooltip",
+      "rounds": [
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5
+      ],
+      "title": "초가스",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GainComponentsLoseShopSlot",
+            "desc": "상점 슬롯 한 개를 영원히 잃고 조합 아이템 모루 3개를 획득합니다.",
+            "effects": {
+              "{7f8afef1}": 3
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_GainComponentsLoseShopSlot"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_DeclineTheOffer",
+            "desc": "제안을 거절합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "제안을 거절합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "허기를 달래준다면 초가스가 은혜를 갚습니다."
+      },
+      "_key": "TFT11_Encounter_ChoGath_TradeShopSlotForComponents",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_chogath.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_chogath.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_KogMaw_ShiftAugmentRounds",
+      "associatedChampion": "TFT11_KogMaw",
+      "choices": [],
+      "desc": "2-1 증강을 무작위 라운드로 옮깁니다.",
+      "encounterDesc": "코그모가 2-1 증강을 무작위 라운드로 옮깁니다.",
+      "icon": "ASSETS/Characters/TFT11_KogMaw/HUD/TFT11_KogMaw_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_KogMaw_ShiftAugmentRounds_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        1
+      ],
+      "title": "코그모",
+      "org": {
+        "choices": [],
+        "desc": "2-1 증강을 무작위 라운드로 옮깁니다.",
+        "encounterDesc": "코그모가 2-1 증강을 무작위 라운드로 옮깁니다."
+      },
+      "_key": "TFT11_Encounter_KogMaw_ShiftAugmentRounds",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kogmaw.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kogmaw.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Jax_SupportArtifactChoice",
+      "associatedChampion": "TFT11_Jax",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_ArtifactArmory",
+          "desc": "유물 무기고를 개방합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_ArtifactArmory"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_SupportArmory",
+          "desc": "지원 무기고를 개방합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_SupportArmory"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "잭스가 다양한 무기고에서 무기 하나를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Jax/HUD/TFT11_Jax_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Jax_SupportArtifactChoice_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "잭스",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_ArtifactArmory",
+            "desc": "유물 무기고를 개방합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_ArtifactArmory"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_SupportArmory",
+            "desc": "지원 무기고를 개방합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_SupportArmory"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "잭스가 다양한 무기고에서 무기 하나를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Jax_SupportArtifactChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_jax.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_jax.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_ChoGath_LesserNormalDupe",
+      "associatedChampion": "TFT11_ChoGath",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_2LesserDupe",
+          "desc": "하급 챔피언 복제기 2개",
+          "effects": {
+            "LesserDuplicatorAmount": 2
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "하급 챔피언 복제기 2개"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_1NormalDupe",
+          "desc": "챔피언 복제기 1개",
+          "effects": {
+            "{4a99a5b2}": "null"
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "챔피언 복제기 1개"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "초가스가 하급 챔피언 복제기 2개 또는 챔피언 복제기 1개를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_ChoGath/HUD/TFT11_ChoGath_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_ChoGath_LesserNormalDupe_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "초가스",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_2LesserDupe",
+            "desc": "하급 챔피언 복제기 2개",
+            "effects": {
+              "LesserDuplicatorAmount": 2
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "하급 챔피언 복제기 2개"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_1NormalDupe",
+            "desc": "챔피언 복제기 1개",
+            "effects": {
+              "{4a99a5b2}": "null"
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "챔피언 복제기 1개"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "초가스가 하급 챔피언 복제기 2개 또는 챔피언 복제기 1개를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_ChoGath_LesserNormalDupe",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_chogath.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_chogath.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Wukong_RadiantBlitz",
+      "associatedChampion": "TFT11_WuKong",
+      "choices": [],
+      "desc": "1라운드 동안 찬란한 아이템 6개를 획득합니다.",
+      "encounterDesc": "오공이 1라운드 동안 유지되는 찬란한 아이템 6개를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_WuKong/HUD/TFT11_Wukong_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Wukong_RadiantBlitz_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "오공",
+      "org": {
+        "choices": [],
+        "desc": "1라운드 동안 찬란한 아이템 6개를 획득합니다.",
+        "encounterDesc": "오공이 1라운드 동안 유지되는 찬란한 아이템 6개를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Wukong_RadiantBlitz",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_wukong.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_wukong.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Wukong_ActivateChosenTwoStar",
+      "associatedChampion": "TFT11_WuKong",
+      "choices": [],
+      "desc": "상점에서 판매하는 일부 챔피언이 2성이 되고 추가 특성을 얻습니다. 하나만 보유할 수 있습니다.",
+      "encounterDesc": "오공이 2성 유닛이며 특성 하나가 두 배가 되는 선택받은 자를 활성화합니다. 새로운 선택받은 자를 구매하려면 보유한 선택받은 자를 판매해야 합니다.",
+      "icon": "ASSETS/Characters/TFT11_WuKong/HUD/TFT11_Wukong_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Wukong_ActivateChosenTwoStar_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        1,
+        2
+      ],
+      "title": "오공",
+      "org": {
+        "choices": [],
+        "desc": "상점에서 판매하는 일부 챔피언이 2성이 되고 추가 특성을 얻습니다. 하나만 보유할 수 있습니다.",
+        "encounterDesc": "오공이 2성 유닛이며 특성 하나가 두 배가 되는 선택받은 자를 활성화합니다. 새로운 선택받은 자를 구매하려면 보유한 선택받은 자를 판매해야 합니다."
+      },
+      "_key": "TFT11_Encounter_Wukong_ActivateChosenTwoStar",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_wukong.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_wukong.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Garen_PermanentHPOnPurchase_Limited",
+      "associatedChampion": "TFT11_Garen",
+      "choices": [],
+      "desc": "구매한 챔피언이 100의 추가 체력을 영구히 얻습니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "다음 3라운드 동안 구매한 모든 챔피언이 100의 체력을 영구적으로 획득합니다.",
+      "icon": "ASSETS/Characters/TFT11_Garen/HUD/TFT11_Garen_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Garen_PermanentHP_Limited_Tooltip",
+      "rounds": [
+        5,
+        6
+      ],
+      "stages": [
+        4,
+        5
+      ],
+      "title": "가렌",
+      "org": {
+        "choices": [],
+        "desc": "구매한 챔피언이 100의 추가 체력을 영구히 얻습니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "다음 3라운드 동안 구매한 모든 챔피언이 100의 체력을 영구적으로 획득합니다."
+      },
+      "_key": "TFT11_Encounter_Garen_PermanentHPOnPurchase_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_garen.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_garen.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Diana_SalvageBin",
+      "associatedChampion": "TFT11_Diana",
+      "choices": [],
+      "desc": "유닛 판매 시 장착한 아이템이 분해됩니다.",
+      "encounterDesc": "유닛을 판매하면 다이애나가 유닛의 완성 아이템을 조합 아이템으로 분해합니다.",
+      "icon": "ASSETS/Characters/TFT11_Diana/HUD/TFT11_Diana_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Diana_SalvageBin_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        4,
+        5,
+        6,
+        3,
+        2
+      ],
+      "title": "다이애나",
+      "org": {
+        "choices": [],
+        "desc": "유닛 판매 시 장착한 아이템이 분해됩니다.",
+        "encounterDesc": "유닛을 판매하면 다이애나가 유닛의 완성 아이템을 조합 아이템으로 분해합니다."
+      },
+      "_key": "TFT11_Encounter_Diana_SalvageBin",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_diana.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_diana.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Galio_DoubleComponentCarousel",
+      "associatedChampion": "TFT11_Galio",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 방어 조합 아이템을 추가로 가집니다.",
+      "encounterDesc": "갈리오가 공동 선택의 모든 챔피언에게 방어 조합 아이템을 추가합니다.",
+      "icon": "ASSETS/Characters/TFT11_Galio/HUD/TFT11_Galio_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Galio_DoubleComponentCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "갈리오",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 방어 조합 아이템을 추가로 가집니다.",
+        "encounterDesc": "갈리오가 공동 선택의 모든 챔피언에게 방어 조합 아이템을 추가합니다."
+      },
+      "_key": "TFT11_Encounter_Galio_DoubleComponentCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_galio.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_galio.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Riven_ComponentCarousel",
+      "associatedChampion": "TFT11_Riven",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 조합 아이템을 추가로 가집니다.",
+      "encounterDesc": "리븐이 공동 선택의 모든 챔피언에게 조합 아이템을 추가합니다.",
+      "icon": "ASSETS/Characters/TFT11_Riven/HUD/TFT11_Riven_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Riven_ComponentCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "리븐",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 조합 아이템을 추가로 가집니다.",
+        "encounterDesc": "리븐이 공동 선택의 모든 챔피언에게 조합 아이템을 추가합니다."
+      },
+      "_key": "TFT11_Encounter_Riven_ComponentCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_riven.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_riven.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Thresh_ShiftAugmentRounds",
+      "associatedChampion": "TFT11_Thresh",
+      "choices": [],
+      "desc": "2-1 및 3-2 증강을 무작위 라운드로 옮깁니다.",
+      "encounterDesc": "쓰레쉬가 2-1 및 3-2 증강을 무작위 라운드로 옮깁니다.",
+      "icon": "ASSETS/Characters/TFT11_Thresh/HUD/TFT11_Thresh_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Thresh_ShiftAugmentRounds_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        1
+      ],
+      "title": "쓰레쉬",
+      "org": {
+        "choices": [],
+        "desc": "2-1 및 3-2 증강을 무작위 라운드로 옮깁니다.",
+        "encounterDesc": "쓰레쉬가 2-1 및 3-2 증강을 무작위 라운드로 옮깁니다."
+      },
+      "_key": "TFT11_Encounter_Thresh_ShiftAugmentRounds",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_thresh.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_thresh.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Irelia_OneOfEachCost_Limited",
+      "associatedChampion": "TFT11_Irelia",
+      "choices": [],
+      "desc": "다음 6번 동안 상점에서 각 단계의 챔피언이 하나씩 등장합니다.",
+      "encounterDesc": "이렐리아가 다음 3번 동안 상점에서 각 단계의 유닛을 하나씩 등장시킵니다.",
+      "icon": "ASSETS/Characters/TFT11_Irelia/HUD/TFT11_Irelia_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Irelia_OneOfEachCost_Limited_Tooltip",
+      "rounds": [
+        6,
+        7
+      ],
+      "stages": [
+        6,
+        5,
+        4
+      ],
+      "title": "이렐리아",
+      "org": {
+        "choices": [],
+        "desc": "다음 6번 동안 상점에서 각 단계의 챔피언이 하나씩 등장합니다.",
+        "encounterDesc": "이렐리아가 다음 3번 동안 상점에서 각 단계의 유닛을 하나씩 등장시킵니다."
+      },
+      "_key": "TFT11_Encounter_Irelia_OneOfEachCost_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_irelia.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_irelia.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Neeko_DuplicatorCarousel",
+      "associatedChampion": "TFT11_Neeko",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 챔피언 복제기를 추가로 가집니다.",
+      "encounterDesc": "니코가 공동 선택의 모든 챔피언에게 챔피언 복제기를 추가합니다!",
+      "icon": "ASSETS/Characters/TFT11_Neeko/HUD/TFT11_Neeko_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Neeko_DuplicatorCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "title": "니코",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 챔피언 복제기를 추가로 가집니다.",
+        "encounterDesc": "니코가 공동 선택의 모든 챔피언에게 챔피언 복제기를 추가합니다!"
+      },
+      "_key": "TFT11_Encounter_Neeko_DuplicatorCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_neeko.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_neeko.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Ornn_ArtifactCarousel",
+      "associatedChampion": "TFT11_Ornn",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 유물을 추가로 가집니다.",
+      "encounterDesc": "오른이 공동 선택의 모든 챔피언에게 유물을 추가합니다.",
+      "icon": "ASSETS/Characters/TFT11_Ornn/HUD/TFT11_Ornn_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Ornn_ArtifactCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "오른",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 유물을 추가로 가집니다.",
+        "encounterDesc": "오른이 공동 선택의 모든 챔피언에게 유물을 추가합니다."
+      },
+      "_key": "TFT11_Encounter_Ornn_ArtifactCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_ornn.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_ornn.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Zyra_TripleComponent",
+      "associatedChampion": "TFT11_Zyra",
+      "choices": [],
+      "desc": "조합 아이템의 복사본 3개를 획득합니다.",
+      "encounterDesc": "조합 아이템을 선택합니다. 자이라가 해당 아이템의 복사본 3개를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Zyra/HUD/TFT11_Zyra_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Zyra_TripleComponent_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "자이라",
+      "org": {
+        "choices": [],
+        "desc": "조합 아이템의 복사본 3개를 획득합니다.",
+        "encounterDesc": "조합 아이템을 선택합니다. 자이라가 해당 아이템의 복사본 3개를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Zyra_TripleComponent",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_zyra.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_zyra.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Zoe_TrickstersGlass",
+      "associatedChampion": "TFT11_Zoe",
+      "choices": [],
+      "desc": "임시 속임수 거울 2개를 획득합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "조이가 속임수 거울 2개를 제공합니다. 아이템은 3라운드 후에 사라집니다.",
+      "icon": "ASSETS/Characters/TFT11_Zoe/HUD/TFT11_Zoe_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Zoe_TrickstersGlass_Tooltip",
+      "rounds": [
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4
+      ],
+      "title": "조이",
+      "org": {
+        "choices": [],
+        "desc": "임시 속임수 거울 2개를 획득합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "조이가 속임수 거울 2개를 제공합니다. 아이템은 3라운드 후에 사라집니다."
+      },
+      "_key": "TFT11_Encounter_Zoe_TrickstersGlass",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_zoe.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_zoe.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Kaisa_GoldenRemoverChoice",
+      "associatedChampion": "TFT11_Kaisa",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_5Gold",
+          "desc": "5골드를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "5골드를 획득합니다."
+        },
+        {
+          "apiName": "TFT9_Consumable_GoldenItemRemover",
+          "desc": "황금 아이템 제거기",
+          "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Consumables/TFT_Item_Consumable_ItemRemover.tex",
+          "name": "TFT9_Consumable_GoldenItemRemover"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_GoldenRemover",
+          "desc": "무한히 사용할 수 있는 자석 제거기를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "무한히 사용할 수 있는 자석 제거기를 획득합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "카이사가 무한히 사용할 수 있는 아이템 제거기 또는 골드를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Kaisa/HUD/TFT11_Kaisa_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Kaisa_GoldenRemoverChoice_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "카이사",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_5Gold",
+            "desc": "5골드를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "5골드를 획득합니다."
+          },
+          {
+            "apiName": "TFT9_Consumable_GoldenItemRemover",
+            "desc": "황금 아이템 제거기",
+            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Consumables/TFT_Item_Consumable_ItemRemover.tex",
+            "name": "TFT9_Consumable_GoldenItemRemover"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_GoldenRemover",
+            "desc": "무한히 사용할 수 있는 자석 제거기를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "무한히 사용할 수 있는 자석 제거기를 획득합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "카이사가 무한히 사용할 수 있는 아이템 제거기 또는 골드를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Kaisa_GoldenRemoverChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kaisa.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kaisa.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Aphelios_TwoComponentAnvils",
+      "associatedChampion": "TFT11_Aphelios",
+      "choices": [],
+      "desc": "조합 아이템 모루 2개를 획득합니다.",
+      "encounterDesc": "아펠리오스가 조합 아이템 모루를 2개 소환합니다.",
+      "icon": "ASSETS/Characters/TFT11_Aphelios/HUD/TFT11_Aphelios_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Aphelios_TwoComponentAnvils_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "아펠리오스",
+      "org": {
+        "choices": [],
+        "desc": "조합 아이템 모루 2개를 획득합니다.",
+        "encounterDesc": "아펠리오스가 조합 아이템 모루를 2개 소환합니다."
+      },
+      "_key": "TFT11_Encounter_Aphelios_TwoComponentAnvils",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_aphelios.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_aphelios.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Soraka_SupportCarousel",
+      "associatedChampion": "TFT11_Soraka",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 지원 아이템을 추가로 가집니다.",
+      "encounterDesc": "소라카가 공동 선택의 모든 챔피언에게 지원 아이템을 추가합니다.",
+      "icon": "ASSETS/Characters/TFT11_Soraka/HUD/TFT11_Soraka_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Soraka_SupportCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "소라카",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 지원 아이템을 추가로 가집니다.",
+        "encounterDesc": "소라카가 공동 선택의 모든 챔피언에게 지원 아이템을 추가합니다."
+      },
+      "_key": "TFT11_Encounter_Soraka_SupportCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_soraka.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_soraka.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Kindred_EvenLevels",
+      "associatedChampion": "TFT11_Kindred",
+      "choices": [],
+      "desc": "이번 게임에서 짝수 레벨만 존재합니다. 경험치 값이 조정됩니다.",
+      "encounterDesc": "킨드레드가 현재 게임에서 오직 짝수 레벨만 존재하도록 명령합니다.",
+      "icon": "ASSETS/Characters/TFT11_Kindred/HUD/TFT11_Kindred_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Kindred_EvenLevels_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        1
+      ],
+      "title": "킨드레드",
+      "org": {
+        "choices": [],
+        "desc": "이번 게임에서 짝수 레벨만 존재합니다. 경험치 값이 조정됩니다.",
+        "encounterDesc": "킨드레드가 현재 게임에서 오직 짝수 레벨만 존재하도록 명령합니다."
+      },
+      "_key": "TFT11_Encounter_Kindred_EvenLevels",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kindred.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kindred.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Illaoi_ShiftAugmentRounds",
+      "associatedChampion": "TFT11_Illaoi",
+      "choices": [],
+      "desc": "3-2 증강을 무작위 라운드로 옮깁니다.",
+      "encounterDesc": "일라오이가 3-2 증강을 무작위 라운드로 옮깁니다.",
+      "icon": "ASSETS/Characters/TFT11_Illaoi/HUD/TFT11_Illaoi_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Illaoi_ShiftAugmentRounds_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        1
+      ],
+      "title": "일라오이",
+      "org": {
+        "choices": [],
+        "desc": "3-2 증강을 무작위 라운드로 옮깁니다.",
+        "encounterDesc": "일라오이가 3-2 증강을 무작위 라운드로 옮깁니다."
+      },
+      "_key": "TFT11_Encounter_Illaoi_ShiftAugmentRounds",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_illaoi.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_illaoi.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Lissandra_SpendGold",
+      "associatedChampion": "TFT11_Lissandra",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_BuyExpensiveComponent",
+          "desc": "12골드를 소모하여 조합 아이템 모루를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_BuyExpensiveComponent"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_BuyExpensiveArtifact",
+          "desc": "22골드를 소모해 유물 모루를 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_BuyExpensiveArtifact"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_DoNothing",
+          "desc": "아무것도 하지 않기",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_DoNothing"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_InsufficientGold",
+          "desc": "이 정령에 바칠 골드가 부족합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "이 정령에 바칠 골드가 부족합니다."
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "리산드라가 아이템을 판매합니다... 값비싼 가격에 말이죠.",
+      "icon": "ASSETS/Characters/TFT11_Lissandra/HUD/TFT11_Lissandra_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Lissandra_SpendGold_Tooltip",
+      "rounds": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "리산드라",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_BuyExpensiveComponent",
+            "desc": "12골드를 소모하여 조합 아이템 모루를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_BuyExpensiveComponent"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_BuyExpensiveArtifact",
+            "desc": "22골드를 소모해 유물 모루를 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_BuyExpensiveArtifact"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_DoNothing",
+            "desc": "아무것도 하지 않기",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_DoNothing"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_InsufficientGold",
+            "desc": "이 정령에 바칠 골드가 부족합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "이 정령에 바칠 골드가 부족합니다."
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "리산드라가 아이템을 판매합니다... 값비싼 가격에 말이죠."
+      },
+      "_key": "TFT11_Encounter_Lissandra_SpendGold",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_lissandra.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_lissandra.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Sett_SquatSizeIncrease",
+      "associatedChampion": "TFT11_Sett",
+      "choices": [],
+      "desc": "모두가 훨씬 더 커집니다.",
+      "encounterDesc": "세트와 함께 운동하면 더욱 거대해집니다.",
+      "icon": "ASSETS/Characters/TFT11_Sett/HUD/TFT11_Sett_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Sett_SquatSizeIncrease_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "세트",
+      "org": {
+        "choices": [],
+        "desc": "모두가 훨씬 더 커집니다.",
+        "encounterDesc": "세트와 함께 운동하면 더욱 거대해집니다."
+      },
+      "_key": "TFT11_Encounter_Sett_SquatSizeIncrease",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_sett.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_sett.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Caitlyn_RerollsThisRound",
+      "associatedChampion": "TFT11_Caitlyn",
+      "choices": [],
+      "desc": "이 라운드에만 무료 새로고침을 얻습니다.",
+      "encounterDesc": "케이틀린이 이 라운드에 무료 새로고침 4회를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Caitlyn/HUD/TFT11_Caitlyn_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Caitlyn_RerollsThisRound_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "케이틀린",
+      "org": {
+        "choices": [],
+        "desc": "이 라운드에만 무료 새로고침을 얻습니다.",
+        "encounterDesc": "케이틀린이 이 라운드에 무료 새로고침 4회를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Caitlyn_RerollsThisRound",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_caitlyn.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_caitlyn.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Wukong_RadiantCarousel",
+      "associatedChampion": "TFT11_WuKong",
+      "choices": [],
+      "desc": "이번 공동 선택에서 챔피언이 찬란한 아이템을 추가로 가집니다.",
+      "encounterDesc": "오공이 공동 선택의 모든 챔피언에게 찬란한 아이템을 추가합니다.",
+      "icon": "ASSETS/Characters/TFT11_WuKong/HUD/TFT11_Wukong_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Wukong_RadiantCarousel_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "stages": [
+        2,
+        3,
+        4
+      ],
+      "title": "오공",
+      "org": {
+        "choices": [],
+        "desc": "이번 공동 선택에서 챔피언이 찬란한 아이템을 추가로 가집니다.",
+        "encounterDesc": "오공이 공동 선택의 모든 챔피언에게 찬란한 아이템을 추가합니다."
+      },
+      "_key": "TFT11_Encounter_Wukong_RadiantCarousel",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_wukong.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_wukong.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_KhaZix_XPCosts3_Limited",
+      "associatedChampion": "TFT11_KhaZix",
+      "choices": [],
+      "desc": "경험치 비용이 1 감소합니다. (최소 1골드)<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "카직스가 다음 3라운드 동안 경험치 비용을 4골드 대신 3골드로 만듭니다. 진화하세요.",
+      "icon": "ASSETS/Characters/TFT11_KhaZix/HUD/TFT11_KhaZix_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_KhaZix_XPCosts3_Limited_Tooltip",
+      "rounds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "카직스",
+      "org": {
+        "choices": [],
+        "desc": "경험치 비용이 1 감소합니다. (최소 1골드)<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "카직스가 다음 3라운드 동안 경험치 비용을 4골드 대신 3골드로 만듭니다. 진화하세요."
+      },
+      "_key": "TFT11_Encounter_KhaZix_XPCosts3_Limited",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_khazix.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_khazix.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Kayn_DeathItems",
+      "associatedChampion": "TFT11_Kayn",
+      "choices": [],
+      "desc": "임시 죽음의 검과 라바돈의 죽음모자를 획득합니다.<br><TFTBonus>남은 라운드: 0</TFTBonus>",
+      "encounterDesc": "케인이 죽음의 검과 라바돈의 죽음모자를 제공합니다. 아이템은 3라운드 동안 유지됩니다.",
+      "icon": "ASSETS/Characters/TFT11_Kayn/HUD/TFT11_Kayn_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Kayn_DeathItems_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "케인",
+      "org": {
+        "choices": [],
+        "desc": "임시 죽음의 검과 라바돈의 죽음모자를 획득합니다.<br><TFTBonus>남은 라운드: @TFTUnitProperty.encounter:TFT11_Encounter_RoundsRemaining@</TFTBonus>",
+        "encounterDesc": "케인이 죽음의 검과 라바돈의 죽음모자를 제공합니다. 아이템은 3라운드 동안 유지됩니다."
+      },
+      "_key": "TFT11_Encounter_Kayn_DeathItems",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_kayn.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_kayn.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Yorick_RerollsCost1",
+      "associatedChampion": "TFT11_Yorick",
+      "choices": [],
+      "desc": "이번 게임에서 새로고침 비용이 1 감소합니다. (최소 1골드)",
+      "encounterDesc": "요릭이 상점의 새로고침 비용을 1 감소시킵니다.",
+      "icon": "ASSETS/Characters/TFT11_Yorick/HUD/TFT11_Yorick_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Yorick_RerollsCost1_Tooltip",
+      "rounds": [
+        7
+      ],
+      "stages": [
+        1,
+        5,
+        6
+      ],
+      "title": "요릭",
+      "org": {
+        "choices": [],
+        "desc": "이번 게임에서 새로고침 비용이 1 감소합니다. (최소 1골드)",
+        "encounterDesc": "요릭이 상점의 새로고침 비용을 1 감소시킵니다."
+      },
+      "_key": "TFT11_Encounter_Yorick_RerollsCost1",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_yorick.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_yorick.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Janna_UnitChoice",
+      "associatedChampion": "TFT11_Janna",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_2star1cost",
+          "desc": "2성 1단계 유닛",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_2star1cost"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_2x2cost",
+          "desc": "무작위 2단계 챔피언 2명을 획득합니다.",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_2x2cost"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_3cost",
+          "desc": "3단계 챔피언",
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_3cost"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "잔나가 다양한 챔피언 선택지를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Janna/HUD/TFT11_Janna_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Janna_UnitChoice_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2
+      ],
+      "title": "잔나",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_2star1cost",
+            "desc": "2성 1단계 유닛",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_2star1cost"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_2x2cost",
+            "desc": "무작위 2단계 챔피언 2명을 획득합니다.",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_2x2cost"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_3cost",
+            "desc": "3단계 챔피언",
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_3cost"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "잔나가 다양한 챔피언 선택지를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Janna_UnitChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_janna.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_janna.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Diana_TreasureArmory",
+      "associatedChampion": "TFT11_Diana",
+      "choices": [],
+      "desc": "보물 무기고를 획득합니다.",
+      "encounterDesc": "다이애나가 최대 3회 새로고침할 수 있는 보물 무기고를 제공합니다.",
+      "icon": "ASSETS/Characters/TFT11_Diana/HUD/TFT11_Diana_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Diana_TreasureArmory_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "title": "다이애나",
+      "org": {
+        "choices": [],
+        "desc": "보물 무기고를 획득합니다.",
+        "encounterDesc": "다이애나가 최대 3회 새로고침할 수 있는 보물 무기고를 제공합니다."
+      },
+      "_key": "TFT11_Encounter_Diana_TreasureArmory",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_diana.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_diana.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Ornn_ArtifactBlitz",
+      "associatedChampion": "TFT11_Ornn",
+      "choices": [],
+      "desc": "1라운드 동안 유물 아이템 6개를 획득합니다.",
+      "encounterDesc": "오른이 1라운드 동안 유지되는 유물 아이템 6개를 만들어 줍니다.",
+      "icon": "ASSETS/Characters/TFT11_Ornn/HUD/TFT11_Ornn_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Ornn_ArtifactBlitz_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "오른",
+      "org": {
+        "choices": [],
+        "desc": "1라운드 동안 유물 아이템 6개를 획득합니다.",
+        "encounterDesc": "오른이 1라운드 동안 유지되는 유물 아이템 6개를 만들어 줍니다."
+      },
+      "_key": "TFT11_Encounter_Ornn_ArtifactBlitz",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_ornn.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_ornn.tft_set11.png"
+    },
+    {
+      "apiName": "TFT11_Encounter_Alune_UnitPowerChoice",
+      "associatedChampion": "TFT11_Alune",
+      "choices": [
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_UnitBuffs2Cost",
+          "desc": "모든 2단계 아군 챔피언이 200의 체력과 20%의 공격 속도를 얻습니다.",
+          "effects": {
+            "AS": 0.20000000298023224,
+            "Health": 200,
+            "Cost": 2
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_UnitBuffs2Cost"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_UnitBuffs3Cost",
+          "desc": "모든 3단계 아군 챔피언이 150의 체력과 15%의 공격 속도를 얻습니다.",
+          "effects": {
+            "AS": 0.15000000596046448,
+            "Health": 150,
+            "Cost": 3
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_UnitBuffs3Cost"
+        },
+        {
+          "apiName": "TFT11_Encounter_ChoiceItem_UnitBuffs4Cost",
+          "desc": "모든 4단계 아군 챔피언이 100의 체력과 10%의 공격 속도를 얻습니다.",
+          "effects": {
+            "AS": 0.10000000149011612,
+            "Health": 100,
+            "Cost": 4
+          },
+          "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+          "name": "TFT11_Encounter_ChoiceItem_UnitBuffs4Cost"
+        }
+      ],
+      "desc": "효과를 선택합니다.<br><TFTBonus>선택: 0</TFTBonus>",
+      "encounterDesc": "알룬이 특정 단계의 챔피언들을 영구적으로 강화합니다.",
+      "icon": "ASSETS/Characters/TFT11_Alune/HUD/TFT11_Alune_Square.TFT_Set11.tex",
+      "name": "TFT11_Encounter_Alune_UnitPowerChoice_Tooltip",
+      "rounds": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "stages": [
+        2,
+        3
+      ],
+      "title": "알룬",
+      "org": {
+        "choices": [
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_UnitBuffs2Cost",
+            "desc": "모든 @Cost@단계 아군 챔피언이 @Health@의 체력과 @AS*100@%의 공격 속도를 얻습니다.",
+            "effects": {
+              "AS": 0.20000000298023224,
+              "Health": 200,
+              "{e85c3338}": 2
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_UnitBuffs2Cost"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_UnitBuffs3Cost",
+            "desc": "모든 @Cost@단계 아군 챔피언이 @Health@의 체력과 @AS*100@%의 공격 속도를 얻습니다.",
+            "effects": {
+              "AS": 0.15000000596046448,
+              "Health": 150,
+              "{e85c3338}": 3
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_UnitBuffs3Cost"
+          },
+          {
+            "apiName": "TFT11_Encounter_ChoiceItem_UnitBuffs4Cost",
+            "desc": "모든 @Cost@단계 아군 챔피언이 @Health@의 체력과 @AS*100@%의 공격 속도를 얻습니다.",
+            "effects": {
+              "AS": 0.10000000149011612,
+              "Health": 100,
+              "{e85c3338}": 4
+            },
+            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.tex",
+            "name": "TFT11_Encounter_ChoiceItem_UnitBuffs4Cost"
+          }
+        ],
+        "desc": "효과를 선택합니다.<br><TFTBonus>선택: @TFTUnitProperty.encounter:TFT11_Encounter_GenericChoiceString@</TFTBonus>",
+        "encounterDesc": "알룬이 특정 단계의 챔피언들을 영구적으로 강화합니다."
+      },
+      "_key": "TFT11_Encounter_Alune_UnitPowerChoice",
+      "imageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tft11_alune.tft_set11.png",
+      "tileImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-champion/tiles/tft11_alune.tft_set11.png"
+    }
+  ]
