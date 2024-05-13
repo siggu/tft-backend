@@ -6,12 +6,12 @@ class Augment(models.Model):
     """Model definition for Augments"""
 
     key = models.CharField(
-        max_length=20,
+        max_length=40,
         primary_key=True,
         default="Eng_Key",
     )
     ingameKey = models.CharField(
-        max_length=50,
+        max_length=70,
         null=True,
     )
     name = models.CharField(max_length=20)
@@ -25,27 +25,27 @@ class Augment(models.Model):
     )
     tier = models.PositiveIntegerField(default=1)
     championIngameKey = models.CharField(
-        max_length=10,
+        max_length=20,
         blank=True,
         null=True,
     )
     legendCode1 = models.CharField(
-        max_length=10,
+        max_length=30,
         blank=True,
         null=True,
     )
     legendCode2 = models.CharField(
-        max_length=10,
+        max_length=30,
         blank=True,
         null=True,
     )
     tag1 = models.CharField(
-        max_length=10,
+        max_length=30,
         blank=True,
         null=True,
     )
     tag2 = models.CharField(
-        max_length=10,
+        max_length=30,
         blank=True,
         null=True,
     )
