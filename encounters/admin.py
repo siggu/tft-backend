@@ -7,8 +7,6 @@ from .models import Encounter
 class EncounterAdmin(admin.ModelAdmin):
     list_display = (
         "name",
-        "description_1",
-        "description_2",
-        "description_3",
-        "description_4",
+        "ingameKey",
+        "encounterDesc",
     )
