@@ -16,62 +16,22 @@ class Portals(APIView):
         )
         return Response(serializer.data)
 
+    def post(self, request):
+        portal_data_list = request.data
+        response_data = []
 
-class ChampPortals(APIView):
-    def get(self, request):
-        portals = Portal.objects.filter(portal_type="champ")
-        serializer = serializers.PortalSerializer(
-            portals,
-            many=True,
-        )
-        return Response(serializer.data)
+        for portal_data in portal_data_list:
+            portal_data_copy = portal_data.copy()
+            serializer = serializers.PortalSerializer(data=portal_data_copy)
 
+            if serializer.is_valid():
+                portal_obj = serializer.save()
+                portal_obj_serializer = serializers.PortalSerializer(portal_obj)
+                response_data.append(portal_obj_serializer.data)
+            else:
+                print("serializer error!!!!")
+                print("error portal data:", portal_data_copy)
+                print(serializer.errors)
+                response_data.append(serializer.errors)
 
-class CombatPortals(APIView):
-    def get(self, request):
-        portals = Portal.objects.filter(portal_type="combat")
-        serializer = serializers.PortalSerializer(
-            portals,
-            many=True,
-        )
-        return Response(serializer.data)
-
-
-class SpatulaPortals(APIView):
-    def get(self, request):
-        portals = Portal.objects.filter(portal_type="spatula")
-        serializer = serializers.PortalSerializer(
-            portals,
-            many=True,
-        )
-        return Response(serializer.data)
-
-
-class CoinPortals(APIView):
-    def get(self, request):
-        portals = Portal.objects.filter(portal_type="coin")
-        serializer = serializers.PortalSerializer(
-            portals,
-            many=True,
-        )
-        return Response(serializer.data)
-
-
-class CardPortals(APIView):
-    def get(self, request):
-        portals = Portal.objects.filter(portal_type="card")
-        serializer = serializers.PortalSerializer(
-            portals,
-            many=True,
-        )
-        return Response(serializer.data)
-
-
-class ItemPortals(APIView):
-    def get(self, request):
-        portals = Portal.objects.filter(portal_type="item")
-        serializer = serializers.PortalSerializer(
-            portals,
-            many=True,
-        )
-        return Response(serializer.data)
+        return Response(response_data)

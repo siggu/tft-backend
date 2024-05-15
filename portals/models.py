@@ -5,36 +5,22 @@ from django.db import models
 class Portal(models.Model):
     """Model definition for Portals"""
 
-    name = models.CharField(
-        max_length=30,
-    )
-    description = models.CharField(
-        max_length=200,
-    )
-    portal_type = models.ForeignKey(
-        "PortalType",
-        on_delete=models.CASCADE,
-        null=True,
-    )
-
-    def __str__(self):
-        return self.name
-
-
-class PortalType(models.Model):
-    class TypeChoices(models.TextChoices):
-        CHAMP = ("champ", "Champ")
-        COMBAT = ("combat", "Combat")
-        SPATULA = ("spatula", "Spatula")
-        COIN = ("coin", "Coin")
-        CARD = ("card", "Card")
-        ITEM = ("item", "Item")
-
-    portal_type = models.CharField(
+    _type = models.CharField(
         max_length=10,
-        choices=TypeChoices.choices,
-        default="champ",
+        default="Augments",
+    )
+    _key = models.CharField(
+        max_length=100,
+        default="TFT_Portals_Augments_GoldThird",
+    )
+    title = models.CharField(max_length=30)
+    desc = models.TextField(
+        max_length=300,
+        default="이번 게임에서 얻는 마지막 증강이 골드 티어가 됩니다.",
+    )
+    iconImageUrl = models.URLField(
+        default="https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
     )
 
     def __str__(self):
-        return self.portal_type
+        return self.title

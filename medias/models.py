@@ -7,13 +7,6 @@ class Photo(models.Model):
     description = models.CharField(
         max_length=140,
     )
-    portal = models.ForeignKey(
-        "portals.PortalType",
-        null=True,
-        blank=True,
-        on_delete=models.CASCADE,
-        related_name="photos",
-    )
     encounter = models.ForeignKey(
         "encounters.Encounter",
         null=True,
