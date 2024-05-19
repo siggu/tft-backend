@@ -1,61 +1,28 @@
+# models.py
 from django.db import models
 
 
 class Comp(models.Model):
-    """Model Definition for Comps"""
-
-    name = models.CharField(max_length=30)
-    elements = models.ManyToManyField(
-        "CompElement",
-        related_name="comp_element",
+    teamBuilderKey = models.CharField(
+        max_length=40, default="ac80267f71bc9386e411b92ed7cb9b5c6287be80"
     )
+    name = models.CharField(max_length=100)
+    tag = models.CharField(max_length=20, blank=True, null=True)
+    cost = models.IntegerField(default=1)
+    augments = models.JSONField(blank=True, null=True)
+    season = models.CharField(max_length=10, default=10)
+    set = models.CharField(max_length=10, blank=True, null=True)
 
     def __str__(self):
         return self.name
 
 
 class CompElement(models.Model):
-
-    # 추천 메타의 각 챔피언 요소
-    champion = models.ForeignKey(
-        "champions.Champion",
-        related_name="champion_comps",
-        on_delete=models.CASCADE,
-    )
-    recommendedItem1 = models.ForeignKey(
-        "items.Item",
-        related_name="item_comps_1",
-        blank="True",
-        null="True",
-        on_delete=models.CASCADE,
-    )
-    recommendedItem2 = models.ForeignKey(
-        "items.Item",
-        related_name="item_comps_2",
-        null="True",
-        blank="True",
-        on_delete=models.CASCADE,
-    )
-    recommendedItem3 = models.ForeignKey(
-        "items.Item",
-        related_name="item_comps_3",
-        null="True",
-        blank="True",
-        on_delete=models.CASCADE,
-    )
-
-    class CompChampionLevelChoice(models.IntegerChoices):
-        oneStar = 1, "oneStar"
-        twoStar = 2, "twoStar"
-        threeStar = 3, "threeStar"
-
-    championLevelChoice = models.IntegerField(
-        choices=CompChampionLevelChoice.choices,
-        default=CompChampionLevelChoice.twoStar,
-    )
+    comp = models.ForeignKey(Comp, related_name="elements", on_delete=models.CASCADE)
+    index = models.IntegerField()
+    champion = models.CharField(max_length=100)
+    star = models.IntegerField(default=1)
+    items = models.JSONField(blank=True, null=True)
 
     def __str__(self):
-        if self.recommendedItem1 and self.recommendedItem2 and self.recommendedItem3:
-            return f"{self.champion.name} {'★'*self.championLevelChoice} ({self.recommendedItem1.name}+{self.recommendedItem2.name}+{self.recommendedItem3.name})"
-        else:
-            return f"{self.champion.name} {'★'*self.championLevelChoice} "
+        return f"{self.champion} - {self.star}★"

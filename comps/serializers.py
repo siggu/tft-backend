@@ -1,23 +1,38 @@
-from rest_framework.serializers import ModelSerializer
+# serializers.py
+from rest_framework import serializers
 from .models import Comp, CompElement
-from medias.serializers import PhotoSerializer
-from champions.serializers import ChampionDetailSerializer
 
 
-class CompElementSerializer(ModelSerializer):
-    photos = PhotoSerializer(read_only=True, many=True)
-    champion = ChampionDetailSerializer(read_only=True)
-
+class CompElementWriteSerializer(serializers.ModelSerializer):
     class Meta:
         model = CompElement
         fields = "__all__"
-        depth = 3
 
 
-class CompSerializer(ModelSerializer):
-    elements = CompElementSerializer(read_only=True, many=True)
+class CompElementReadSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CompElement
+        fields = "__all__"
+
+
+class CompWriteSerializer(serializers.ModelSerializer):
+    elements = CompElementWriteSerializer(many=True)
 
     class Meta:
         model = Comp
         fields = "__all__"
-        depth = 2
+
+    def create(self, validated_data):
+        elements_data = validated_data.pop("elements")
+        comp = Comp.objects.create(**validated_data)
+        for element_data in elements_data:
+            CompElement.objects.create(comp=comp, **element_data)
+        return comp
+
+
+class CompReadSerializer(serializers.ModelSerializer):
+    elements = CompElementReadSerializer(many=True)
+
+    class Meta:
+        model = Comp
+        fields = "__all__"
