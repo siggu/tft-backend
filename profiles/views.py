@@ -18,10 +18,9 @@ import os
 # 유저 정보 GET, POST
 class SummonerProfileAPIView(APIView):
     def get(self, request, gameName, tagLine):
-        summonerpuuids = SummonerPuuid.objects.all()
+        userAccount = SummonerPuuid.objects.get(gameName=gameName, tagLine=tagLine)
         serializer = serializers.SummonerPuuidSerializer(
-            summonerpuuids,
-            many=True,
+            userAccount,
         )
         return Response(serializer.data)
 
@@ -76,21 +75,36 @@ class SummonerProfileDetailAPIView(APIView):
 
 # 특정 유저 puuid로 매치 ids GET, POST
 class SummonerMathcesByPuuidAPIView(APIView):
-    def get_object(self, gameName):
+    def get_object(self, puuid):
         try:
-            return SummonerPuuid.objects.get(name=gameName)
-        except SummonerPuuid.DoesNotExist:
+            return SummonerMatchesByPuuid.objects.get(summoner_puuid=puuid)
+        except SummonerMatchesByPuuid.DoesNotExist:
             raise NotFound("SummonerPuuid not found")
 
-    def get(self, request, gameName):
-        summonerMatches = self.get_object(gameName)
-        serializer = serializers.SummonerMatchesByPuuidSerializer(
-            summonerMatches.matches.all(), many=True
+    def get(self, request, puuid):
+        matchesByPuuid = SummonerMatchesByPuuid.objects.filter(summoner_puuid=puuid)
+        if not matchesByPuuid.exists():
+            raise NotFound("No matches found for the provided SummonerPuuid")
+        match_details = []
+        for match in matchesByPuuid:
+            try:
+                match_detail = MatchDetailsByMatchId.objects.get(
+                    match_id=match.match_id
+                )
+                match_details.append(match_detail)
+            except MatchDetailsByMatchId.DoesNotExist:
+                continue
+
+        if not match_details:
+            raise NotFound("No match details found for the provided SummonerPuuid")
+
+        serializer = serializers.MatchDetailsByMatchIdSerializer(
+            match_details, many=True
         )
         return Response(serializer.data)
 
-    def post(self, request, gameName):
-        summoner_instance = self.get_object(gameName)
+    def post(self, request, puuid):
+        summoner_instance = self.get_object(puuid)
 
         if not summoner_instance:
             return Response(
@@ -149,9 +163,8 @@ class SummonerMatchByMatchIdAPIView(APIView):
         except MatchDetailsByMatchId.DoesNotExist:
             raise NotFound
 
-    def get(self, request, gameName, matchId):
-
-        summonerMatch = self.get_object(matchId)
+    def get(self, request, summonerMatch):
+        summonerMatch = self.get_object(summonerMatch)
         try:
             serializer = serializers.MatchDetailsByMatchIdSerializer(
                 summonerMatch,
