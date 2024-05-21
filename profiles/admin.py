@@ -11,7 +11,8 @@ from .models import (
 @admin.register(SummonerPuuid)
 class SummonerPuuidAdmin(admin.ModelAdmin):
     list_display = (
-        "name",
+        "gameName",
+        "tagLine",
         "puuid",
     )
 

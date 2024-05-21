@@ -7,13 +7,11 @@ from .views import (
 )
 
 urlpatterns = [
-    path("fetch-puuid/", SummonerProfileAPIView.as_view()),
-    path("fetch-puuid/<str:summonerName>", SummonerProfileDetailAPIView.as_view()),
+    path("fetch-puuid/<str:gameName>/<str:tagLine>", SummonerProfileAPIView.as_view()),
+    path("fetch-puuid/<str:gameName>", SummonerProfileDetailAPIView.as_view()),
+    path("matches-by-puuid/<str:gameName>", SummonerMathcesByPuuidAPIView.as_view()),
     path(
-        "matches-by-puuid/<str:summonerName>", SummonerMathcesByPuuidAPIView.as_view()
-    ),
-    path(
-        "matches-by-puuid/<str:summonerName>/<str:matchId>",
+        "matches-by-puuid/<str:gameName>/<str:matchId>",
         SummonerMatchByMatchIdAPIView.as_view(),
     ),
 ]

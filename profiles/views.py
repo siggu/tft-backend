@@ -17,7 +17,7 @@ import os
 
 # 유저 정보 GET, POST
 class SummonerProfileAPIView(APIView):
-    def get(self, request):
+    def get(self, request, gameName, tagLine):
         summonerpuuids = SummonerPuuid.objects.all()
         serializer = serializers.SummonerPuuidSerializer(
             summonerpuuids,
@@ -25,24 +25,22 @@ class SummonerProfileAPIView(APIView):
         )
         return Response(serializer.data)
 
-    def post(self, request):
-        profile_name = request.data.get("summonerName")
+    def post(self, request, gameName, tagLine):
+        gameName = request.data.get("gameName")
+        tagLine = request.data.get("tagLine")
+        print(gameName, tagLine)
         api_key = os.getenv("RIOT_API_KEY")
-        url = f"https://kr.api.riotgames.com/tft/summoner/v1/summoners/by-name/{profile_name}?api_key={api_key}"
-
+        # url = f"https://kr.api.riotgames.com/tft/summoner/v1/summoners/by-name/{profile_name}?api_key={api_key}"
+        url = f"https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}?api_key={api_key}"
         try:
             response = requests.get(url)
             print("response", response)
             if response.status_code == 200:
                 data = response.json()
                 summoner_puuid = SummonerPuuid.objects.create(
-                    id=data["id"],
-                    accountId=data["accountId"],
                     puuid=data["puuid"],
-                    name=data["name"],
-                    profileIconId=data["profileIconId"],
-                    revisionDate=data["revisionDate"],
-                    summonerLevel=data["summonerLevel"],
+                    gameName=data["gameName"],
+                    tagLine=data["tagLine"],
                 )
                 return Response(
                     {
@@ -64,35 +62,35 @@ class SummonerProfileAPIView(APIView):
 
 # 특정 유저 정보 GET
 class SummonerProfileDetailAPIView(APIView):
-    def get_object(self, summonerName):
+    def get_object(self, gameName):
         try:
-            return SummonerPuuid.objects.get(name=summonerName)
+            return SummonerPuuid.objects.get(name=gameName)
         except SummonerPuuid.DoesNotExist:
             return NotFound
 
-    def get(self, request, summonerName):
-        summonerpuuid = self.get_object(summonerName)
+    def get(self, request, gameName):
+        summonerpuuid = self.get_object(gameName)
         serializer = serializers.SummonerPuuidSerializer(summonerpuuid)
         return Response(serializer.data)
 
 
 # 특정 유저 puuid로 매치 ids GET, POST
 class SummonerMathcesByPuuidAPIView(APIView):
-    def get_object(self, summonerName):
+    def get_object(self, gameName):
         try:
-            return SummonerPuuid.objects.get(name=summonerName)
+            return SummonerPuuid.objects.get(name=gameName)
         except SummonerPuuid.DoesNotExist:
             raise NotFound("SummonerPuuid not found")
 
-    def get(self, request, summonerName):
-        summonerMatches = self.get_object(summonerName)
+    def get(self, request, gameName):
+        summonerMatches = self.get_object(gameName)
         serializer = serializers.SummonerMatchesByPuuidSerializer(
             summonerMatches.matches.all(), many=True
         )
         return Response(serializer.data)
 
-    def post(self, request, summonerName):
-        summoner_instance = self.get_object(summonerName)
+    def post(self, request, gameName):
+        summoner_instance = self.get_object(gameName)
 
         if not summoner_instance:
             return Response(
@@ -151,7 +149,8 @@ class SummonerMatchByMatchIdAPIView(APIView):
         except MatchDetailsByMatchId.DoesNotExist:
             raise NotFound
 
-    def get(self, request, summonerName, matchId):
+    def get(self, request, gameName, matchId):
+
         summonerMatch = self.get_object(matchId)
         try:
             serializer = serializers.MatchDetailsByMatchIdSerializer(
@@ -161,7 +160,11 @@ class SummonerMatchByMatchIdAPIView(APIView):
         except summonerMatch.DoesNotExist:
             raise NotFound
 
-    def post(self, request, summonerName, matchId):
+    def post(self, request, gameName, matchId):
+        print("matchId", matchId)
+        print("request", request.data)
+        gameName = request.data["gameName"]
+        matchId = request.data["matchId"]
         if not matchId:
             return Response(
                 {"error": "matchId is required"}, status=status.HTTP_400_BAD_REQUEST

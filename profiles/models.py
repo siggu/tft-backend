@@ -4,16 +4,12 @@ from django.db import models
 
 
 class SummonerPuuid(models.Model):
-    id = models.CharField(max_length=100, primary_key=True)
-    accountId = models.CharField(max_length=100)
-    puuid = models.CharField(max_length=100, unique=True)
-    name = models.CharField(max_length=30, default="소환사닉네임")
-    profileIconId = models.PositiveIntegerField(default=0)
-    revisionDate = models.PositiveIntegerField(default=0)
-    summonerLevel = models.PositiveIntegerField(default=0)
-
-    def __str__(self):
-        return self.name
+    puuid = models.TextField(
+        max_length=200,
+        primary_key=True,
+    )
+    gameName = models.CharField(max_length=40, default="hide on bush")
+    tagLine = models.CharField(max_length=20, default="KR1")
 
 
 class SummonerMatchesByPuuid(models.Model):
