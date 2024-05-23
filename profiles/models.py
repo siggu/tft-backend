@@ -10,6 +10,10 @@ class SummonerPuuid(models.Model):
     )
     gameName = models.CharField(max_length=40, default="hide on bush")
     tagLine = models.CharField(max_length=20, default="KR1")
+    accountId = models.CharField(max_length=60, null=True)
+    profileIconId = models.IntegerField(null=True)
+    summonerId = models.CharField(max_length=60, null=True)
+    summonerLevel = models.IntegerField(null=True)
 
 
 class SummonerMatchesByPuuid(models.Model):

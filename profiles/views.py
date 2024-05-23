@@ -14,62 +14,125 @@ from .models import (
 import requests
 import os
 
+# 유저 이름+태그로 puuid 찾아내기 AccountDTO
+# URL + /{username}/{tagLine}?api_key={API_KEY}
+ACCOUNT_URL = "https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-id/"
+
+# summoner puuid로 summoner 프로필 정보 찾아내기 SummonerDTO
+# URL + /{puuid}?api_key={API_KEY}
+SUMMONER_URL = "https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/"
+
 
 # 유저 정보 GET, POST
 class SummonerProfileAPIView(APIView):
-    def get(self, request, gameName, tagLine):
-        userAccount = SummonerPuuid.objects.get(gameName=gameName, tagLine=tagLine)
-        serializer = serializers.SummonerPuuidSerializer(
-            userAccount,
-        )
+    def get(self, request):
+        allUsers = SummonerPuuid.objects.all()
+        serializer = serializers.SummonerPuuidSerializer(allUsers, many=True)
         return Response(serializer.data)
 
-    def post(self, request, gameName, tagLine):
+    def post(self, request):
         gameName = request.data.get("gameName")
         tagLine = request.data.get("tagLine")
         print(gameName, tagLine)
         api_key = os.getenv("RIOT_API_KEY")
-        # url = f"https://kr.api.riotgames.com/tft/summoner/v1/summoners/by-name/{profile_name}?api_key={api_key}"
-        url = f"https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}?api_key={api_key}"
+        accountApiUrl = f"{ACCOUNT_URL}{gameName}/{tagLine}?api_key={api_key}"
+
         try:
-            response = requests.get(url)
-            print("response", response)
+            response = requests.get(accountApiUrl)
+            print("accountApiUrl", accountApiUrl)
+            print("accountApiUrl response:", response)
+
             if response.status_code == 200:
-                data = response.json()
-                summoner_puuid = SummonerPuuid.objects.create(
-                    puuid=data["puuid"],
-                    gameName=data["gameName"],
-                    tagLine=data["tagLine"],
-                )
-                return Response(
-                    {
-                        "message": "Summoner puuid fetched and saved successfully!",
-                        "data": summoner_puuid.puuid,
-                    }
-                )
+                AccountApidata = response.json()
+                puuid = AccountApidata["puuid"]
+                summonerApiUrl = f"{SUMMONER_URL}{puuid}?api_key={api_key}"
+
+                try:
+                    response = requests.get(summonerApiUrl)
+                    print("summonerApiUrl response:", response)
+
+                    if response.status_code == 200:
+                        SummonerApidata = response.json()
+
+                        # SummonerPuuid가 이미 존재하는지 확인
+                        if SummonerPuuid.objects.filter(
+                            puuid=SummonerApidata["puuid"]
+                        ).exists():
+                            return Response(
+                                {
+                                    "error": "SummonerPuuid가 이미 존재합니다.",
+                                    "puuid": SummonerApidata["puuid"],
+                                },
+                                status=status.HTTP_409_CONFLICT,
+                            )
+
+                        summoner_data = {
+                            "puuid": SummonerApidata["puuid"],
+                            "gameName": gameName,
+                            "tagLine": tagLine,
+                            "accountId": SummonerApidata["accountId"],
+                            "profileIconId": SummonerApidata["profileIconId"],
+                            "summonerId": SummonerApidata["id"],
+                            "summonerLevel": SummonerApidata["summonerLevel"],
+                        }
+
+                        serializer = serializers.SummonerPuuidSerializer(
+                            data=summoner_data
+                        )
+
+                        if serializer.is_valid():
+                            serializer.save()
+                            return Response(
+                                {
+                                    "message": "SummonerPuuid Data success",
+                                    "data": serializer.data,
+                                }
+                            )
+                        else:
+                            return Response(
+                                serializer.errors, status=status.HTTP_400_BAD_REQUEST
+                            )
+                    else:
+                        return Response(
+                            {
+                                "error": "puuid 찾기 성공 / SummonerDTO 찾기 실패 : (라이엇 Summoner API 실패)",
+                                "status_code": response.status_code,
+                            },
+                            status=response.status_code,
+                        )
+                except Exception as e:
+                    return Response(
+                        {"Summoner Api error :": str(e)},
+                        status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                    )
             else:
                 return Response(
                     {
-                        "error": "Failed to fetch summoner puuid",
+                        "error": "puuid 찾기 실패 : (라이엇 Account API 실패)",
                         "status_code": response.status_code,
                     },
                     status=response.status_code,
                 )
         except Exception as e:
-            return Response({"error": str(e)}, status=500)
+            return Response(
+                {"Account api error :": str(e)},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            )
 
 
 # 특정 유저 정보 GET
 class SummonerProfileDetailAPIView(APIView):
-    def get_object(self, gameName):
+    def get_object(self, gameName, tagLine):
         try:
-            return SummonerPuuid.objects.get(name=gameName)
+            return SummonerPuuid.objects.get(gameName=gameName, tagLine=tagLine)
         except SummonerPuuid.DoesNotExist:
             return NotFound
 
-    def get(self, request, gameName):
-        summonerpuuid = self.get_object(gameName)
-        serializer = serializers.SummonerPuuidSerializer(summonerpuuid)
+    def get(self, request, gameName, tagLine):
+        user = self.get_object(gameName, tagLine)
+        serializer = serializers.SummonerPuuidSerializer(
+            user,
+        )
         return Response(serializer.data)
 
 

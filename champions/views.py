@@ -11,7 +11,6 @@ from .models import Champion
 class Champions(APIView):
     def get(self, request):
         champions = Champion.objects.all()
-        print(champions)
         serializer = serializers.ChampionDetailSerializer(
             champions,
             many=True,
