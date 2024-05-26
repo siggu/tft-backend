@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework.exceptions import NotFound
 from . import serializers
 from .models import (
+    LeagueEntryDTO,
     SummonerPuuid,
     SummonerMatchesByPuuid,
     SummonerMatchByMatchId,
@@ -22,6 +23,13 @@ ACCOUNT_URL = "https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-i
 # URL + /{puuid}?api_key={API_KEY}
 SUMMONER_URL = "https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/"
 
+# summonerId로 랭크 게임 기본 정보 찾아내기 LeagueEntryDTO
+# URL+{summonerId}?api_key={API_KEY}
+ENTRY_BY_SUMMONER_URL = (
+    "https://kr.api.riotgames.com/tft/league/v1/entries/by-summoner/"
+)
+API_KEY = os.getenv("RIOT_API_KEY")
+
 
 # 유저 정보 GET, POST
 class SummonerProfileAPIView(APIView):
@@ -34,18 +42,15 @@ class SummonerProfileAPIView(APIView):
         gameName = request.data.get("gameName")
         tagLine = request.data.get("tagLine")
         print(gameName, tagLine)
-        api_key = os.getenv("RIOT_API_KEY")
-        accountApiUrl = f"{ACCOUNT_URL}{gameName}/{tagLine}?api_key={api_key}"
+        accountApiUrl = f"{ACCOUNT_URL}{gameName}/{tagLine}?api_key={API_KEY}"
 
         try:
             response = requests.get(accountApiUrl)
-            print("accountApiUrl", accountApiUrl)
-            print("accountApiUrl response:", response)
 
             if response.status_code == 200:
                 AccountApidata = response.json()
                 puuid = AccountApidata["puuid"]
-                summonerApiUrl = f"{SUMMONER_URL}{puuid}?api_key={api_key}"
+                summonerApiUrl = f"{SUMMONER_URL}{puuid}?api_key={API_KEY}"
 
                 try:
                     response = requests.get(summonerApiUrl)
@@ -174,8 +179,7 @@ class SummonerMathcesByPuuidAPIView(APIView):
                 {"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND
             )
 
-        api_key = os.getenv("RIOT_API_KEY")
-        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=3&api_key={api_key}"
+        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=3&api_key={API_KEY}"
 
         try:
             response = requests.get(url)
@@ -237,8 +241,6 @@ class SummonerMatchByMatchIdAPIView(APIView):
             raise NotFound
 
     def post(self, request, gameName, matchId):
-        print("matchId", matchId)
-        print("request", request.data)
         gameName = request.data["gameName"]
         matchId = request.data["matchId"]
         if not matchId:
@@ -246,8 +248,7 @@ class SummonerMatchByMatchIdAPIView(APIView):
                 {"error": "matchId is required"}, status=status.HTTP_400_BAD_REQUEST
             )
 
-        api_key = os.getenv("RIOT_API_KEY")
-        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/{matchId}?api_key={api_key}"
+        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/{matchId}?api_key={API_KEY}"
         print("url", url)
         try:
             api_response = requests.get(url)
@@ -274,3 +275,71 @@ class SummonerMatchByMatchIdAPIView(APIView):
             return Response(
                 {"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
+
+
+class EntryBySummonerAPIView(APIView):
+
+    def get(self, request):
+        entryData = LeagueEntryDTO.objects.all()
+        try:
+            serializer = serializers.LeagueEntryDTOSerializer(entryData, many=True)
+            return Response(serializer.data)
+        except entryData.DoesNotExist:
+            raise NotFound
+
+    def post(self, request):
+        summonerId = request.data.get("summonerId")
+        entryBySummonerAPIURL = f"{ENTRY_BY_SUMMONER_URL}{summonerId}?api_key={API_KEY}"
+        try:
+            response = requests.get(entryBySummonerAPIURL)
+            print("response", response)
+            responseJson = response.json()
+            for summonerEntryData in responseJson:
+
+                if summonerEntryData["queueType"] == "RANKED_TFT":
+                    if response.status_code == 200:
+                        serializer = serializers.LeagueEntryDTOSerializer(
+                            data=summonerEntryData
+                        )
+
+                        if serializer.is_valid():
+                            serializer.save()
+                            return Response(
+                                {
+                                    "message": "Entry data success",
+                                    "data": serializer.data,
+                                }
+                            )
+                        else:
+                            return Response(
+                                serializer.errors, status=status.HTTP_400_BAD_REQUEST
+                            )
+                    else:
+                        return Response(
+                            {
+                                "message": "라이엇 EntryBySummoner api 응답 실패 ",
+                                "status_code": response.status_code,
+                            }
+                        )
+        except Exception as e:
+            return Response(
+                {
+                    "Exception": str(e),
+                }
+            )
+
+
+class EntryBySummonerDetailAPIView(APIView):
+    def get_object(self, summonerId):
+        try:
+            return LeagueEntryDTO.objects.get(summonerId=summonerId)
+        except LeagueEntryDTO.DoesNotExist:
+            raise NotFound
+
+    def get(self, request, summonerId):
+        entryData = self.get_object(summonerId)
+        try:
+            serializer = serializers.LeagueEntryDTOSerializer(entryData)
+            return Response(serializer.data)
+        except entryData.DoesNotExist:
+            raise NotFound

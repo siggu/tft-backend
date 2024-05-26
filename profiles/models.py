@@ -8,11 +8,11 @@ class SummonerPuuid(models.Model):
         max_length=200,
         primary_key=True,
     )
-    gameName = models.CharField(max_length=40, default="hide on bush")
+    gameName = models.CharField(max_length=200, default="hide on bush")
     tagLine = models.CharField(max_length=20, default="KR1")
-    accountId = models.CharField(max_length=60, null=True)
+    accountId = models.CharField(max_length=200, null=True)
     profileIconId = models.IntegerField(null=True)
-    summonerId = models.CharField(max_length=60, null=True)
+    summonerId = models.CharField(max_length=200, null=True)
     summonerLevel = models.IntegerField(null=True)
 
 
@@ -228,3 +228,24 @@ class MatchDetailsByMatchId(models.Model):
         "json",
         default=dict,
     )
+
+
+# summonerId로
+# https://kr.api.riotgames.com/tft/league/v1/entries/by-summoner/?api_key=
+class LeagueEntryDTO(models.Model):
+    summonerId = models.CharField(max_length=200, primary_key=True)
+
+    # summonerId가 인자로 들어가서 puuid도 foreignKey로 엮어야 하는가의 의문점
+    puuid = models.CharField(max_length=200, null=True)
+
+    leagueId = models.CharField(max_length=200, null=True)
+    queueType = models.CharField(max_length=100)
+    tier = models.CharField(max_length=30, null=True)
+    rank = models.CharField(max_length=30, null=True)
+    leaguePoints = models.IntegerField()
+    wins = models.IntegerField()
+    losses = models.IntegerField()
+    veteran = models.BooleanField(default=False)
+    inactive = models.BooleanField(default=False)
+    freshBlood = models.BooleanField(default=False)
+    hotStreak = models.BooleanField(default=False)

@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import (
+    LeagueEntryDTO,
     SummonerPuuid,
     SummonerMatchesByPuuid,
     SummonerMatchByMatchId,
@@ -28,4 +29,10 @@ class SummonerMatchByMatchIdSerializer(serializers.ModelSerializer):
 class MatchDetailsByMatchIdSerializer(serializers.ModelSerializer):
     class Meta:
         model = MatchDetailsByMatchId
+        fields = "__all__"
+
+
+class LeagueEntryDTOSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = LeagueEntryDTO
         fields = "__all__"

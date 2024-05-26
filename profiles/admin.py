@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import (
+    LeagueEntryDTO,
     SummonerPuuid,
     SummonerMatchesByPuuid,
     SummonerMatchByMatchId,
@@ -38,4 +39,18 @@ class MatchDetailsByMatchIdAdmin(admin.ModelAdmin):
     list_display = (
         "match_id",
         "match_detail",
+    )
+
+
+@admin.register(LeagueEntryDTO)
+class LeagueEntryDTOAdmin(admin.ModelAdmin):
+    list_display = (
+        "summonerId",
+        "puuid",
+        "queueType",
+        "tier",
+        "rank",
+        "leaguePoints",
+        "wins",
+        "losses",
     )
