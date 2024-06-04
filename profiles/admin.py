@@ -24,6 +24,7 @@ class SummonerMatchesByPuuidAdmin(admin.ModelAdmin):
         "summoner_puuid",
         "match_id",
     )
+    list_filter = ("summoner_puuid",)
 
 
 @admin.register(SummonerMatchByMatchId)

@@ -15,6 +15,7 @@ from .models import (
 import requests
 import os
 
+
 # 유저 이름+태그로 puuid 찾아내기 AccountDTO
 # URL + /{username}/{tagLine}?api_key={API_KEY}
 ACCOUNT_URL = "https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-id/"
@@ -150,7 +151,20 @@ class SummonerMathcesByPuuidAPIView(APIView):
             raise NotFound("SummonerPuuid not found")
 
     def get(self, request, puuid):
+        # if len(puuid) == 0:
+        #     print("전체탐색")
+        #     matchesByAllPuuid = SummonerMatchesByPuuid.objects.all()
+        #     try:
+        #         serializer = serializers.SummonerMatchByMatchIdSerializer(
+        #             matchesByAllPuuid, many=True
+        #         )
+        #         return Response(serializer.data)
+        #     except matchesByAllPuuid.DoesNotExist:
+        #         return Response(serializer.data)
+        # else:
         matchesByPuuid = SummonerMatchesByPuuid.objects.filter(summoner_puuid=puuid)
+
+        print("matchesByPuuid-len", len(matchesByPuuid))
         if not matchesByPuuid.exists():
             raise NotFound("No matches found for the provided SummonerPuuid")
         match_details = []
@@ -172,14 +186,16 @@ class SummonerMathcesByPuuidAPIView(APIView):
         return Response(serializer.data)
 
     def post(self, request, puuid):
-        summoner_instance = self.get_object(puuid)
+        # puuid = request.data["puuid"]
+        # summoner_instance = self.get_object(request.data["puuid"])
+        summoner_instance = SummonerPuuid.objects.get(puuid=puuid)
 
         if not summoner_instance:
             return Response(
                 {"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND
             )
 
-        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=3&api_key={API_KEY}"
+        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=20&api_key={API_KEY}"
 
         try:
             response = requests.get(url)
@@ -194,6 +210,35 @@ class SummonerMathcesByPuuidAPIView(APIView):
                                 summoner_puuid=summoner_instance, match_id=match_id
                             )
                         )
+
+                        # matchDetailUrl = f"https://asia.api.riotgames.com/tft/match/v1/matches/{match_id}?api_key={API_KEY}"
+                        # print("matchDetailUrl :", matchDetailUrl)
+                        # try:
+                        #     api_response = requests.get(matchDetailUrl)
+
+                        #     if api_response.status_code == 200:
+                        #         data = api_response.json()
+
+                        #         push_data = MatchDetailsByMatchId.objects.create(
+                        #             match_id=match_id,
+                        #             match_detail=data,
+                        #         )
+
+                        #         return Response(push_data)
+                        #     else:
+                        #         return Response(
+                        #             {
+                        #                 "error": "Failed to fetch match data",
+                        #                 "status_code": api_response.status_code,
+                        #             },
+                        #             status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                        #         )
+
+                        # except requests.RequestException as e:
+                        #     return Response(
+                        #         {"error": str(e)},
+                        #         status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                        #     )
 
                     # 한 번에 매치들을 생성하고 저장
                     SummonerMatchesByPuuid.objects.bulk_create(match_instances)
@@ -230,28 +275,28 @@ class SummonerMatchByMatchIdAPIView(APIView):
         except MatchDetailsByMatchId.DoesNotExist:
             raise NotFound
 
-    def get(self, request, summonerMatch):
-        summonerMatch = self.get_object(summonerMatch)
+    def get(self, request, matchId):
+        matchId = self.get_object(matchId)
         try:
             serializer = serializers.MatchDetailsByMatchIdSerializer(
-                summonerMatch,
+                matchId,
             )
             return Response(serializer.data)
-        except summonerMatch.DoesNotExist:
+        except matchId.DoesNotExist:
             raise NotFound
 
-    def post(self, request, gameName, matchId):
-        gameName = request.data["gameName"]
-        matchId = request.data["matchId"]
+    def post(self, request, matchId):
+        # matchId = request.data["matchId"]
+        print("matchId", matchId)
         if not matchId:
             return Response(
                 {"error": "matchId is required"}, status=status.HTTP_400_BAD_REQUEST
             )
 
-        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/{matchId}?api_key={API_KEY}"
-        print("url", url)
+        matchDetailUrl = f"https://asia.api.riotgames.com/tft/match/v1/matches/{matchId}?api_key={API_KEY}"
+        print("matchDetailUrl", matchDetailUrl)
         try:
-            api_response = requests.get(url)
+            api_response = requests.get(matchDetailUrl)
 
             if api_response.status_code == 200:
                 data = api_response.json()

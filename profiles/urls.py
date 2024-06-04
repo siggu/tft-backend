@@ -16,9 +16,10 @@ urlpatterns = [
     ),
     path("entry/", EntryBySummonerAPIView.as_view()),
     path("entry/<str:summonerId>", EntryBySummonerDetailAPIView.as_view()),
+    # path("matches-by-puuid", SummonerMathcesByPuuidAPIView.as_view()),
     path("matches-by-puuid/<str:puuid>", SummonerMathcesByPuuidAPIView.as_view()),
     path(
-        "matches-by-puuid/<str:gameName>/<str:matchId>",
+        "matchDetails/<str:matchId>",
         SummonerMatchByMatchIdAPIView.as_view(),
     ),
 ]
