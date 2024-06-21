@@ -135,11 +135,98 @@ class SummonerProfileDetailAPIView(APIView):
             return NotFound
 
     def get(self, request, gameName, tagLine):
-        user = self.get_object(gameName, tagLine)
-        serializer = serializers.SummonerPuuidSerializer(
-            user,
-        )
-        return Response(serializer.data)
+        print(gameName, tagLine)
+        try:
+            user = self.get_object(gameName, tagLine)
+            
+            serializer = serializers.SummonerPuuidSerializer(
+                user,
+            )
+            return Response(serializer.data)
+        except Exception as e:
+            print("exception !!!",e)
+            accountApiUrl = f"{ACCOUNT_URL}{gameName}/{tagLine}?api_key={API_KEY}"
+
+            try:
+                response = requests.get(accountApiUrl)
+
+                if response.status_code == 200:
+                    AccountApidata = response.json()
+                    puuid = AccountApidata["puuid"]
+                    summonerApiUrl = f"{SUMMONER_URL}{puuid}?api_key={API_KEY}"
+
+                    try:
+                        response = requests.get(summonerApiUrl)
+                        print("summonerApiUrl response:", response)
+
+                        if response.status_code == 200:
+                            SummonerApidata = response.json()
+
+                            # SummonerPuuid가 이미 존재하는지 확인
+                            if SummonerPuuid.objects.filter(
+                                puuid=SummonerApidata["puuid"]
+                            ).exists():
+                                return Response(
+                                    {
+                                        "error": "SummonerPuuid가 이미 존재합니다.",
+                                        "puuid": SummonerApidata["puuid"],
+                                    },
+                                    status=status.HTTP_409_CONFLICT,
+                                )
+
+                            summoner_data = {
+                                "puuid": SummonerApidata["puuid"],
+                                "gameName": gameName,
+                                "tagLine": tagLine,
+                                "accountId": SummonerApidata["accountId"],
+                                "profileIconId": SummonerApidata["profileIconId"],
+                                "summonerId": SummonerApidata["id"],
+                                "summonerLevel": SummonerApidata["summonerLevel"],
+                            }
+
+                            serializer = serializers.SummonerPuuidSerializer(
+                                data=summoner_data
+                            )
+
+                            if serializer.is_valid():
+                                serializer.save()
+                                return Response(
+                                    {
+                                        "message": "SummonerPuuid Data success",
+                                        "data": serializer.data,
+                                    }
+                                )
+                            else:
+                                return Response(
+                                    serializer.errors, status=status.HTTP_400_BAD_REQUEST
+                                )
+                        else:
+                            return Response(
+                                {
+                                    "error": "puuid 찾기 성공 / SummonerDTO 찾기 실패 : (라이엇 Summoner API 실패)",
+                                    "status_code": response.status_code,
+                                },
+                                status=response.status_code,
+                            )
+                    except Exception as e:
+                        return Response(
+                            {"Summoner Api error :": str(e)},
+                            status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                        )
+                else:
+                    return Response(
+                        {
+                            "error": "puuid 찾기 실패 : (라이엇 Account API 실패)",
+                            "status_code": response.status_code,
+                        },
+                        status=response.status_code,
+                    )
+            except Exception as e:
+                return Response(
+                    {"Account api error :": str(e)},
+                    status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                )
+
 
 
 # 특정 유저 puuid로 매치 ids GET, POST
