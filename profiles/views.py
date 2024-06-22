@@ -190,12 +190,7 @@ class SummonerProfileDetailAPIView(APIView):
 
                             if serializer.is_valid():
                                 serializer.save()
-                                return Response(
-                                    {
-                                        "message": "SummonerPuuid Data success",
-                                        "data": serializer.data,
-                                    }
-                                )
+                                return Response(serializer.data)
                             else:
                                 return Response(
                                     serializer.errors, status=status.HTTP_400_BAD_REQUEST
