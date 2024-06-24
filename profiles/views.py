@@ -233,17 +233,6 @@ class SummonerMathcesByPuuidAPIView(APIView):
             raise NotFound("SummonerPuuid not found")
 
     def get(self, request, puuid):
-        # if len(puuid) == 0:
-        #     print("전체탐색")
-        #     matchesByAllPuuid = SummonerMatchesByPuuid.objects.all()
-        #     try:
-        #         serializer = serializers.SummonerMatchByMatchIdSerializer(
-        #             matchesByAllPuuid, many=True
-        #         )
-        #         return Response(serializer.data)
-        #     except matchesByAllPuuid.DoesNotExist:
-        #         return Response(serializer.data)
-        # else:
         matchesByPuuid = SummonerMatchesByPuuid.objects.filter(summoner_puuid=puuid)
 
         print("matchesByPuuid-len", len(matchesByPuuid))
@@ -268,9 +257,8 @@ class SummonerMathcesByPuuidAPIView(APIView):
         return Response(serializer.data)
 
     def post(self, request, puuid):
-        # puuid = request.data["puuid"]
-        # summoner_instance = self.get_object(request.data["puuid"])
         summoner_instance = SummonerPuuid.objects.get(puuid=puuid)
+        print("summoner_instance",summoner_instance)
 
         if not summoner_instance:
             return Response(
@@ -432,10 +420,7 @@ class EntryBySummonerAPIView(APIView):
                         if serializer.is_valid():
                             serializer.save()
                             return Response(
-                                {
-                                    "message": "Entry data success",
-                                    "data": serializer.data,
-                                }
+                                {serializer.data}
                             )
                         else:
                             return Response(
@@ -464,9 +449,45 @@ class EntryBySummonerDetailAPIView(APIView):
             raise NotFound
 
     def get(self, request, summonerId):
-        entryData = self.get_object(summonerId)
         try:
+            entryData = self.get_object(summonerId)
             serializer = serializers.LeagueEntryDTOSerializer(entryData)
             return Response(serializer.data)
-        except entryData.DoesNotExist:
-            raise NotFound
+        except Exception as e:
+            print("exception !!!",e)
+            entryBySummonerAPIURL = f"{ENTRY_BY_SUMMONER_URL}{summonerId}?api_key={API_KEY}"
+            try:
+                response = requests.get(entryBySummonerAPIURL)
+                print("response", response)
+                responseJson = response.json()
+                for summonerEntryData in responseJson:
+
+                    if summonerEntryData["queueType"] == "RANKED_TFT":
+                        if response.status_code == 200:
+                            serializer = serializers.LeagueEntryDTOSerializer(
+                                data=summonerEntryData
+                            )
+
+                            if serializer.is_valid():
+                                serializer.save()
+                                return Response(serializer.data)
+                            else:
+                                return Response(
+                                    {
+                                        "message" : "serializer 가 유효하지 않음",
+                                        "status_code": response.status_code,
+                                    }
+                                )
+                        else:
+                            return Response(
+                                {
+                                    "message": "라이엇 EntryBySummoner api 응답 실패 ",
+                                    "status_code": response.status_code,
+                                }
+                            )
+            except Exception as e:
+                return Response(
+                    {"message" : "라이엇에 없는 내용입니다 entry dto",
+                    "Exception": str(e),
+                    }
+                )
