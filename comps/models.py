@@ -9,6 +9,7 @@ class Comp(models.Model):
         "CompElement",
         related_name="comp_element",
     )
+    is_blind = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
