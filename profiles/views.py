@@ -226,18 +226,22 @@ class SummonerProfileDetailAPIView(APIView):
 
 # 특정 유저 puuid로 매치 ids GET, POST
 class SummonerMathcesByPuuidAPIView(APIView):
-    def get_object(self, puuid):
-        try:
-            return SummonerMatchesByPuuid.objects.get(summoner_puuid=puuid)
-        except SummonerMatchesByPuuid.DoesNotExist:
-            raise NotFound("SummonerPuuid not found")
 
     def get(self, request, puuid):
+        try:
+            SummonerPuuid.objects.get(puuid=puuid)
+        except SummonerPuuid.DoesNotExist:
+            return Response({"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND)
         matchesByPuuid = SummonerMatchesByPuuid.objects.filter(summoner_puuid=puuid)
 
-        print("matchesByPuuid-len", len(matchesByPuuid))
-        if not matchesByPuuid.exists():
-            raise NotFound("No matches found for the provided SummonerPuuid")
+        if len(matchesByPuuid) == 0:
+            # 데이터가 없으면 POST 요청을 내부적으로 호출
+            post_response = self.post(request, puuid)
+            if post_response.status_code != status.HTTP_200_OK:
+                return post_response
+            matchesByPuuid = SummonerMatchesByPuuid.objects.filter(summoner_puuid=puuid).order_by('-id')[:20]
+            if len(matchesByPuuid) == 0:
+                raise NotFound("match데이터가 없어서 puuid의 매치 데이터를 DB에 저장할 수 없음.")
         match_details = []
         for match in matchesByPuuid:
             try:
@@ -246,10 +250,8 @@ class SummonerMathcesByPuuidAPIView(APIView):
                 )
                 match_details.append(match_detail)
             except MatchDetailsByMatchId.DoesNotExist:
-                continue
+                raise NotFound("matchId는 있지만 해당 매치의 matchDetails는 없음")
 
-        if not match_details:
-            raise NotFound("No match details found for the provided SummonerPuuid")
 
         serializer = serializers.MatchDetailsByMatchIdSerializer(
             match_details, many=True
@@ -257,13 +259,10 @@ class SummonerMathcesByPuuidAPIView(APIView):
         return Response(serializer.data)
 
     def post(self, request, puuid):
-        summoner_instance = SummonerPuuid.objects.get(puuid=puuid)
-        print("summoner_instance",summoner_instance)
-
-        if not summoner_instance:
-            return Response(
-                {"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND
-            )
+        try:
+            summoner_instance = SummonerPuuid.objects.get(puuid=puuid)
+        except SummonerPuuid.DoesNotExist:
+            return Response({"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND)
 
         url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=20&api_key={API_KEY}"
 
@@ -275,47 +274,28 @@ class SummonerMathcesByPuuidAPIView(APIView):
                 if isinstance(matches_data, list) and matches_data:
                     match_instances = []
                     for match_id in matches_data:
-                        match_instances.append(
-                            SummonerMatchesByPuuid(
-                                summoner_puuid=summoner_instance, match_id=match_id
+                        if not SummonerMatchesByPuuid.objects.filter(
+                                summoner_puuid=summoner_instance, match_id=match_id).exists():
+                            match_instances.append(
+                                SummonerMatchesByPuuid(
+                                    summoner_puuid=summoner_instance, match_id=match_id
+                                )
                             )
-                        )
-
-                        # matchDetailUrl = f"https://asia.api.riotgames.com/tft/match/v1/matches/{match_id}?api_key={API_KEY}"
-                        # print("matchDetailUrl :", matchDetailUrl)
-                        # try:
-                        #     api_response = requests.get(matchDetailUrl)
-
-                        #     if api_response.status_code == 200:
-                        #         data = api_response.json()
-
-                        #         push_data = MatchDetailsByMatchId.objects.create(
-                        #             match_id=match_id,
-                        #             match_detail=data,
-                        #         )
-
-                        #         return Response(push_data)
-                        #     else:
-                        #         return Response(
-                        #             {
-                        #                 "error": "Failed to fetch match data",
-                        #                 "status_code": api_response.status_code,
-                        #             },
-                        #             status=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                        #         )
-
-                        # except requests.RequestException as e:
-                        #     return Response(
-                        #         {"error": str(e)},
-                        #         status=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                        #     )
-
-                    # 한 번에 매치들을 생성하고 저장
-                    SummonerMatchesByPuuid.objects.bulk_create(match_instances)
+                    # 매치들을 한 번에 생성하고 저장
+                    if match_instances:
+                        SummonerMatchesByPuuid.objects.bulk_create(match_instances)
+                     # 각 match_id에 대해 SummonerMatchByMatchIdAPIView의 post 요청을 수행
+                    for match_id in matches_data:
+                        match_id_post_response = SummonerMatchByMatchIdAPIView().post(request, match_id)
+                        if match_id_post_response.status_code not in [status.HTTP_200_OK, status.HTTP_201_CREATED]:
+                            return Response(
+                                {"error": f"Failed to save match details for match_id {match_id}"},
+                                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+                            )
 
                     return Response(
                         {
-                            "message": f"{len(matches_data)} match data saved successfully!"
+                            "message": f"{len(match_instances)} match data saved successfully!"
                         }
                     )
                 else:
@@ -326,7 +306,7 @@ class SummonerMathcesByPuuidAPIView(APIView):
             else:
                 return Response(
                     {
-                        "error": "Failed to fetch match data",
+                        "error": f"riot api 실패(https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=20&api_key=)",
                         "status_code": response.status_code,
                     },
                     status=response.status_code,
@@ -335,7 +315,6 @@ class SummonerMathcesByPuuidAPIView(APIView):
             return Response(
                 {"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
-
 
 # 특정 유저의 매치 id로 매치 정보 GET, POST
 class SummonerMatchByMatchIdAPIView(APIView):
@@ -346,17 +325,16 @@ class SummonerMatchByMatchIdAPIView(APIView):
             raise NotFound
 
     def get(self, request, matchId):
-        matchId = self.get_object(matchId)
+        match_detail  = self.get_object(matchId)
         try:
             serializer = serializers.MatchDetailsByMatchIdSerializer(
-                matchId,
+                match_detail,
             )
             return Response(serializer.data)
-        except matchId.DoesNotExist:
+        except match_detail.DoesNotExist:
             raise NotFound
 
     def post(self, request, matchId):
-        # matchId = request.data["matchId"]
         print("matchId", matchId)
         if not matchId:
             return Response(
@@ -371,14 +349,16 @@ class SummonerMatchByMatchIdAPIView(APIView):
             if api_response.status_code == 200:
                 data = api_response.json()
 
-                push_data = MatchDetailsByMatchId.objects.create(
+                match_instance, created = MatchDetailsByMatchId.objects.update_or_create(
                     match_id=matchId,
-                    match_detail=data,
+                    defaults={'match_detail': data},
                 )
 
-                return Response(push_data)
+                serializer = serializers.MatchDetailsByMatchIdSerializer(match_instance)
+                return Response(serializer.data, status=status.HTTP_201_CREATED if created else status.HTTP_200_OK)
             else:
                 return Response(
+
                     {
                         "error": "Failed to fetch match data",
                         "status_code": api_response.status_code,
