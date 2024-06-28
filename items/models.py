@@ -4,13 +4,13 @@ from django.db import models
 class Item(models.Model):
     """Model definition for Items"""
 
-    key = models.CharField(max_length=40, default="Eng_Key")
+    key = models.CharField(max_length=100, default="Eng_Key")
     ingameKey = models.CharField(max_length=40, default="TFT_")
-    name = models.CharField(max_length=40)
+    name = models.CharField(max_length=100)
     description = models.TextField()
     shortDesc = models.TextField(blank=True)
     imageUrl = models.URLField(
-        default="https://cdn.lolchess.gg/upload/images/items/AdaptiveHelm_1693209131-6665_tank_t4_jakshotheprotean.png"
+        default=""
     )
     composition1 = models.CharField(blank=True, max_length=50)
     composition2 = models.CharField(blank=True, max_length=50)
@@ -73,6 +73,11 @@ class Item(models.Model):
 
         # 새로 나온 아이템
         NEW = ("new", "New")
+        
+        # 상징 아이템
+        INKSHADW = ("inkshadw", "Inkshadw")
+        
+        STORYWEAVER = ("storyweaver", "Storyweaver")
 
     tag1 = models.TextField(
         choices=TagChoice.choices,
