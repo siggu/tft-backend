@@ -5,7 +5,7 @@ class Item(models.Model):
     """Model definition for Items"""
 
     key = models.CharField(max_length=100, default="Eng_Key")
-    ingameKey = models.CharField(max_length=40, default="TFT_")
+    ingameKey = models.CharField(max_length=100, default="TFT_")
     name = models.CharField(max_length=100)
     description = models.TextField()
     shortDesc = models.TextField(blank=True)
@@ -73,11 +73,6 @@ class Item(models.Model):
 
         # 새로 나온 아이템
         NEW = ("new", "New")
-        
-        # 상징 아이템
-        INKSHADW = ("inkshadw", "Inkshadw")
-        
-        STORYWEAVER = ("storyweaver", "Storyweaver")
 
     tag1 = models.TextField(
         choices=TagChoice.choices,
