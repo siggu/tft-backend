@@ -14,6 +14,7 @@ from .models import (
 )
 import requests
 import os
+from rest_framework.request import Request
 
 
 # 유저 이름+태그로 puuid 찾아내기 AccountDTO
@@ -190,11 +191,24 @@ class SummonerProfileDetailAPIView(APIView):
 
                             if serializer.is_valid():
                                 serializer.save()
-                                return Response(serializer.data)
-                            else:
-                                return Response(
-                                    serializer.errors, status=status.HTTP_400_BAD_REQUEST
-                                )
+
+                                # SummonerMathcesByPuuidAPIView의 post 메소드 호출
+                                request_data = {
+                                    "puuid": SummonerApidata["puuid"]
+                                }
+                                request_obj = Request(request=request, data=request_data)
+                                matches_update_view = SummonerMathcesByPuuidAPIView()
+                                update_response = matches_update_view.post(request_obj, SummonerApidata["puuid"])
+
+                                if update_response.status_code == status.HTTP_200_OK:
+                                    return Response(
+                                        {
+                                            "message": "SummonerPuuid Data and Matches Updated successfully",
+                                            "data": serializer.data,
+                                        }
+                                    )
+                                else:
+                                    return update_response
                         else:
                             return Response(
                                 {
@@ -252,7 +266,6 @@ class SummonerMathcesByPuuidAPIView(APIView):
             except MatchDetailsByMatchId.DoesNotExist:
                 raise NotFound("matchId는 있지만 해당 매치의 matchDetails는 없음")
 
-
         serializer = serializers.MatchDetailsByMatchIdSerializer(
             match_details, many=True
         )
@@ -274,17 +287,13 @@ class SummonerMathcesByPuuidAPIView(APIView):
                 if isinstance(matches_data, list) and matches_data:
                     match_instances = []
                     for match_id in matches_data:
-                        if not SummonerMatchesByPuuid.objects.filter(
-                                summoner_puuid=summoner_instance, match_id=match_id).exists():
-                            match_instances.append(
-                                SummonerMatchesByPuuid(
-                                    summoner_puuid=summoner_instance, match_id=match_id
-                                )
-                            )
-                    # 매치들을 한 번에 생성하고 저장
-                    if match_instances:
-                        SummonerMatchesByPuuid.objects.bulk_create(match_instances)
-                     # 각 match_id에 대해 SummonerMatchByMatchIdAPIView의 post 요청을 수행
+                        match_instance, created = SummonerMatchesByPuuid.objects.update_or_create(
+                            summoner_puuid=summoner_instance, 
+                            match_id=match_id
+                        )
+                        match_instances.append(match_instance)
+
+                    # 각 match_id에 대해 SummonerMatchByMatchIdAPIView의 post 요청을 수행
                     for match_id in matches_data:
                         match_id_post_response = SummonerMatchByMatchIdAPIView().post(request, match_id)
                         if match_id_post_response.status_code not in [status.HTTP_200_OK, status.HTTP_201_CREATED]:
