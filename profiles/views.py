@@ -324,6 +324,18 @@ class SummonerMathcesByPuuidAPIView(APIView):
             return Response(
                 {"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
+    
+    def delete(self, request, puuid):
+        try:
+            # 특정 puuid에 해당하는 모든 매치 데이터를 삭제
+            matches = SummonerMatchesByPuuid.objects.filter(summoner_puuid=puuid)
+            if matches.exists():
+                matches.delete()
+                return Response({"message": "전적 데이터가 성공적으로 삭제되었습니다."}, status=status.HTTP_200_OK)
+            else:
+                return Response({"error": "전적 데이터를 찾을 수 없습니다."}, status=status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 # 특정 유저의 매치 id로 매치 정보 GET, POST
 class SummonerMatchByMatchIdAPIView(APIView):
@@ -379,7 +391,6 @@ class SummonerMatchByMatchIdAPIView(APIView):
             return Response(
                 {"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
-
 
 class EntryBySummonerAPIView(APIView):
 
