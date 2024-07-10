@@ -60,3 +60,16 @@ class CompElement(models.Model):
             return f"{self.champion.name} {'★'*self.championLevelChoice} ({self.recommendedItem1.name}+{self.recommendedItem2.name}+{self.recommendedItem3.name})"
         else:
             return f"{self.champion.name} {'★'*self.championLevelChoice} "
+
+class MetaDecks(models.Model):
+    name = models.CharField(max_length=100)
+    decks = models.JSONField(
+        "json",
+        default=dict,
+    )
+class ItemUsage(models.Model):
+    name = models.CharField(max_length=100)
+    usages = models.JSONField(
+        "json",
+        default=dict,
+    )
