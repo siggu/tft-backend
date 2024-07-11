@@ -61,12 +61,13 @@ class CompElement(models.Model):
         else:
             return f"{self.champion.name} {'★'*self.championLevelChoice} "
 
-class MetaDecks(models.Model):
+class MetaDeck(models.Model):
     name = models.CharField(max_length=100)
     decks = models.JSONField(
         "json",
         default=dict,
     )
+
 class ItemUsage(models.Model):
     name = models.CharField(max_length=100)
     usages = models.JSONField(
