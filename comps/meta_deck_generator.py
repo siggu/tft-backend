@@ -10,8 +10,8 @@ from sklearn.preprocessing import MultiLabelBinarizer
 
 ROIT_API_KEY = os.getenv("RIOT_API_KEY")
 GAME_VERSION = "14.13"
-SEARCH_SCALE = 15
-MIN_ITEM_USAGE = 10
+SEARCH_SCALE = 40
+MIN_ITEM_USAGE = 20
 
 # API URL 정의
 CHALLENGER_API = f"https://kr.api.riotgames.com/tft/league/v1/challenger?queue=RANKED_TFT&api_key={ROIT_API_KEY}"
@@ -83,13 +83,13 @@ def process_data_and_generate_meta_decks():
     participants_df['top4'] = participants_df['placement'].apply(lambda x: 1 if x <= 4 else 0)
 
     # 유닛 정보를 문자열로 변환하여 조합으로 취급
-    participants_df['unit_combination'] = participants_df['units'].apply(lambda units: ','.join(sorted([unit['character_id'].replace('TFT11_', '') for unit in units])))
+    participants_df['unit_combination'] = participants_df['units'].apply(lambda units: ','.join(sorted([unit['character_id'] for unit in units])))
 
     # 각 챔피언별 아이템 정보를 추출하는 함수
     def extract_champion_items(units):
         champion_items = []
         for unit in units:
-            champion = unit['character_id'].replace('TFT11_', '')
+            champion = unit['character_id']
             items = unit.get('itemNames', [])
             if items:
                 champion_items.append((champion, items))
