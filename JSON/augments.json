@@ -1903,7 +1903,7 @@
     "ingameKey": "TFT7_Augment_LuckyGloves",
     "name": "행운의 장갑",
     "desc": "도적의 장갑이 항상 챔피언에게 최적의 아이템을 제공합니다. 연습용 장갑을 2개 획득합니다.",
-    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LuckyGloves_1661401690-lucky-gloves-iii (1).png",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LuckyGloves_1661401690-lucky-gloves-iii%20(1).png",
     "tier": 3,
     "championIngameKey": null
   },
@@ -1912,7 +1912,7 @@
     "ingameKey": "TFT7_Augment_LuckyGlovesPlus",
     "name": "행운의 장갑+",
     "desc": "도적의 장갑이 항상 챔피언에게 최적의 아이템을 제공합니다. 연습용 장갑을 3개 획득합니다.",
-    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LuckyGlovesPlus_1696975570-LuckyGloves_1661401690-lucky-gloves-iii (1).png",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LuckyGlovesPlus_1696975570-LuckyGloves_1661401690-lucky-gloves-iii%20(1).png",
     "tier": 3,
     "championIngameKey": null
   },

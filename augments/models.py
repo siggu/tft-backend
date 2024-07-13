@@ -15,7 +15,7 @@ class Augment(models.Model):
         null=True,
     )
     name = models.CharField(max_length=20)
-    desc = models.TextField(max_length=200)
+    desc = models.TextField(max_length=300)
     imageUrl = models.URLField(
         default="https://cdn.lolchess.gg/upload/images/items/ACutAbove_1685417489-A-Cut-Above-II.TFT_Set9.png"
     )
