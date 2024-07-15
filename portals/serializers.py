@@ -1,8 +1,13 @@
 from rest_framework.serializers import ModelSerializer
-from .models import Portal
+from .models import Set11Portal, Set12Portal
 
 
-class PortalSerializer(ModelSerializer):
+class Set11PortalSerializer(ModelSerializer):
     class Meta:
-        model = Portal
+        model = Set11Portal
+        fields = "__all__"
+
+class Set12PortalSerializer(ModelSerializer):
+    class Meta:
+        model = Set12Portal
         fields = "__all__"

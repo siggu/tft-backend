@@ -301,7 +301,7 @@
   },
   {
     "key": "GoldmancersStaff",
-    "ingameKey": "TFT7_Item_ShimmerscaleGoldmancersStaff",
+    "ingameKey": "TFTEvent5YR_Item_ShimmerscaleGoldmancersStaff",
     "name": "황금술사의 지팡이",
     "description": "[고유] 보유한 골드당 주문력을 1 획득하고 (최대 30골드) 적을 처치할 때마다 40% 확률로 1골드 획득",
     "shortDesc": "",

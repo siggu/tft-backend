@@ -1,9 +1,9 @@
 from django.contrib import admin
-from .models import Augment
+from .models import Set11Augment, Set12Augment
 
 
 # Register your models here.
-@admin.register(Augment)
+@admin.register(Set11Augment, Set12Augment)
 class AugmentAdmin(admin.ModelAdmin):
     list_display = (
         "key",

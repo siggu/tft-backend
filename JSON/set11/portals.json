@@ -49,13 +49,6 @@
     "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/spatula_icon.png"
   },
   {
-    "_type": "Unique",
-    "_key": "TFT_Portals_Unique_MaxHealthDecrease",
-    "title": "플레이어 체력 감소",
-    "desc": "85의 플레이어 체력을 지닌 상태에서 시작합니다.",
-    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/spatula_icon.png"
-  },
-  {
     "_type": "Augments",
     "_key": "TFT_Portals_Augments_TripleSilver",
     "title": "실버 연회",
@@ -75,13 +68,6 @@
     "title": "뒤집개",
     "desc": "뒤집개를 지닌 상태에서 시작합니다.",
     "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/spatula_icon.png"
-  },
-  {
-    "_type": "Augments",
-    "_key": "TFT_Portals_Augments_PrismaticGoldSilver",
-    "title": "데크레센도",
-    "desc": "이번 게임에서 증강을 프리즘, 골드, 실버 순으로 얻습니다.",
-    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
   },
   {
     "_type": "Augments",
@@ -119,32 +105,11 @@
     "_key": "TFT_Portals_Champions_DuplicatorStart"
   },
   {
-    "_type": "Gold",
-    "title": "최대 이자",
-    "desc": "최대 이자가 7골드로 증가합니다.",
-    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/coins_icon.png",
-    "_key": "TFT_Portals_Gold_MaxInterest"
-  },
-  {
     "_type": "Combat",
     "title": "조련사 감시자",
     "desc": "영구적인 상징 3개를 장착한 감시자를 하나 보유한 상태로 시작합니다.",
     "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/combat_icon.png",
     "_key": "TFT_Portals_Combat_WanderingTrainers"
-  },
-  {
-    "_type": "Gold",
-    "title": "아이템 수익",
-    "desc": "아이템을 완성할 때마다 2골드를 획득합니다.",
-    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/coins_icon.png",
-    "_key": "TFT_Portals_Gold_GoldPerItem"
-  },
-  {
-    "_type": "Items",
-    "title": "특성의 고서",
-    "desc": "게임 시작 시 특성의 고서 1개를 획득하며, 상징 4개 중 하나를 선택할 수 있습니다.",
-    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png",
-    "_key": "TFT_Portals_Items_TomeOfTraits"
   },
   {
     "_type": "Items",
@@ -157,42 +122,28 @@
     "_type": "Items",
     "_key": "TFT_Portals_Items_ComponentAnvil",
     "title": "조합 아이템 모루",
-    "desc": "조합 아이템 모루 @NumItems@개를 지닌 상태에서 시작합니다.",
+    "desc": "조합 아이템 모루 2개를 지닌 상태에서 시작합니다.",
     "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
   },
   {
     "_type": "Items",
     "_key": "TFT_Portals_Items_SupportAnvil",
     "title": "지원 아이템 모루",
-    "desc": "지원 아이템 모루 @NumItems@개를 보유한 상태로 시작합니다.",
+    "desc": "지원 아이템 모루 2개를 보유한 상태로 시작합니다.",
     "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
-  },
-  {
-    "_type": "Gold",
-    "_key": "TFT_Portals_Gold_TreasureCrab",
-    "title": "보물 줄게",
-    "desc": "매 전투에서 한 마리의 게가 전장을 떠돕니다. 게를 처치하는 플레이어는 1골드를 획득합니다.",
-    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/coins_icon.png"
   },
   {
     "_type": "Items",
     "_key": "TFT_Portals_Items_ArtifactAnvil",
     "title": "유물 모루",
-    "desc": "유물 모루 @NumItems@개를 지닌 상태에서 시작합니다. (강력한 아이템 선택)",
+    "desc": "유물 모루 1개를 지닌 상태에서 시작합니다. (강력한 아이템 선택)",
     "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
-  },
-  {
-    "_type": "Gold",
-    "_key": "TFT_Portals_Gold_GoldPerAugment",
-    "title": "증강 수익",
-    "desc": "증강을 선택할 때마다 보유한 증강 하나당 @GoldPerAugment@골드를 획득합니다.",
-    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/coins_icon.png"
   },
   {
     "_type": "Champions",
     "_key": "TFT_Portals_Champions_ChampionStart",
     "title": "3단계 챔피언",
-    "desc": "무작위 @Tier@단계 챔피언을 지닌 상태에서 시작합니다.",
+    "desc": "무작위 3단계 챔피언을 지닌 상태에서 시작합니다.",
     "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/champ_icon.png"
   },
   {
@@ -285,12 +236,5 @@
     "title": "챔피언 3명",
     "desc": "무작위 1단계 챔피언 3명을 지닌 상태에서 시작합니다.",
     "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/champ_icon.png"
-  },
-  {
-    "_type": "Default",
-    "_key": "TFT_Portals_Default_NoPortal",
-    "title": "게임 내 차원문 효과 없음",
-    "desc": "이 게임은 차원문 효과가 없습니다.",
-    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/no_portals.png"
   }
 ]

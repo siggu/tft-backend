@@ -1,10 +1,16 @@
 from rest_framework.serializers import ModelSerializer
-from .models import Item
+from .models import Set11Item, Set12Item
 from medias.serializers import PhotoSerializer
 
 
-class ItemSerializer(ModelSerializer):
+class Set11ItemSerializer(ModelSerializer):
 
     class Meta:
-        model = Item
+        model = Set11Item
+        fields = "__all__"
+
+class Set12ItemSerializer(ModelSerializer):
+
+    class Meta:
+        model = Set12Item
         fields = "__all__"
