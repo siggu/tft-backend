@@ -11,6 +11,7 @@ from .models import (
 # Register your models here.
 @admin.register(SummonerPuuid)
 class SummonerPuuidAdmin(admin.ModelAdmin):
+    search_fields = ["gameName"]
     list_display = (
         "gameName",
         "tagLine",

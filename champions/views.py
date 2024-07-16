@@ -111,8 +111,8 @@ class Set11ChampionDetail(APIView):
 
 class Set12Champions(APIView):
     def get(self, request):
-        champions = Set11Champion.objects.all()
-        serializer = serializers.Set12ChampionSerializer(
+        champions = Set12Champion.objects.all()
+        serializer = serializers.Set12ChampionDetailSerializer(
             champions,
             many=True,
         )

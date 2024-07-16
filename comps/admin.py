@@ -6,11 +6,13 @@ from .models import Set11Comp, Set11CompElement, Set11ItemUsage, Set11MetaDeck, 
 
 @admin.register(Set11Comp, Set12Comp)
 class CompAdmin(admin.ModelAdmin):
+    search_fields = ["name"]
     list_display = ("name",)
 
 
 @admin.register(Set11CompElement, Set12CompElement)
 class CompElementsAdmin(admin.ModelAdmin):
+    search_fields = ["name"]
     list_display = (
         "champion",
         "recommendedItem1",
@@ -28,11 +30,13 @@ class CompElementsAdmin(admin.ModelAdmin):
     
 @admin.register(Set11MetaDeck, Set12MetaDeck)
 class MetaDeckAdmin(admin.ModelAdmin):
+    search_fields = ["name"]
     list_display = [
         "name","decks",
     ]
 @admin.register(Set11ItemUsage, Set12ItemUsage)
 class ItemUsageAdmin(admin.ModelAdmin):
+    search_fields = ["name"]
     list_display = [
         "name","usages",
     ]

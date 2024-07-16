@@ -1,0 +1,215 @@
+[
+  {
+    "_type": "Augments",
+    "_key": "TFT_Portals_Augments_GoldThird",
+    "title": "골드 대단원",
+    "desc": "이번 게임에서 얻는 마지막 증강이 골드 티어가 됩니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
+  },
+  {
+    "_type": "Champions",
+    "_key": "TFT_Portals_Champions_RandomChampion",
+    "title": "챔피언 배달",
+    "desc": "스테이지당 두 번 고단계 챔피언을 얻습니다. 획득하는 챔피언의 단계는 게임 시간이 지나면서 올라갑니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/champ_icon.png"
+  },
+  {
+    "_type": "Items",
+    "_key": "TFT_Portals_Items_CompletedAnvil",
+    "title": "완성된 모루",
+    "desc": "완성 아이템 모루 1개를 지닌 상태에서 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
+  },
+  {
+    "_type": "Augments",
+    "_key": "TFT_Portals_Augments_TripleGold",
+    "title": "골드 향연",
+    "desc": "이번 게임에서 얻는 모든 증강이 골드 티어가 됩니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
+  },
+  {
+    "_type": "Unique",
+    "_key": "TFT_Portals_Unique_LootSubscription",
+    "title": "전리품 정기 구독",
+    "desc": "스테이지마다 수많은 전리품 중에서 무작위로 전리품을 획득합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/spatula_icon.png"
+  },
+  {
+    "_type": "Unique",
+    "_key": "TFT_Portals_Unique_CrabRave",
+    "title": "광란의 게판",
+    "desc": "춤추는 게가 몬스터를 대체하고 추가 전리품을 떨어뜨립니다. 5 스테이지 이후에 출현하는 게는 극도로 위험해집니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/spatula_icon.png"
+  },
+  {
+    "_type": "Champions",
+    "_key": "TFT_Portals_Champions_UpgradedChampions",
+    "title": "업그레이드된 챔피언",
+    "desc": "무작위 2성 1단계 챔피언을 지닌 상태에서 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/champ_icon.png"
+  },
+  {
+    "_type": "Unique",
+    "_key": "TFT_Portals_Unique_Spatula",
+    "title": "뒤집개",
+    "desc": "뒤집개를 지닌 상태에서 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/spatula_icon.png"
+  },
+  {
+    "_type": "Augments",
+    "_key": "TFT_Portals_Augments_PrismaticFirst",
+    "title": "프리즘 전주곡",
+    "desc": "이번 게임에서 처음으로 얻는 증강이 프리즘 티어가 됩니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
+  },
+  {
+    "_type": "Champions",
+    "_key": "TFT_Portals_Champions_TailoredChampion",
+    "title": "챔피언 회의",
+    "desc": "스테이지마다 팀 조합에 맞는 챔피언을 획득합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/champ_icon.png"
+  },
+  {
+    "_type": "Gold",
+    "title": "골드 단지",
+    "desc": "스테이지 6-1에서 모든 생존한 플레이어가 250골드를 나누어 획득합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/coins_icon.png",
+    "_key": "TFT_Portals_Gold_Cashout"
+  },
+  {
+    "_type": "Gold",
+    "_key": "TFT_Portals_Gold_GoldStart",
+    "title": "골드 개막식",
+    "desc": "7골드를 추가로 보유한 상태로 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/coins_icon.png"
+  },
+  {
+    "_type": "Champions",
+    "title": "챔피언 복제기",
+    "desc": "챔피언 복제기를 지닌 상태에서 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/champ_icon.png",
+    "_key": "TFT_Portals_Champions_DuplicatorStart"
+  },
+  {
+    "_type": "Combat",
+    "title": "조련사 골렘",
+    "desc": "영구적인 상징 3개를 장착한 골렘을 하나 보유한 상태로 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/combat_icon.png",
+    "_key": "TFT_Portals_Combat_WanderingTrainers"
+  },
+  {
+    "_type": "Items",
+    "_key": "TFT_Portals_Items_TacticiansCrown",
+    "title": "전략가의 왕관",
+    "desc": "전략가의 왕관(팀 규모 +1 증가)을 보유한 상태로 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
+  },
+  {
+    "_type": "Items",
+    "_key": "TFT_Portals_Items_ComponentAnvil",
+    "title": "조합 아이템 모루",
+    "desc": "조합 아이템 모루 2개를 지닌 상태에서 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
+  },
+  {
+    "_type": "Items",
+    "_key": "TFT_Portals_Items_SupportAnvil",
+    "title": "지원 아이템 모루",
+    "desc": "지원 아이템 모루 2개를 보유한 상태로 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
+  },
+  {
+    "_type": "Items",
+    "_key": "TFT_Portals_Items_ArtifactAnvil",
+    "title": "유물 모루",
+    "desc": "유물 모루 1개를 지닌 상태에서 시작합니다. (강력한 아이템 선택)",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
+  },
+  {
+    "_type": "Champions",
+    "_key": "TFT_Portals_Champions_ChampionStart",
+    "title": "3단계 챔피언",
+    "desc": "무작위 3단계 챔피언을 지닌 상태에서 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/champ_icon.png"
+  },
+  {
+    "_type": "Augments",
+    "_key": "TFT_Portals_Augments_SilverGoldPrismatic",
+    "title": "승천의 증강",
+    "desc": "이번 게임에서 증강을 실버, 골드, 프리즘 순으로 얻습니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
+  },
+  {
+    "_type": "Items",
+    "_key": "TFT_Portals_Items_ComponentFeast",
+    "title": "입맛대로 고르는 모루",
+    "desc": "모든 아이템이 조합 아이템 모루로 제공됩니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
+  },
+  {
+    "_type": "Augments",
+    "_key": "TFT_Portals_Augments_PrismaticThird",
+    "title": "프리즘 대단원",
+    "desc": "이번 게임에서 얻는 마지막 증강이 프리즘 티어가 됩니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
+  },
+  {
+    "_type": "Gold",
+    "_key": "TFT_Portals_Gold_GoldSubscription",
+    "title": "골드 구독",
+    "desc": "스테이지마다 골드를 무작위로 획득합니다. 모든 플레이어가 같은 양의 골드를 획득합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/coins_icon.png"
+  },
+  {
+    "_type": "Augments",
+    "_key": "TFT_Portals_Augments_TriplePrismatic",
+    "title": "프리즘 연회",
+    "desc": "이번 게임에서 얻는 모든 증강이 프리즘 티어가 됩니다. ",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
+  },
+  {
+    "_type": "Items",
+    "_key": "TFT_Portals_Items_RadiantItem",
+    "title": "찬란한 아이템",
+    "desc": "스테이지 3-7에서 자석 제거기 1개와 매우 강력한 완성 아이템인 찬란한 아이템 5개 중 하나를 선택하여 얻습니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/item_icon.png"
+  },
+  {
+    "_type": "Unique",
+    "_key": "TFT_Portals_Unique_ScuttlePuddle",
+    "title": "바위 게 웅덩이",
+    "desc": "몬스터가 추가 전리품을 주는 게로 대체됩니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/spatula_icon.png"
+  },
+  {
+    "_type": "Unique",
+    "_key": "TFT_Portals_Unique_RadiantBlessing",
+    "title": "신성한 축복",
+    "desc": "플레이어 체력이 40에 도달하면 강력한 전리품이 든 축복을 받습니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/spatula_icon.png"
+  },
+  {
+    "_type": "Augments",
+    "_key": "TFT_Portals_Augments_GoldFirst",
+    "title": "골드 전주곡",
+    "desc": "이번 게임에서 처음으로 얻는 증강이 골드 티어가 됩니다. ",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/augmentcards_icon.png"
+  },
+  {
+    "_type": "Combat",
+    "_key": "TFT_Portals_Combat_MaxHealthIncrease",
+    "title": "거대한 전설이",
+    "desc": "115의 플레이어 체력을 지닌 상태에서 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/combat_icon.png"
+  },
+  {
+    "_type": "Champions",
+    "_key": "TFT_Portals_Champions_TripleStart",
+    "title": "챔피언 3명",
+    "desc": "무작위 1단계 챔피언 3명을 지닌 상태에서 시작합니다.",
+    "iconImageUrl": "https://s-tft-api.op.gg/img/set/11/tft-region-portal/champ_icon.png"
+  },
+  {
+    "_comment": "아이템 수익, 공동 선택 아이템 증가, 보물 골렘, 보물 무기고, 조련사 골렘, 자수성가 (추가 필요)"
+  }
+]
