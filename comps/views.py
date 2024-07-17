@@ -24,10 +24,14 @@ class Set11MetaDecks(APIView):
     def post(self, request):
         try:
             meta_decks, item_usage = process_data_and_generate_meta_decks()
+            print("meta_decks",meta_decks)
+            print("item_usage",item_usage)
 
             # 메타 덱 저장
-            MetaDeck.objects.all().delete()  # 기존 데이터 삭제
+            Set11MetaDeck.objects.all().delete()  # 기존 데이터 삭제
             for name, decks in meta_decks.items():
+                print("name",name)
+                print("decks",decks)
                 serializer = serializers.Set11MetaDeckSerializer(data={'name': name, 'decks': decks})
                 if serializer.is_valid():
                     serializer.save()
@@ -35,9 +39,9 @@ class Set11MetaDecks(APIView):
                     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
             # 아이템 사용량 저장
-            ItemUsage.objects.all().delete()  # 기존 데이터 삭제
+            Set11ItemUsage.objects.all().delete()  # 기존 데이터 삭제
             for champion, usages in item_usage.items():
-                serializer = serializers.ItemUsageSerializer(data={'name': champion, 'usages': usages})
+                serializer = serializers.Set11ItemUsageSerializer(data={'name': champion, 'usages': usages})
                 if serializer.is_valid():
                     serializer.save()
                 else:
@@ -56,7 +60,7 @@ class Set11MetaItems(APIView):
 
 class Set12Comps(APIView):
     def get(self, request):
-        comps = Comp.objects.all()
+        comps = Set12Comp.objects.all()
         serializer = serializers.Set12CompSerializer(
             comps,
             many=True,
@@ -73,7 +77,7 @@ class Set12MetaDecks(APIView):
             meta_decks, item_usage = process_data_and_generate_meta_decks()
 
             # 메타 덱 저장
-            MetaDeck.objects.all().delete()  # 기존 데이터 삭제
+            Set12MetaDeck.objects.all().delete()  # 기존 데이터 삭제
             for name, decks in meta_decks.items():
                 serializer = serializers.Set12MetaDeckSerializer(data={'name': name, 'decks': decks})
                 if serializer.is_valid():
@@ -82,7 +86,7 @@ class Set12MetaDecks(APIView):
                     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
             # 아이템 사용량 저장
-            ItemUsage.objects.all().delete()  # 기존 데이터 삭제
+            Set12ItemUsage.objects.all().delete()  # 기존 데이터 삭제
             for champion, usages in item_usage.items():
                 serializer = serializers.Set12ItemUsageSerializer(data={'name': champion, 'usages': usages})
                 if serializer.is_valid():
