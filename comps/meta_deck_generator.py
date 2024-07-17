@@ -123,9 +123,11 @@ def process_data_and_generate_meta_decks():
     # 챔피언별 추천 아이템 조합 도출 (최소 40번 이상 사용된 아이템만 포함)
     recommended_items = {}
     for champion, items_dict in champion_item_usage.items():
-        sorted_items = [item for item, count in items_dict.items() if count >= MIN_ITEM_USAGE]
-        if len(sorted_items) >= 3:
-            recommended_items[champion] = sorted_items[:3]
+        # items_dict를 사용된 아이템 횟수 기준으로 정렬
+        sorted_items = sorted(items_dict.items(), key=lambda item: item[1], reverse=True)
+        filtered_items = [item for item, count in sorted_items if count >= MIN_ITEM_USAGE]
+        if len(filtered_items) >= 3:
+            recommended_items[champion] = filtered_items[:3]
         else:
             recommended_items[champion] = []
 
@@ -139,7 +141,7 @@ def process_data_and_generate_meta_decks():
     participants_df = pd.concat([participants_df, units_df], axis=1)
 
     # K-Means 군집화
-    kmeans = KMeans(n_clusters=10, random_state=42)
+    kmeans = KMeans(n_clusters=7, random_state=42)
     participants_df['cluster'] = kmeans.fit_predict(unit_matrix)
 
     # 각 클러스터의 중심점 (메타 덱)
@@ -151,7 +153,7 @@ def process_data_and_generate_meta_decks():
     # 각 클러스터의 중심점에서 빈도 높은 챔피언을 메타 덱으로 도출
     meta_decks = {}
     for i, row in clustered_units_df.iterrows():
-        top_champions = row.sort_values(ascending=False).head(10).index.tolist()
+        top_champions = row.sort_values(ascending=False).head(9).index.tolist()
         meta_deck = []
         for champion in top_champions:
             items = recommended_items.get(champion, [])
