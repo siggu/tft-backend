@@ -441,7 +441,7 @@
     "magicalResistance": 40,
     "skill": {
       "name": "학살",
-      "imageUrl": "http://cdn.lolchess.gg/upload/images/champion-skills/Darius_1709099642-darius_icon_decimate.png",
+      "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Darius_1709099642-darius_icon_decimate%20(1).png",
       "desc": "주변 적에게 마법 피해를 입힙니다. 다음 4초 동안 기본 공격 시 추가 마법 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 30,
@@ -1941,43 +1941,43 @@
       "TFT_Item_GuardianAngel"
     ]
   },
-    {
-      "key": "Xayah",
-      "ingameKey": "TFT11_Xayah",
-      "name": "자야",
-      "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Xayah_1709358334-Xayah.jpg",
-      "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Xayah.png",
-      "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Xayah_18_1709621616-Xayah.jpg",
-      "traits": ["Dragonlord", "Lovers", "Trickshot"],
-      "cost": [5, 14, 44],
-      "health": [900, 1620, 2916],
-      "attackDamage": [85, 128, 191],
-      "damagePerSecond": [77, 115, 172],
-      "attackRange": 4,
-      "attackSpeed": 0.9,
-      "armor": 40,
-      "magicalResistance": 40,
-      "skill": {
-        "name": "깃털의 비상!",
-        "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Xayah_1709174243-xayahw.png",
-        "desc": "가장 가까운 적 4명에게 깃털 12개를 날려 각각 물리 피해를 입힙니다. 이후 깃털을 불러들여 통과하는 적에게 물리 피해를 입힙니다.",
-        "startingMana": 30,
-        "skillMana": 90,
-        "stats": [
-          "피해량: 공격력의 70% / 70% / 500%",
-          "공격력 비례 회수 피해량: 35% / 35% / 500%",
-          "주문력 비례 회수 피해량: 15% / 25% / 75%",
-          "회수 피해량: 공격력 비례 회수 피해량 + 주문력 비례 회수 피해량"
-        ]
-      },
-      "recommendItems": [
-        "TFT_Item_GuinsoosRageblade",
-        "TFT_Item_InfinityEdge",
-        "TFT_Item_MadredsBloodrazor",
-        "TFT_Item_LastWhisper",
-        "TFT_Item_Deathblade"
+  {
+    "key": "Xayah",
+    "ingameKey": "TFT11_Xayah",
+    "name": "자야",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Xayah_1709358334-Xayah.jpg",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.8.1/img/champion/Xayah.png",
+    "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Xayah_18_1709621616-Xayah.jpg",
+    "traits": ["Dragonlord", "Lovers", "Trickshot"],
+    "cost": [5, 14, 44],
+    "health": [900, 1620, 2916],
+    "attackDamage": [85, 128, 191],
+    "damagePerSecond": [77, 115, 172],
+    "attackRange": 4,
+    "attackSpeed": 0.9,
+    "armor": 40,
+    "magicalResistance": 40,
+    "skill": {
+      "name": "깃털의 비상!",
+      "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Xayah_1709174243-xayahw.png",
+      "desc": "가장 가까운 적 4명에게 깃털 12개를 날려 각각 물리 피해를 입힙니다. 이후 깃털을 불러들여 통과하는 적에게 물리 피해를 입힙니다.",
+      "startingMana": 30,
+      "skillMana": 90,
+      "stats": [
+        "피해량: 공격력의 70% / 70% / 500%",
+        "공격력 비례 회수 피해량: 35% / 35% / 500%",
+        "주문력 비례 회수 피해량: 15% / 25% / 75%",
+        "회수 피해량: 공격력 비례 회수 피해량 + 주문력 비례 회수 피해량"
       ]
     },
+    "recommendItems": [
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_MadredsBloodrazor",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_Deathblade"
+    ]
+  },
   {
     "key": "XayahRakan",
     "ingameKey": "TFT11_XayahRakanDummy",

@@ -1,0 +1,4884 @@
+[
+  {
+    "key": "Accomplice",
+    "ingameKey": "TFT11_Augment_Accomplice",
+    "name": "공범",
+    "desc": "지원형 도적의 장갑과 2골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Accomplice_1709770177-accomplice_iii.tft_set11.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ACutAbove",
+    "ingameKey": "TFT9_Augment_ACutAbove",
+    "name": "한 수 위",
+    "desc": "죽음의 검을 획득합니다. 죽음의 검을 장착한 챔피언이 적을 처치 시 20% 확률로 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ACutAbove_1685417489-A-Cut-Above-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ACutAboveHR",
+    "ingameKey": "TFT9_Augment_ACutAboveHR",
+    "name": "한 수 위",
+    "desc": "죽음의 검을 획득합니다. 이 아이템을 보유한 챔피언이 적 처치 시 25%의 확률로 2골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ACutAbove_1685417489-A-Cut-Above-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "AFK",
+    "ingameKey": "TFT7_Augment_AFK",
+    "name": "자리 비움",
+    "desc": "다음 3라운드 동안 아무 행동을 취할 수 없습니다. 이후에 18골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AFK_1653546570.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "AirspeedVelocity1",
+    "ingameKey": "TFT9_Augment_AirspeedVelocity1",
+    "name": "가벼운 몸 I",
+    "desc": "아이템이 없는 아군 유닛이 30%의 공격 속도를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AirspeedVelocity1_1685605279-Unladen-Airspeed-Velocity-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "AirspeedVelocity2",
+    "ingameKey": "TFT9_Augment_AirspeedVelocity2",
+    "name": "가벼운 몸 II",
+    "desc": "아이템이 없는 아군 유닛이 55%의 공격 속도를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AirspeedVelocity2_1685606327-Unladen-Airspeed-Velocity-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "AllNatural",
+    "ingameKey": "TFT9_Augment_AllNatural",
+    "name": "타고난 체력 I",
+    "desc": "아이템이 없는 아군 유닛이 120의 체력을 얻고 매 초 최대 체력의 1%만큼 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AllNatural_1685415753-All-Natural-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "AllNatural2",
+    "ingameKey": "TFT9_Augment_AllNatural2",
+    "name": "타고난 체력 II",
+    "desc": "아이템이 없는 아군 유닛이 150의 체력을 얻고 매 초 최대 체력의 2%만큼 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AllNatural2_1685415771-All-Natural-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ArmyBuilding",
+    "ingameKey": "TFT9_Augment_ArmyBuilding",
+    "name": "끈끈한 우정",
+    "desc": "하급 챔피언 복제기를 획득합니다. 플레이어 대상 전투를 7회 치른 후 다시 획득합니다.<br><br>3단계 이하의 챔피언을 복제할 수 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ArmyBuilding_1685415960-Building-an-army-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "ArmyBuildingHR",
+    "ingameKey": "TFT9_Augment_ArmyBuildingHR",
+    "name": "끈끈한 우정",
+    "desc": "하급 챔피언 복제기를 획득합니다. 플레이어 대상 전투를 3회 치른 후 다시 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ArmyBuilding_1685415960-Building-an-army-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "AtWhatCost",
+    "ingameKey": "TFT11_Augment_AtWhatCost",
+    "name": "응당한 대가",
+    "desc": "즉시 6레벨이 됩니다. 추후 증강을 선택할 수 없습니다. 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AtWhatCost_1709770185-atwhatcost_iii.tft_set11.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "AxiomArcI",
+    "ingameKey": "TFT7_Augment_AxiomArc1",
+    "name": "원칙의 원형낫 I",
+    "desc": "아군 유닛이 적 처치 시 25 마나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AxiomArcI_1653545056.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "AxiomArcII",
+    "ingameKey": "TFT7_Augment_AxiomArc2",
+    "name": "원칙의 원형낫 II",
+    "desc": "아군 유닛이 적 처치 시 30 마나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AxiomArcII_1653545065.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BaBOOM",
+    "ingameKey": "TFT11_Augment_BaBoom",
+    "name": "콰쾅!",
+    "desc": "아군 챔피언이 스킬을 두 번째로 사용할 때마다 2초 동안 챔피언의 피해량이 90% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BaBOOM_1710286562-baboom_iii.tft_set11.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BalancedBudget",
+    "ingameKey": "TFT9_Augment_BalancedBudget",
+    "name": "균형 예산",
+    "desc": "다음 4번의 라운드 시작 시 7골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BalancedBudget_1709777838-balanced-budget-ii.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BalancedBudget2",
+    "ingameKey": "TFT9_Augment_BalancedBudget2",
+    "name": "균형 예산",
+    "desc": "다음 4번의 라운드 시작 시 7골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BalancedBudget2_1685601625-balanced-budget-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BalancedBudget2Plus",
+    "ingameKey": "TFT9_Augment_BalancedBudgetPlus",
+    "name": "균형 예산+",
+    "desc": "다음 4번의 라운드 시작 시 9골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BalancedBudget2Plus_1707263962-BalancedBudget2_1685601625-balanced-budget-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BalancedBudget3",
+    "ingameKey": "TFT9_Augment_BalancedBudget3",
+    "name": "균형 예산 III",
+    "desc": "다음 4번의 라운드 시작 시 10골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BalancedBudget3_1685601635-balanced-budget-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BandOfThieves2",
+    "ingameKey": "TFT6_Augment_BandOfThieves2",
+    "name": "도둑 무리 II",
+    "desc": "도적의 장갑 2개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/bandthieves3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BandofThievesI",
+    "ingameKey": "TFT7_Augment_BandOfThieves1",
+    "name": "도둑 무리 I",
+    "desc": "도적의 장갑 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BandofThievesI_1653545314.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BardPlaybook1",
+    "ingameKey": "TFT9_Augment_BardPlaybook1",
+    "name": "수호자의 친구",
+    "desc": "즉시 무작위 2단계 챔피언을 획득합니다. 레벨을 올릴 때마다 동일한 챔피언을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BardPlaybook1_1685937379-caretaker_s-chosen-i.tft_set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BardPlaybook2",
+    "ingameKey": "TFT9_Augment_BardPlaybook2",
+    "name": "수호자의 호의",
+    "desc": "5, 6, 7, 8레벨에 도달하면 조합 아이템 모루를 획득합니다.<br><br>모루가 4가지 선택지를 제시합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BardPlaybook2_1685937389-caretaker_s-chosen-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BardPlaybook3",
+    "ingameKey": "TFT9_Augment_BardPlaybook3",
+    "name": "수호자의 선택",
+    "desc": "레벨 업하면 강력한 아이템을 획득합니다.<br>4레벨: 조합 아이템 모루<br>6레벨: 완성 아이템 모루<br>8레벨: 찬란한 아이템 5가지 중 1개 선택",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BardPlaybook3_1685937370-caretaker_s-chosen-iii.tft_set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BattlemageI",
+    "ingameKey": "TFT6_Augment_Battlemage1",
+    "name": "전투 마법사 I",
+    "desc": "전방 2열에서 전투를 시작하는 아군 유닛이 15의 방어력과 15의 주문력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BattlemageI_1662627650-battlemage-i-a.tft_set7.5.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BattlemageII",
+    "ingameKey": "TFT6_Augment_Battlemage2",
+    "name": "전투 마법사 II",
+    "desc": "전방 2열에서 전투를 시작하는 아군 유닛이 25의 방어력과 25의 주문력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BattlemageII_1662627791-battlemage-ii-a.tft_set7.5.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BattlemageIII",
+    "ingameKey": "TFT6_Augment_Battlemage3",
+    "name": "전투 마법사 III",
+    "desc": "전방 2열에서 전투를 시작하는 아군 유닛이 35의 방어력과 35의 주문력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BattlemageIII_1662628186-battlemage-iii-a.tft_set7.5.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BattleReady",
+    "ingameKey": "TFT9_Augment_BattleReady",
+    "name": "전투 준비",
+    "desc": "아군이 피해를 3% 더 입히고 3% 덜 받습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BattleReady_1685601465-battle-ready-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null,
+    "legendCodes": ["Vladimir", "Master Yi"]
+  },
+  {
+    "key": "BattleReadyII",
+    "ingameKey": "TFT9_Augment_BattleReadyII",
+    "name": "전투 준비 II",
+    "desc": "아군이 피해를 6% 더 입히고 6% 덜 받습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BattleReadyII_1685601476-battle-ready-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null,
+    "legendCodes": ["Vladimir", "Master Yi"]
+  },
+  {
+    "key": "BattleReadyIII",
+    "ingameKey": "TFT9_Augment_BattleReadyIII",
+    "name": "전투 준비 III",
+    "desc": "아군이 피해를 8% 더 입히고 8% 덜 받습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BattleReadyIII_1685601485-battle-ready-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Vladimir", "Master Yi"]
+  },
+  {
+    "key": "BestFriends1",
+    "ingameKey": "TFT7_Augment_BestFriends1",
+    "name": "최고의 친구 I",
+    "desc": "둘이서 고립된 유닛은 전투 시작 시 공격 속도가 12%, 방어력이 12 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BestFriends1_1699493725-best-friends-i.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BestFriends2",
+    "ingameKey": "TFT7_Augment_BestFriends2",
+    "name": "최고의 친구 II",
+    "desc": "둘이서 고립된 유닛은 전투 시작 시 공격 속도가 15%, 방어력이 20 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BestFriends2_1699493720-best-friends-ii.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BetterTogether",
+    "ingameKey": "TFT7_Augment_MikaelsGift",
+    "name": "집단 강화",
+    "desc": "팀에 이로운 효과를 부여하는 오오라 아이템의 효과가 33% 증가합니다. 강철의 솔라리 펜던트를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BetterTogether_1653545361.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BigFriend",
+    "ingameKey": "TFT7_Augment_BigFriend",
+    "name": "커다란 친구 I",
+    "desc": "체력이 1600이상인 유닛 옆에서 전투를 시작하는 유닛은 남은 전투 시간 동안 9%의 피해를 덜 받습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BigFriend_1653545421.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BigFriend2",
+    "ingameKey": "TFT7_Augment_BigFriend2",
+    "name": "커다란 친구 II",
+    "desc": "체력이 1600 이상인 유닛 옆에서 전투를 시작하는 유닛은 남은 전투 시간 동안 10%의 피해를 덜 받습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BigFriend2_1654828042.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BigGains",
+    "ingameKey": "TFT10_Augment_BigGains",
+    "name": "막대한 이익",
+    "desc": "아군이 100의 추가 체력을 얻습니다. 적 처치에 2회 관여할 때마다, 아군의 체력이 영구적으로 10만큼 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BigGains_1699838105-big-gains-ii.tft_set10.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BigGrabBag",
+    "ingameKey": "TFT9_Augment_BigGrabBag",
+    "name": "큰 꾸러미",
+    "desc": "무작위 조합 아이템 3개, 2골드, 재조합기를 획득합니다.<br><br>재조합기로 어떤 아이템이든 다시 만들 수 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BigGrabBag_1685601074-grab-bag-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BinaryAirdrop",
+    "ingameKey": "TFT6_Augment_BinaryAirdrop",
+    "name": "이중 공중 보급",
+    "desc": "전투 시작: 2개의 아이템을 장착한 챔피언에게 임시로 어울리는 3번째 완성 아이템을 부여합니다. 2골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BinaryAirdrop_1654642099.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BirthdayPresents",
+    "ingameKey": "TFT7_Augment_BirthdayPresents",
+    "name": "생일 선물",
+    "desc": "레벨 업할 때마다 2성 챔피언을 획득합니다. 획득하는 챔피언의 단계는 상점 레벨보다 4 낮습니다. (최소 1단계)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BirthdayPresent_1663124260-golden-gifts-iii.tft.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BlankSlate",
+    "ingameKey": "TFT10_Augment_BlankSlate",
+    "name": "새로운 출발",
+    "desc": "즉시 대기석을 포함한 팀 전체를 판매하고 판매 금액의 두 배에 해당하는 골드를 획득합니다. 이번 라운드 동안 다음 8회의 상점 새로고침이 무료가 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BlankSlate_1699838146-blank-slate-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BlindingSpeed",
+    "ingameKey": "TFT9_Augment_BlindingSpeed",
+    "name": "빛의 속도",
+    "desc": "붉은 덩굴정령, 구인수의 격노검, 곡궁, 자석 제거기를 획득합니다.<br><br>공격력 기반 원거리 딜러에게 유용합니다!",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BlindingSpeed_1685936539-berserk-iii.tft_set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BloodBank",
+    "ingameKey": "TFT11_Augment_BloodBank",
+    "name": "점심값",
+    "desc": "적 전략가에게 8의 피해를 입힐 때마다 2골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BloodBank_1709769441-bloodbank_i.tft_set11.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BloodMoney",
+    "ingameKey": "TFT9_Augment_BloodMoney",
+    "name": "목숨값",
+    "desc": "전략가의 잃은 체력 10당 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BloodMoney_1685415809-Blood-Money-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BlueBattery1",
+    "ingameKey": "TFT6_Augment_BlueBattery1",
+    "name": "파란색 배터리 I",
+    "desc": "모든 아군이 주문력을 8 얻습니다. 스킬 사용 후 시전자가 10의 마나 상태가 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BlueBattery1_1662613855-blue-battery-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BlueBattery3",
+    "ingameKey": "TFT6_Augment_BlueBattery2",
+    "name": "파란색 배터리 II",
+    "desc": "모든 아군이 주문력을 20 얻습니다. 스킬 사용 후 시전자가 20의 마나 상태가 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BlueBattery3_1662614105-blue-battery-iii.tft_set7.5.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BranchingOut",
+    "ingameKey": "TFT_Augment_BranchingOut",
+    "name": "가지 뻗기",
+    "desc": "무작위 상징과 재조합기를 획득합니다.<br><br>재조합기로 어떤 아이템이든 다시 만들 수 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BranchingOut_1685415068-Branching-Out-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BronzeTicket",
+    "ingameKey": "TFT9_Augment_BronzeTicket",
+    "name": "실버 티켓",
+    "desc": "상점을 4번 새로고칠 때마다 무료 상점 새로고침 기회를 획득합니다. 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BronzeTicket_1699850478-goldenticket1.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BruiserTitanicStrength",
+    "ingameKey": "TFT9_Augment_BruiserTitanicStrength",
+    "name": "거대한 힘",
+    "desc": "난동꾼이 최대 체력 1.5%에 해당하는 공격력을 얻습니다. 난동꾼 유닛 2명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BruiserTitanicStrength_1685602674-titanic-strength-ii.tft_set7.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BuildaBud",
+    "ingameKey": "TFT11_Augment_Buildabud",
+    "name": "친구 만들기!",
+    "desc": "무작위 3성 1단계 챔피언과 8골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BuildaBud_1709714964-buildabud_iii.tft_set11.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BuildingACollection",
+    "ingameKey": "TFT9_Augment_BuildingACollection",
+    "name": "파묻힌 보물 I",
+    "desc": "다음 2번의 라운드 시작 시 무작위 조합 아이템을 획득합니다. (이번 라운드 포함)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BuildingACollection_1685601539-buried-treasures-i.tft_set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BuildingACollectionPlus",
+    "ingameKey": "TFT9_Augment_BuildingACollectionPlus",
+    "name": "파묻힌 보물 II",
+    "desc": "다음 3번의 라운드 시작 시 무작위 조합 아이템을 획득합니다. (이번 라운드 포함)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BuildingACollectionPlus_1685601554-buried-treasures-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BuildingACollectionPlusPlus",
+    "ingameKey": "TFT9_Augment_BuildingACollectionPlusPlus",
+    "name": "파묻힌 보물 III",
+    "desc": "다음 6번의 라운드 시작 시 무작위 조합 아이템을 획득합니다. (이번 라운드 포함)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BuildingACollectionPlusPlus_1685601580-buried-treasures-iii.tft_set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "CalculatedLoss",
+    "ingameKey": "TFT6_Augment_CalculatedLoss",
+    "name": "계산된 패배",
+    "desc": "전투에서 패배한 후 2골드와 무료 상점 새로고침 1회를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CalculatedLoss_1654642247.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CapriciousForge",
+    "ingameKey": "TFT9_Augment_CapriciousForge",
+    "name": "변덕스러운 대장간",
+    "desc": "대장장이의 장갑을 획득합니다. 라운드마다 무작위 유물 2개를 장착합니다.<br><br>유물은 고유한 효과를 지닌 강력한 아이템입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CapriciousForge_1685414769-Prototype-Forge-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CelestialBlessing1",
+    "ingameKey": "TFT6_Augment_CelestialBlessing1",
+    "name": "천상의 축복 I",
+    "desc": "아군 유닛이 공격과 스킬로 입힌 피해의 10%만큼 체력을 회복합니다. 초과된 회복량은 최대 200의 피해를 흡수하는 보호막으로 전환됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/celestialblessing1.tft_set6.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CelestialBlessing2",
+    "ingameKey": "TFT6_Augment_CelestialBlessing2",
+    "name": "천상의 축복 II",
+    "desc": "아군 유닛이 공격과 스킬로 입힌 피해의 15%만큼 체력을 회복합니다. 초과된 회복량은 최대 300의 피해를 흡수하는 보호막으로 전환됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/celestialblessing2.tft_set6.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CelestialBlessing3",
+    "ingameKey": "TFT6_Augment_CelestialBlessing3",
+    "name": "천상의 축복 III",
+    "desc": "아군 유닛이 공격과 스킬로 입힌 피해의 25%만큼 체력을 회복합니다. 초과된 회복량은 최대 400의 피해를 흡수하는 보호막으로 전환됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/celestialblessing3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ClearMind",
+    "ingameKey": "TFT6_Augment_ClearMind",
+    "name": "맑은 정신",
+    "desc": "플레이어 대상 전투 종료 시 아군 대기석에 챔피언이 없다면 3의 경험치를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/clearmind2.tft_set6.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ClutteredMind",
+    "ingameKey": "TFT7_Augment_ClutteredMind",
+    "name": "어수선한 마음",
+    "desc": "즉시 무작위 1단계 챔피언 4명을 획득합니다. 플레이어 대상 전투 라운드 종료 시 대기석에 챔피언이 가득 찼다면 3의 경험치를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ClutteredMind_1653877989.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CombatCaster",
+    "ingameKey": "TFT9_Augment_CombatCaster",
+    "name": "전투 마법사",
+    "desc": "아군이 스킬을 사용한 후에 4초 동안 90~170의 피해를 흡수하는 보호막을 얻습니다. 보호막의 흡수량은 라운드가 진행될수록 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CombatCaster_1685417646-Combat-Caster-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CombatTrainingII",
+    "ingameKey": "TFT7_Augment_Bloodlust1",
+    "name": "전투 훈련",
+    "desc": "챔피언이 적 유닛을 처치할 때마다 영구적으로 1%의 공격력을 획득합니다. 챔피언이 8%의 추가 공격력을 가지고 시작합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CombatTrainingII_1653546733.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Commander_Ascension",
+    "ingameKey": "TFT9_Augment_Commander_Ascension",
+    "name": "초월",
+    "desc": "전투 15초 후 아군 유닛의 피해량이 50% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Commander_Ascension_1685599036-ascension2.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Commander_FinalAscension",
+    "ingameKey": "TFT9_Augment_Commander_FinalAscension",
+    "name": "최후의 초월",
+    "desc": "아군의 피해량이 15% 증가합니다. 15초 후 45%의 추가 피해를 입힙니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Commander_FinalAscension_1685599102-ascension3.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Commander_PartialAscension",
+    "ingameKey": "TFT9_Augment_Commander_PartialAscension",
+    "name": "불완전한 초월",
+    "desc": "전투 15초 후 아군 유닛의 피해량이 30% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Commander_PartialAscension_1685598205-ascension1.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Commander_RollingForDays",
+    "ingameKey": "TFT9_Augment_Commander_RollingForDays",
+    "name": "새로고침의 날 I",
+    "desc": "시간제한 없이 사용할 수 있는 무료 상점 새로고침을 9회 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Commander_RollingForDays_1685598389-rolling-for-days-i.tft_set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Commander_TeamingUp1",
+    "ingameKey": null,
+    "name": "두 배로 보기 I",
+    "desc": "동일한 조합 아이템 두 개로 만들 수 있는 완성 아이템 1개와 2골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Commander_TeamingUp1_1685599056-teaming-up-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null,
+    "legendCodes": ["Twisted Fate", "Bard"]
+  },
+  {
+    "key": "Commander_TeamingUp2",
+    "ingameKey": null,
+    "name": "두 배로 보기 II",
+    "desc": "동일한 조합 아이템 두 개로 만들 수 있는 완성 아이템 1개와 10골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Commander_TeamingUp2_1685599067-teaming-up-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null,
+    "legendCodes": ["Twisted Fate", "Bard"]
+  },
+  {
+    "key": "Commander_TeamingUp3",
+    "ingameKey": null,
+    "name": "두 배로 보기 III",
+    "desc": "동일한 조합 아이템 두 개로 만들 수 있는 완성 아이템 2개와 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Commander_TeamingUp3_1685599074-teaming-up-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Twisted Fate", "Bard"]
+  },
+  {
+    "key": "ComponentGrabBag",
+    "ingameKey": "TFT6_Augment_ComponentGrabBag",
+    "name": "재료 꾸러미",
+    "desc": "무작위 조합 아이템 3개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/componentgrabbag-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Consistency",
+    "ingameKey": "TFT7_Augment_Consistency",
+    "name": "일관성",
+    "desc": "연승 및 연패 보너스 골드를 두 배로 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Consistency_1663123738-consistency-i.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Contagion",
+    "ingameKey": "TFT9_Augment_Contagion",
+    "name": "전염",
+    "desc": "전투 시작: 체력이 가장 높은 적이 받는 피해를 18% 증가시킵니다. 이 효과는 적 처치와 5초가 지날 때마다 주변 2명의 적에게 전염됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Contagion_1685417635-Contagion-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CrashTestDummies",
+    "ingameKey": "TFT10_Augment_CrashTestDummies",
+    "name": "충돌 시험용 봇",
+    "desc": "훈련 봇 2개를 획득합니다. 전투가 시작될 때 훈련 봇이 가장 큰 적 무리에게로 날아가 1.25초 동안 기절시킵니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CrashTestDummies_1699838343-crash-test-dummies-ii.tft_set10.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CrownGuarded",
+    "ingameKey": "TFT10_Augment_CrownGuarded",
+    "name": "근위대",
+    "desc": "크라운가드를 획득합니다. 크라운가드의 전투 시작 효과가 100% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CrownGuarded_1699837953-crown-guarded-ii.tft_set10.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CursedCrown",
+    "ingameKey": "TFT7_Augment_CursedCrown",
+    "name": "저주받은 왕관",
+    "desc": "최대 팀 인원 수가 +2 증가하지만, 전투에서 패배 시 플레이어의 전략가가 받는 피해가 100% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CursedCrown_1653554356.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "CustomerIsAlwaysRight",
+    "ingameKey": "TFT9_Augment_CustomerIsAlwaysRight",
+    "name": "입맛대로 고르는 부품",
+    "desc": "조합 아이템을 얻을 때마다 조합 아이템 모루를 대신 획득합니다. 무작위 조합 아이템을 획득합니다.<br><br>모루가 4가지 선택지를 제시합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CustomerIsAlwaysRight_1685605953-the-customer-is-always-right-i.tft_set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CuttingCorners",
+    "ingameKey": "TFT9_Augment_CuttingCorners",
+    "name": "편법",
+    "desc": "레벨 업에 필요한 경험치가 3 감소합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CuttingCorners_1685949974-cutting-corners-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticBulk1",
+    "ingameKey": "TFT9_Augment_CyberneticBulk1",
+    "name": "사이버네틱 신체 I",
+    "desc": "아이템을 장착한 아군 유닛이 200의 체력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CyberneticBulk1_1685415986-Cybernetic-Bulk-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticBulk2",
+    "ingameKey": "TFT9_Augment_CyberneticBulk2",
+    "name": "사이버네틱 신체 II",
+    "desc": "아이템을 장착한 아군 챔피언이 300의 체력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CyberneticBulk2_1685415998-Cybernetic-Bulk-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticBulk3",
+    "ingameKey": "TFT9_Augment_CyberneticBulk3",
+    "name": "사이버네틱 신체 III",
+    "desc": "아이템을 장착한 아군 챔피언이 500의 체력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CyberneticBulk3_1685416017-Cybernetic-Bulk-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticImplants1",
+    "ingameKey": "TFT6_Augment_CyberneticImplants1",
+    "name": "사이버네틱 이식술 I",
+    "desc": "아이템을 장착한 아군 챔피언이 80의 체력과 10%의 공격력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic1.tft_set6.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticImplants2",
+    "ingameKey": "TFT6_Augment_CyberneticImplants2",
+    "name": "사이버네틱 이식술 II",
+    "desc": "아이템을 장착한 아군 챔피언이 120의 체력과 20%의 공격력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic2.tft_set6.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticImplants3",
+    "ingameKey": "TFT6_Augment_CyberneticImplants3",
+    "name": "사이버네틱 이식술 III",
+    "desc": "아이템을 장착한 아군 챔피언이 200의 체력과 30%의 공격력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticLeech1",
+    "ingameKey": "TFT9_Augment_CyberneticLeech1",
+    "name": "사이버네틱 흡혈 I",
+    "desc": "아이템을 장착한 아군 유닛이 80의 체력과 10%의 모든 피해 흡혈을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CyberneticLeech1_1685416033-Cybernetic-Leech-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticLeech2",
+    "ingameKey": "TFT9_Augment_CyberneticLeech2",
+    "name": "사이버네틱 흡혈 II",
+    "desc": "아이템을 장착한 아군 유닛이 120의 체력과 15%의 모든 피해 흡혈을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CyberneticLeech2_1685416058-Cybernetic-Leech-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticLeech3",
+    "ingameKey": "TFT9_Augment_CyberneticLeech3",
+    "name": "사이버네틱 흡혈 III",
+    "desc": "아이템을 장착한 아군 유닛이 250의 체력과 20%의 모든 피해 흡혈을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CyberneticLeech3_1685416082-Cybernetic-Bulk-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticShell1",
+    "ingameKey": "TFT6_Augment_CyberneticShell1",
+    "name": "사이버네틱 외피 I",
+    "desc": "아이템을 장착한 아군 챔피언이 80의 체력과 30의 방어력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic-shell-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticShell2",
+    "ingameKey": "TFT6_Augment_CyberneticShell2",
+    "name": "사이버네틱 외피 II",
+    "desc": "아이템을 장착한 아군 챔피언이 120의 체력과 40의 방어력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic-shell-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticShell3",
+    "ingameKey": "TFT6_Augment_CyberneticShell3",
+    "name": "사이버네틱 외피 III",
+    "desc": "아이템을 장착한 아군 챔피언이 200의 체력과 60의 방어력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic-shell-iii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticUplink1",
+    "ingameKey": "TFT6_Augment_CyberneticUplink1",
+    "name": "사이버네틱 통신 I",
+    "desc": "아이템을 장착한 아군 챔피언이 80의 체력을 얻고 매초 2의 마나를 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic-uplink-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticUplink2",
+    "ingameKey": "TFT6_Augment_CyberneticUplink2",
+    "name": "사이버네틱 통신 II",
+    "desc": "아이템을 장착한 아군 챔피언이 120의 체력을 얻고 매초 2.5의 마나를 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic-uplink-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CyberneticUplink3",
+    "ingameKey": "TFT6_Augment_CyberneticUplink3",
+    "name": "사이버네틱 통신 III",
+    "desc": "아이템을 장착한 아군 챔피언이 200의 체력을 얻고 매초 3.5의 마나를 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/cybernetic-uplink-iii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "DangerousToGoAlone",
+    "ingameKey": "TFT9_Augment_DangerousToGoAlone",
+    "name": "작별 선물",
+    "desc": "챔피언이 사망하면 아이템 중 하나를 복사해 빈 아이템 칸이 있는 가장 가까운 아군에게 임시로 장착시키고 최대 체력의 10%만큼 피해를 흡수하는 보호막을 씌웁니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DangerousToGoAlone_1699926671-it_s-dangerous-to-go-alone-i.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Dedication",
+    "ingameKey": "TFT9_Augment_Dedication",
+    "name": "헌신",
+    "desc": "플레이어 전투에서 처음으로 같은 특성의 서로 다른 유닛 4명을 배치하면 해당 특성의 상징을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Dedication_1685603042-dedication-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Determinedinvestors",
+    "ingameKey": "TFT10_Augment_Determinedinvestors",
+    "name": "결단력 있는 투자자",
+    "desc": "전투가 끝날 때 처음으로 40골드를 보유 중일 경우 다이아몬드 손과 무작위 조합 아이템 2개를 획득합니다.<br><br>이 방어 아이템은 골드를 추가로 획득하는 데 보탬이 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Determinedinvestors_1699837841-a-determined-investor-iii.tft_set10.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Disintegrator1",
+    "ingameKey": "TFT6_Augment_Disintegrator1",
+    "name": "분해기 I",
+    "desc": "아군 유닛의 기본 공격이 대상 최대 체력의 2%에 해당하는 추가 마법 피해를 입힙니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/disintegrator-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Disintegrator2",
+    "ingameKey": "TFT6_Augment_Disintegrator2",
+    "name": "분해기 II",
+    "desc": "아군 유닛의 기본 공격이 대상 최대 체력의 3%에 해당하는 추가 마법 피해를 입힙니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/disintegrator-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Disintegrator3",
+    "ingameKey": "TFT6_Augment_Disintegrator3",
+    "name": "분해기 III",
+    "desc": "아군 유닛의 기본 공격이 대상 최대 체력의 4%에 해당하는 추가 마법 피해를 입힙니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/disintegrator-iii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Distancing",
+    "ingameKey": "TFT6_Augment_Distancing",
+    "name": "추방자 I",
+    "desc": "인접한 아군 없이 전투를 시작하는 아군은 10초 동안 최대 체력의 25%에 해당하는 보호막을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/exiles1.tft_set6.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Distancing2",
+    "ingameKey": "TFT6_Augment_Distancing2",
+    "name": "추방자 II",
+    "desc": "인접한 아군 없이 전투를 시작하는 아군은 10초 동안 최대 체력의 35%에 해당하는 보호막을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/exiles2.tft_set6.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Distancing3",
+    "ingameKey": "TFT6_Augment_Distancing3",
+    "name": "추방자 III",
+    "desc": "인접한 아군 없이 전투를 시작하는 아군은 10초 동안 최대 체력의 50%에 해당하는 보호막을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/exiles3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Diversify1",
+    "ingameKey": "TFT6_Augment_Diversify1",
+    "name": "단결된 의지 I",
+    "desc": "아군 유닛이 전체적으로 활성화된 특성 하나당 1.5%의 공격력과 1.5의 주문력을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/standunited1.tft_set6.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Diversify2",
+    "ingameKey": "TFT6_Augment_Diversify2",
+    "name": "단결된 의지 II",
+    "desc": "아군 유닛이 고유 특성이 아닌 전체적으로 활성화된 특성 하나당 2.5%의 공격력과 2.5의 주문력을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/standunited2.tft_set6.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Diversify3",
+    "ingameKey": "TFT6_Augment_Diversify3",
+    "name": "단결된 의지 III",
+    "desc": "아군 유닛이 전체적으로 활성화된 특성 하나당 3의 공격력과 주문력을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/standunited3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "DragonsSpirit",
+    "ingameKey": "TFT11_Augment_DragonSpirit",
+    "name": "용의 정신",
+    "desc": "용의 발톱을 획득합니다. 용의 발톱으로 7000의 체력을 회복시킬 때마다 조합 아이템을 획득합니다. 최대 4개까지 획득할 수 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DragonsSpirit_1709769562-dragonsspirit_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "DravenSpoilsOfWar",
+    "ingameKey": "TFT9_Augment_DravenSpoilsOfWar",
+    "name": "전리품 I",
+    "desc": "적 유닛을 처치하면 25% 확률로 전리품을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DravenSpoilsOfWar_1686805990-spoils-of-war-legend-i.tft_set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "DravenSpoilsOfWar2",
+    "ingameKey": "TFT9_Augment_DravenSpoilsOfWar2",
+    "name": "전리품 II",
+    "desc": "적 유닛을 처치하면 30% 확률로 전리품을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DravenSpoilsOfWar2_1686806047-spoils-of-war-legend-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "DravenSpoilsOfWar3",
+    "ingameKey": "TFT9_Augment_DravenSpoilsOfWar3",
+    "name": "전리품 III",
+    "desc": "적 유닛을 처치하면 40% 확률로 전리품을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DravenSpoilsOfWar3_1686806058-spoils-of-war-legend-iii.tft_set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "DynamicDuo",
+    "ingameKey": "TFT11_Augment_DynamicDuo",
+    "name": "최강의 듀오",
+    "desc": "무작위 5단계 챔피언, 해당 챔피언과 특성이 같은 무작위 챔피언, 20골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DynamicDuo_1709769586-dynamicduo_ii.tft_set11.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "EarlyEducation",
+    "ingameKey": "TFT9_Augment_EarlyEducation",
+    "name": "조기 교육",
+    "desc": "아군 유닛이 적을 처치할 때마다 영구적으로 1의 주문력을 획득합니다. 챔피언이 15의 추가 주문력을 가지고 시작합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EarlyEducation_1685417675-Early-Education-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Electrocharge1",
+    "ingameKey": "TFT6_Augment_Electrocharge1",
+    "name": "고전압 I",
+    "desc": "아군 유닛이 치명타를 입으면 주변 적에게 30~90(현재 스테이지에 비례)의 마법 피해를 입힙니다. (재사용 대기시간 1초)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/electrocharge-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Electrocharge2",
+    "ingameKey": "TFT6_Augment_Electrocharge2",
+    "name": "고전압 II",
+    "desc": "아군 유닛이 치명타를 입으면 주변 적에게 50~110(현재 스테이지에 비례)의 마법 피해를 입힙니다. (재사용 대기시간 1초)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/electrocharge-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Electrocharge3",
+    "ingameKey": "TFT6_Augment_Electrocharge3",
+    "name": "고전압 III",
+    "desc": "아군 유닛이 치명타를 입으면 주변 적에게 100~205(현재 스테이지에 비례)의 마법 피해를 입힙니다. (재사용 대기시간 1초)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/electrocharge-iii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "EnduranceTraining",
+    "ingameKey": "TFT9_Augment_EnduranceTraining",
+    "name": "인내력 훈련",
+    "desc": "아군 유닛이 적을 처치할 때마다 영구적으로 18의 추가 체력을 획득합니다. 아군 유닛이 100의 추가 체력을 가지고 시작합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EnduranceTraining_1685416619-Endurance-Training-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "EnshroudingStillness",
+    "ingameKey": "TFT9_Augment_EnshroudingStillness",
+    "name": "마나 불태우기",
+    "desc": "모든 적이 스킬을 사용할 때까지 최대 체력의 1%에 해당하는 고정 피해를 매초 입습니다. 침묵의 장막을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EnshroudingStillness_1685417043-Mana-Burn-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Epoch",
+    "ingameKey": "TFT11_Augment_Epoch",
+    "name": "새로운 시대",
+    "desc": "즉시 및 이후 매 스테이지 시작 시 6의 경험치를 획득하고 해당 라운드에만 무료 새로고침 2회를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Epoch_1709769777-epoch_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Epochplus",
+    "ingameKey": "TFT11_Augment_EpochPlus",
+    "name": "새로운 시대+",
+    "desc": "즉시 및 이후 매 스테이지 시작 시 8의 경험치를 획득하고 해당 라운드에만 무료 새로고침 3회를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Epochplus_1709769787-epoch_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "EscortQuest",
+    "ingameKey": "TFT9_Augment_EscortQuest",
+    "name": "호위 임무",
+    "desc": "훈련 봇을 획득합니다. 훈련 봇이 플레이어 대상 전투에서 생존할 때마다 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EscortQuest_1685417910-Escort-Quest-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "EverythingMustGo",
+    "ingameKey": "TFT11_Augment_Common_EverythingMustGo",
+    "name": "전부 떠나야 하는 법!",
+    "desc": "유닛을 0골드에 사고 팝니다. 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EverythingMustGo_1709859318-everythingmustgo_ii.tft_set11.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Featherweights1",
+    "ingameKey": "TFT6_Augment_Featherweights1",
+    "name": "경량급 I",
+    "desc": "아군 1단계 및 2단계 챔피언이 15%의 공격 속도 및 이동 속도를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/featherweights1.tft_set6.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Featherweights2",
+    "ingameKey": "TFT6_Augment_Featherweights2",
+    "name": "경량급 II",
+    "desc": "비용이 1과 2인 챔피언이 30%의 공격 속도 및 이동 속도를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/featherweights2.tft_set6.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Featherweights3",
+    "ingameKey": "TFT6_Augment_Featherweights3",
+    "name": "경량급 III",
+    "desc": "비용이 1과 2인 챔피언이 50%의 공격 속도 및 이동 속도를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/featherweights3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "FinalGrabBag",
+    "ingameKey": "TFT9_Augment_FinalGrabBag",
+    "name": "결전용 꾸러미",
+    "desc": "무작위 조합 아이템, 12골드, 재조합기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FinalGrabBag_1685601061-final-grab-bag-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null,
+    "legendCodes": ["Urf", "Pengu"]
+  },
+  {
+    "key": "FinalGrabBagPlus",
+    "ingameKey": "TFT9_Augment_FinalGrabBagPlus",
+    "name": "결전용 꾸러미 II",
+    "desc": "무작위 조합 아이템 2개, 15골드, 자석 제거기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FinalGrabBagPlus_1685601088-final-grab-bag-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null,
+    "legendCodes": ["Urf", "Pengu"]
+  },
+  {
+    "key": "FinalGrabBagPlusPlus",
+    "ingameKey": "TFT9_Augment_FinalGrabBagPlusPlus",
+    "name": "우르프의 꾸러미",
+    "desc": "무작위 조합 아이템 2개, 챔피언 복제기, 뒤집개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FinalGrabBagPlusPlus_1686622960-final-grab-bag-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Urf", "Pengu"]
+  },
+  {
+    "key": "FinalReserves",
+    "ingameKey": "TFT9_Augment_FinalReserves",
+    "name": "최후의 보루",
+    "desc": "처음으로 탈락한 상황에서 생존합니다. 이 효과가 발동된 후 70의 경험치와 50골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FinalReserves_1685418620-Final-Reserves-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "FineVintage",
+    "ingameKey": "TFT11_Augment_FineVintage",
+    "name": "아이템 숙성",
+    "desc": "완성 아이템을 4라운드 동안 대기석에 두면 지원 아이템 모루로 변합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FineVintage_1709769458-finevintage_i.tft_set11.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "FirstAidKit",
+    "ingameKey": "TFT6_Augment_FirstAidKit",
+    "name": "응급처치 키트",
+    "desc": "아군 유닛이 받는 모든 회복 효과와 보호막 효과가 25% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/firstaidkit1.tft_set6.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "FirstAidKitIII",
+    "ingameKey": "TFT7_Augment_FirstAidKit2",
+    "name": "응급처치 키트 II",
+    "desc": "아군 유닛이 받는 모든 회복 효과와 보호막 효과가 35% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FirstAidKitIII_1654770992.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Formation1",
+    "ingameKey": "TFT9_Augment_Formation1",
+    "name": "단결 I",
+    "desc": "전투 시작 시 같은 열에 챔피언이 3명 이상 있으면 방어력 및 마법 저항력이 15 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Formation1_1685605347-red-rover-i.tft_set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Formation2",
+    "ingameKey": "TFT9_Augment_Formation2",
+    "name": "단결 II",
+    "desc": "전투 시작 시 같은 열에 챔피언이 3명 이상 있으면 방어력 및 마법 저항력이 25 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Formation2_1685605371-red-rover-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "FullyAdapted",
+    "ingameKey": "TFT10_Augment_FullyAdapted",
+    "name": "완벽한 적응",
+    "desc": "적응형 투구를 획득합니다. 적응형 투구를 보유한 챔피언은 위치에 상관없이 두 가지 효과를 모두 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FullyAdapted_1699838252-fully-adapted-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "FuturePeepers",
+    "ingameKey": "TFT6_Augment_FuturePeepers",
+    "name": "예견 I",
+    "desc": "다음에 싸울 상대를 알 수 있습니다. 서풍을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FuturePeepers_1664936039-future-sight-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "FuturePeepers2",
+    "ingameKey": "TFT6_Augment_FuturePeepers2",
+    "name": "예견 II",
+    "desc": "다음에 싸울 상대를 알 수 있습니다. 찬란한 서풍을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/future-sight-iii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "GachaAddict",
+    "ingameKey": "TFT6_Augment_GachaAddict",
+    "name": "프리즘 티켓",
+    "desc": "상점을 새로고침할 때마다 50% 확률로 무료 새로고침을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GoldenTicket_1662627362-goldenticket3.tft_set7.5.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "GadgetExpert",
+    "ingameKey": "TFT7_Augment_GadgetExpert",
+    "name": "기계 전문가",
+    "desc": "직접 피해를 입히는 아이템이 25%의 추가 고정 피해를 입힙니다. 스태틱의 단검을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GadgetExpert_1653545273.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "GargantuanResolve",
+    "ingameKey": "TFT9_Augment_GargantuanResolve",
+    "name": "위대한 결의",
+    "desc": "거인의 결의를 획득합니다. 아군이 장착한 거인의 결의가 25회가 아닌 40회까지 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GargantuanResolve_1685416687-Gargantuan-Resolve-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "GiantGrabBag",
+    "ingameKey": "TFT9_Augment_GiantGrabBag",
+    "name": "거대한 꾸러미",
+    "desc": "무작위 조합 아이템 3개, 4골드, 하급 챔피언 복제기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GiantGrabBag_1685601105-grab-bag-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Urf", "Ezreal"]
+  },
+  {
+    "key": "GiftsFromAbove",
+    "ingameKey": "TFT9_Augment_GiftsFromAbove",
+    "name": "영혼의 보급품",
+    "desc": "전투 시작: 아이템이 가장 적은 유닛들에게 임시 아이템 4개를 장착합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GiftsFromAbove_1685418244-Gifts-from-Above-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "GiftsFromTheFallen",
+    "ingameKey": "TFT9_Augment_GiftsFromTheFallen",
+    "name": "망자의 선물",
+    "desc": "아군의 공격력이 3%, 주문력이 3, 방어력이 3, 마법 저항력이 3 증가합니다.<br><br>아군이 죽을 때마다 능력치가 다시 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GiftsFromTheFallen_1685417736-Gifts-from-the-Fallen-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "GoingLong",
+    "ingameKey": "TFT10_Augment_GoingLong",
+    "name": "장기 투자",
+    "desc": "더 이상 이자를 획득하지 않으며, 지금 바로 10골드를 획득합니다. 라운드 시작 시 4의 경험치를 획득합니다.<br><br>이자는 저축한 10골드당 추가로 획득하는 골드입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GoingLong_1699838465-going-long-iii.tft_set10.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "GoodForSomething",
+    "ingameKey": "TFT10_Augment_GoodForSomething",
+    "name": "다 쓸 데가 있다니까 II",
+    "desc": "아이템을 보유하지 않은 챔피언이 죽을 때 50%의 확률로 1골드를 떨어뜨립니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GoodForSomething_1699838007-good-for-something-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "GoodForSomethingSilver",
+    "ingameKey": "TFT10_Augment_GoodForSomethingSilver",
+    "name": "다 쓸 데가 있다니까 I",
+    "desc": "아이템을 보유하지 않은 챔피언이 죽을 때 40%의 확률로 1골드를 떨어뜨립니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GoodForSomethingSilver_1699837889-good-for-something-i.tft_set10.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "GottaGoFast",
+    "ingameKey": "TFT9_Augment_GottaGoFast",
+    "name": "빨리빨리!",
+    "desc": "아군의 마나 회복 속도가 10% 증가하고 35% 더 빠르게 움직입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GottaGoFast_1685601298-gotta-go-fast-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null,
+    "legendCodes": ["Master Yi"]
+  },
+  {
+    "key": "GottaGoFastII",
+    "ingameKey": "TFT9_Augment_GottaGoFastII",
+    "name": "빨리빨리! II",
+    "desc": "아군의 마나 회복 속도가 20% 증가하고 60% 더 빠르게 움직입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GottaGoFastII_1685601315-gotta-go-fast-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null,
+    "legendCodes": ["Master Yi"]
+  },
+  {
+    "key": "GottaGoFastIII",
+    "ingameKey": "TFT9_Augment_GottaGoFastIII",
+    "name": "빨리빨리! III",
+    "desc": "아군의 마나 회복 속도가 30% 증가하고 100% 더 빠르게 움직입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GottaGoFastIII_1685601327-gotta-go-fast-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Master Yi"]
+  },
+  {
+    "key": "GrandGambler",
+    "ingameKey": "TFT6_Augment_GrandGambler",
+    "name": "큰손",
+    "desc": "3개의 사기 주사위와 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/grandgambler3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "GreaterJeweledLotus",
+    "ingameKey": "TFT9_Augment_GreaterJeweledLotus",
+    "name": "보석 연꽃 III",
+    "desc": "아군의 치명타 확률이 40%% 증가하며 스킬에 치명타가 적용될 수 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GreaterJeweledLotus_1685603229-jeweled-lotus-iii.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Harmacist1",
+    "ingameKey": "TFT9_Augment_Harmacist1",
+    "name": "살인술사 I",
+    "desc": "아군이 10%의 모든 피해 흡혈을 얻고, 다음 기본 공격 시 체력 회복 초과분의 20%에 해당하는 고정 피해를 입힙니다.<br><br>(모든 피해 흡혈: 입힌 모든 피해 비례 체력 회복)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Harmacist1_1685416162-Harmacist-1-2-3-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Harmacist2",
+    "ingameKey": "TFT9_Augment_Harmacist2",
+    "name": "살인술사 II",
+    "desc": "아군이 15%의 모든 피해 흡혈을 얻고, 다음 기본 공격 시 체력 회복 초과분의 25%에 해당하는 고정 피해를 입힙니다.<br><br>(모든 피해 흡혈: 입힌 모든 피해 비례 체력 회복)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Harmacist2_1685416175-Harmacist-1-2-3-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Harmacist3",
+    "ingameKey": "TFT9_Augment_Harmacist3",
+    "name": "살인술사 III",
+    "desc": "아군이 25%의 모든 피해 흡혈을 얻고, 다음 기본 공격 시 체력 회복 초과분의 30%에 해당하는 고정 피해를 입힙니다.<br><br>(모든 피해 흡혈: 입힌 모든 피해 비례 체력 회복)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Harmacist3_1685416199-Harmacist-1-2-3-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HealingOrbsI",
+    "ingameKey": "TFT9_Augment_HealingOrbsI",
+    "name": "회복의 구 I",
+    "desc": "적이 사망하면 가장 가까운 아군이 체력을 225 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HealingOrbsI_1685414532-Healing-Orbs-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "HealingOrbsII",
+    "ingameKey": "TFT9_Augment_HealingOrbsII",
+    "name": "회복의 구 II",
+    "desc": "적이 사망하면 가장 가까운 아군이 체력을 450 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HealingOrbsII_1685414544-Healing-Orbs-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "HeavyHitters",
+    "ingameKey": "TFT10_Augment_HeavyHitters",
+    "name": "강타자",
+    "desc": "최대 체력이 1500 이상인 아군 유닛이 최대 체력의 1%에 해당하는 공격력과 주문력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HeavyHitters_1699837942-heavy-hitters-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "HedgeFund",
+    "ingameKey": "TFT9_Augment_HedgeFund",
+    "name": "헤지 펀드",
+    "desc": "20골드를 획득합니다. 최대 이자가 10골드로 증가합니다.<br><br>이자는 저축한 10골드당 추가로 획득하는 골드입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HedgeFund_1699851037-richgetricher3.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HedgeFundPlus",
+    "ingameKey": "TFT9_Augment_HedgeFundPlus",
+    "name": "헤지 펀드+",
+    "desc": "30골드를 획득합니다. 최대 이자가 10골드로 증가합니다.<br><br>이자는 저축한 10골드당 추가로 획득하는 골드입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HedgeFundPlus_1699851048-richgetricher3.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HedgeFundPlusPlus",
+    "ingameKey": "TFT9_Augment_HedgeFundPlusPlus",
+    "name": "헤지 펀드++",
+    "desc": "40골드를 획득합니다. 최대 이자가 10골드로 증가합니다.<br><br>이자는 저축한 10골드당 추가로 획득하는 골드입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HedgeFundPlusPlus_1699851060-richgetricher3.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HelpIsOnTheWay",
+    "ingameKey": "TFT10_Augment_HelpIsOnTheWay",
+    "name": "지원군 출동",
+    "desc": "플레이어 대상 전투를 8번 치른 후 지원 아이템 4개 중 하나를 선택합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HelpIsOnTheWay_1699837491-help-is-on-the-way-i.tft_set10.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Heroicgrabbag",
+    "ingameKey": "TFT10_Augment_HeroicGrabBag",
+    "name": "영웅 꾸러미",
+    "desc": "하급 챔피언 복제기 2개와 6골드를 획득합니다.<br><br>3단계 이하의 챔피언을 복제할 수 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Heroicgrabbag_1699838238-heroic-grab-bag-ii.tft_set10.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "HighEndSector",
+    "ingameKey": "TFT9_Augment_HighEndSector",
+    "name": "흥청망청",
+    "desc": "레벨 업하면 레벨과 동일한 수의 무료 상점 새로고침 기회를 얻습니다. 라운드 종료 후에도 사라지지 않습니다. 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HighEndSector_1685603294-trade3.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HighEndShopping",
+    "ingameKey": "TFT6_Augment_HighEndShopping",
+    "name": "품격있는 쇼핑",
+    "desc": "현재 플레이어 레벨보다 1레벨 높을 때 나오는 챔피언이 상점에 등장합니다. 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HighEndShopping_1666750236-highend3.tft_set6 (1).png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HyperRoll",
+    "ingameKey": "TFT6_Augment_HyperRoll",
+    "name": "수완가",
+    "desc": "이자가 없는 대신 플레이어 전투 라운드를 시작할 때마다 3골드를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HyperRoll_1654642668.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Idealism",
+    "ingameKey": "TFT9_Augment_Idealism",
+    "name": "이상주의",
+    "desc": "정의의 손길을 획득합니다. 정의의 손길을 장착한 챔피언의 피해량이 12% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Idealism_1685417518-Idealism-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ImpenetrableBulwark",
+    "ingameKey": "TFT9_Augment_ImpenetrableBulwark",
+    "name": "난공불락",
+    "desc": "덤불 조끼, 용의 발톱, 거인의 허리띠, 자석 제거기를 획득합니다.<br><br>주문력 기반 탱커 또는 공격력 기반 탱커에게 유용합니다!",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ImpenetrableBulwark_1685936692-standbehind3.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ImpromptuInventions",
+    "ingameKey": "TFT9_Augment_ImpromptuInventions",
+    "name": "고물상의 발명품",
+    "desc": "전투 시작 시 유닛이 보유한 최대 4개의 조합 아이템이 임시 완성 아이템으로 변환됩니다. 다음 2번의 스테이지 시작 시 조합 아이템을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ImpromptuInventions_1685414919-Impromptu-Invention-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Inconsistency",
+    "ingameKey": "TFT9_Augment_Inconsistency",
+    "name": "왔다갔다",
+    "desc": "연승이나 연패 횟수가 3을 안 넘으면 2골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Inconsistency_1685425025-Inconsistency-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "IndomitableWill",
+    "ingameKey": "TFT9_Augment_IndomitableWill",
+    "name": "불굴의 의지",
+    "desc": "아군이 처치 관여 시 모든 해로운 효과를 제거하고 10초 동안 군중 제어기에 면역이 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/IndomitableWill_1688349868-indomitable-will-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "InfernalContract",
+    "ingameKey": "TFT9_Augment_InfernalContract",
+    "name": "지옥의 계약",
+    "desc": "최대 레벨이 7이 됩니다. 90골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/InfernalContract_1685603367-infernal-contract-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Infusion",
+    "ingameKey": "TFT9_Augment_Infusion",
+    "name": "마력 집중",
+    "desc": "아군이 5초마다 마나를 20 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Infusion_1685417699-Infusion-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "InspiringEpitaph",
+    "ingameKey": "TFT10_Augment_InspiringEpitaph",
+    "name": "영감적인 비문",
+    "desc": "유닛이 죽으면 가장 가까운 아군이 최대 체력의 20%에 해당하는 보호막을 얻고 중첩되는 공격 속도가 10%만큼 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/InspiringEpitaph_1699838214-inspiring-epitaph-ii.tft_set10.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "IronAssets",
+    "ingameKey": "TFT9_Augment_IronAssets",
+    "name": "유용한 금속",
+    "desc": "조합 아이템 모루와 4골드를 획득합니다.<br><br>모루가 4가지 선택지를 제시합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/IronAssets_1685416406-Iron-Assets-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "ItemGrabBag1",
+    "ingameKey": "TFT6_Augment_ItemGrabBag1",
+    "name": "아이템 꾸러미 I",
+    "desc": "무작위 완성 아이템 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/itemgrabbag1.tft_set6.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "ItemGrabBag2",
+    "ingameKey": "TFT6_Augment_ItemGrabBag2",
+    "name": "아이템 꾸러미 II",
+    "desc": "무작위 완성 아이템 2개와 재조합기 2개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/itemgrabbag3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ItemGrabBagPlus",
+    "ingameKey": "TFT9_Augment_ItemGrabBagPlus",
+    "name": "아이템 꾸러미 II",
+    "desc": "무작위 완성 아이템, 무작위 조합 아이템, 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ItemGrabBagPlus_1685603718-itemgrabbag2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null,
+    "legendCodes": ["Twisted Fate", "Pengu"]
+  },
+  {
+    "key": "ItemGrabBagPlusPlus",
+    "ingameKey": "TFT9_Augment_ItemGrabBagPlusPlus",
+    "name": "아이템 꾸러미 III",
+    "desc": "무작위 완성 아이템 2개와 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ItemGrabBagPlusPlus_1685603734-itemgrabbag3.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Twisted Fate", "Pengu"]
+  },
+  {
+    "key": "ItPaysToLearn",
+    "ingameKey": "TFT9_Augment_ItPaysToLearn",
+    "name": "배워야 산다",
+    "desc": "10의 경험치와 8골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ItPaysToLearn_1686278406-it-pays-to-learn-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null,
+    "legendCodes": ["Aurelion Sol"]
+  },
+  {
+    "key": "ItPaysToLearnII",
+    "ingameKey": "TFT9_Augment_ItPaysToLearnII",
+    "name": "배워야 산다 II",
+    "desc": "16의 경험치와 12골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ItPaysToLearnII_1686278415-it-pays-to-learn-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null,
+    "legendCodes": ["Aurelion Sol"]
+  },
+  {
+    "key": "ItPaysToLearnIII",
+    "ingameKey": "TFT9_Augment_ItPaysToLearnIII",
+    "name": "배워야 산다 III",
+    "desc": "24의 경험치와 16골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ItPaysToLearnIII_1686278422-it-pays-to-learn-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Aurelion Sol"]
+  },
+  {
+    "key": "Jackpot",
+    "ingameKey": "TFT9_Augment_Jackpot",
+    "name": "잃어버린 고리",
+    "desc": "상점을 40번 새로 고친 후 5 티어의 복제된 유닛을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Jackpot_1685600579-jackpot-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "JeweledLotus",
+    "ingameKey": "TFT9_Augment_JeweledLotus",
+    "name": "보석 연꽃 II",
+    "desc": "아군의 치명타 확률이 15% 증가하며 스킬에 치명타가 적용될 수 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/jeweled-lotus-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "JustKeepRolling",
+    "ingameKey": "TFT9_Augment_JustKeepRolling",
+    "name": "단골 고객",
+    "desc": "상점을 8번 새로고침하면 새로고침 비용이 1골드가 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/JustKeepRolling_1685935618-pirates2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Keepers1",
+    "ingameKey": "TFT6_Augment_Keepers1",
+    "name": "수호자 I",
+    "desc": "전투 시작: 주변에 아군이 있는 유닛이 8초 동안 175의 보호막을 얻습니다. 이 보호막은 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Keepers1_1699493732-keepers-i.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Keepers2",
+    "ingameKey": "TFT6_Augment_Keepers2",
+    "name": "수호자 II",
+    "desc": "전투 시작: 주변에 아군이 있는 유닛이 8초 동안 260의 보호막을 얻습니다. 이 보호막은 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Keepers2_1699493736-keepers-ii.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "KnifesEdgeI",
+    "ingameKey": "TFT6_Augment_MeleeStarBlade1",
+    "name": "나이프의 날 I",
+    "desc": "전방 2열에서 전투를 시작하는 아군 유닛이 15%의 공격력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/KnifesEdgeI_1662629263-cqctraining1.tft_set7.5.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "KnifesEdgeII",
+    "ingameKey": "TFT6_Augment_MeleeStarBlade2",
+    "name": "나이프의 날 II",
+    "desc": "전방 2열에서 전투를 시작하는 아군 유닛이 35%의 공격력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/KnifesEdgeII_1662629350-cqctraining2.tft_set7.5.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "KnifesEdgeIII",
+    "ingameKey": "TFT6_Augment_MeleeStarBlade3",
+    "name": "나이프의 날 III",
+    "desc": "전방 2열에서 전투를 시작하는 아군 유닛이 55%의 공격력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/KnifesEdgeIII_1662629420-cqctraining3.tft_set7.5.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "KnowledgeIsPower",
+    "ingameKey": "TFT9_Augment_KnowledgeIsPower",
+    "name": "도서 대출증",
+    "desc": "특성의 고서와 조합 아이템 모루를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/KnowledgeIsPower_1685604591-knowledge-is-power-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "KnowYourEnemy",
+    "ingameKey": "TFT9_Augment_KnowYourEnemy",
+    "name": "적을 알라",
+    "desc": "아군의 피해량이 10% 증가합니다.<br><br>상대와 같은 특성을 활성화한 경우 피해량이 15% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/KnowYourEnemy_1685417606-Know-Your-Enemy-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LastStand",
+    "ingameKey": "TFT7_Augment_LastStand",
+    "name": "최후의 저항",
+    "desc": "처음으로 탈락하거나 체력이 1로 감소하는 대신 살아남습니다. 이후 아군 유닛이 영구적으로 160의 체력, 16의 방어력과 마법 저항력, 16%의 모든 피해 흡혈을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LastStand_1653546979.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LategameSpecialist",
+    "ingameKey": "TFT7_Augment_LategameSpecialist",
+    "name": "후반 전문가",
+    "desc": "9레벨에 도달하면 33골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LategameSpecialist_1653546811.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "LearningFromExperience2",
+    "ingameKey": "TFT9_Augment_LearningFromExperience2",
+    "name": "끈질긴 연구",
+    "desc": "플레이어 대상 전투가 끝나고 승리 시 2의 경험치, 패배 시 3의 경험치를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LearningFromExperience2_1685935137-learning-from-experience-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LearningToSpell",
+    "ingameKey": "TFT10_Augment_LearningToSpell",
+    "name": "주문 습득",
+    "desc": "아군이 18의 추가 주문력을 얻고, 적 처치에 2회 관여할 때마다 주문력이 영구적으로 1만큼 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LearningToSpell_1699838326-learning-to-spell-ii.tft_set10.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LesserJeweledLotus",
+    "ingameKey": "TFT9_Augment_LesserJeweledLotus",
+    "name": "보석 연꽃 I",
+    "desc": "전투 시작: 가장 강한 아군 유닛이 40%의 치명타 확률을 획득하며, 스킬에 치명타가 적용됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LesserJeweledLotus_1685600826-jeweled-lotus-i.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "LittleBuddies",
+    "ingameKey": "TFT10_Augment_LittleBuddies",
+    "name": "작은 친구들",
+    "desc": "전장에 있는 1단계 및 2단계 챔피언 하나당 아군 4단계 및 5단계 챔피언이 65의 체력과 9%의 공격 속도를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LittleBuddies_1699838291-little-buddies-ii.tft_set10.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LivingForge",
+    "ingameKey": "TFT7_Augment_LivingForge",
+    "name": "간이 대장간",
+    "desc": "지금 그리고 플레이어 대상 전투 8번마다 유물 모루를 획득합니다.<br><br>유물은 고유한 효과를 지닌 강력한 아이템입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LivingForge_1653545956.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "LivingForgeHR",
+    "ingameKey": "TFT7_Augment_LivingForgeHR",
+    "name": "간이 대장간",
+    "desc": "지금 그리고 플레이어 대상 전투 4번마다 유물 모루를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LivingForgeHR_1654771524.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "LongDistanceRelationship2",
+    "ingameKey": "TFT9_Augment_LongDistanceRelationship2",
+    "name": "먼 친구",
+    "desc": "전투 시작: 서로 가장 멀리 떨어진 아군 유닛 2명이 유대를 형성해 방어력, 마법 저항력, 공격력, 주문력의 20%를 서로 공유합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LongDistanceRelationship2_1685417549-Long-Distance-Relationship-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LongTimeCrafting",
+    "ingameKey": "TFT9_Augment_LongTimeCrafting",
+    "name": "신중한 제작",
+    "desc": "플레이어 대상 전투를 8번 치른 후 유물 모루를 획득합니다.<br><br>모루가 4가지 선택지를 제시합니다. 유물은 고유한 효과를 지닌 강력한 아이템입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LongTimeCrafting_1685601347-long-time-crafting-i.tft_set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "LongTimeCraftingHR",
+    "ingameKey": "TFT9_Augment_LongTimeCraftingHR",
+    "name": "신중한 제작",
+    "desc": "플레이어 대상 전투를 4번 치른 후 유물 모루를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LongTimeCrafting_1685601347-long-time-crafting-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "LowInterestRates",
+    "ingameKey": "TFT10_Augment_LowInterestRates",
+    "name": "저금리",
+    "desc": "최대 이자가 4골드로 제한되는 대신 플레이어 대상 전투 라운드를 시작할 때마다 2골드를 얻습니다.<br><br>이자는 저축한 10골드당 추가로 획득하는 골드입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LowInterestRates_1699838303-low-interest-rates-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LuckyGloves",
+    "ingameKey": "TFT7_Augment_LuckyGloves",
+    "name": "행운의 장갑",
+    "desc": "도적의 장갑이 항상 챔피언에게 최적의 아이템을 제공합니다. 연습용 장갑을 2개 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LuckyGloves_1661401690-lucky-gloves-iii (1).png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "LuckyGlovesPlus",
+    "ingameKey": "TFT7_Augment_LuckyGlovesPlus",
+    "name": "행운의 장갑+",
+    "desc": "도적의 장갑이 항상 챔피언에게 최적의 아이템을 제공합니다. 연습용 장갑을 3개 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LuckyGlovesPlus_1696975570-LuckyGloves_1661401690-lucky-gloves-iii (1).png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "LuckyStreak",
+    "ingameKey": "TFT10_Augment_LuckyStreak",
+    "name": "행운의 연속",
+    "desc": "도박꾼의 칼날과 자석 제거기를 획득합니다.<br><br>도박꾼의 칼날은 골드 획득에 보탬이 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LuckyStreak_1699838381-lucky-streak-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LuckyStreakHR",
+    "ingameKey": "TFT10_Augment_LuckyStreak_HR",
+    "name": "행운의 연속",
+    "desc": "도박꾼의 칼날과 자석 제거기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/LuckyStreak_1699838381-lucky-streak-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LudensEcho1",
+    "ingameKey": "TFT6_Augment_LudensEcho1",
+    "name": "루덴의 메아리 I",
+    "desc": "아군 유닛이 스킬을 사용해 스킬 피해를 입히면 처음 적중한 대상과 그 주변 적 하나가 35~80(현재 스테이지에 비례)의 추가 마법 피해를 입습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ludens-echo-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "LudensEcho2",
+    "ingameKey": "TFT6_Augment_LudensEcho2",
+    "name": "루덴의 메아리 II",
+    "desc": "아군 유닛이 스킬을 사용해 스킬 피해를 입히면 처음 적중한 대상과 그 주변 적 하나가 50~110(현재 스테이지에 비례)의 추가 마법 피해를 입습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ludens-echo-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "LudensEcho3",
+    "ingameKey": "TFT6_Augment_LudensEcho3",
+    "name": "루덴의 메아리 III",
+    "desc": "아군 유닛이 스킬을 사용해 스킬 피해를 입히면 처음 적중한 대상과 그 주변 적 하나가 90~210(현재 스테이지에 비례)의 추가 마법 피해를 입습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ludens-echo-iii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "MakeshiftArmor1",
+    "ingameKey": "TFT6_Augment_MakeshiftArmor1",
+    "name": "임시변통 방어구 I",
+    "desc": "아이템이 없는 아군 유닛이 30의 방어력과 마법 저항력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/makeshift1.tft_set6.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "MakeshiftArmor2",
+    "ingameKey": "TFT6_Augment_MakeshiftArmor2",
+    "name": "임시변통 방어구 II",
+    "desc": "아이템이 없는 아군 유닛이 45의 방어력과 마법 저항력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/makeshift2.tft_set6.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "MakeshiftArmor3",
+    "ingameKey": "TFT6_Augment_MakeshiftArmor3",
+    "name": "임시변통 방어구 III",
+    "desc": "아이템이 없는 아군 유닛이 65의 방어력과 마법 저항력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/makeshift3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Martyr",
+    "ingameKey": "TFT9_Augment_Martyr",
+    "name": "순교자",
+    "desc": "아군이 죽을 때마다 모든 아군이 최대 체력의 9%만큼 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Martyr_1685417406-Martyr-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "MaxLevel10",
+    "ingameKey": "TFT6_Augment_MaxLevel10",
+    "name": "레벨 업!",
+    "desc": "경험치를 구매하면 2의 추가 경험치를 얻습니다. 즉시 8의 경험치를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/levelup3.tft_set6.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "MediumEndShopping",
+    "ingameKey": "TFT9_Augment_MediumEndShopping",
+    "name": "합리적 소비",
+    "desc": "1골드를 획득합니다. 현재 플레이어 레벨보다 1레벨 높을 때 나오는 유닛이 상점의 첫 3칸에 등장합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MediumEndShopping_1689724651-highend1.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "MetabolicAccelerator",
+    "ingameKey": "TFT6_Augment_MetabolicAccelerator",
+    "name": "대사 촉진제",
+    "desc": "플레이어 대상 전투가 끝날 때마다 2의 플레이어 체력을 얻습니다. 또한 전략가의 이동 속도가 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/metabolicaccel2.tft_set6.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "MissedConnections",
+    "ingameKey": "TFT9_Augment_MissedConnections",
+    "name": "연결 불가",
+    "desc": "1단계 챔피언의 복사본을 1명씩 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MissedConnections_1685416255-Missed-Connections-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "MoneyHealsAllWounds",
+    "ingameKey": "TFT9_Augment_MoneyHealsAllWounds",
+    "name": "건강 관리",
+    "desc": "라운드 시작: 3골드를 획득합니다. 40골드 이상 가지고 있으면 아군 전략가가 체력을 2 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MoneyHealsAllWounds_1685604747-Money-Heals-all-Wounds-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "MoneyLaundering",
+    "ingameKey": "TFT9_Augment_MoneyLaundering",
+    "name": "자금 세탁",
+    "desc": "모든 플레이어 대상 전투 라운드가 시작될 때 대기석에 있는 2개의 유닛당 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MoneyLaundering_1685417535-Money-Laundering--II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "NewRecruit3",
+    "ingameKey": "TFT6_Augment_ForceOfNature",
+    "name": "신병",
+    "desc": "최대 팀 규모가 1 증가하고 챔피언 복제기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/newrecruit3.tft_set6.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "NotToday",
+    "ingameKey": "TFT9_Augment_NotToday",
+    "name": "오늘은 아니야",
+    "desc": "밤의 끝자락을 획득합니다. 밤의 끝자락을 장착한 챔피언의 공격 속도가 35% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/NotToday_1685414996-Not-Today-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "OldMansWalkingStick",
+    "ingameKey": "TFT9_Augment_OldMansWalkingStick",
+    "name": "마법 지팡이",
+    "desc": "쓸데없이 큰 지팡이를 획득합니다. 아군 유닛의 주문력이 18 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OldMansWalkingStick_1685604930-Old-Man_s-Walking-Stick-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "OnARoll",
+    "ingameKey": "TFT9_Augment_OnARoll",
+    "name": "승승장구",
+    "desc": "유닛을 2성 및 3성 등으로 업그레이드할 때마다 무료 상점 새로고침 기회를 최대 3번 획득합니다. 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OnARoll_1685415175-On-a-Roll-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "OneHundredDuckSizedHorses",
+    "ingameKey": "TFT9_Augment_OneHundredDuckSizedHorses",
+    "name": "천군만마",
+    "desc": "최대 팀 규모가 3 증가하지만, 유닛이 1개의 아이템만 소지할 수 있고 유닛의 최대 체력이 15% 감소합니다. 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OneHundredDuckSizedHorses_1685426683-100-Duck-Sized-Horses-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "OneHundredDuckSizedHorsesplus",
+    "ingameKey": "TFT9_Augment_OneHundredDuckSizedHorsesPlus",
+    "name": "천군만마+",
+    "desc": "최대 팀 규모가 3 증가하지만, 유닛이 1개의 아이템만 소지할 수 있고 유닛의 최대 체력이 15% 감소합니다. 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OneHundredDuckSizedHorsesplus_1686541216-OneHundredDuckSizedHorses_1685426683-100-Duck-Sized-Horses-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "OneTwoFive",
+    "ingameKey": "TFT6_Augment_OneTwoFive",
+    "name": "하나, 둘, 다섯!",
+    "desc": "무작위 조합 아이템 1개, 2골드, 무작위 5단계 챔피언 1명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OneTwoFive_1685412487-One-Two-Five-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "OneTwosThree",
+    "ingameKey": "TFT9_Augment_OneTwosThree",
+    "name": "하나, 둘, 셋",
+    "desc": "1단계 챔피언 3명, 2단계 챔피언 2명, 3단계 챔피언 1명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OneTwosThree_1686277287-threes-company-i.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "OverEncumbered",
+    "ingameKey": "TFT11_Augment_OverEncumbered",
+    "name": "과적",
+    "desc": "다음 스테이지를 진행하는 동안 대기석이 1개가 됩니다. 이후 조합 아이템 3개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OverEncumbered_1709769477-overencumbered_i.tft_set11.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "OverwhelmingForce",
+    "ingameKey": "TFT9_Augment_OverwhelmingForce",
+    "name": "압도적인 힘",
+    "desc": "죽음의 검, 무한의 대검, B.F. 대검, 자석 제거기를 획득합니다.<br><br>공격력 기반 원거리 딜러 또는 공격력 기반 전사에게 유용합니다!",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OverwhelmingForce_1685937333-eagle-eye-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PandorasBench",
+    "ingameKey": "TFT7_Augment_PandorasBench",
+    "name": "판도라의 대기석",
+    "desc": "2골드를 획득합니다. 라운드가 시작될 때마다 대기석 가장 오른쪽 3명의 챔피언이 동일한 비용의 무작위 챔피언으로 변신합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PandorasBench_1664935974-pandoras-bench-i.tft_set7.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PandorasItems",
+    "ingameKey": "TFT6_Augment_PandorasItems",
+    "name": "판도라의 아이템",
+    "desc": "라운드 시작: 대기석의 아이템이 무작위로 변합니다. (전략가의 왕관과 뒤집개 제외) <br><br>무작위 조합 아이템 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/pandora1.tft_set6.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PandorasItems2",
+    "ingameKey": "TFT9_Augment_PandorasItems2",
+    "name": "판도라의 아이템 II",
+    "desc": "라운드 시작: 대기석의 아이템이 무작위로 변합니다. (전략가의 왕관 및 뒤집개 제외)<br><br>무작위 조합 아이템 2개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PandorasItems2_1685602633-pandora2.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PandorasRadiantBox",
+    "ingameKey": "TFT9_Augment_PandorasRadiantBox",
+    "name": "판도라의 아이템 III",
+    "desc": "라운드 시작: 대기석의 아이템이 무작위로 변합니다. (전략가의 왕관, 뒤집개 제외) <br><br>무작위 찬란한 아이템 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PandorasRadiantBox_1685603308-pandora3.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PhreakyFriday",
+    "ingameKey": "TFT9_Augment_PhreakyFriday",
+    "name": "이상한 금요일",
+    "desc": "무한한 삼위일체를 획득합니다. 플레이어 대상 전투를 5번 치른 후 무한한 삼위일체를 하나 더 획득합니다.<br><br>무한한 삼위일체: 공격 및 방어 능력치를 막대하게 증가시키는 유물입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PhreakyFriday_1685415258-Phreaky-Friday-III.TFT_Set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PhreakyFridayHR",
+    "ingameKey": "TFT9_Augment_PhreakyFridayHR",
+    "name": "이상한 금요일",
+    "desc": "무한한 삼위일체를 획득합니다. 플레이어 전투를 3번 치른 후 무한한 삼위일체를 하나 더 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PhreakyFriday_1685415258-Phreaky-Friday-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PhreakyFridayPlus",
+    "ingameKey": "TFT9_Augment_PhreakyFridayPlus",
+    "name": "이상한 금요일+",
+    "desc": "무한한 삼위일체를 획득합니다. 플레이어 대상 전투를 3번 치른 후 무한한 삼위일체를 하나 더 획득합니다.<br><br>무한한 삼위일체: 공격 및 방어 능력치를 막대하게 증가시키는 유물입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PhreakyFridayPlus_1685415273-Phreaky-Friday-III.TFT_Set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PhreakyFridayPlusHR",
+    "ingameKey": "TFT9_Augment_PhreakyFridayPlusHR",
+    "name": "이상한 금요일+",
+    "desc": "무한한 삼위일체를 획득합니다. 플레이어 전투를 2번 치른 후 무한한 삼위일체를 하나 더 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PhreakyFridayPlus_1685415273-Phreaky-Friday-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PickoftheLitter",
+    "ingameKey": "TFT11_Augment_PickOfTheLitter",
+    "name": "최상품",
+    "desc": "무료 3단계 챔피언 3명을 제공하는 특수 상점을 엽니다. 1명만 선택할 수 있으며, 선택 시 복사본 2명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PickoftheLitter_1709769488-pickofthelitter_i.tft_set11.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PickoftheLitterplus",
+    "ingameKey": "TFT11_Augment_PickOfTheLitter_Plus",
+    "name": "최상품+",
+    "desc": "무료 4단계 챔피언 3명을 제공하는 특수 상점을 엽니다. 1명만 선택할 수 있으며, 선택 시 복사본 2명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PickoftheLitterplus_1709769494-pickofthelitter_i.tft_set11.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PortableForge",
+    "ingameKey": "TFT6_Augment_PortableForge",
+    "name": "휴대용 대장간",
+    "desc": "유물 4개 중 하나를 선택합니다.<br><br>유물은 고유한 효과를 지닌 강력한 아이템입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/portableforge2.tft_set6.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PortableForgePlus",
+    "ingameKey": "TFT6_Augment_PortableForgePlus",
+    "name": "휴대용 대장간+",
+    "desc": "유물 3개 중 하나를 선택합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Legend_PortableForge_1685064737-portableforge2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PortableForgePlusPlus",
+    "ingameKey": "TFT6_Augment_PortableForgePlusPlus",
+    "name": "휴대용 대장간++",
+    "desc": "유물 4개 중 하나를 선택합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Legend_PortableForge_1685064737-portableforge2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Preparation",
+    "ingameKey": "TFT7_Augment_Preparation",
+    "name": "준비 I",
+    "desc": "대기석의 챔피언은 라운드마다 영구적으로 25의 체력과 3%의 공격력과 3의 주문력을 획득하며, 이 효과는 1번으로 시작해 4번까지 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Preparation_1653552879.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PreparationHR",
+    "ingameKey": "TFT7_Augment_Preparation1HR",
+    "name": "준비 I",
+    "desc": "대기석의 챔피언은 라운드마다 영구적으로 35의 체력과 4의 공격력과 주문력을 획득하며, 이 효과는 1번으로 시작해 3번까지 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PreparationHS_1654770345.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PreparationII",
+    "ingameKey": "TFT7_Augment_Preparation2",
+    "name": "준비 II",
+    "desc": "대기석의 챔피언은 라운드마다 영구적으로 35의 체력과 4%의 공격력과 4의 주문력을 획득하며, 이 효과는 1번으로 시작해 4번까지 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PreparationII_1653553047.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PreparationIIHR",
+    "ingameKey": "TFT7_Augment_Preparation2HR",
+    "name": "준비 II",
+    "desc": "대기석의 챔피언은 라운드마다 영구적으로 50의 체력과 6의 공격력과 주문력을 획득하며, 이 효과는 1번으로 시작해 3번까지 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PreparationIIHS_1654770497.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PreparationIII",
+    "ingameKey": "TFT7_Augment_Preparation3",
+    "name": "준비 III",
+    "desc": "대기석의 챔피언은 라운드마다 영구적으로 50의 체력과 7%의 공격력과 7의 주문력을 획득하며, 이 효과는 1번으로 시작해 4번까지 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PreparationIII_1653876914.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PreparationIIIHR",
+    "ingameKey": "TFT7_Augment_Preparation3HR",
+    "name": "준비 III",
+    "desc": "대기석의 챔피언은 라운드마다 영구적으로 70의 체력과 9%의 공격력과 주문력을 획득하며, 이 효과는 1번으로 시작해 3번까지 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PreparationIIIHS_1654770594.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Prizefighter",
+    "ingameKey": "TFT11_Augment_Prizefighter",
+    "name": "파이트 머니",
+    "desc": "조합 아이템 1개를 획득합니다. 3회 승리할 때마다 조합 아이템을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Prizefighter_1709770006-prizefighter_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PumpingUp",
+    "ingameKey": "TFT9_Augment_PumpingUp",
+    "name": "준비 운동 I",
+    "desc": "아군의 공격 속도가 즉시 6% 증가합니다. 매 라운드 종료 후에 효과가 0.5% 추가로 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PumpingUp_1685599529-pumping-up-i.tft_set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PumpingUp2",
+    "ingameKey": "TFT9_Augment_PumpingUp2",
+    "name": "준비 운동 II",
+    "desc": "아군의 공격 속도가 즉시 8% 증가합니다. 매 라운드 종료 후에 효과가 1% 추가로 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PumpingUp2_1685599544-pumping-up-ii.tft_set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PumpingUp3",
+    "ingameKey": "TFT9_Augment_PumpingUp3",
+    "name": "준비 운동 III",
+    "desc": "아군의 공격 속도가 즉시 10% 증가합니다. 매 라운드 종료 후에 효과가 2% 추가로 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PumpingUp3_1685599562-pumping-up-iii.tft_set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "RadiantRefactor",
+    "ingameKey": "TFT11_Augment_RadiantRefactor",
+    "name": "찬란한 재조정기",
+    "desc": "걸작 업그레이드와 조합 아이템 모루 1개를 획득합니다.<br><br>걸작 업그레이드는 아이템을 찬란한 아이템으로 업그레이드합니다!",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RadiantRefactor_1709714991-radiantrefactor_iii.tft_set11.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "RadiantRelics",
+    "ingameKey": "TFT6_Augment_RadiantRelics",
+    "name": "찬란한 유물",
+    "desc": "찬란한 아이템 5개 중 하나를 선택합니다. 자석 제거기를 획득합니다.<br><br>찬란한 아이템은 매우 강력한 완성 아이템입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/radiantrelic-iii.tft_set6_stage2.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "RainingGold",
+    "ingameKey": "TFT11_Augment_RainingGold",
+    "name": "돈벼락",
+    "desc": "바로 8골드를 획득합니다. 이후 매 라운드 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RainingGold_1709770018-raininggold_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "RainingGoldplus",
+    "ingameKey": "TFT11_Augment_RainingGoldPlus",
+    "name": "돈벼락+",
+    "desc": "바로 18골드를 획득합니다. 이후 매 라운드 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RainingGoldplus_1709770028-raininggold_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ReachTheSummit",
+    "ingameKey": "TFT10_Augment_ReachTheSummit",
+    "name": "정상을 향해",
+    "desc": "9레벨에 도달하면 10골드와 50의 경험치를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ReachTheSummit_1699837905-reach-the-summit-i.tft_set10.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Recombobulator",
+    "ingameKey": "TFT6_Augment_Recombobulator",
+    "name": "대격변 생성기",
+    "desc": "전장에 있는 챔피언들이 단계가 1 높은 무작위 챔피언으로 영구히 바뀝니다. 자석 제거기 2개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/recombobulator-i.tft_set6_stage2.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "RedBuff",
+    "ingameKey": "TFT9_Augment_RedBuff",
+    "name": "맹렬한 공세",
+    "desc": "아군의 기본 공격이 대상을 태워 5초 동안 대상 최대 체력의 5%에 해당하는 피해를 입힙니다. 또한 기본 공격 시 받는 치유 효과를 33% 감소시킵니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RedBuff_1685416313-Red-Buff-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "ReinFOURcement",
+    "ingameKey": "TFT11_Augment_Reinfourcement",
+    "name": "4후지원",
+    "desc": "다음에 구매하는 4단계 챔피언이 즉시 2성으로 업그레이드됩니다. 12골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ReinFOURcement_1709770037-reinfourcement_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ReturnOnInvestment",
+    "ingameKey": "TFT9_Augment_ReturnOnInvestment",
+    "name": "투자 수익률",
+    "desc": "상점을 16번 새로고침하면 전략가의 왕관을 획득합니다.(한 번만 획득 가능)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ReturnOnInvestment_1686128388-goldreserves2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "RichGetRicher",
+    "ingameKey": "TFT6_Augment_RichGetRicher",
+    "name": "부익부",
+    "desc": "12골드를 획득합니다. 최대 이자가 7골드로 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RichGetRicher_1654659210.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "RichGetRicherPlus",
+    "ingameKey": "TFT6_Augment_RichGetRicherPlus",
+    "name": "부익부+",
+    "desc": "18골드를 획득합니다. 최대 이자가 7골드로 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RichGetRicherPlus_1653552611.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "RiskyMoves",
+    "ingameKey": "TFT9_Augment_RiskyMoves",
+    "name": "위험한 행보",
+    "desc": "아군 전략가가 체력을 20 잃지만, 플레이어 대상 전투를 7번 치른 후 33골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RiskyMoves_1685416284-Risky-Moves-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "RollTheDice",
+    "ingameKey": "TFT9_Augment_RollTheDice",
+    "name": "주사위 던지기",
+    "desc": "장난꾸러기의 장갑을 획득합니다. 장난꾸러기의 장갑은 라운드마다 두 개의 무작위 찬란한 아이템을 장착시킵니다.<br><br>찬란한 아이템은 매우 강력한 완성 아이템입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RollTheDice_1685418466-Roll-the-Dice-III.TFT_Set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "SacrificialPact",
+    "ingameKey": "TFT7_Augment_SacrificialPact",
+    "name": "잔혹한 계약",
+    "desc": "경험치를 4골드 대신 6의 체력으로 구매합니다. 각 플레이어 전투 이전에 체력을 3만큼 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CruelPact_1653546592.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "SalvageBin",
+    "ingameKey": "TFT6_Augment_SalvageBin",
+    "name": "재활용 쓰레기통",
+    "desc": "지금 무작위 완성 아이템을 획득하고 플레이어 대상 전투 7회 후에 조합 아이템을 획득합니다. 챔피언을 판매하면 완성 아이템이 조합 아이템으로 분해됩니다. (전략가의 왕관 제외)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/salvage2.tft_set6.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SalvageBinPlus",
+    "ingameKey": "TFT8_Augment_SalvageBinPlus",
+    "name": "재활용 쓰레기통+",
+    "desc": "지금 무작위 완성 아이템을 획득하고 플레이어 대상 전투 4회 후에 조합 아이템을 획득합니다. 챔피언을 판매하면 완성 아이템이 조합 아이템으로 분해됩니다. (전략가의 왕관 제외)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SalvageBinPlus_1678328152-salvage2.tft_set6.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Scapegoat",
+    "ingameKey": "TFT10_Augment_Scapegoat",
+    "name": "희생양",
+    "desc": "훈련 봇과 4골드를 획득합니다. 플레이어 대상 전투에서 훈련 봇이 맨 처음으로 죽으면 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Scapegoat_1699838420-the-scapegoat-ii.tft_set10.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ScopedWeapons1",
+    "ingameKey": "TFT7_Augment_ScopedWeapons1",
+    "name": "조준경 부착 I",
+    "desc": "후방 2열에서 전투를 시작하는 아군 유닛의 공격 속도가 15% 증가하고 공격 사거리가 2칸 늘어납니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ScopedWeaponsI_1661401674-scopedweapons2.tft_set6 (1).png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ScopedWeaponsII",
+    "ingameKey": "TFT7_Augment_ScopedWeapons2",
+    "name": "조준경 부착 II",
+    "desc": "후방 2열에서 전투를 시작하는 아군 유닛의 공격 사거리가 무제한이 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ScopedWeaponsII_1661401682-scopedweapons3.tft_set6 (1).png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ScoreboardScrapper",
+    "ingameKey": "TFT11_Augment_ScoreboardScrapper",
+    "name": "점수판 등반가",
+    "desc": "매 라운드 하위 4위권일 경우, 아군의 공격력과 주문력이 영구히 1.5% 증가합니다. 상위 4위권일 경우, 아군의 체력이 10% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ScoreboardScrapper_1709770051-scoreboardscrapper_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SecondWind1",
+    "ingameKey": "TFT6_Augment_SecondWind1",
+    "name": "재생의 바람 I",
+    "desc": "전투 시작 10초 후 아군 유닛이 잃은 체력의 40%를 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/second--wind-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "SecondWind2",
+    "ingameKey": "TFT6_Augment_SecondWind2",
+    "name": "재생의 바람 II",
+    "desc": "전투 시작 10초 후 아군 유닛이 잃은 체력의 60%를 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/second--wind-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SharingIsCaring",
+    "ingameKey": "TFT11_Augment_SharingIsCaring",
+    "name": "나눔의 힘",
+    "desc": "전투 시작: 1골드를 획득합니다. 상대는 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SharingIsCaring_1709769507-sharingiscaring_i.tft_set11.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "ShockTreatment",
+    "ingameKey": "TFT10_Augment_ShockTreatment",
+    "name": "충격 요법",
+    "desc": "스태틱의 단검을 획득합니다. 스태틱의 단검 연쇄 번개 피해량이 스테이지 레벨에 따라 40~125% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ShockTreatment_1699837625-shock-treatment-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Shoplifting",
+    "ingameKey": "TFT9_Augment_Shoplifting",
+    "name": "도둑질",
+    "desc": "매 차례 처음으로 상점을 새로고침할 때 비용이 가장 높은 유닛을 무료로 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Shoplifting_1685417687-Shoplifting-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SilverSpoon",
+    "ingameKey": "TFT9_Augment_SilverSpoon",
+    "name": "은수저",
+    "desc": "10의 경험치를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SilverSpoon_1685416295-Silver-Spoon-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "SilverTicket",
+    "ingameKey": "TFT9_Augment_SilverTicket",
+    "name": "골드 티켓",
+    "desc": "상점을 새로고침할 때마다 30% 확률로 무료 새로고침을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SilverTicket_1686539357-goldenticket2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SilverVeil",
+    "ingameKey": "TFT10_Augment_SilverVeil",
+    "name": "은빛 장막",
+    "desc": "아군이 5%의 공격 속도를 얻고 전투 시작 후 처음으로 받는 군중 제어 효과에 면역이 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SilverVeil_1699837765-the-silver-veil-i.tft_set10.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Slammin",
+    "ingameKey": "TFT11_Augment_Slammin",
+    "name": "재빠른 무장",
+    "desc": "무작위 조합 아이템 1개를 획득합니다. 플레이어 대상 전투를 마친 후 대기석에 아이템(소모품 제외)이 없을 때마다 2의 경험치를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Slammin_1709770068-slammin_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Slamminplus",
+    "ingameKey": "TFT11_Augment_Slammin_Plus",
+    "name": "재빠른 무장+",
+    "desc": "무작위 조합 아이템 1개와 10의 경험치를 즉시 획득합니다. 플레이어 대상 전투를 마친 후 대기석에 아이템(소모품 제외)이 없을 때마다 2의 경험치를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Slamminplus_1709770080-slammin_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Sleightofhand",
+    "ingameKey": "TFT9_Augment_Sleightofhand",
+    "name": "현란한 손놀림",
+    "desc": "도적의 장갑을 획득합니다. 도적의 장갑을 장착한 챔피언의 체력이 200, 공격 속도가 20% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Sleightofhand_1685417395-Sleight-of-Hand-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SlowAndSteady",
+    "ingameKey": "TFT6_Augment_SlowAndSteady",
+    "name": "진보의 행진",
+    "desc": "지금 3의 경험치를 획득하고 플레이어 대상 전투 라운드를 시작할 때마다 레벨과 동일한 추가 경험치를 획득합니다. 더는 골드를 사용해 레벨 업할 수 없습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/slowandsteady3.tft_set6.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "SocialDistancing",
+    "ingameKey": "TFT9_Augment_SocialDistancing",
+    "name": "사회적 거리 두기 I",
+    "desc": "전투 시작: 주변에 아군 없이 전투를 시작하는 유닛의 공격력 및 주문력이 10% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SocialDistancing_1685416100-Social-Distance-I.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "SocialDistancing2",
+    "ingameKey": "TFT9_Augment_SocialDistancing2",
+    "name": "사회적 거리 두기 II",
+    "desc": "전투 시작: 주변에 아군 없이 전투를 시작하는 유닛의 공격력 및 주문력이 16% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SocialDistancing2_1685416117-Social-Distance-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SocialDistancing3",
+    "ingameKey": "TFT9_Augment_SocialDistancing3",
+    "name": "사회적 거리 두기 III",
+    "desc": "전투 시작: 주변에 아군 없이 전투를 시작하는 유닛의 공격력 및 주문력이 25% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SocialDistancing3_1685416133-Social-Distance-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "StarsAreBorn",
+    "ingameKey": "TFT9_Augment_StarsAreBorn",
+    "name": "별들의 탄생",
+    "desc": "처음 구매하는 1단계 및 2단계 챔피언이 즉시 2성으로 업그레이드됩니다. 7골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/StarsAreBorn_1685415132-Stars-are-born-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "StarterKit",
+    "ingameKey": "TFT9_Augment_StarterKit",
+    "name": "입문용 키트",
+    "desc": "4단계 챔피언, 해당 챔피언과 특성이 같은 1단계 2성 챔피언, 4골드를 획득합니다.<br><br>다음 2번의 스테이지 시작 시 해당 4단계 챔피언을 다시 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/StarterKit_1685415869-Starter-Kit-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "StationarySupportI",
+    "ingameKey": "TFT9_Augment_StationarySupport1",
+    "name": "고정된 지원 I",
+    "desc": "플레이어 대상 전투를 8번 치른 후 지원 아이템 1개를 영구히 장착한 훈련 봇 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/StationarySupportI_1693367046-stationary-support-i.tft_set9_stage2.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "StationarySupportII",
+    "ingameKey": "TFT9_Augment_StationarySupport2",
+    "name": "고정된 지원 II",
+    "desc": "영구 장착된 지원 아이템 1개를 지닌 훈련 봇 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/StationarySupportII_1693367158-stationary-support-ii.tft_set9_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "StationarySupportIII",
+    "ingameKey": "TFT9_Augment_StationarySupport3",
+    "name": "고정된 지원 III",
+    "desc": "영구 장착된 지원 아이템 2개를 지닌 훈련 봇 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/StationarySupportIII_1693367204-stationary-support-iii.tft_set9_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "SticksAndStones",
+    "ingameKey": "TFT10_Augment_SticksAndStones",
+    "name": "막대기와 돌멩이",
+    "desc": "아이템이 없는 챔피언이 3초 동안 적에게 파쇄와 파열 효과를 부여합니다. 물리 피해는 30%의 파열을, 마법 피해는 30%의 파쇄를 추가로 적용합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SticksAndStones_1699837739-sticks-and-stones-i.tft_set10.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Stimpack",
+    "ingameKey": "TFT10_Augment_Stimpack",
+    "name": "전투자극제",
+    "desc": "50의 플레이어 체력을 잃으면 조합 아이템 4개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Stimpack_1699837513-stimpack-i.tft_set10.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "SunfireBoard",
+    "ingameKey": "TFT6_Augment_SunfireBoard",
+    "name": "태양불꽃판",
+    "desc": "전투 시작 시 모든 적을 불태워 20초 동안 대상 최대 체력의 10%만큼 피해를 입히고 받는 회복 효과를 33% 감소시킵니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/sunfireboard2.tft_set6.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SupportCache",
+    "ingameKey": "TFT9_Augment_SupportCache",
+    "name": "지원 상자",
+    "desc": "지원 아이템 4개 중 하나를 선택합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SupportCache_1693367283-support-cache-ii.tft_set9_stage2.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SwitchingGears",
+    "ingameKey": "TFT10_Augment_SwitchingGears",
+    "name": "변속",
+    "desc": "연승 혹은 연패 기록이 깨질 때마다 3골드를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SwitchingGears_1699837504-switching-gears-i.tft_set10.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "TacticiansTools",
+    "ingameKey": "TFT9_Augment_TacticiansTools",
+    "name": "전략가의 도구",
+    "desc": "뒤집개 2개와 조합 아이템 모루 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TacticiansTools_1685418452-Tactician_s-Tools-III.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TargetDummies",
+    "ingameKey": "TFT6_Augment_TargetDummies",
+    "name": "허수아비 전선",
+    "desc": "2개의 훈련 봇을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TargetDummies_1653551273.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TeamingUpI",
+    "ingameKey": "TFT9_Augment_Commander_TeamingUp1",
+    "name": "협력 I",
+    "desc": "무작위 조합 아이템 1개, 무작위 3단계 챔피언 2명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TeamingUpI_1693367058-teaming-up-i.tft_set9_stage2.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "TeamingUpII",
+    "ingameKey": "TFT9_Augment_Commander_TeamingUp2",
+    "name": "협력 II",
+    "desc": "무작위 지원 아이템 1개와 무작위 4단계 챔피언 2명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TeamingUpII_1693367166-teaming-up-ii.tft_set9_stage2.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TheGoldenEgg",
+    "ingameKey": "TFT6_Augment_TheGoldenEgg",
+    "name": "황금 알",
+    "desc": "11턴 후 부화하는 황금 알을 획득합니다. 알이 부화하면 막대한 전리품을 얻습니다. 플레이어 대상 전투에서 승리하면 부화기 타이머를 한 턴만큼 가속합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/the-golden-egg-iii.tft_set6_stage2.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TheGoldenEggHR",
+    "ingameKey": "TFT6_Augment_TheGoldenEggHR",
+    "name": "황금 알",
+    "desc": "6턴 안에 부화하는 거대한 황금 알을 획득합니다. 플레이어 대상 전투에서 승리하면 부화기 타이머를 한 턴만큼 가속합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TheGoldenEggHR_1654824022.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TheGoldenRemover",
+    "ingameKey": "TFT11_Augment_GoldenRemover",
+    "name": "황금 제거기",
+    "desc": "황금 제거기와 조합 아이템 모루를 획득합니다.<br><br>황금 제거기는 무한히 사용할 수 있는 아이템 제거기입니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TheGoldenRemover_1709769517-goldenremover_i.tft_set11.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "ThinkFast",
+    "ingameKey": "TFT7_Augment_ThinkFast",
+    "name": "빠른 판단",
+    "desc": "이 라운드가 끝날 때까지 상점 새로고침이 무료가 됩니다. 특성 및 기타 증강은 무료 상점의 혜택을 받을 수 없습니다. 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ThinkFast_1653546238.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ThreesACrowd",
+    "ingameKey": "TFT9_Augment_ThreesACrowd",
+    "name": "셋부터 남남",
+    "desc": "전장에 배치한 아군 3단계 챔피언 한 종류당 아군의 체력이 66 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ThreesACrowd_1685416673-Three_s-a-Crowd-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ThreesCompany",
+    "ingameKey": "TFT6_Augment_ThreesCompany",
+    "name": "삼총사",
+    "desc": "무작위 3단계 챔피언 4명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/threes-company-ii.tft_set6_stage2.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ThriftShop",
+    "ingameKey": "TFT6_Augment_ThriftShop",
+    "name": "현명한 소비",
+    "desc": "상점을 새로고침하면 2의 경험치를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/wisespending3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ThrillOfTheHunt1",
+    "ingameKey": "TFT6_Augment_ThrillOfTheHunt1",
+    "name": "사냥의 전율 I",
+    "desc": "아군 유닛이 적을 처치하면 350의 체력을 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/thrillhunt1.tft_set6.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "ThrillOfTheHunt2",
+    "ingameKey": "TFT6_Augment_ThrillOfTheHunt2",
+    "name": "사냥의 전율 II",
+    "desc": "아군 유닛이 적을 처치하면 550의 체력을 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/thrillhunt2.tft_set6.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TiniestTitan",
+    "ingameKey": "TFT9_Augment_TiniestTitan",
+    "name": "꼬꼬마 거인",
+    "desc": "플레이어 대상 전투가 끝날 때마다 2의 플레이어 체력과 1골드를 얻습니다. 또한 전략가의 이동 속도가 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TiniestTitan_1685603384-tiniest-titaniii.tft_set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TiniestTitanPlus",
+    "ingameKey": "TFT9_Augment_TiniestTitanPlus",
+    "name": "꼬꼬마 거인+",
+    "desc": "플레이어 대상 전투가 끝날 때마다 2의 플레이어 체력과 1골드를 얻습니다. 또한 전략가의 이동 속도가 증가합니다.<br><br>즉시 15골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TiniestTitanPlus_1695765677-TiniestTitan_1685603384-tiniest-titaniii.tft_set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TinybutDeadly",
+    "ingameKey": "TFT11_Augment_TinyButDeadly",
+    "name": "작지만 치명적인",
+    "desc": "아군이 50% 작아지지만 이동 및 공격 속도가 30% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TinybutDeadly_1709770236-tinybutdeadly_iii.tft_set11.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TinyGrabBag",
+    "ingameKey": "TFT9_Augment_TinyGrabBag",
+    "name": "작은 꾸러미",
+    "desc": "무작위 조합 아이템, 2골드, 자석 제거기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TinyGrabBag_1685601043-grab-bag-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null,
+    "legendCodes": ["Urf", "Ezreal"]
+  },
+  {
+    "key": "TinyTitans",
+    "ingameKey": "TFT6_Augment_TinyTitans",
+    "name": "꼬마 거인",
+    "desc": "현재 및 최대 플레이어 체력이 30 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TinyTitans_1649800066.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "TomeOfTraits1",
+    "ingameKey": "TFT6_Augment_TomeOfTraits1",
+    "name": "고대의 기록 보관소 I",
+    "desc": "특성의 고서 1개와 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TomeOfTraits1_1654642044.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TomeOfTraits2",
+    "ingameKey": "TFT7_Augment_TomeOfTraits2",
+    "name": "고대의 기록 보관소 II",
+    "desc": "특성의 고서 2개와 5골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AncientArchivesII_1653545006.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TonsOfStats",
+    "ingameKey": "TFT9_Augment_TonsOfStats",
+    "name": "엄청나게 이로운 효과!",
+    "desc": "아군이 체력 44, 공격력 4%, 주문력 4, 방어력 4, 마법 저항력 4, 공격 속도 4%, 4의 마나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TonsOfStats_1685414899-Tons-of-Stats-II.TFT_Set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TooBigToFail",
+    "ingameKey": "TFT10_Augment_TooBigToFail",
+    "name": "대마불사",
+    "desc": "난동꾼이 죽을 때 폭발하여 1칸 내의 적에게 자신의 최대 체력의 35%에 해당하는 피해를 입힙니다. 15초가 지나면 폭발 범위가 2칸으로 증가합니다. 올라프와 그라가스를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TooBigToFail_1699838186-too-big-to-fail-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TooMuchCandy",
+    "ingameKey": "TFT11_Augment_TooMuchCandy",
+    "name": "지나친 탐닉",
+    "desc": "새로고침 비용이 0골드가 됩니다. 새로고침을 6회 사용할 때마다 비용이 1골드씩 증가합니다. 매 스테이지 시작 시 새로고침 비용이 0골드로 초기화됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TooMuchCandy_1710286553-toomuchcandy_ii.tft_set11.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TopDeck",
+    "ingameKey": "TFT9_Augment_TopDeck",
+    "name": "훈련 보상",
+    "desc": "5골드와 하급 챔피언 복제기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TopDeck_1685601699-training-reward-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null,
+    "legendCodes": ["Lee Sin"]
+  },
+  {
+    "key": "TopDeckPlus",
+    "ingameKey": "TFT9_Augment_TopDeckPlus",
+    "name": "훈련 보상 II",
+    "desc": "12골드와 하급 챔피언 복제기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TopDeckPlus_1685601715-training-reward-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null,
+    "legendCodes": ["Lee Sin"]
+  },
+  {
+    "key": "TopDeckPlusPlus",
+    "ingameKey": "TFT9_Augment_TopDeckPlusPlus",
+    "name": "훈련 보상 III",
+    "desc": "24골드와 챔피언 복제기를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TopDeckPlusPlus_1685601734-training-reward-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Lee Sin", "Ezreal"]
+  },
+  {
+    "key": "TradeSector",
+    "ingameKey": "TFT6_Augment_TradeSector",
+    "name": "교환의 장",
+    "desc": "라운드마다 무료 상점 새로고침을 획득합니다. 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/trade2.tft_set6.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TradeSectorPlus",
+    "ingameKey": "TFT6_Augment_TradeSectorPlus",
+    "name": "교환의 장+",
+    "desc": "라운드마다 무료 상점 새로고침을 획득합니다. 즉시 10골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TradeSectorPlus_1655948867.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Traitless1",
+    "ingameKey": "TFT6_Augment_Traitless1",
+    "name": "다른 태생 I",
+    "desc": "활성화된 특성이 없는 아군 유닛이 200~300의 체력과 25~55%의 공격 속도를 얻습니다. (현재 스테이지에 비례)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/builtdifferent1.tft_set6.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Traitless2",
+    "ingameKey": "TFT6_Augment_Traitless2",
+    "name": "다른 태생 II",
+    "desc": "활성화된 특성이 없는 아군 유닛이 240~530의 체력과 45~60%의 공격 속도를 얻습니다. (현재 스테이지에 비례)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/builtdifferent2.tft_set6.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Traitless3",
+    "ingameKey": "TFT6_Augment_Traitless3",
+    "name": "다른 태생 III",
+    "desc": "활성화된 특성이 없는 아군 유닛이 300~600의 체력과 50~70%의 공격 속도를 얻습니다. (현재 스테이지에 비례)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/builtdifferent3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Transfusion",
+    "ingameKey": "TFT9_Augment_Transfusion",
+    "name": "수혈 I",
+    "desc": "아군의 체력이 20 + 전략가의 잃은 체력당 2 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Transfusion_1685601177-transfusion-i.tft_set9.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "TransfusionPlus",
+    "ingameKey": "TFT9_Augment_TransfusionPlus",
+    "name": "수혈 II",
+    "desc": "아군의 체력이 40 + 전략가의 잃은 체력당 3 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TransfusionPlus_1685602064-transfusion-ii.tft_set9.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TransfusionPlusPlus",
+    "ingameKey": "TFT9_Augment_TransfusionPlusPlus",
+    "name": "수혈 III",
+    "desc": "아군의 체력이 50 + 전략가의 잃은 체력당 5 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TransfusionPlusPlus_1685603925-transfusion-iii.tft_set9.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TrashToTreasure",
+    "ingameKey": "TFT11_Augment_TrashToTreasure",
+    "name": "쓰레기에서 보석으로",
+    "desc": "완성 아이템에 재조합기를 사용하면 해당 아이템이 무작위 유물로 변하고 재조합기를 소모하지 않습니다. 재조합기와 조합 아이템 모루 2개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TrashToTreasure_1709770254-trashtotreasure_iii.tft_set11.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TriForce",
+    "ingameKey": "TFT6_Augment_TriForce1",
+    "name": "3에 깃든 힘 I",
+    "desc": "아군 3단계 챔피언의 체력이 150, 시작 마나가 10, 공격 속도가 10% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TriForce_1654841806.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "TriForce2",
+    "ingameKey": "TFT6_Augment_TriForce2",
+    "name": "3에 깃든 힘 II",
+    "desc": "아군 3단계 유닛의 체력이 125, 시작 마나가 15, 공격 속도가 15% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TriForce2_1654841812.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TriForce3",
+    "ingameKey": "TFT6_Augment_TriForce3",
+    "name": "3에 깃든 힘 III",
+    "desc": "아군 3단계 유닛의 체력이 200, 시작 마나가 25, 공격 속도가 25% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TriForce3_1654824496.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TrueTwos",
+    "ingameKey": "TFT6_Augment_TrueTwos",
+    "name": "곱빼기",
+    "desc": "무작위 2성 1단계 챔피언 1명과 무작위 2성 2단계 챔피언 1명을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/true-twos-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Twins1",
+    "ingameKey": "TFT6_Augment_Twins1",
+    "name": "문제가 두 배 I",
+    "desc": "동일 챔피언 둘을 전장에 배치하면 둘 다 공격력 25%, 주문력, 방어력, 마법 저항력이 25 상승합니다. 3성이 되면 동일한 2성 챔피언 하나를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/double-trouble-i.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Twins2",
+    "ingameKey": "TFT6_Augment_Twins2",
+    "name": "문제가 두 배 II",
+    "desc": "전장에 똑같은 챔피언이 정확히 둘 있다면 둘 다 공격력 30%, 주문력, 방어력, 마법 저항력이 30 상승합니다. 챔피언을 3성으로 업그레이드하면 동일한 2성 챔피언 하나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/double-trouble-ii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Twins3",
+    "ingameKey": "TFT6_Augment_Twins3",
+    "name": "문제가 두 배 III",
+    "desc": "전장에 똑같은 챔피언이 정확히 둘 있다면 둘 다 공격력 40%, 주문력, 방어력, 마법 저항력이 40 상승합니다. 챔피언을 3성으로 업그레이드하면 동일한 2성 챔피언 하나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/double-trouble-iii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TwinTerror1",
+    "ingameKey": "TFT10_Augment_TwinTerror1",
+    "name": "쌍둥이 공포 I",
+    "desc": "전장에 똑같은 챔피언이 정확히 2명 있다면 둘 다 체력이 350, 공격 속도가 35% 증가합니다. 챔피언을 3성으로 업그레이드하면 동일한 2성 챔피언 하나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TwinTerror1_1699838198-twin-terror-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TwinTerror2",
+    "ingameKey": "TFT10_Augment_TwinTerror2",
+    "name": "쌍둥이 공포 II",
+    "desc": "전장에 똑같은 챔피언이 정확히 2명 있다면 둘 다 체력이 500, 공격 속도가 50% 증가합니다. 챔피언을 3성으로 업그레이드하면 동일한 2성 챔피언 하나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TwinTerror2_1699838435-twin-terror-iii.tft_set10.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TwoforOne",
+    "ingameKey": "TFT11_Augment_TwoforOne",
+    "name": "일석이조",
+    "desc": "라운드마다 처음으로 구매하는 3단계 이하 챔피언의 복사본을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TwoforOne_1709714935-twoforone_iii.tft_set11.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "TwoHealthy",
+    "ingameKey": "TFT9_Augment_TwoHealthy",
+    "name": "건강 또 건강",
+    "desc": "전장에 배치한 아군 2단계 챔피언 한 종류당 아군의 체력이 90 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TwoHealthy_1685417008-Two-Healthy-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "UnknownAugment1",
+    "ingameKey": null,
+    "name": "전설 증강 - 실버",
+    "desc": "전설 증강은 라이엇 정책에 따라 표시되지 않습니다. 2-1 스테이지에서 실버 등급의 전설 증강이 선택되었습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/UnknownAugment1_1695609406-UnknownAugment1_1684993129-missing-t1 (1).png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null,
+    "legendCodes": ["Poro"]
+  },
+  {
+    "key": "UnknownAugment2",
+    "ingameKey": null,
+    "name": "전설 증강 - 골드",
+    "desc": "전설 증강은 라이엇 정책에 따라 표시되지 않습니다. 2-1 스테이지에서 골드 등급의 전설 증강이 선택되었습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/UnknownAugment2_1695609396-UnknownAugment2_1684993114-missing-t2 (1).png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null,
+    "legendCodes": ["Poro"]
+  },
+  {
+    "key": "UnknownAugment3",
+    "ingameKey": null,
+    "name": "전설 증강 - 프리즘",
+    "desc": "전설 증강은 라이엇 정책에 따라 표시되지 않습니다. 2-1 스테이지에서 프리즘 등급의 전설 증강이 선택되었습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/UnknownAugment3_1695609378-UnknownAugment3_1684993145-missing-t3 (1).png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null,
+    "legendCodes": ["Poro"]
+  },
+  {
+    "key": "UnleashedArcana",
+    "ingameKey": "TFT9_Augment_UnleashedArcana",
+    "name": "풀려난 아르카나",
+    "desc": "보석 건틀릿, 라바돈의 죽음모자, 쓸데없이 큰 지팡이, 자석 제거기를 획득합니다.<br><br>주문력 기반 원거리 딜러 또는 주문력 기반 마법사에게 유용합니다!",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/UnleashedArcana_1685937185-lifelonglearner3.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "UrfsGrabBagI",
+    "ingameKey": "TFT7_Augment_UrfsGrabBag1",
+    "name": "우르프의 꾸러미 I",
+    "desc": "뒤집개 1개와 무작위 조합 아이템 1개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/UrfsGrabBagI_1653546467.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "UrfsGrabBagII",
+    "ingameKey": "TFT7_Augment_UrfsGrabBag2",
+    "name": "우르프의 꾸러미 II",
+    "desc": "뒤집개 1개와 무작위 조합 아이템 3개를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/UrfsGrabBagII_1653546474.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Vampirism",
+    "ingameKey": "TFT10_Augment_Vampirism",
+    "name": "흡혈 I",
+    "desc": "아군의 체력이 20 증가합니다. 전략가가 잃은 체력 5당 2의 체력과 1%의 모든 피해 흡혈을 추가로 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Vampirism_1699837752-vampirism-i.tft_set10.png",
+    "isHidden": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "VampirismPlus",
+    "ingameKey": "TFT10_Augment_VampirismPlus",
+    "name": "흡혈 II",
+    "desc": "아군의 체력이 50 증가합니다. 전략가가 잃은 체력 5당 6의 체력과 1%의 모든 피해 흡혈을 추가로 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/VampirismPlus_1699838406-vampirism-ii.tft_set10.png",
+    "isHidden": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "VerdantVeil",
+    "ingameKey": "TFT6_Augment_VerdantVeil",
+    "name": "신록의 장막",
+    "desc": "아군 유닛이 전투 시작 후 20초 동안 군중 제어 효과에 면역이 됩니다. 15%의 추가 공격 속도를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/verdant-veil-iii.tft_set6_stage2.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "WanderingTrainer",
+    "ingameKey": "TFT9_Augment_WanderingTrainer",
+    "name": "방랑하는 조련사 II",
+    "desc": "6골드와 영구 장착된 상징 3개를 지닌 훈련 봇을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WanderingTrainer_1709869883-wandering-trainer-iii.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "WanderingTrainerGold",
+    "ingameKey": "TFT11_Augment_WanderingTrainerGold",
+    "name": "방랑하는 조련사 I",
+    "desc": "1골드와 영구 장착된 상징 2개를 지닌 훈련 봇을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WanderingTrainer_1709715194-wandering-trainer-ii.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "WhatDoesntKillYou",
+    "ingameKey": "TFT9_Augment_WhatDoesntKillYou",
+    "name": "죽음의 고통",
+    "desc": "플레이어 대상 전투 패배 후 2골드를 획득합니다. 4번 패배할 때마다 무작위 조합 아이템을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WhatDoesntKillYou_1685417096-What-Doesn_t-Kill-You-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "WhatTheForge",
+    "ingameKey": "TFT9_Augment_WhatTheForge",
+    "name": "모루가 물렁해질 노릇",
+    "desc": "보유 완성 아이템이 무작위 유물로 재련됩니다. (전략가의 왕관, 상징 제외) 챔피언들이 장착한 유물 하나당 110의 체력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WhatTheForge_1686565040-what-the-forge-iii.tft_set9.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Windfall",
+    "ingameKey": "TFT6_Augment_Windfall",
+    "name": "뜻밖의 횡재",
+    "desc": "20골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/windfall3.tft_set6.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "WindfallPlus",
+    "ingameKey": "TFT6_Augment_WindfallPlus",
+    "name": "뜻밖의 횡재+",
+    "desc": "35골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WindfallPlus_1654659493.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "WindfallPlusPlus",
+    "ingameKey": "TFT6_Augment_WindfallPlusPlus",
+    "name": "뜻밖의 횡재++",
+    "desc": "40골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WindfallPlusPlus_1654659560.png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "WoodlandCharm",
+    "ingameKey": "TFT6_Augment_WoodlandCharm",
+    "name": "숲의 부적",
+    "desc": "가장 체력이 높은 아군 챔피언의 분신 하나를 생성합니다. 분신은 아이템을 장착할 수 없습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WoodlandCharm_1661401899-woodlandcharm3.tft_set6 (1).png",
+    "isHidden": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "YouHaveMyBow",
+    "ingameKey": "TFT9_Augment_YouHaveMyBow",
+    "name": "활의 수호자",
+    "desc": "곡궁을 획득합니다. 아군 유닛의 공격 속도가 12% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/YouHaveMyBow_1685416962-You-Have-My-Bow-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "YouHaveMySword",
+    "ingameKey": "TFT9_Augment_YouHaveMySword",
+    "name": "검의 수호자",
+    "desc": "B.F. 대검을 획득합니다. 아군 유닛의 공격력이 15% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/YouHaveMySword_1685416950-You-Have-My-Sword-II.TFT_Set9.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "YoungAndWildAndFree",
+    "ingameKey": "TFT9_Augment_YoungAndWildAndFree",
+    "name": "젊음, 광란, 자유",
+    "desc": "공동 선택 라운드에서 언제나 자유롭게 움직일 수 있습니다. 2골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/YoungAndWildAndFree_1685416392-Young-and-wild-and-free-I.TFT_Set9.png",
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CalltoChaos",
+    "ingameKey": "TFT11_Augment_Calltochaos",
+    "name": "혼돈의 부름",
+    "desc": "강력한 무작위 보상을 획득합니다.\r\n(다음 중 하나를 무작위로 획득합니다.)<br>- [58골드], [경험치 64], [사라지지 않는 새로고침 40회], [지크의 전령 2개를 장착한 훈련 봇], [강철의 솔라리 펜던트 2개를 장착한 훈련 봇]<br>- [선체파괴자 3개와 자석 제거기 1개], [저격수의 집중 3개와 자석 제거기 1개], [무작위 3성 3단계 유닛과 20골드], [도적의 장갑 3개와 자석 제거기 1개], [무작위 상징 5개(중복 없음)와 자석 제거기 1개]",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CalltoChaos_1709714951-calltochaos_iii.tft_set11.png",
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ArcanaCrest",
+    "ingameKey": "TFT12_Augment_ArcanaCrest",
+    "name": "아르카나 문장",
+    "desc": "아르카나 상징과 아리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ArcanaCrest_1721202752-crest_arcana_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ArcanaCrown",
+    "ingameKey": "TFT12_Augment_ArcanaCrown",
+    "name": "아르카나 왕관",
+    "desc": "아르카나 상징, 적응형 투구, 아리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ArcanaCrown_1721200456-crown_arcana_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BastionCrest",
+    "ingameKey": "TFT12_Augment_BastionCrest",
+    "name": "요새 문장",
+    "desc": "요새 상징과 누누를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BastionCrest_1721202459-crest_bastion1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BastionCrown",
+    "ingameKey": "TFT12_Augment_BastionCrown",
+    "name": "요새 왕관",
+    "desc": "요새 상징, 굳건한 심장, 누누를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BastionCrown_1721200904-crown_bastion_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "BlasterCrest",
+    "ingameKey": "TFT12_Augment_BlasterCrest",
+    "name": "폭파단 문장",
+    "desc": "폭파단 상징과 트리스타나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BlasterCrest_1721202533-crest_artillerist1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BlasterCrown",
+    "ingameKey": "TFT12_Augment_BlasterCrown",
+    "name": "폭파단 왕관",
+    "desc": "폭파단 상징, 쇼진의 창, 트리스타나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BlasterCrown_1721200936-crown_artillerist_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ChronoCrest",
+    "ingameKey": "TFT12_Augment_ChronoCrest",
+    "name": "시공간 문장",
+    "desc": "시공간 상징과 질리언을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ChronoCrest_1721202305-crest_time1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ChronoCrown",
+    "ingameKey": "TFT12_Augment_ChronoCrown",
+    "name": "시공간 왕관",
+    "desc": "시공간 상징, 대천사의 지팡이, 질리언을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ChronoCrown_1721200998-crown_time_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "EldritchCrest",
+    "ingameKey": "TFT12_Augment_EldritchCrest",
+    "name": "섬뜩한 힘 문장",
+    "desc": "섬뜩한 힘 상징과 닐라를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EldritchCrest_1721202417-crest_eldritch1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "EldritchCrown",
+    "ingameKey": "TFT12_Augment_EldritchCrown",
+    "name": "섬뜩한 힘 왕관",
+    "desc": "섬뜩한 힘 상징, 피바라기, 닐라를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EldritchCrown_1721201076-crown_eldritch_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "FaerieCrest",
+    "ingameKey": "TFT12_Augment_FaerieCrest",
+    "name": "요정 문장",
+    "desc": "요정 상징과 트리스타나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FaerieCrest_1721202704-crest_faerie1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "FaerieCrown",
+    "ingameKey": "TFT12_Augment_FaerieCrown",
+    "name": "요정 왕관",
+    "desc": "요정 상징, 거인 학살자, 트리스타나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FaerieCrown_1721201102-crown_faerie_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "FrostCrest",
+    "ingameKey": "TFT12_Augment_FrostCrest",
+    "name": "서리 문장",
+    "desc": "서리 상징과 질리언을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FrostCrest_1721202942-crest_winter1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "FrostCrown",
+    "ingameKey": "TFT12_Augment_FrostCrown",
+    "name": "서리 왕관",
+    "desc": "서리 왕관, 수호자의 맹세, 스웨인을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FrostCrown_1721201125-crown_winter_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HoneymancyCrest",
+    "ingameKey": "TFT12_Augment_HoneymancyCrest",
+    "name": "벌꿀술사 문장",
+    "desc": "벌꿀술사 상징과 누누를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HoneymancyCrest_1721203028-crest_bee1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "HoneymancyCrown",
+    "ingameKey": "TFT12_Augment_HoneymancyCrown",
+    "name": "벌꿀술사 왕관",
+    "desc": "벌꿀술사 상징, 가고일 돌갑옷, 누누를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HoneymancyCrown_1721201600-crown_bee_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HunterCrest",
+    "ingameKey": "TFT12_Augment_HunterCrest",
+    "name": "사냥꾼 문장",
+    "desc": "사냥꾼 상징과 코그모를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HunterCrest_1721202362-crest_hunter1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "HunterCrown",
+    "ingameKey": "TFT12_Augment_HunterCrown",
+    "name": "사냥꾼 왕관",
+    "desc": "사냥꾼 상징, 루난의 허리케인, 코그모를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HunterCrown_1721201625-crown_hunter_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "IncantorCrest",
+    "ingameKey": "TFT12_Augment_IncantorCrest",
+    "name": "마도사 문장",
+    "desc": "마도사 상징과 신드라를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/IncantorCrest_1721203048-crest_incantor1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "IncantorCrown",
+    "ingameKey": "TFT12_Augment_IncantorCrown",
+    "name": "마도사 왕관",
+    "desc": "마도사 상징, 보석 건틀릿, 신드라를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/IncantorCrown_1721201693-crown_incantor_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "MageCrest",
+    "ingameKey": "TFT12_Augment_MageCrest",
+    "name": "요술사 문장",
+    "desc": "요술사 상징과 갈리오를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MageCrest_1721202398-crest_mage1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "MageCrown",
+    "ingameKey": "TFT12_Augment_MageCrown",
+    "name": "요술사 왕관",
+    "desc": "요술사 상징, 이온 충격기, 갈리오를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MageCrown_1721201744-crown_mage_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "MultistrikerCrest",
+    "ingameKey": "TFT12_Augment_MultistrikerCrest",
+    "name": "쇄도자 문장",
+    "desc": "쇄도자 상징과 카사딘을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MultistrikerCrest_1721202380-crest_weaponmaster1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "MultistrikerCrown",
+    "ingameKey": "TFT12_Augment_MultistrikerCrown",
+    "name": "쇄도자 왕관",
+    "desc": "쇄도자 상징, 수은, 카사딘을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MultistrikerCrown_1721201828-crown_weaponmaster_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PortalCrest",
+    "ingameKey": "TFT12_Augment_PortalCrest",
+    "name": "차원문 문장",
+    "desc": "차원문 상징과 카사딘을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PortalCrest_1721203157-crest_portal1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PortalCrown",
+    "ingameKey": "TFT12_Augment_PortalCrown",
+    "name": "차원문 왕관",
+    "desc": "차원문 상징, 쇼진의 창, 카사딘을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PortalCrown_1721201852-crown_portal_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PreserverCrest",
+    "ingameKey": "TFT12_Augment_PreserverCrest",
+    "name": "보호술사 문장",
+    "desc": "보호술사 상징과 질리언을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PreserverCrest_1721203252-crest_preserver1_ii.tft_set12 (1).png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PreserverCrown",
+    "ingameKey": "TFT12_Augment_PreserverCrown",
+    "name": "보호술사 왕관",
+    "desc": "보호술사 상징, 내셔의 이빨, 바드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PreserverCrown_1721201874-crown_preserver_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "PyroCrest",
+    "ingameKey": "TFT12_Augment_PyroCrest",
+    "name": "화염 문장",
+    "desc": "화염 상징과 아칼리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PyroCrest_1721203293-crest_pyrokinesis1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PyroCrown",
+    "ingameKey": "TFT12_Augment_PyroCrown",
+    "name": "화염 왕관",
+    "desc": "화염 상징, 무한의 대검, 아칼리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PyroCrown_1721201899-crown_pyrokinesis_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ScholarCrest",
+    "ingameKey": "TFT12_Augment_ScholarCrest",
+    "name": "학자 문장",
+    "desc": "학자 상징과 아리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ScholarCrest_1721203388-crest_scholar1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ScholarCrown",
+    "ingameKey": "TFT12_Augment_ScholarCrown",
+    "name": "학자 왕관",
+    "desc": "학자 상징, 방패파괴자, 아리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ScholarCrown_1721201922-crown_scholar_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ShapeshifterCrest",
+    "ingameKey": "TFT12_Augment_ShapeshifterCrest",
+    "name": "형상변환자 문장",
+    "desc": "형상변환자 상징과 쉬바나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ShapeshifterCrest_1721203430-crest_shapeshifter1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ShapeshifterCrown",
+    "ingameKey": "TFT12_Augment_ShapeshifterCrown",
+    "name": "형상변환자 왕관",
+    "desc": "형상변환자 상징, 구원, 쉬바나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ShapeshifterCrown_1721201951-crown_shapeshifter_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "SugarmancyCrest",
+    "ingameKey": "TFT12_Augment_SugarcraftCrest",
+    "name": "달콤술사 문장",
+    "desc": "달콤술사 상징과 럼블을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SugarmancyCrest_1721203703-crest_sugarcraft1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SugarmancyCrown",
+    "ingameKey": "TFT12_Augment_SugarcraftCrown",
+    "name": "달콤술사 왕관",
+    "desc": "달콤술사 상징, 구원, 럼블을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SugarmancyCrown_1721202045-crown_sugarcraft_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "VanguardCrest",
+    "ingameKey": "TFT12_Augment_VanguardCrest",
+    "name": "선봉대 문장",
+    "desc": "선봉대 상징과 럼블을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/VanguardCrest_1721203895-crest_vanguard1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "VanguardCrown",
+    "ingameKey": "TFT12_Augment_VanguardCrown",
+    "name": "선봉대 왕관",
+    "desc": "선봉대 상징, 수호자의 맹세, 럼블을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/VanguardCrown_1721202136-crown_vanguard_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "WarriorCrest",
+    "ingameKey": "TFT12_Augment_WarriorCrest",
+    "name": "전사 문장",
+    "desc": "전사 상징과 아칼리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WarriorCrest_1721203937-crest_warrior1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "WarriorCrown",
+    "ingameKey": "TFT12_Augment_WarriorCrown",
+    "name": "전사 왕관",
+    "desc": "전사 상징, 정의의 손길, 아칼리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WarriorCrown_1721202157-crown_warrior_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "WitchCrest",
+    "ingameKey": "TFT12_Augment_WitchcraftCrest",
+    "name": "마녀 문장",
+    "desc": "마녀 상징과 카시오페아를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WitchCrest_1721203955-crest_witch1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "WitchCrown",
+    "ingameKey": "TFT12_Augment_WitchcraftCrown",
+    "name": "마녀 왕관",
+    "desc": "마녀 상징, 마법공학 총검, 카시오페아를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WitchCrown_1721202184-crown_witch_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "AllThatShimmers",
+    "ingameKey": "TFT9_Augment_AllThatShimmers",
+    "name": "반짝이는 것들",
+    "desc": "골드를 생성하는 유물 아이템을 제공하는 무기고를 엽니다. 자석 제거기를 획득합니다. 이자 상한이 7로 늘어납니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AllThatShimmers_1721202822-all-that-shimmers-ii.png",
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "AllThatShimmersPlus",
+    "ingameKey": "TFT_Augment_AllThatShimmersPlus",
+    "name": "반짝이는 것들+",
+    "desc": "무기고를 열어 골드를 획득 가능한 유물아이템 중 하나를 선택합니다. 자석 제거기와 4골드를 획득합니다. 최대 이자가 7가 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AllThatShimmersPlus_1721202846-all-that-shimmers-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "AngerIssues",
+    "ingameKey": "TFT_Augment_OopsAllRageblades",
+    "name": "분노",
+    "desc": "현재 모든 완성 아이템이 구인수의 격노 검으로 바뀌고, 앞으로 만들어질 완성 아이템도 구인수의 격노검으로 고정됩니다. 구인수의 격노검이 방어력과 마법 저항력 30의 추가 효과를 부여합니다. 구인수의 격노검 2 스택 당 공격력과 주문력도 1% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AngerIssues_1721200349-oopsallrageblades_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "AssassinsToolbox",
+    "ingameKey": "TFT_Augment_AssassinsToolbox",
+    "name": "암살자의 도구상자",
+    "desc": "황금 징수의 총을 획득합니다. 3라운드 후에, 자객의 발톱을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AssassinsToolbox_1721200877-assassinstoolbox_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "AvengetheFallen",
+    "ingameKey": "TFT_Augment_AvengeTheFallen",
+    "name": "망자를 위한 복수",
+    "desc": "3명의 아군 사망 후, 나머지 아군이 공격력 15%, 주문력 15, 방어력 15, 마법저항력 15를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AvengetheFallen_1721202287-avenge-the-fallen-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BeggarscanbeChoosers",
+    "ingameKey": "TFT_Augment_BeggarsCanBeChoosers",
+    "name": "여유로운 상황",
+    "desc": "나머지 증강 선택 시 새로고침을 +2회 더 할 수 있습니다. 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BeggarscanbeChoosers_1721199301-beggarscanbechoosers_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "BlossomingLotusI",
+    "ingameKey": "TFT_Augment_BlossomingLotus1",
+    "name": "만개하는 연꽃 I",
+    "desc": "아군의 스킬에 치명타가 적용될 수 있습니다. 3초마다 아군의 치명타 확률이 4%씩 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BlossomingLotusI_1721200973-blossoming-lotus-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BlossomingLotusII",
+    "ingameKey": "TFT_Augment_BlossomingLotus2",
+    "name": "만개한 연꽃 II",
+    "desc": "아군의 스킬에 치명타가 적용됩니다. 3초 마다, 아군의 치명타 확률이 8%씩 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BlossomingLotusII_1721200964-blossoming-lotus-iii.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "CalledShot",
+    "ingameKey": "TFT_Augment_CalledShot",
+    "name": "지휘권 통제",
+    "desc": "연승 진행 상황을 5연승으로 설정합니다. 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CalledShot_1721199463-calledshot_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Category5",
+    "ingameKey": "TFT_Augment_CategoryFive",
+    "name": "카테고리 5",
+    "desc": "루난의 허리케인을 획득합니다. 루난의 허리케인이 추가로 1개의 공격이 가능하며, 원래 피해의 95%에 해당하는 피해를 입힙니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Category5_1721202516-categoryfive_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ClockworkAccelerator",
+    "ingameKey": "TFT_Augment_ClockworkAccelerator",
+    "name": "기계 태엽 가속화",
+    "desc": "전투 중인 아군이 4초 마다 공격 속도를 5%씩 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ClockworkAccelerator_1721202872-clockworkaccelerator_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CombatBandagesI",
+    "ingameKey": "TFT_Augment_DawnbringersBlessing1",
+    "name": "전투 붕대 I",
+    "desc": "전투 마다 아군 유닛의 체력이 처음으로 50% 미만이 되면, 스테이지에 비례하여 2초 동안 150-375의 체력을 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CombatBandagesI_1721199530-dawnbringer-spirit-i.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "CombatBandagesII",
+    "ingameKey": "TFT_Augment_DawnbringersBlessing2",
+    "name": "전투 붕대 II",
+    "desc": "전투 마다 아군 유닛의 체력이 처음으로 50% 미만이 되면, 스테이지에 비례하여 2초 동안 250-550의 체력을 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CombatBandagesII_1721199936-dawnbringer-spirit-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "DarkAlleyDealings",
+    "ingameKey": "TFT_Augment_DarkAlleyDealings",
+    "name": "뒷골목 거래",
+    "desc": "수상한 외투를 획득합니다. 3라운드 후에, 불안정한 보물상자를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DarkAlleyDealings_1721201019-darkalleydealings_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "DualPurpose",
+    "ingameKey": "TFT_Augment_DualPurpose",
+    "name": "두가지 목적",
+    "desc": "매 라운드 마다 처음으로 경험치를 구매하면 3골드를 획득합니다. 경험치를 구매할 때 마다, 상점을 무료로 새로고침 합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DualPurpose_1721201044-dualpurpose_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "DuoQueue",
+    "ingameKey": "TFT_Augment_DuoQueue",
+    "name": "동반 입대",
+    "desc": "동일한 무작위 5티어 챔피언 2개와 동일한 무작위 재료 아이템 2개를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DuoQueue_1721202892-duoqueue_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ExplosiveGrowth",
+    "ingameKey": "TFT_Augment_ExplosiveGrowth",
+    "name": "폭발적인 성장",
+    "desc": "다음 4 라운드 시작 시, 8의 경험치를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ExplosiveGrowth_1721202477-explosivegrowth_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ExplosiveGrowthPlus",
+    "ingameKey": "TFT_Augment_ExplosiveGrowthPlus",
+    "name": "폭발적인 성장+",
+    "desc": "다음 4 라운드 시작 시, 10의 경험치를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ExplosiveGrowthPlus_1721202497-explosivegrowth_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "FinalResistance",
+    "ingameKey": "TFT_Augment_FinalResistance",
+    "name": "최후의 저항",
+    "desc": "아군 챔피언이 사망할 때, 가장 가까운 4명의 적을 6초 동안 30%의 파쇄와 파열 상태로 만듭니다.<br><br>파쇄: 마법 저항력 감소, 파열: 방어력 감소",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FinalResistance_1721199268-final-resistance-i.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Flexible",
+    "ingameKey": "TFT_Augment_Flexible",
+    "name": "유연함",
+    "desc": "즉시 및 이후 매 스테이지 시작 시 무작위 상징을 1개 획득합니다. 장착한 상징 하나당 아군이 체력을 25 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Flexible_1721202434-flexible_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "GiantandMighty",
+    "ingameKey": "TFT_Augment_GiantAndMighty",
+    "name": "거대하고 강력한",
+    "desc": "아군이 거대해지고, 350의 체력과 +5%의 최대 추가 체력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/GiantandMighty_1721201476-giantandmighty_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HardCommit",
+    "ingameKey": "TFT_Augment_HardCommit",
+    "name": "신중한 선택",
+    "desc": "무작위 상징을 하나 획득합니다. 즉시, 그리고 공동 선택 라운드 종료 마다 해당 시너지의 1성 유닛을 얻습니다. 유닛의 티어는 현재 스테이지+1 입니다. (최대 5티어)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HardCommit_1721201577-hardcommit_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "HeadStart",
+    "ingameKey": "TFT_Augment_HeadStart",
+    "name": "앞선 출발",
+    "desc": "1티어 2성 챔피언을 3개 얻습니다. 다음 3 라운드 동안 상점을 이용할 수 없습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HeadStart_1721200047-headstart_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "HighVoltage",
+    "ingameKey": "TFT_Augment_HighVoltage",
+    "name": "고전압",
+    "desc": "이온 충격기를 획득합니다. 이온 충격기의 효과 범위가 +6칸 증가하고, 입히는 피해량이 30% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HighVoltage_1721202984-highvoltage_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ImtheCarrynow",
+    "ingameKey": "TFT_Augment_ImTheCarryNow",
+    "name": "이제 내가 캐리한다",
+    "desc": "공격 아이템을 장착한 감시자를 하나 획득합니다. 스테이지가 지날 수록 더욱 강해집니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ImtheCarrynow_1721201646-imthecarrynow_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ImmovableObject",
+    "ingameKey": "TFT_Augment_RanduinsImmovableObject",
+    "name": "부동의 물질",
+    "desc": "란두인의 예언을 획득합니다. 효과 범위가 1칸 늘어나고, 효과가 70% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ImmovableObject_1721201668-randuinsimmovableobject_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Invested",
+    "ingameKey": "TFT_Augment_Invested",
+    "name": "투자",
+    "desc": "16골드를 획득합니다. 매 라운드 시작 시, 50골드를 초과한 금액 10골드 당, 무료 새로 고침을 얻습니다. (최대 100골드).",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Invested_1721201720-invested-iii.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "InvestedPlus",
+    "ingameKey": "TFT_Augment_InvestedPlus",
+    "name": "투자+",
+    "desc": "26골드를 획득합니다. 매 라운드 시작 시, 50골드를 초과한 금액 10골드 당, 무료 새로 고침을 얻습니다. (최대 100골드).",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AnUpgradedAdventure_1720857661-missing-t3.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "InvestedPlusPlus",
+    "ingameKey": "TFT_Augment_InvestedPlusPlus",
+    "name": "투자++",
+    "desc": "36골드를 획득합니다. 매 라운드 시작 시, 50골드를 초과한 금액 10골드 당, 무료 새로 고침을 얻습니다. (최대 100골드).",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AnUpgradedAdventure_1720857661-missing-t3.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ItemCollectorI",
+    "ingameKey": "TFT_Augment_ItemCollector1",
+    "name": "아이템 수집가 I",
+    "desc": "아군 유닛이 20의 체력을 얻습니다. 아군이 착용한 아이템의 종류에 따라 모든 아군이 추가로 체력 10, 공격력 1, 주문력 1을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BeggarscanbeChoosers_1720857314-missing-t1.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "ItemCollectorII",
+    "ingameKey": "TFT_Augment_ItemCollector2",
+    "name": "아이템 수집가 II",
+    "desc": "아군 유닛이 40의 체력을 얻습니다. 아군이 착용한 아이템의 종류에 따라 모든 아군이 추가로 체력 15, 공격력 150, 주문력 1.5을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AGoldenQuest_1720857620-missing-t2.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ItemLadder",
+    "ingameKey": "TFT_Augment_ItemLadder",
+    "name": "아이템 사다리",
+    "desc": "매 라운드 시작 시, 다른 아이템으로 변형되는 임시 아이템을 하나 얻습니다. 아이템의 품질은 스테이지에 따라 점점 상승합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ItemLadder_1721200079-itemladder_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "MentorshipI",
+    "ingameKey": "TFT_Augment_Mentorship1",
+    "name": "멘토링 I",
+    "desc": "전투 시작 시, 자신 보다 높은 티어의 챔피언 옆에 위치한 챔피언들이 공격 속도 12%와 150의 체력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MentorshipI_1721200106-mentorship-i.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "MentorshipII",
+    "ingameKey": "TFT_Augment_Mentorship2",
+    "name": "멘토링 II",
+    "desc": "전투 시작 시, 자신 보다 높은 티어의 챔피언 옆에 위치한 챔피언들이 공격 속도 18%와 220의 체력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MentorshipII_1721200121-mentorship-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "OnTheHouse",
+    "ingameKey": "TFT_Augment_OnTheHouse",
+    "name": "무료 서비스",
+    "desc": "챔피언의 별 등급이 올라갈 때 마다, 1골드를 획득합니다. 지금 4골드를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/OnTheHouse_1721200140-onthehouse_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PatienceIsaVirtue",
+    "ingameKey": "TFT_Augment_PatienceIsAVirtue",
+    "name": "참는 자에게 복이 있다.",
+    "desc": "마지막 라운드에서 챔피언을 구매하지 않았다면, 무료 새로고침 2회를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BeggarscanbeChoosers_1720857314-missing-t1.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Pilfer",
+    "ingameKey": "TFT_Augment_Pilfer",
+    "name": "좀도둑",
+    "desc": "5를 획득합니다. 매 라운드 마다, 마지막 전투에서 처음으로 처치한 유닛의 1성 챔피언 복사본을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Pilfer_1721203132-pilfer_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Placebo",
+    "ingameKey": "TFT_Augment_Placebo",
+    "name": "플라시보",
+    "desc": "8골드를 획득합니다. 아군의 공격 속도가 1% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Placebo_1721200207-placebo_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PlaceboPlus",
+    "ingameKey": "TFT_Augment_PlaceboPlus",
+    "name": "플라시보+",
+    "desc": "15골드를 획득합니다. 아군의 공격 속도가 1% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PlaceboPlus_1721200214-placebo_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "PrecisePlanning",
+    "ingameKey": "TFT_Augment_PerfectLoss",
+    "name": "정교한 계획",
+    "desc": "전투에서 3명 이하의 유닛 차이로 승리 혹은 패배할 경우, 다음 라운드 시작 시 2 골드를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PrecisePlanning_1721200235-perfectloss_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "Replication",
+    "ingameKey": "TFT_Augment_Replication",
+    "name": "박제",
+    "desc": "재료 아이템 3개 중 하나를 선택합니다. 다음 2라운드 동안 동일한 재료 아이템을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Replication_1721203337-replication-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "RestartMission",
+    "ingameKey": "TFT_Augment_RestartMission",
+    "name": "임무 재시작",
+    "desc": "전장과 벤치에 놓인 모든 챔피언을 제거하고, 무작위 2성 3티어 챔피언 2개, 2성 2티어 챔피언 2개, 1성 2티어 챔피언 1개를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RestartMission_1721200256-restartmission_i.tft_set12.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "RowRejuvenationI",
+    "ingameKey": "TFT_Augment_ReinforcedRejuvenation1",
+    "name": "가로 열 회복 I",
+    "desc": "아군이 7% 모든 피해 흡혈 효과를 얻습니다. 전투 시작 시 같은 열에 다른 챔피언이 존재 하면 1명 당 1%의 모든 피해 흡혈 효과를 추가로 얻습니다.<br><br>(모든 피해 흡혈: 입힌 피해의 일부만큼 체력 회복)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BeggarscanbeChoosers_1720857314-missing-t1.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "RowRejuvenationII",
+    "ingameKey": "TFT_Augment_ReinforcedRejuvenation2",
+    "name": "가로 열 회복 II",
+    "desc": "아군이 9% 모든 피해 흡혈 효과를 얻습니다. 전투 시작 시 같은 열에 다른 챔피언이 존재 하면 1명당 1.5%의 모든 피해 흡혈 효과를 추가로 얻습니다.<br><br>(모든 피해 흡혈: 입힌 피해의 일부만큼 체력 회복)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AGoldenQuest_1720857620-missing-t2.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ShimmerscaleEssence",
+    "ingameKey": "TFT_Augment_ShimmerscaleEssence",
+    "name": "찬란한 정수",
+    "desc": "거물의 갑옷을 얻습니다. 5라운드 후에 도박꾼의 칼날을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ShimmerscaleEssence_1721201974-shimmerscaleessence_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "Spellblades",
+    "ingameKey": "TFT_Augment_Spellblades",
+    "name": "마법검",
+    "desc": "아군 유닛이 스킬 사용 시, 다음 기본 공격이 추가로 주문력의 175%에 해당하는 마법 피해를 입힙니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Spellblades_1721203474-spellblades_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SpellcastersToolbox",
+    "ingameKey": "TFT_Augment_SpellcastersToolbox",
+    "name": "마법사의 도구상자",
+    "desc": "리치베인을 얻습니다. 3라운드 후에 마나자네를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SpellcastersToolbox_1721201996-spellcasterstoolbox_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "SubscriptionService",
+    "ingameKey": "TFT_Augment_SubscriptionService",
+    "name": "구독 서비스",
+    "desc": "즉시, 그리고 매 스테이지 시작 시, 4골드를 획득하고 서로 다른 4티어 유닛으로 구성된 상점을 만나게 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SubscriptionService_1721202018-subscriptionservice_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "SupportGolemI",
+    "ingameKey": "TFT_Augment_SupportSentinel",
+    "name": "지원용 골렘 I",
+    "desc": "아군을 위해 싸우는 골렘을 1개 얻습니다. 골렘은 지원 아이템을 1개 장착하고 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SupportGolemI_1721202091-support-sentinel-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SupportGolemII",
+    "ingameKey": "TFT_Augment_SupportSentinel2",
+    "name": "지원용 골렘 II",
+    "desc": "아군을 위해 싸우는 골렘을 1개 얻습니다. 골렘은 지원 아이템을 2개 장착하고 있습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SupportGolemII_1721202076-support-sentinel-iii.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "ThornPlatedArmor",
+    "ingameKey": "TFT_Augment_ThornPlatedArmor",
+    "name": "가시 도금 갑옷",
+    "desc": "덤불 조끼를 획득합니다. 덤불 조끼가 스테이지에 비례하여 10-100%의 추가 피해를 입히고, 착용자는 입힌 피해의 50% 만큼 회복합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ThornPlatedArmor_1721203785-thornplatedarmor_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Transfiguration",
+    "ingameKey": "TFT12_Augment_Transfiguration",
+    "name": "변형",
+    "desc": "무작위 조합 아이템을 획득합니다. 이번 게임에서 구매한 주술 3개당 조합 아이템을 추가로 획득합니다. (최대 4개)",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Transfiguration_1721203828-transfiguration_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TwoTanky",
+    "ingameKey": "TFT_Augment_TwoTanky",
+    "name": "단단 또 단단",
+    "desc": "전장에 별 등급까지 동일한 챔피언이 2개 있으면, 모두 체력을 550 얻습니다. 하나가 사망할 경우, 나머지는 6초 동안 최대 체력의 40%에 해당하는 보호막을 얻습니다. 해당 챔피언이 3성이 되면, 2성 챔피언을 하나 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TwoTanky_1721203850-two-tanky-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "UnleashtheBeast",
+    "ingameKey": "TFT_Augment_UnleashTheBeast",
+    "name": "괴물을 풀어라!",
+    "desc": "스테락의 도전을 얻습니다. 스테락의 도전 효과가 발동하면, 유닛은 남은 전투 동안 추가로 공격 속도를 30% 얻고, 10초 동안 군중 제어 효과에 면역이 됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/UnleashtheBeast_1721203870-unleashthebeast_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "UpwardMobility",
+    "ingameKey": "TFT_Augment_UpwardMobility",
+    "name": "상승 이동",
+    "desc": "경험치 구매 가격이 1골드 낮아집니다. 레벨이 오를 때 마다 체력을 3 회복하고 무료 새로고침 2회를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/UpwardMobility_1721202116-upwardmobility_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "VerticallyInclined",
+    "ingameKey": "TFT_Augment_VerticallyInclined",
+    "name": "삐뚤어진 방향",
+    "desc": "아군의 피해량이 8% 증가합니다.<br><br>고유를 제외한 활성화 시너지 숫자가 상대보다 적다면 아군의 피해량이 16% 증가합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/VerticallyInclined_1721203916-vertically-inclined-ii.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "WorththeWait",
+    "ingameKey": "TFT_Augment_WorthTheWaitGold",
+    "name": "기다림의 미학",
+    "desc": "무작위 1단계 유닛을 획득합니다. 4라운드 후, 게임이 끝날 때 까지 라운드가 시작할 때마다 해당 유닛의 복사본을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WorththeWait_1721202219-worththewait_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "WorththeWaitII",
+    "ingameKey": "TFT_Augment_WorthTheWaitPrismatic",
+    "name": "기다림의 미학 II",
+    "desc": "무작위 2단계 유닛을 획득합니다. 2라운드 후, 게임이 끝날 때 까지 매 8라운드가 시작할 때 마다 해당 유닛의 복사본을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WorththeWaitII_1721202209-worththewait_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "DejaVu",
+    "ingameKey": "TFT12_Augment_GalioCarry",
+    "name": "기시감",
+    "desc": "갈리오를 획득합니다. 가장 강한 아군 갈리오가 사거리를 +3 얻고 기본 공격할 때마다 마나를 15, 주문력을 8 얻습니다. 이 갈리오의 스킬 피해량이 130% 증가하지만 더 이상 기절시키거나 피해량을 감소시키지 않습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DejaVu_1721202578-dejavu_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "DejaVuPlus",
+    "ingameKey": "TFT12_Augment_GalioCarryPlus",
+    "name": "기시감+",
+    "desc": "2성 갈리오를 획득합니다. 가장 강한 아군 갈리오가 사거리를 +3 얻고 기본 공격할 때마다 마나를 15, 주문력을 8 얻습니다. 이 갈리오의 스킬 피해량이 130% 증가하지만 더 이상 기절시키거나 피해량을 감소시키지 않습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DejaVuPlus_1721202586-dejavu_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "HighHorsepower",
+    "ingameKey": "TFT12_Augment_LilliaCarry",
+    "name": "최대 마력",
+    "desc": "2성 릴리아를 획득합니다. 가장 강한 아군 릴리아가 공격 속도를 100%, 이동 속도를 150% 얻습니다. 이 릴리아의 스킬이 235%의 추가 피해를 입히지만 1명만 대상으로 지정합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HighHorsepower_1721202342-highhorsepower_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "MoltenCaramel",
+    "ingameKey": "TFT12_Augment_RumbleCarry",
+    "name": "용암 캐러멜",
+    "desc": "럼블을 획득합니다. 가장 강한 아군 럼블의 스킬이 190%의 피해를 입히고 마나 소모량이 30 감소하지만 더 이상 피해량 감소 효과를 얻지 않습니다. 또한 이 럼블이 모든 피해 흡혈을 15% 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MoltenCaramel_1721203086-moltencaramel_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "MoltenCaramelPlus",
+    "ingameKey": "TFT12_Augment_RumbleCarryPlus",
+    "name": "용암 캐러멜+",
+    "desc": "2성 럼블을 획득합니다. 가장 강한 아군 럼블의 스킬이 190%의 피해를 입히고 마나 소모량이 30 감소하지만 더 이상 피해량 감소 효과를 얻지 않습니다. 또한 이 럼블이 모든 피해 흡혈을 15% 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MoltenCaramelPlus_1721203108-moltencaramel_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SpiderQueen",
+    "ingameKey": "TFT12_Augment_EliseCarry",
+    "name": "거미 여왕",
+    "desc": "2성 엘리스를 획득합니다. 가장 강한 아군 엘리스의 스킬이 더 이상 적을 기절시키지 않지만 가장 가까운 적 2명을 중독시켜 3초에 걸쳐 스킬 피해의 130%를 입힙니다. 이 엘리스가 스킬 사용 시 마나 소모량이 20 감소합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SpiderQueen_1721203499-spiderqueen_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SpinToWin",
+    "ingameKey": "TFT12_Augment_WukongCarry",
+    "name": "승리를 위한 회전",
+    "desc": "오공을 2명 획득합니다. 가장 강한 아군 오공의 스킬이 방어력 및 마법 저항력 대신 공격력에 비례해 피해를 입힙니다. 이 오공이 스킬을 사용하면 공격력을 30%, 공격 속도를 30% 얻습니다. 이 효과는 중첩됩니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SpinToWin_1721203681-spintowin_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SweetTooth",
+    "ingameKey": "TFT12_Augment_NunuCarry",
+    "name": "꿀 이빨",
+    "desc": "누누를 획득합니다. 가장 강한 아군 누누가 체력을 200 얻고 체력 100당 2.5%의 추가 피해를 입힙니다. 이 누누가 스킬로 적을 처치할 때마다 체력을 영구히 35 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SweetTooth_1721203728-sweettooth_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SweetToothPlus",
+    "ingameKey": "TFT12_Augment_NunuCarryPlus",
+    "name": "꿀 이빨+",
+    "desc": "2성 누누를 획득합니다. 가장 강한 아군 누누가 체력을 200 얻고 체력 100당 2.5%의 추가 피해를 입힙니다. 이 누누가 스킬로 적을 처치할 때마다 체력을 영구히 35 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SweetToothPlus_1721203738-sweettooth_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "WitchyWallops",
+    "ingameKey": "TFT12_Augment_PoppyCarry",
+    "name": "마녀의 강타",
+    "desc": "2성 뽀삐를 획득합니다. 가장 강한 아군 뽀삐의 스킬이 더 이상 보호막을 부여하지 않지만 기존 피해량의 80%로 3회 강타합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/WitchyWallops_1721203973-witchywallops_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ZapAttack",
+    "ingameKey": "TFT12_Augment_BlitzcrankCarry",
+    "name": "짜릿한 공격",
+    "desc": "2성 블리츠크랭크를 획득합니다. 가장 강한 아군 블리츠크랭크가 강력하게 충전되어 4초마다 또는 스킬을 사용할 때마다 근처 적 2명에게 마법 피해를 입힙니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ZapAttack_1721203995-zapattack_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "AGoldenQuest",
+    "ingameKey": "TFT_Augment_GoldenQuest",
+    "name": "황금 비율",
+    "desc": "최소 161.8 골드로 라운드를 시작하면 매우 유용한 아이템 3개를 장착한 5단계 2성 유닛을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AGoldenQuest_1721203763-agoldenquest_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "AnUpgradedAdventure",
+    "ingameKey": "TFT_Augment_AnUpgradedJourney",
+    "name": "업그레이드 된 모험",
+    "desc": "4명의 챔피언을 3성으로 만들면, 엄청난 보상을 얻습니다. 1티어 챔피언 4명을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AnUpgradedAdventure_1721200325-anupgradedadventure_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  },
+  {
+    "key": "FortuneFavorstheBold",
+    "ingameKey": "TFT_Augment_FortuneFavorsTheBold",
+    "name": "행운은 용감한 자의 편",
+    "desc": "플레이어 대상 전투에서 승리하면 전리품 구를 얻습니다. 연속으로 패배할수록 승리 시 더 큰 보상을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FortuneFavorstheBold_1721202324-fortunefavorsthebold_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "TraitTracker",
+    "ingameKey": "TFT_Augment_TraitTracker",
+    "name": "시너지 추적자",
+    "desc": "처음으로 전투에서 고유 시너지를 제외한 활성 시너지 수가 7개가 되면, 5개의 무작위 상징을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/TraitTracker_1721203808-traittracker_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "AggressivePreservation",
+    "ingameKey": "TFT12_Augment_Preserver",
+    "name": "보호를 위한 공세",
+    "desc": "아군 보호술사가 특성이 제공하는 마나 및 체력 재생을 모두 얻습니다. 보호술사의 피해량이 15% 증가합니다. 바드와 질리언을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/AggressivePreservation_1721200302-crest_preserver1_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ArcaneConduit",
+    "ingameKey": "TFT12_Augment_Arcana",
+    "name": "아르카나 전달자",
+    "desc": "전장에 배치한 아르카나 챔피언 한 종류당 선택받은 아르카나가 공격 속도를 15%, 체력을 6% 얻습니다. 아리와 헤카림을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ArcaneConduit_1721202613-arcaneconduit_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "BeestFriends",
+    "ingameKey": "TFT12_Augment_Honeymancy",
+    "name": "끈끈한 우정",
+    "desc": "벌꿀술사가 꿀벌을 1마리 더 획득합니다. 꿀벌이 새로운 벌꿀술사에게 이동할 때 벌꿀술사가 최대 체력의 30%만큼 보호막을 얻습니다. 블리츠크랭크와 코그모를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BeestFriends_1721202266-beestfriends_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "CaramelizedComforts",
+    "ingameKey": "TFT12_Augment_Sugarcraft",
+    "name": "캐러멜을 바른 아늑함",
+    "desc": "달콤술사 유닛이 장착한 조합 아이템당 체력을 50, 처치 시 1골드를 획득할 확률을 8% 얻습니다. 소라카와 럼블을 획득합니다.<br><br>유물, 지원, 찬란한 아이템은 조합 아이템 2개로 간주합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/CaramelizedComforts_1721202775-caramelizedcomforts_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Cauterize",
+    "ingameKey": "TFT12_Augment_Pyro",
+    "name": "상처 지지기",
+    "desc": "화염 유닛의 기본 공격이 수집한 잉걸불 2개당 3의 추가 마법 피해를 입힙니다. 아칼리와 쉔을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Cauterize_1721202633-cauterize_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "DefensiveArts",
+    "ingameKey": "TFT12_Augment_Incantor",
+    "name": "방어 마도술",
+    "desc": "마도사의 스킬에 적중한 적은 2초 동안 10% 감소한 피해를 입힙니다. 마도사 중첩이 최대가 되면 마도사가 2초마다 마나를 10 얻습니다. 직스와 신드라를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DefensiveArts_1721202797-defensivearts_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "DraconicMastery",
+    "ingameKey": "TFT12_Augment_Dragon",
+    "name": "용족 숙련",
+    "desc": "용이 불태우기가 적용된 적에게 15%의 피해를 입힙니다. 불태우기가 적용된 적은 용에게 12%의 피해를 입힙니다. 뇸뇸이와 쉬바나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DraconicMastery_1721202681-draconicmastery_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "EndlessHunt",
+    "ingameKey": "TFT12_Augment_Hunter",
+    "name": "끝없는 사냥",
+    "desc": "사냥꾼이 처치에 관여할 때마다 공격력을 8% 얻습니다. 트위치와 코그모를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EndlessHunt_1721202553-endlesshunt_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "EternalGrowth",
+    "ingameKey": "TFT12_Augment_Shapeshifter",
+    "name": "끝없는 성장",
+    "desc": "다른 형상변환자 옆에서 전투를 시작하는 형상변환자가 체력을 영구히 30 획득합니다. 엘리스와 제이스를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EternalGrowth_1721202245-eternalgrowth_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "FastForward",
+    "ingameKey": "TFT12_Augment_Chrono",
+    "name": "빨리 감기",
+    "desc": "시공간 유닛이 스킬을 사용하면 3초 동안 공격 속도를 25%, 모든 피해 흡혈을 15% 얻습니다. 잭스와 질리언을 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FastForward_1721202919-fastforward_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "FrostyFrontline",
+    "ingameKey": "TFT12_Augment_Frost",
+    "name": "얼어붙은 전선",
+    "desc": "서리 시너지 활성화 시, 전장에 배치 가능한 서리 동상을 1개 얻습니다. 서리 동상은 영원한 겨울을 착용하며, 서리 시너지 등급에 따라 체력이 증가합니다. 서리 동상이 처음으로 사망에 이르면, 아군에 1명이라도 살아있는 경우 파괴되지 않고 6초 동안 40%의 체력을 회복합니다. 워윅과 질리언을 획득흡니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/FrostyFrontline_1721202962-frostyfrontline_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "HigherEducation",
+    "ingameKey": "TFT12_Augment_Scholar",
+    "name": "고등 교육",
+    "desc": "학자가 마나를 100 사용할 때마다 모든 학자 유닛이 공격 속도를 10% 얻습니다. 조이와 아리를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/HigherEducation_1721203007-highereducation_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PortalDeliveryService",
+    "ingameKey": "TFT12_Augment_Portal",
+    "name": "차원문 배송 서비스",
+    "desc": "갈리오와 조이를 획득합니다. 매 라운드 시작 시 1~3단계 차원문 챔피언을 무작위로 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PortalDeliveryService_1721203185-portaldeliveryservice_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "Potions201",
+    "ingameKey": "TFT12_Augment_Witch",
+    "name": "고급 물약",
+    "desc": "마녀의 저주가 영원히 지속됩니다. 또한 마녀의 스킬이 저주에 걸리지 않은 가장 가까운 챔피언에게도 저주를 겁니다. 모든 챔피언이 저주에 걸리면 마녀가 공격력과 주문력을 20% 얻습니다. 뽀삐와 카시오페아를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/Potions201_1721203207-potions201_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PracticePartners",
+    "ingameKey": "TFT12_Augment_Mage",
+    "name": "수행 동반자",
+    "desc": "요술사가 스킬을 사용할 때마다 가장 가까운 아군에게 마나를 5 부여합니다. 소라카와 갈리오를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PracticePartners_1721203224-practicepartners_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "PresstheAttack",
+    "ingameKey": "TFT12_Augment_Multistriker",
+    "name": "집중 공격",
+    "desc": "아군 쇄도자의 기본 공격이 5초 동안 대상에게 중첩을 1회 적용합니다. 중첩 3회마다 대상 최대 체력의 5.5%만큼 고정 피해를 입힙니다. 카사딘과 애쉬를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/PresstheAttack_1721203273-presstheattack_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "RaidBoss",
+    "ingameKey": "TFT12_Augment_Bastion",
+    "name": "끝판왕",
+    "desc": "전투 시작: 가장 강한 아군 요새 유닛이 체력을 20% 얻습니다. 다른 요새 유닛이 죽으면 해당 유닛이 지닌 방어력 및 마법 저항력의 20%를 이 요새 유닛에게 전달합니다. 뽀삐와 누누를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RaidBoss_1721203313-raidboss_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "RoyalGuard",
+    "ingameKey": "TFT12_Augment_Faerie",
+    "name": "왕실 근위대",
+    "desc": "3초마다 모든 요정이 최대 체력을 6% 회복하고 요정 여왕이 살아있는 다른 요정 유닛당 공격력과 주문력을 1.5% 얻습니다. 릴리아와 트리스타나를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/RoyalGuard_1721203367-royalguard_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "SchoolMascot",
+    "ingameKey": "TFT12_Augment_Eldritch",
+    "name": "학교 마스코트",
+    "desc": "섬뜩한 힘 소환수가 이로운 아이템을 장착합니다. 소환수는 체력 10%, 주문력 25을 추가로 얻습니다. 엘리스와 신드라를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/SchoolMascot_1721203410-schoolmascot_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "ShieldsUp",
+    "ingameKey": "TFT12_Augment_Vanguard",
+    "name": "방패 진형으로",
+    "desc": "선봉대의 보호막 흡수량이 30% 증가하고 보호막을 얻을 때마다 6초 동안 군중 제어 효과에 면역이 됩니다. 럼블과 블리츠크랭크를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/ShieldsUp_1721203452-shieldsup_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "FindYourCenter",
+    "ingameKey": "TFT_Augment_FindYourCenter",
+    "name": "중심 잡기",
+    "desc": "전투 시작 시, 중앙에 위치한 아군 챔피언이 추가로 15%의 피해량, 12%의 최대 체력을 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/BeggarscanbeChoosers_1720857314-missing-t1.png",
+    "isNew": true,
+    "tier": 1,
+    "championIngameKey": null
+  },
+  {
+    "key": "DoubleDown",
+    "ingameKey": "TFT_Augment_DoubleDown",
+    "name": "판돈 올리기",
+    "desc": "매 라운드 시작 시, 연승 혹은 연패 횟수와 동일한 수의 골드를 얻습니다. (최대 4골드).",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/DoubleDown_1721202727-doubledown_ii.tft_set12.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "EternalGrowthPlus",
+    "ingameKey": "TFT12_Augment_ShapeshifterPlus",
+    "name": "끝없는 성장+",
+    "desc": "다른 형상변환자 옆에서 전투를 시작하는 형상변환자가 체력을 영구히 30 획득합니다. 즉시 형상변환자가 체력을 100 얻습니다. 엘리스와 제이스를 획득합니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/EternalGrowthPlus_1720875162-AGoldenQuest_1720857620-missing-t2.png",
+    "isNew": true,
+    "tier": 2,
+    "championIngameKey": null
+  },
+  {
+    "key": "MarksmansToolbox",
+    "ingameKey": "TFT_Augment_MarksmansToolbox",
+    "name": "명사수의 도구상자",
+    "desc": "저격수의 집중을 얻습니다. 3라운드 후에 생선대가리를 얻습니다.",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/items/MarksmansToolbox_1721201803-marksmanstoolbox_iii.tft_set12.png",
+    "isNew": true,
+    "tier": 3,
+    "championIngameKey": null
+  }
+]
