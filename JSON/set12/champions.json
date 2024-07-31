@@ -1,32 +1,10 @@
 [
   {
-    "key": "EldritchMaelstrom",
-    "ingameKey": null,
-    "name": "Eldritch Maelstrom",
-    "traits": [],
-    "isHidden": true,
-    "cost": [0, -1, -1],
-    "health": [0, 0, 0],
-    "attackDamage": [0, 0, 0],
-    "damagePerSecond": [0, 0, 0],
-    "attackRange": 0,
-    "attackSpeed": 0,
-    "armor": 0,
-    "magicalResistance": 0,
-    "skill": {
-      "name": "EldritchMaelstrom",
-      "imageUrl": "",
-      "desc": "TBA",
-      "startingMana": 0,
-      "skillMana": 0,
-      "stats": ["TBA: TBA"]
-    }
-  },
-  {
     "key": "Ahri",
     "ingameKey": "TFT12_Ahri",
     "name": "아리",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Ahri_1720780479-Ahri.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Ahri.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Ahri_19_1720789585-Ahri.jpg",
     "traits": ["Arcana", "Scholar"],
     "cost": [2, 5, 17],
@@ -40,17 +18,25 @@
     "skill": {
       "name": "통찰의 구슬",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Ahri_1720925992-icons_ahri_q.png",
-      "desc": "기본 지속 효과: 모든 요소로부터 주문력을 30% 추가로 획득합니다. 사용 시: 대상을 향해 구슬을 발사하여 마법 피해를 입힙니다. 적을 적중한 후 구슬이 되돌아오며 고정 피해를 입힙니다.",
+      "desc": "기본 지속 효과: 모든 요소로부터 추가 주문력을 30% 얻습니다.<br><br>사용 시: 대상을 향해 구슬을 던져 마법 피해를 입힙니다. 적에게 적중하면 구슬이 되돌아오며 고정 피해를 입힙니다.",
       "startingMana": 0,
-      "skillMana": 40,
-      "stats": ["구체 피해량: 120% / 180% / 280%", "고정 피해량: 80% / 120% / 185%"]
-    }
+      "skillMana": 35,
+      "stats": ["구슬 피해량: 135% / 200% / 280%", "고정 피해량: 90% / 135% / 210%"]
+    },
+    "recommendItems": [
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_Leviathan",
+      "TFT_Item_BlueBuff",
+      "TFT_Item_ArchangelsStaff"
+    ]
   },
   {
     "key": "Akali",
     "ingameKey": "TFT12_Akali",
     "name": "아칼리",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Akali_1720780066-Akali.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Akali.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Akali_19_1720789224-Akali.jpg",
     "traits": ["Pyro", "Multistriker", "Warrior"],
     "cost": [2, 5, 17],
@@ -64,22 +50,30 @@
     "skill": {
       "name": "화염투척검",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Akali_1720841683-akali_q.png",
-      "desc": "3칸 내의 가장 멀리 있는 적에게 돌진하여 물리 피해를 입힙니다. 다음 3번의 공격 시 대상에게 투척검을 던져 피해를 입힙니다.",
+      "desc": "3칸 내 가장 멀리 있는 적에게 돌진해 물리 피해를 입힙니다. 다음 기본 공격 3회 동안 대상에게 단검을 던져 피해를 입힙니다.",
       "startingMana": 10,
       "skillMana": 70,
       "stats": [
-        "돌진 피해량: 130% / 130% / 140%",
-        "투척검 물리 피해량: 155% / 155% / 170%",
-        "투척검 마법 피해량: 30% / 45% / 70%",
-        "총 투척검 피해량: 물리 피해량 + 마법 피해량"
+        "돌진 피해: 250% / 250% / 265%",
+        "단검 공격력 비례 피해량: 155% / 155% / 170%",
+        "단검 주문력 비례 피해량: 30% / 45% / 70%",
+        "단검 총 피해량: 공격력 비례 피해량 + 주문력 비례 피해량"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_GuardianAngel",
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve"
+    ]
   },
   {
     "key": "Ashe",
     "ingameKey": "TFT12_Ashe",
     "name": "애쉬",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Ashe_1720780484-Ashe.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Ashe.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Ashe_19_1720789590-Ashe.jpg",
     "traits": ["Eldritch", "Multistriker"],
     "cost": [1, 3, 9],
@@ -93,17 +87,25 @@
     "skill": {
       "name": "암흑의 징조",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Ashe_1720926005-ashe_q.png",
-      "desc": "다음 5초 동안 애쉬가 투사체를 추가로 발사하여 다른 대상에게 물리 피해를 입힙니다. 이 효과는 중첩됩니다.",
+      "desc": "다음 5초 동안 애쉬가 추가 투사체를 날려 애쉬 근처 대상에게 물리 피해를 입힙니다. 이 효과는 중첩됩니다.",
       "startingMana": 30,
       "skillMana": 80,
-      "stats": ["지속시간: 5초", "피해량: 공격력의 45%"]
-    }
+      "stats": ["지속시간: 5초", "피해량: 공격력의 50%"]
+    },
+    "recommendItems": [
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_RunaansHurricane",
+      "TFT_Item_RapidFireCannon"
+    ]
   },
   {
     "key": "Bard",
     "ingameKey": "TFT12_Bard",
     "name": "바드",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Bard_1720780457-Bard.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Bard.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Bard_19_1720789562-Bard.jpg",
     "traits": ["Sugarcraft", "Preserver", "Scholar"],
     "cost": [3, 8, 26],
@@ -118,16 +120,24 @@
       "name": "방랑하는 변덕쟁이",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Bard_1720851430-bard_q.png",
       "desc": "적 사이에서 4회 튕기는 마법 투사체를 대상에게 발사해 적중한 적에게 마법 피해를 입힙니다. 또한 적중한 적은 3초 동안 받는 피해량이 10% 증가합니다.",
-      "startingMana": 10,
-      "skillMana": 75,
-      "stats": ["피해량: 110% / 165% / 265%"]
-    }
+      "startingMana": 30,
+      "skillMana": 80,
+      "stats": ["피해량: 100% / 150% / 240%"]
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_Leviathan",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_StatikkShiv",
+      "TFT_Item_ArchangelsStaff"
+    ]
   },
   {
     "key": "Blitzcrank",
     "ingameKey": "TFT12_Blitzcrank",
     "name": "블리츠크랭크",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Blitzcrank_1720780073-Blitzcrank.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Blitzcrank.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Blitzcrank_19_1720789233-Blitzcrank.jpg",
     "traits": ["Honeymancy", "Vanguard"],
     "cost": [1, 3, 9],
@@ -139,19 +149,27 @@
     "armor": 40,
     "magicalResistance": 40,
     "skill": {
-      "name": "짜릿한 공격!",
+      "name": "벌꿀 방어막",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Blitzcrank_1720841666-blitzcrankp.png",
-      "desc": "기본 지속 효과: 4초마다, 그리고 스킬을 사용할 때마다 가장 가까운 적 2명에게 90의 마법 피해를 입힙니다.<br><br>사용 시: 보호막 지속시간 6초 동안 보호막을 200 얻습니다.",
+      "desc": "6초 동안 보호막을 얻습니다.",
       "startingMana": 40,
       "skillMana": 90,
-      "stats": ["보호막: 주문력의 200% + 체력의 15%"]
-    }
+      "stats": ["보호막: 주문력의 200% / 225% / 250% + 체력의 15%"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Redemption",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_BrambleVest"
+    ]
   },
   {
     "key": "Briar",
     "ingameKey": "TFT12_Briar",
     "name": "브라이어",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Briar_1720780084-Briar.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Briar.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Briar_19_1720789239-Briar.jpg",
     "traits": ["Eldritch", "Ravenous", "Shapeshifter"],
     "cost": [5, 14, 44],
@@ -165,7 +183,7 @@
     "skill": {
       "name": "불가항력적 죽음",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Briar_1720841673-briarw.png",
-      "desc": "가장 큰 적 무리에게 도약해 반경 2칸 내 적에게 물리 피해를 입히고 1.25초 동안 기절시킵니다. 이후 광분 상태가 되어 공격 속도를 60%, 모든 피해 흡혈을 15% 얻고, 기본 공격이 대상과 주변 적에게 추가 물리 피해를 입힙니다.<br><br>이미 광분 상태면 다음 공격 시 적을 베어 먹어 물리 피해를 입힙니다.",
+      "desc": "가장 큰 적 무리로 도약해 반경 2칸 내 적에게 물리 피해를 입히고 1.25초 동안 기절시킵니다. 이후 광분 상태가 되어 공격 속도, 모든 피해 흡혈을 얻고, 기본 공격이 대상과 주변 적에게 추가 물리 피해를 입힙니다.<br><br>이미 광분 상태라면 다음 기본 공격 시 적을 베어 먹어 물리 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 80,
       "stats": [
@@ -174,13 +192,21 @@
         "광분 쪼개기 피해량: 40% / 40% / 200%",
         "베어 먹기 피해량: 200% / 200% / 999%"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_SteraksGage",
+      "TFT_Item_GuardianAngel"
+    ]
   },
   {
     "key": "Camille",
     "ingameKey": "TFT12_Camille",
     "name": "카밀",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Camille_1720780105-Camille.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Camille.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Camille_19_1720789246-Camille.jpg",
     "traits": ["Chrono", "Multistriker"],
     "cost": [5, 14, 44],
@@ -194,7 +220,7 @@
     "skill": {
       "name": "시간의 변칙",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Camille_1720841692-camille_r.png",
-      "desc": "기본 지속 효과: 적이 사망하면 3칸 내의 체력이 가장 낮은 적에게 갈고리를 발사해 물리 피해를 입힙니다. 갈고리 사격 또는 스킬 시전 후 다음 공격은 고정 피해를 입힙니다.<br><br>사용 시: 대상 주변의 적을 밀쳐내고 1초 동안 기절시켜 물리 피해를 입힙니다. 대상 주변에 4초 동안 봉쇄 구역을 생성합니다. 범위 내에 있는 동안 받는 피해가 30% 감소하고 공격력이 250% 증가합니다.",
+      "desc": "기본 지속 효과: 현재 대상이 처치되면 3칸 내 남은 체력 비율이 가장 낮은 적에게 갈고리를 발사해 물리 피해를 입힙니다. 갈고리를 발사하거나 스킬을 사용하면 다음 기본 공격이 고정 피해를 입힙니다.<br><br>사용 시: 대상 주변 적을 뒤로 밀어내고 1 / 1 / 7초 동안 기절시키며 물리 피해를 입힙니다. 4 / 4 / 7초 동안 대상 주변에 격리 구역을 생성합니다. 구역 내에 있을 때 내구력을 30%, 공격력을 225% 얻습니다.",
       "startingMana": 30,
       "skillMana": 100,
       "stats": [
@@ -203,19 +229,27 @@
         "주문력 비례 고정 피해량: 50% / 75% / 1000%",
         "고정 피해량: 공격력 비례 피해량 + 주문력 비례 피해량"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_SteraksGage",
+      "TFT_Item_GuardianAngel"
+    ]
   },
   {
     "key": "Cassiopeia",
     "ingameKey": "TFT12_Cassiopeia",
     "name": "카시오페아",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Cassiopeia_1720780111-Cassiopeia.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Cassiopeia.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Cassiopeia_19_1720789275-Cassiopeia.jpg",
     "traits": ["Witchcraft", "Incantor"],
     "cost": [2, 5, 17],
     "health": [600, 1080, 1944],
-    "attackDamage": [30, 45, 68],
-    "damagePerSecond": [23, 34, 51],
+    "attackDamage": [35, 53, 79],
+    "damagePerSecond": [26, 40, 59],
     "attackRange": 4,
     "attackSpeed": 0.75,
     "armor": 20,
@@ -223,17 +257,25 @@
     "skill": {
       "name": "마녀의 쌍독니",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Cassiopeia_1720841701-cassiopeia_e.png",
-      "desc": "다음 6초 동안 공격 대신 마법 피해를 입힙니다.",
+      "desc": "다음 6초 동안, 기본 공격 시 대신 마법 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 50,
-      "stats": ["피해량: 90% / 135% / 210%"]
-    }
+      "stats": ["피해량: 95% / 145% / 230%"]
+    },
+    "recommendItems": [
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_HextechGunblade",
+      "TFT_Item_StatikkShiv",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_Leviathan"
+    ]
   },
   {
     "key": "Diana",
     "ingameKey": "TFT12_Diana",
     "name": "다이애나",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Diana_1720780427-Diana.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Diana.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Diana_19_1720789539-Diana.jpg",
     "traits": ["Frost", "Bastion"],
     "cost": [5, 14, 44],
@@ -247,16 +289,23 @@
     "skill": {
       "name": "폭설",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Diana_1720849659-diana_r_moonfall.png",
-      "desc": "2칸 내에서 돌진하여 가장 많은 적을 적중시키고 체력을 225 회복합니다. 초과되는 회복량은 3초 동안 보호막이 됩니다. 이후 인접한 적에게 마법 피해를 입히고 2칸 내의 적에게 마법 피해를 입힙니다.<br><br>2번 시전할 때마다 눈보라를 일으켜 모든 적을 동상 상태로 만들고 3초에 걸쳐 모든 아군의 체력을 240만큼 회복시킵니다. 초과되는 회복량은 3초 동안 피해를 흡수하는 보호막이 됩니다. 동상: 공격 속도 20% 감소",
+      "desc": "2칸 내 가장 많은 적을 타격할 수 있는 위치로 돌진하고 체력을 회복합니다. 초과 체력 회복량은 3초 동안 지속되는 보호막으로 전환됩니다. 이후 주변 적에게 마법 피해를 입히고 2칸 멀리 있는 적에게 마법 피해를 입힙니다.<br><br>스킬을 2회 사용할 때마다 폭설을 내려 모든 적이 동상에 걸리게 하고 3초에 걸쳐 모든 아군의 체력을 회복시킵니다. 또한 초과 체력 회복량은 3초 동안 지속되는 보호막으로 전환됩니다.<br><br>동상: 공격 속도 20% 감소",
       "startingMana": 40,
       "skillMana": 120,
       "stats": [
-        "인접 유닛 피해량: 570% / 855% / 9001%",
-        "외부 유닛 피해량: 200% / 300% / 9000%",
-        "자가 회복량: 225% / 275% / 3000%",
-        "눈보라 회복량: 240% / 320% / 1500%"
+        "주변 유닛 피해량: 380% / 570% / 9001%",
+        "외곽 유닛 피해량: 170% / 255% / 9000%",
+        "자신 체력 회복량: 200% / 250% / 3000%",
+        "눈 체력 회복량: 150% / 200% / 1500%"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_IonicSpark",
+      "TFT_Item_Crownguard"
+    ]
   },
   {
     "key": "EldritchBigVolibear",
@@ -266,20 +315,20 @@
     "traits": [],
     "isHidden": true,
     "cost": [0, -1, -1],
-    "health": [1500, 2700, 4860],
-    "attackDamage": [80, 120, 180],
-    "damagePerSecond": [80, 120, 180],
+    "health": [2000, 3600, 6480],
+    "attackDamage": [400, 600, 900],
+    "damagePerSecond": [400, 600, 900],
     "attackRange": 1,
     "attackSpeed": 1,
-    "armor": 200,
-    "magicalResistance": 200,
+    "armor": 250,
+    "magicalResistance": 250,
     "skill": {
       "name": "섬뜩한 소용돌이",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/EldritchBigVolibear_1721038417-tft11_volibear_ability.png",
-      "desc": "기본 지속 효과: 고대 신이 전장에 강림할 때 2칸 내 적이 1.5초 동안 1칸 멀리 달아납니다.<br> <br>사용 시: 전장을 내려찍어 5초 동안 모든 적을 기절시킵니다. 이후 울부짖어 5초에 걸쳐 모든 적에게 무작위로 150의 마법 피해를 입히는 번개를 30회 소환합니다.",
+      "desc": "기본 지속 효과: 고대 신이 전장에 강림할 때 2칸 내 적이 1.5초 동안 1칸 멀리 달아납니다.<br> <br>사용 시: 전장을 내려찍어 6초 동안 모든 적을 기절시킵니다. 이후 울부짖어 5초에 걸쳐 모든 적에게 무작위로 마법 피해를 입히는 번개를 30회 소환합니다.",
       "startingMana": 70,
       "skillMana": 70,
-      "stats": []
+      "stats": ["피해량: 200"]
     }
   },
   {
@@ -315,8 +364,8 @@
     "isHidden": true,
     "cost": [0, -1, -1],
     "health": [800, 1440, 2592],
-    "attackDamage": [70, 105, 158],
-    "damagePerSecond": [53, 79, 119],
+    "attackDamage": [100, 150, 225],
+    "damagePerSecond": [75, 113, 169],
     "attackRange": 1,
     "attackSpeed": 0.75,
     "armor": 85,
@@ -339,8 +388,8 @@
     "isHidden": true,
     "cost": [0, -1, -1],
     "health": [1000, 1800, 3240],
-    "attackDamage": [80, 120, 180],
-    "damagePerSecond": [64, 96, 144],
+    "attackDamage": [200, 300, 450],
+    "damagePerSecond": [160, 240, 360],
     "attackRange": 1,
     "attackSpeed": 0.8,
     "armor": 90,
@@ -351,7 +400,7 @@
       "desc": "기본 지속 효과: 강림 시, 2칸 내 모든 적을 기절시킵니다. 기본 공격 3회마다 주변 적에게 연쇄 번개를 4회 떨어뜨립니다. 번개는 85의 마법 피해를 입힙니다.<br><br>사용 시: 대상 주변 적에게 340의 마법 피해를 입힙니다. 이후, 4초 동안 공격 속도를 40% 얻습니다.",
       "startingMana": 50,
       "skillMana": 90,
-      "stats": ["기본 피해량: 주문력의 85%", "스킬 피해량: 주문력의 340%"]
+      "stats": ["기본 지속 효과 피해량: 주문력의 85%", "사용 시 피해량: 주문력의 340%"]
     }
   },
   {
@@ -359,6 +408,7 @@
     "ingameKey": "TFT12_Elise",
     "name": "엘리스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Elise_1720780117-Elise.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Elise.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Elise_19_1720789288-Elise.jpg",
     "traits": ["Eldritch", "Shapeshifter"],
     "cost": [1, 3, 9],
@@ -372,17 +422,25 @@
     "skill": {
       "name": "거미 형태",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Elise_1720841710-elisespiderq.png",
-      "desc": "거미로 변신하고 이 스킬을 석화독으로 교체한 후 스킬을 사용합니다.<br><br>석화독: 대상을 1.5초 동안 기절시키고 마법 피해를 입힙니다. 체력을 160 회복합니다.",
+      "desc": "거미로 변신하고 이 스킬을 석화독으로 교체한 후 스킬을 사용합니다.<br><br>석화독: 대상을 1.5초 동안 기절시키고 마법 피해를 입힙니다. 체력을 회복합니다.",
       "startingMana": 30,
       "skillMana": 90,
-      "stats": ["피해량: 체력의 10% + 주문력의 80%", "체력 회복량: 160 / 190 / 230"]
-    }
+      "stats": ["피해량: 체력의 8% + 주문력의 80% / 100% / 120%", "체력 회복량: 주문력의 160% / 190% / 230%"]
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_ArchangelsStaff",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_WarmogsArmor"
+    ]
   },
   {
     "key": "Ezreal",
     "ingameKey": "TFT12_Ezreal",
     "name": "이즈리얼",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Ezreal_1720780124-Ezreal.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Ezreal.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Ezreal_19_1720789296-Ezreal.jpg",
     "traits": ["Portal", "Blaster"],
     "cost": [3, 8, 26],
@@ -396,21 +454,29 @@
     "skill": {
       "name": "차원조준 일격",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Ezreal_1720841718-ezreal_r.png",
-      "desc": "2칸 내의 안전한 곳으로 돌진합니다. 이후 직선상의 적에게 폭발하는 투사체를 발사하여 적중하는 적 하나당 피해량이 20% 감소합니다.",
+      "desc": "3칸 내 이상적인 위치로 돌진합니다. 이후 일직선상으로 파동을 방출해 피해를 입힙니다. 적중한 적 하나당 피해가 25%씩 감소합니다.",
       "startingMana": 15,
       "skillMana": 75,
       "stats": [
-        "공격력 비례 미사일 피해량: 260% / 265% / 275%",
-        "주문력 비례 미사일 피해량: 50% / 60% / 75%",
-        "미사일 피해량: 공격력 비례 피해량 + 주문력 비례 피해량"
+        "공격력 비례 투사체 피해량: 300% / 300% / 310%",
+        "주문력 비례 투사체 피해량: 50% / 60% / 75%",
+        "투사체 피해량: 공격력 비례 피해량 + 주문력 비례 피해량"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_RapidFireCannon",
+      "TFT_Item_GuinsoosRageblade"
+    ]
   },
   {
     "key": "Fiora",
     "ingameKey": "TFT12_Fiora",
     "name": "피오라",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Fiora_1720780130-Fiora.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Fiora.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Fiora_19_1720789303-Fiora.jpg",
     "traits": ["Witchcraft", "Warrior"],
     "cost": [4, 11, 35],
@@ -424,22 +490,30 @@
     "skill": {
       "name": "칼날의 춤",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Fiora_1720841763-fiora_w.png",
-      "desc": "기본 지속 효과: 3초 동안 보호막이 75%의 공격 속도를 부여합니다.<br><br>사용 시: 최대 2칸 떨어진 곳으로 돌진한 후, 대상 너머 일직선상의 적에게 물리 피해를 입힙니다. 3초 동안 보호막을 얻습니다.",
+      "desc": "뒤로 도약하고 잠시 내구력을 70% 얻습니다. 이후 2칸 내 가장 큰 적 무리를 휩쓸어 각 유닛에게 물리 피해를 입히고, 추가로 적중한 모든 적에게 피해를 나누어 입힙니다.",
       "startingMana": 70,
       "skillMana": 130,
       "stats": [
-        "기본 피해량: 180% / 180% / 180%",
+        "기본 피해량: 180% / 180% / 360%",
         "공격력 비례 피해량: 350% / 350% / 700%",
         "주문력 비례 피해량: 40% / 60% / 300%",
-        "광역 피해량: 공격력 비례 피해량 + 주문력 비례 피해량"
+        "나누어 입히는 피해량: 공격력 비례 피해량 + 주문력 비례 피해량"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_SteraksGage",
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_GuardianAngel"
+    ]
   },
   {
     "key": "Galio",
     "ingameKey": "TFT12_Galio",
     "name": "갈리오",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Galio_1720780407-Galio.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Galio.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Galio_19_1720789528-Galio.jpg",
     "traits": ["Portal", "Mage", "Vanguard"],
     "cost": [2, 5, 17],
@@ -453,17 +527,25 @@
     "skill": {
       "name": "융합",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Galio_1720849464-galio_q.png",
-      "desc": "4초 동안 받는 피해가 15 감소합니다. 마법 화살을 두 발 발사하여 3칸 내의 가장 먼 적에게 집중시킵니다. 각 화살은 대상에게 마법 피해를 입히고 1.25초 동안 기절시킵니다.",
+      "desc": "4초 동안 받는 피해량이 감소합니다. 3칸 내 가장 멀리 있는 적의 위치에서 합쳐지는 마법 투사체 두 개를 발사해, 적을 기절시킵니다. 각 투사체는 관통한 적에게 마법 피해를 입힙니다.<br><br>요술사 특성으로 스킬 사용 시 다른 적을 대상으로 지정합니다.",
       "startingMana": 30,
       "skillMana": 90,
-      "stats": ["피해 감소: 15 / 20 / 25", "피해량: 50% / 75% / 115%"]
-    }
+      "stats": ["고정 피해량 감소: 15 / 20 / 25", "피해량: 50% / 75% / 115%"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_RedBuff"
+    ]
   },
   {
     "key": "Gwen",
     "ingameKey": "TFT12_Gwen",
     "name": "그웬",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Gwen_1720780135-Gwen.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Gwen.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Gwen_19_1720789310-Gwen.jpg",
     "traits": ["Sugarcraft", "Warrior"],
     "cost": [4, 11, 35],
@@ -477,47 +559,63 @@
     "skill": {
       "name": "싹둑싹둑!",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Gwen_1720841770-gwen_q.png",
-      "desc": "기본 지속 효과: 스킬을 2회 사용할 때마다 그웬이 싹둑! 중첩을 얻습니다.<br><br>사용 시: 돌진하고 원뿔 범위에 두 번 가위질하며 싹둑! 중첩마다 한 번 더 가위질합니다. 처음과 마지막 가위질은 각각 125%의 마법 피해를 입히며 다른 가위질은 각각 50%의 마법 피해를 입힙니다.",
+      "desc": "기본 지속 효과: 스킬을 2회 사용할 때마다 그웬이 싹둑! 중첩을 얻습니다.<br><br>사용 시: 돌진하고 원뿔 범위에 두 번 가위질하며 싹둑! 중첩마다 한 번 더 가위질합니다. 처음과 마지막 가위질은 각각 마법 피해를 입히며 다른 가위질은 각각 작은 가위질 마법 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 40,
-      "stats": ["가위질 기본 피해량: 125% / 175% / 525%", "작은 가위질 기본 피해량: 50% / 75% / 225%"]
-    }
+      "stats": ["가위질 기본 피해량: 주문력의 125% / 190% / 570%", "작은 가위질 기본 피해량: 주문력의 50% / 75% / 225%"]
+    },
+    "recommendItems": [
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_IonicSpark"
+    ]
   },
   {
     "key": "Hecarim",
     "ingameKey": "TFT12_Hecarim",
     "name": "헤카림",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Hecarim_1720780143-Hecarim.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Hecarim.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Hecarim_19_1720789317-Hecarim.jpg",
-    "traits": ["Arcana", "Bastion", "Multistriker"],
+    "traits": ["Arcana", "Multistriker", "Bastion"],
     "cost": [3, 8, 26],
     "health": [800, 1440, 2592],
-    "attackDamage": [65, 98, 146],
-    "damagePerSecond": [52, 78, 117],
+    "attackDamage": [60, 90, 135],
+    "damagePerSecond": [45, 68, 101],
     "attackRange": 1,
-    "attackSpeed": 0.8,
+    "attackSpeed": 0.75,
     "armor": 50,
     "magicalResistance": 50,
     "skill": {
       "name": "회오리 베기",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Hecarim_1720841778-hecarim_rampage.png",
-      "desc": "기본 지속 효과: 현재 대상 처치 시 헤카림의 다음 대상이 범위 밖에 있으면 돌진하여 물리 피해를 입힙니다.<br><br>사용 시: 다음 6초 동안 인접한 적을 공격해 물리 피해를 입힙니다.",
+      "desc": "기본 지속 효과: 현재 대상의 처치에 관여했을 때 헤카림의 다음 대상이 범위 밖에 있다면 대상을 향해 돌격해 물리 피해를 입힙니다.<br><br>사용 시: 또한 다음 6초 동안 기본 공격 시 주변 모든 적을 쪼개 물리 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 50,
-      "stats": ["총 충전 피해량: 공격력의 50% + 주문력의 100% / 150% / 240%", "베기 피해량: 140% / 140% / 150%"]
-    }
+      "stats": ["돌격 총 피해량: 공격력의 50% + 주문력의 100% / 150% / 240%", "쪼개기 피해량: 130% / 130% / 140%"]
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_RedBuff",
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Redemption"
+    ]
   },
   {
     "key": "Hwei",
     "ingameKey": "TFT12_Hwei",
     "name": "흐웨이",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Hwei_1720780525-Hwei.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Hwei.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Hwei_19_1720789639-Hwei.jpg",
     "traits": ["Frost", "Blaster"],
     "cost": [3, 8, 26],
     "health": [650, 1170, 2106],
-    "attackDamage": [40, 60, 90],
-    "damagePerSecond": [30, 45, 68],
+    "attackDamage": [35, 53, 79],
+    "damagePerSecond": [26, 40, 59],
     "attackRange": 4,
     "attackSpeed": 0.75,
     "armor": 25,
@@ -525,17 +623,25 @@
     "skill": {
       "name": "주제: 폭풍",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Hwei_1720851401-hweiqw.png",
-      "desc": "대상에게 떨어지는 번개를 그립니다. 잠시 후 번개가 내리쳐 대상에게 마법 피해를 입히고, 주변 적에게 마법 피해를 입힙니다. 스킬을 3회 사용할 때마다 남은 체력 비율이 가장 낮은 적에게 추가로 번개를 2개 그립니다.",
+      "desc": "대상 위에 번개를 그립니다. 잠시 후 번개가 내리쳐 대상에게 마법 피해를 입히고, 주변 적에게는 범위 마법 피해를 입힙니다. 스킬을 3회 사용할 때마다 남은 체력 비율이 가장 낮은 적에게 추가로 번개를 2개 그립니다.",
       "startingMana": 0,
       "skillMana": 40,
-      "stats": ["구체 피해량: 135 / 205 / 325", "광역 피해량: 구체 피해량의 40%"]
-    }
+      "stats": ["번개 피해량: 130% / 200% / 320%", "범위 피해량: 구체 피해량의 40%"]
+    },
+    "recommendItems": [
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_Leviathan",
+      "TFT_Item_BlueBuff",
+      "TFT_Item_ArchangelsStaff"
+    ]
   },
   {
     "key": "Jax",
     "ingameKey": "TFT12_Jax",
     "name": "잭스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Jax_1720780495-Jax.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Jax.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Jax_19_1720789606-Jax.jpg",
     "traits": ["Chrono", "Multistriker"],
     "cost": [1, 3, 9],
@@ -549,17 +655,29 @@
     "skill": {
       "name": "무기의 달인",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Jax_1720851233-jaxe.png",
-      "desc": "인접한 적에게 마법 피해를 입히고 6초 동안 방어력과 마법 저항력이 증가합니다. 이 시간 동안 공격하면 추가 마법 피해를 입힙니다.",
+      "desc": "주변 적에게 마법 피해를 입히고 6초 동안 방어력과 마법 저항력을 얻습니다. 그동안 기본 공격이 추가 마법 피해를 입힙니다.",
       "startingMana": 20,
       "skillMana": 60,
-      "stats": ["피해량: 주문력의 80% / 120% / 180%", "추가 피해량: 40% / 60% / 90%"]
-    }
+      "stats": [
+        "피해량: 주문력의 80% / 120% / 180%",
+        "추가 방어력 및 마법 저항력: 60 / 75 / 95",
+        "추가 피해량: 40% / 60% / 90%"
+      ]
+    },
+    "recommendItems": [
+      "TFT_Item_RedBuff",
+      "TFT_Item_Redemption",
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_BrambleVest"
+    ]
   },
   {
     "key": "Jayce",
     "ingameKey": "TFT12_Jayce",
     "name": "제이스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Jayce_1720780149-Jayce.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Jayce.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Jayce_19_1720789329-Jayce.jpg",
     "traits": ["Portal", "Shapeshifter"],
     "cost": [1, 3, 9],
@@ -573,17 +691,28 @@
     "skill": {
       "name": "해머 형태",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Jayce_1720841784-jayceq_melee.png",
-      "desc": "해머 형태로 변환해 방어력과 마법 저항력을 얻습니다. 이 스킬을 해머 슬램으로 교체하고 즉시 스킬을 사용합니다.<br><br>해머 슬램: 대상에게 도약해 물리 피해를 입힙니다.",
+      "desc": "해머 형태로 변환해 방어력과 마법 저항력을 35 얻습니다. 이 스킬을 해머 슬램으로 교체하고 즉시 스킬을 사용합니다.<br><br>해머 슬램: 대상에게 도약해 물리 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 60,
-      "stats": ["피해량: 265 / 398 / 596", "마법 저항력: 35 / 35 / 35"]
-    }
+      "stats": [
+        "기본 피해량: 주문력의 40% / 60% / 90%",
+        "총 피해량: 공격력의 425% / 450% / 450% + 주문력의 40% / 60% / 90%"
+      ]
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_SteraksGage"
+    ]
   },
   {
     "key": "Jinx",
     "ingameKey": "TFT12_Jinx",
     "name": "징크스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Jinx_1720780159-Jinx.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Jinx.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Jinx_19_1720789344-Jinx.jpg",
     "traits": ["Sugarcraft", "Hunter"],
     "cost": [3, 8, 26],
@@ -597,17 +726,25 @@
     "skill": {
       "name": "신난다!",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Jinx_1720841810-jinx_q1.png",
-      "desc": "4초 동안 공격 속도가 125%만큼 증가하고 공격 시 추가 피해를 줍니다. 적을 처치하면 3초 동안 이 효과가 새로 적용됩니다.",
+      "desc": "4초 동안 점차 감소하는 공격 속도를 105% 얻고 징크스의 기본 공격이 추가 고정 피해를 입힙니다. 처치 관여 시 3초 동안 이 효과가 초기화됩니다.",
       "startingMana": 0,
       "skillMana": 50,
       "stats": ["고정 피해량: 공격력의 35% + 주문력의 8% / 12% / 20%"]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_RunaansHurricane",
+      "TFT_Item_MadredsBloodrazor"
+    ]
   },
   {
     "key": "Kalista",
     "ingameKey": "TFT12_Kalista",
     "name": "칼리스타",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Kalista_1720780170-Kalista.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Kalista.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Kalista_19_1720789359-Kalista.jpg",
     "traits": ["Faerie", "Multistriker"],
     "cost": [4, 11, 35],
@@ -621,17 +758,25 @@
     "skill": {
       "name": "뽑아 찢기",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Kalista_1720841818-kalista_e.png",
-      "desc": "기본 지속 효과: 기본 공격 시 대상에게 창을 꽂으며 기본 공격 3회마다 주변 적 2명에게 창을 1개 꽂습니다.<br><br>사용 시: 안전한 장소로 도약하고 각각의 적 유닛에게 꽂힌 창마다 물리 피해를 입힙니다.",
+      "desc": "기본 지속 효과: 기본 공격 시 대상에게 창을 꽂습니다. 또한 기본 공격 3 / 3 / 1회마다 주변 적들에게 창을 꽂습니다.<br><br>사용 시: 각각의 적 유닛에게 꽂힌 창마다 물리 피해를 입힙니다.",
       "startingMana": 0,
-      "skillMana": 60,
-      "stats": ["창의 개수: 2 / 2 / 4", "창 피해량: 공격력의 40% + 주문력의 6 / 11 / 35"]
-    }
+      "skillMana": 70,
+      "stats": ["창 개수: 2 / 2 / 3", "창 피해량: 공격력의 35% / 35% / 100% + 주문력의 6 / 11 / 35"]
+    },
+    "recommendItems": [
+      "TFT_Item_GuinsoosRageblade",
+      "TFT12_Item_Faerie_QueensCrown",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_MadredsBloodrazor"
+    ]
   },
   {
     "key": "Karma",
     "ingameKey": "TFT12_Karma",
     "name": "카르마",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Karma_1720780178-Karma.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Karma.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Karma_19_1720789367-Karma.jpg",
     "traits": ["Chrono", "Incantor"],
     "cost": [4, 11, 35],
@@ -645,17 +790,25 @@
     "skill": {
       "name": "시간 임박",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Karma_1720839608-zilean_e.png",
-      "desc": "대상과 영향을 받지 않은 가장 가까운 적에게 8초에 걸쳐 마법 피해를 입히는 시간 균열을 부여합니다. 적의 다른 모든 균열의 지속시간이 초기화됩니다. 영향을 받은 상태에서 사망하면 균열이 폭발하여 별가루가 되고, 인접한 아군이 최대 체력의 8%만큼 체력을 회복합니다.",
+      "desc": "대상 및 영향을 받지 않은 가장 가까운 적에게 6 / 6 / 4초에 걸쳐 마법 피해를 입히는 시간의 균열을 부착합니다. 적에게 부착된 다른 모든 균열의 지속시간을 초기화합니다. 영향을 받고 있는 적이 처치되면 균열이 폭발하여 별가루가 되고 주변 아군의 체력을 각 아군 최대 체력의 8%만큼 회복시킵니다.",
       "startingMana": 0,
       "skillMana": 30,
-      "stats": ["마법 피해량: 195% / 295% / 890%"]
-    }
+      "stats": ["마법 피해량: 주문력의 190% / 285% / 1600%"]
+    },
+    "recommendItems": [
+      "TFT_Item_BlueBuff",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_HextechGunblade",
+      "TFT_Item_Leviathan"
+    ]
   },
   {
     "key": "Kassadin",
     "ingameKey": "TFT12_Kassadin",
     "name": "카사딘",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Kassadin_1720780183-Kassadin.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Kassadin.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Kassadin_19_1720789373-Kassadin.jpg",
     "traits": ["Portal", "Multistriker"],
     "cost": [2, 5, 17],
@@ -673,13 +826,21 @@
       "startingMana": 30,
       "skillMana": 70,
       "stats": ["찌르기 피해량: 110% / 165% / 255%", "중첩 피해량: 35% / 50% / 80%", "보호막: 300% / 335% / 370%"]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_ArchangelsStaff",
+      "TFT_Item_Quicksilver",
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_TitansResolve"
+    ]
   },
   {
     "key": "Katarina",
     "ingameKey": "TFT12_Katarina",
     "name": "카타리나",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Katarina_1720780190-Katarina.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Katarina.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Katarina_19_1720789379-Katarina.jpg",
     "traits": ["Faerie", "Warrior"],
     "cost": [3, 8, 26],
@@ -693,17 +854,25 @@
     "skill": {
       "name": "죽음의 연꽃",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Katarina_1720841909-katarina_r.png",
-      "desc": "2칸 내 가장 큰 적 무리에게 순간적으로 이동하고 회전해 2칸 내 적에게 3초에 걸쳐 마법 피해를 입히고 5초 동안 상처를 적용합니다. 가장 가까운 적 2명은 대신 마법 피해를 입습니다.<br><br>카타리나가 적을 처치하면 순간적으로 이동하고 위치를 다시 잡습니다.<br><br>상처: 체력 회복량이 33% 감소합니다.",
-      "startingMana": 20,
-      "skillMana": 80,
+      "desc": "2칸 내 가장 큰 적 무리에게 순간적으로 이동하고 회전해 2칸 내 적에게 3초에 걸쳐 마법 피해를 입히고 5초 동안 상처를 적용합니다. 가장 가까운 적 2명은 대신 마법 피해를 입습니다.<br><br>카타리나가 적을 처치하면 순간적으로 이동해 위치를 다시 잡습니다.<br><br>상처: 체력 회복량 33% 감소",
+      "startingMana": 10,
+      "skillMana": 70,
       "stats": ["피해량: 160% / 240% / 365%", "증가한 피해량: 피해량의 155%"]
-    }
+    },
+    "recommendItems": [
+      "TFT12_Item_Faerie_QueensCrown",
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_IonicSpark",
+      "TFT_Item_HextechGunblade"
+    ]
   },
   {
     "key": "KogMaw",
     "ingameKey": "TFT12_KogMaw",
     "name": "코그모",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/KogMaw_1720780509-KogMaw.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/KogMaw.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/KogMaw_19_1720789620-KogMaw.jpg",
     "traits": ["Honeymancy", "Hunter"],
     "cost": [2, 5, 17],
@@ -715,19 +884,27 @@
     "armor": 20,
     "magicalResistance": 20,
     "skill": {
-      "name": "꿀벌 분비물",
+      "name": "벌집의 분비물",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/KogMaw_1720852692-kogmaw_voidooze.png",
-      "desc": "현재 대상에게 꿀 덩어리를 발사하여 적중된 적에게 물리 피해를 입힙니다. 벌집에 맞은 인접한 아군은 4초 동안 공격 속도가 증가합니다.",
+      "desc": "현재 대상에게 밀랍을 뱉어 적중한 적에게 물리 피해를 입힙니다. 주변 아군 및 경로에 있는 아군은 벌의 활기에 영향을 받아 4초 동안 공격 속도를 얻습니다.",
       "startingMana": 15,
       "skillMana": 75,
       "stats": ["물리 피해량: 290% / 300% / 325%", "공격 속도: 20% / 25% / 30%"]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_MadredsBloodrazor",
+      "TFT_Item_SpearOfShojin"
+    ]
   },
   {
     "key": "Lillia",
     "ingameKey": "TFT12_Lillia",
     "name": "릴리아",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Lillia_1720780438-Lillia.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Lillia.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Lillia_19_1720789550-Lillia.jpg",
     "traits": ["Faerie", "Bastion"],
     "cost": [1, 3, 9],
@@ -741,17 +918,25 @@
     "skill": {
       "name": "꿈의 개화",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Lillia_1720850403-lillia_icon_q.png",
-      "desc": "기본 지속 효과: 릴리아가 공격 속도를 100%, 이동 속도를 75% 얻습니다.<br><br>체력을 회복한 다음 현재 대상에게 마법 피해를 입힙니다.",
+      "desc": "체력을 회복한 다음 주변 적에게 마법 피해를 입힙니다.",
       "startingMana": 50,
       "skillMana": 110,
       "stats": ["체력 회복량: 220% / 260% / 320%", "마법 피해량: 주문력의 170% / 255% / 385%"]
-    }
+    },
+    "recommendItems": [
+      "TFT12_Item_Faerie_QueensCrown",
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_Redemption",
+      "TFT_Item_RedBuff"
+    ]
   },
   {
     "key": "Milio",
     "ingameKey": "TFT12_Milio",
     "name": "밀리오",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Milio_1720780195-Milio.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Milio.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Milio_19_1720789384-Milio.jpg",
     "traits": ["Faerie", "Scholar"],
     "cost": [5, 14, 44],
@@ -765,17 +950,25 @@
     "skill": {
       "name": "잡동사니 공격",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Milio_1720841062-milio_p.png",
-      "desc": "빈 아이템 칸이 있는 아군에게 완성 아이템 2개를 던집니다. 아군에게 빈 아이템 칸이 없다면 대신 피해량이 120% 증가합니다. 이 효과는 중첩되며 전투가 끝날 때까지 유지됩니다. 이후, 각각 마법 피해를 입히는 잡동사니 3개를 적에게 던집니다.<br><br>밀리오는 가끔 가방에서 특별한 물건을 찾아냅니다.",
-      "startingMana": 40,
-      "skillMana": 110,
-      "stats": ["아이템 개수: 2 / 2 / 10", "마법 피해량: 290 / 435 / 2500", "특별한 물건 확률: 1% / 1% /  100%"]
-    }
+      "desc": "빈 아이템 칸이 있는 아군에게 완성 아이템들을 던집니다. 아군에게 빈 아이템 칸이 없다면 대신 대상 아군이 피해 증폭을 12% 얻습니다. 이 효과는 중첩되며 전투가 끝날 때까지 유지됩니다. 이후, 각각 마법 피해를 입히는 잡동사니를 적에게 던집니다.<br><br>또한, 밀리오는 가끔 가방에서 특별한 물건을 찾아냅니다.",
+      "startingMana": 30,
+      "skillMana": 130,
+      "stats": ["아이템 개수: 2 / 2 / 8", "잡동사니 개수: 3 / 3 / 8", "마법 피해량: 290 / 435 / 3000"]
+    },
+    "recommendItems": [
+      "TFT12_Item_Faerie_QueensCrown",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_Leviathan",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_GuinsoosRageblade"
+    ]
   },
   {
     "key": "Mordekaiser",
     "ingameKey": "TFT12_Mordekaiser",
     "name": "모데카이저",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Mordekaiser_1720780201-Mordekaiser.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Mordekaiser.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Mordekaiser_19_1720789390-Mordekaiser.jpg",
     "traits": ["Eldritch", "Vanguard"],
     "cost": [3, 8, 26],
@@ -792,14 +985,22 @@
       "desc": "2초에 걸쳐 점차 사라지는 보호막을 얻고 대상을 내려찍어 일직선상으로 2칸에 마법 피해를 입힙니다. 전투가 끝날 때까지 주문력이 10 증가합니다.",
       "startingMana": 0,
       "skillMana": 40,
-      "stats": ["피해량: 180% / 270% / 430%", "보호막 흡수량: 200% / 250% / 325%"]
-    }
+      "stats": ["피해량: 180% / 270% / 430%", "보호막: 200% / 250% / 325%"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_RedBuff",
+      "TFT_Item_Redemption"
+    ]
   },
   {
     "key": "Morgana",
     "ingameKey": "TFT12_Morgana",
     "name": "모르가나",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Morgana_1720780446-Morgana.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Morgana.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Morgana_19_1720789557-Morgana.jpg",
     "traits": ["Witchcraft", "BatQueen", "Preserver"],
     "cost": [5, 14, 44],
@@ -813,17 +1014,25 @@
     "skill": {
       "name": "사랑스러운 내 아이들",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Morgana_1720850445-fallenangel_purgatory.png",
-      "desc": "4초 동안 보호막을 얻고 8마리의 박쥐 떼를 소환합니다. 박쥐 떼는 3칸 내 가장 가까운 적 4명을 추적하고 각각 마법 피해를 입힙니다. 박쥐는 체력이 25% 아래인 적에게 고정 피해를 입힙니다.",
+      "desc": "4초 동안 보호막을 얻고 박쥐 떼를 소환합니다. 박쥐 떼는 3칸 내 가장 가까운 적 4명을 추적하고 각각 마법 피해를 입힙니다. 박쥐는 체력이 25% 아래인 적에게 고정 피해를 입힙니다.",
       "startingMana": 40,
       "skillMana": 110,
-      "stats": ["박쥐 수: 8 / 8 / 30", "마법 피해량: 140% / 210% / 888%", "보호막 흡수량: 450% / 575% / 2500%"]
-    }
+      "stats": ["박쥐 수: 8 / 8 / 30", "마법 피해량: 140% / 210% / 888%", "보호막: 400% / 525% / 2500%"]
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_Crownguard",
+      "TFT_Item_IonicSpark",
+      "TFT_Item_Morellonomicon"
+    ]
   },
   {
     "key": "Nami",
     "ingameKey": "TFT12_Nami",
     "name": "나미",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Nami_1720780207-Nami.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Nami.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Nami_19_1720789395-Nami.jpg",
     "traits": ["Eldritch", "Mage"],
     "cost": [4, 11, 35],
@@ -837,17 +1046,25 @@
     "skill": {
       "name": "레비아탄",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Nami_1720841559-namir.png",
-      "desc": "범위 내의 가장 큰 적군에게 마법 피해를 주는 거품을 발사합니다. 세 번째 시전할 때마다 일렬로 늘어선 적에게 기절시키고 마법 피해를 입히는 레비아탄을 소환합니다.",
+      "desc": "범위 내 가장 큰 적 무리에게 마법 피해를 입히는 물방울을 발사합니다. 스킬을 3회 사용할 때마다 대신 일직선상의 적을 기절시키고 마법 피해를 입히는 레비아탄을 소환합니다",
       "startingMana": 0,
       "skillMana": 50,
-      "stats": ["거품 피해량: 220% / 330% / 990%", "레비아탄 피해량: 200% / 300% / 900%"]
-    }
+      "stats": ["물방울 피해량: 220% / 330% / 1500%", "레비아탄 피해량: 200% / 300% / 1200%"]
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_Leviathan",
+      "TFT_Item_Morellonomicon",
+      "TFT_Item_StatikkShiv"
+    ]
   },
   {
     "key": "Nasus",
     "ingameKey": "TFT12_Nasus",
     "name": "나서스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Nasus_1720780215-Nasus.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Nasus.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Nasus_19_1720789405-Nasus.jpg",
     "traits": ["Pyro", "Shapeshifter"],
     "cost": [4, 11, 35],
@@ -859,24 +1076,32 @@
     "armor": 60,
     "magicalResistance": 60,
     "skill": {
-      "name": "지옥의 사냥개",
+      "name": "지옥사냥개",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Nasus_1720842276-nasus_r.png",
-      "desc": "가장 가까운 적 3명에게 체력을 나눠서 훔칩니다. 체력을 회복한 후 스킬을 시전할 때마다 대상에게 물리 피해를 입힙니다.",
+      "desc": "가장 가까운 적들에게서 체력을 나눠서 훔칩니다. 이후 스킬을 사용할 때마다 대신 체력을 회복하고 적에게는 물리 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 80,
       "stats": [
-        "체력 강탈량: 250 / 250 / 2000",
-        "적의 수: 3 / 4 / 10",
+        "체력 훔치기: 400 / 600 / 5000",
+        "적 수: 3 / 4 / 10",
         "피해량: 체력의 20%",
         "체력 회복량: 주문력의 250% / 300% / 900%"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Redemption",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_BrambleVest"
+    ]
   },
   {
     "key": "Neeko",
     "ingameKey": "TFT12_Neeko",
     "name": "니코",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Neeko_1720780421-Neeko.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Neeko.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Neeko_19_1720789534-Neeko.jpg",
     "traits": ["Witchcraft", "Shapeshifter"],
     "cost": [3, 8, 26],
@@ -890,17 +1115,25 @@
     "skill": {
       "name": "까꿍!!!",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Neeko_1720849621-neeko_w2.png",
-      "desc": "2초 동안 바위 게로 변신합니다. 지속 시간 동안 체력을 18% 회복하고 주변 아군 3명과 주변 적 3명에게 산개탄을 발사합니다. 적중당한 아군은 체력을 회복하고, 적중당한 적은 마법 피해를 받고 1.25초 동안 기절합니다.",
+      "desc": "2초 동안 바위 게로 변신합니다. 지속시간 동안 체력을 18% 회복하고 주변 아군 3명과 주변 적 3명에게 바위 게 광선을 방출합니다. 광선에 맞은 아군은 체력을 회복하고, 광선에 맞은 적은 마법 피해를 입고 1.25초 동안 기절합니다.",
       "startingMana": 50,
       "skillMana": 125,
-      "stats": ["회복량: 75 / 100 / 125", "피해량: 100 / 150 / 240", "기절 지속시간: 1.25 / 1.25 / 1.25"]
-    }
+      "stats": ["체력 회복량: 75 / 100 / 125", "피해량: 100 / 150 / 240", "기절 지속시간: 1.25"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Redemption",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_RedBuff"
+    ]
   },
   {
     "key": "Nilah",
     "ingameKey": "TFT12_Nilah",
     "name": "닐라",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Nilah_1720780222-Nilah.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Nilah.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Nilah_19_1720789411-Nilah.jpg",
     "traits": ["Eldritch", "Warrior"],
     "cost": [2, 5, 17],
@@ -914,11 +1147,18 @@
     "skill": {
       "name": "무형의 검",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Nilah_1720842371-nilahq.png",
-      "desc": "기본 지속 효과: 보호막으로 3초 동안 공격 속도가 75% 증가합니다.<br><br>사용 시: 최대 2칸까지 돌진하여 대상과 일직선상에 있는 적에게 물리 피해를 입힙니다. 3초 동안 피해를 흡수하는 보호막을 얻습니다.",
+      "desc": "기본 지속 효과: 3초 동안 보호막이 공격 속도를 60% 부여합니다.<br><br>사용 시: 최대 2칸 떨어진 곳으로 돌진한 후, 대상 너머 일직선상의 적에게 물리 피해를 입힙니다. 3초 동안 보호막을 얻습니다.",
       "startingMana": 0,
       "skillMana": 60,
-      "stats": ["피해량: 100% / 140% / 180%", "보호막 흡수량: 100"]
-    }
+      "stats": ["보호막: 100% / 140% / 180%", "피해량: 360% / 360% / 380%"]
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_InfinityEdge"
+    ]
   },
   {
     "key": "Nomsy",
@@ -938,21 +1178,28 @@
     "skill": {
       "name": "타오르는 재채기",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Nomsy_1720842733-annie_w.png",
-      "desc": "대상에게 불꽃 재채기를 내뿜어 물리 피해를 입힙니다.<br><br>용 업그레이드: 대신 더 넓은 범위에 용의 화염 재채기를 내뿜습니다. 용의 화염은 추가 물리 피해를 입힙니다.",
-      "startingMana": 15,
-      "skillMana": 60,
+      "desc": "대상에게 불꽃 재채기를 내뿜어 물리 피해를 입힙니다.<br><br>용 업그레이드: 대신 더 넓은 범위에 용의 화염 재채기를 내뿜습니다. 용의 화염은 업그레이드 된 물리 피해를 입힙니다.",
+      "startingMana": 10,
+      "skillMana": 50,
       "stats": [
         "공격력 비례 피해량: 345% / 350% / 355%",
         "주문력 비례 피해량: 40% / 60% / 100%",
         "피해량: 공격력 비례 피해량 + 주문력 비례 피해량",
         "업그레이드 피해량: 공격력의 500% + 주문력의 40%"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_LastWhisper",
+      "TFT12_Item_ShapeshifterEmblemItem"
+    ]
   },
   {
     "key": "NorraYuumi",
-    "ingameKey": "TFT12_NorraYuumi",
-    "name": "노라와 유미",
+    "ingameKey": "TFT12_Norra",
+    "name": "노라",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/NorraYuumi_1720780047-Norra.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/NorraYuumi_19_1720789425-Norra.jpg",
     "traits": ["Portal", "TFT12BestFriends", "Mage"],
@@ -967,17 +1214,25 @@
     "skill": {
       "name": "차원문 대소동",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/NorraYuumi_1720936952-norra.JPG",
-      "desc": "현재 대상에게 폭발해 마법 피해를 입히는 공을 발사하고, 3초 동안 해당 지역을 색칠해 초당 마법 피해를 입힙니다. 이미 색이 칠해진 지역에 공이 떨어진다면, 공은 2칸 내 새로운 위치로 튕긴 후 폭발합니다.",
+      "desc": "현재 대상에게 공을 발사합니다. 공은 폭발해 마법 피해를 입히고, 5 / 5 / 15초 동안 해당 지역을 색칠해 지속시간 동안 마법 피해를 입힙니다. 이미 색이 칠해진 지역에 공이 떨어진다면, 공은 2칸 내 새로운 위치로 튕긴 후 폭발합니다.",
       "startingMana": 30,
       "skillMana": 90,
-      "stats": ["마법 피해량: 220% / 330% / 3000%", "지속 피해량: 95% / 145% / 500%"]
-    }
+      "stats": ["마법 피해량: 180% / 270% / 1000%", "지속 피해량: 500% / 750% / 3000%"]
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_Leviathan",
+      "TFT_Item_ArchangelsStaff",
+      "TFT_Item_RabadonsDeathcap"
+    ]
   },
   {
     "key": "Nunu",
     "ingameKey": "TFT12_Nunu",
-    "name": "누누와 윌럼프",
+    "name": "누누",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Nunu_1720780229-Nunu.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Nunu.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Nunu_19_1720789430-Nunu.jpg",
     "traits": ["Honeymancy", "Bastion"],
     "cost": [2, 5, 17],
@@ -995,19 +1250,27 @@
       "startingMana": 25,
       "skillMana": 75,
       "stats": ["피해량: 200 / 300 / 450", "체력 회복량: 250% / 300% / 350%"]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_Redemption",
+      "TFT_Item_BrambleVest"
+    ]
   },
   {
     "key": "Olaf",
     "ingameKey": "TFT12_Olaf",
     "name": "올라프",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Olaf_1720780234-Olaf.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Olaf.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Olaf_19_1720789436-Olaf.jpg",
     "traits": ["Frost", "Hunter"],
     "cost": [4, 11, 35],
     "health": [1150, 2070, 3726],
-    "attackDamage": [70, 105, 158],
-    "damagePerSecond": [60, 89, 134],
+    "attackDamage": [75, 113, 169],
+    "damagePerSecond": [64, 96, 144],
     "attackRange": 1,
     "attackSpeed": 0.85,
     "armor": 60,
@@ -1015,17 +1278,25 @@
     "skill": {
       "name": "라그나로크",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Olaf_1720843309-olafr.png",
-      "desc": "기본 지속 효과: 4번 공격하거나 다른 대상을 공격할 때 도약하여 대상과 주변 적에게 물리 피해를 입힙니다.<br><br>사용 시: 다음 5초 동안 공격 속도, 모든 피해 흡혈, 군중 제어 면역이 증가합니다.",
+      "desc": "기본 지속 효과: 기본 공격 4회마다 그리고 대상을 변경할 때마다 대상에게 도약해 대상과 주변 적에게 물리 피해를 입힙니다.<br><br>사용 시: 다음 5초 동안 공격 속도, 모든 피해 흡혈을 얻고 군중 제어 효과에 면역이 됩니다.",
       "startingMana": 30,
       "skillMana": 80,
-      "stats": ["찍기 피해량: 160% / 160% / 350%", "공격 속도: 90% / 100% / 300%"]
-    }
+      "stats": ["내려찍기 피해량: 160% / 160% / 350%", "공격 속도: 90% / 100% / 300%"]
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_SteraksGage",
+      "TFT_Item_UnstableConcoction",
+      "TFT_Item_GuinsoosRageblade"
+    ]
   },
   {
     "key": "Poppy",
     "ingameKey": "TFT12_Poppy",
     "name": "뽀삐",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Poppy_1720780240-Poppy.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Poppy.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Poppy_19_1720789441-Poppy.jpg",
     "traits": ["Witchcraft", "Bastion"],
     "cost": [1, 3, 9],
@@ -1037,23 +1308,31 @@
     "armor": 40,
     "magicalResistance": 40,
     "skill": {
-      "name": "청소 임무",
+      "name": "청소 당번",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Poppy_1720843740-poppy_q.png",
-      "desc": "3초 동안 보호막을 얻습니다. 이후 대상에게 벽을 내려쳐 추가 물리 피해를 입힙니다.",
+      "desc": "3초 동안 보호막을 얻습니다. 이후 대상을 강타해 물리 피해를 입힙니다.",
       "startingMana": 30,
       "skillMana": 80,
-      "stats": ["보호막 흡수량: 275 / 300 / 325", "피해량: 475% / 475% / 475%"]
-    }
+      "stats": ["보호막: 275% / 300% / 325%", "피해량: 475% / 475% / 475%"]
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_WarmogsArmor"
+    ]
   },
   {
     "key": "Rakan",
     "ingameKey": "TFT12_Rakan",
     "name": "라칸",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Rakan_1720780431-Rakan.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Rakan.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Rakan_19_1720789544-Rakan.jpg",
     "traits": ["Faerie", "Preserver"],
     "cost": [4, 11, 35],
-    "health": [1100, 1980, 3564],
+    "health": [1050, 1890, 3402],
     "attackDamage": [60, 90, 135],
     "damagePerSecond": [42, 63, 95],
     "attackRange": 1,
@@ -1069,15 +1348,23 @@
       "stats": [
         "마법 피해량: 주문력의 150% / 225% / 1200%",
         "아군 보호막 흡수량: 주문력의 100% / 130% / 1000%",
-        "보호막 흡수량: 체력의 25%"
+        "보호막 흡수량: 체력의 20% + 주문력의 80% / 100% / 1000%"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Redemption",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw",
+      "TFT12_Item_Faerie_Armor"
+    ]
   },
   {
     "key": "Rumble",
     "ingameKey": "TFT12_Rumble",
     "name": "럼블",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Rumble_1720780247-Rumble.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Rumble.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Rumble_19_1720789450-Rumble.jpg",
     "traits": ["Sugarcraft", "Blaster", "Vanguard"],
     "cost": [2, 5, 17],
@@ -1089,25 +1376,33 @@
     "armor": 45,
     "magicalResistance": 45,
     "skill": {
-      "name": "용암 캐러멜",
+      "name": "뜨거운 차",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Rumble_1720843933-rumble_flamespitter.png",
-      "desc": "기본 지속 효과: 럼블이 모든 피해 흡혈을 15% 얻습니다.<br><br>3초 동안 원뿔 형태로 화염을 발사해 지속시간 동안 마법 피해를 입히고 적에게 5초 동안 상처를 입힙니다.<br><br>상처: 체력 회복량 33% 감소",
+      "desc": "3초 동안 내구력을 얻고 원뿔 형태의 화염을 생성해 지속시간 동안 마법 피해를 입히며 5초 동안 적에게 상처를 적용합니다.<br><br>상처: 체력 회복량 33% 감소",
       "startingMana": 20,
       "skillMana": 60,
-      "stats": ["피해량 감소: 30% / 30% / 35%", "피해량 = 주문력의 220% / 330% / 515%의 190%"]
-    }
+      "stats": ["내구력: 30% / 30% / 35%", "마법 피해량 = 주문력의 220% / 330% / 515%"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Redemption",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_RedBuff"
+    ]
   },
   {
     "key": "Ryze",
     "ingameKey": "TFT12_Ryze",
     "name": "라이즈",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Ryze_1720780252-Ryze.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Ryze.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Ryze_19_1720789456-Ryze.jpg",
     "traits": ["Portal", "Scholar"],
     "cost": [4, 11, 35],
     "health": [850, 1530, 2754],
-    "attackDamage": [40, 60, 90],
-    "damagePerSecond": [32, 48, 72],
+    "attackDamage": [45, 68, 101],
+    "damagePerSecond": [36, 54, 81],
     "attackRange": 4,
     "attackSpeed": 0.8,
     "armor": 30,
@@ -1115,17 +1410,25 @@
     "skill": {
       "name": "룬 차원문",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Ryze_1720844174-ryze_r.png",
-      "desc": "차원문을 열어 가장 가까운 적 4명에게 총 12개의 마법 화살을 발사합니다. 각 화살은 마법 피해를 입힙니다.",
+      "desc": "차원문을 열어 가장 가까운 적 4 / 4 / 6명에게 마법 화살을 나눠서 발사합니다. 각 화살은 마법 피해를 입힙니다.",
       "startingMana": 15,
       "skillMana": 90,
-      "stats": ["피해량: 70% / 105% / 210%", "구체 개수: 10 / 10 / 16 + 공격속도 40%당 1개"]
-    }
+      "stats": ["피해량: 주문력의 80% / 120% / 300%", "화살 개수: 10 / 10 / 22 + 공격속도 40%당 1개"]
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_ArchangelsStaff",
+      "TFT_Item_Leviathan"
+    ]
   },
   {
     "key": "Seraphine",
     "ingameKey": "TFT12_Seraphine",
     "name": "세라핀",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Seraphine_1720780257-Seraphine.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Seraphine.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Seraphine_19_1720789460-Seraphine.jpg",
     "traits": ["Faerie", "Mage"],
     "cost": [1, 3, 9],
@@ -1137,19 +1440,27 @@
     "armor": 15,
     "magicalResistance": 15,
     "skill": {
-      "name": "반올림",
+      "name": "날카로운 음표",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Seraphine_1720844196-seraphine_e1.png",
-      "desc": "가장 긴 줄의 적을 향해 음파를 발사하고, 적중하는 대상마다 마법 피해가 20%씩 감소합니다.",
+      "desc": "가장 적이 많은 일직선상에 음파를 발사해 마법 피해를 입힙니다. 적중한 적 하나당 피해가 35%씩 감소합니다.",
       "startingMana": 10,
       "skillMana": 70,
-      "stats": ["마법 피해량: 195 / 295 / 440"]
-    }
+      "stats": ["마법 피해량: 220 / 330 / 495"]
+    },
+    "recommendItems": [
+      "TFT12_Item_Faerie_QueensCrown",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_ArchangelsStaff",
+      "TFT_Item_Leviathan"
+    ]
   },
   {
     "key": "Shen",
     "ingameKey": "TFT12_Shen",
     "name": "쉔",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Shen_1720780468-Shen.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Shen.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Shen_19_1720789574-Shen.jpg",
     "traits": ["Pyro", "Bastion"],
     "cost": [3, 8, 26],
@@ -1163,17 +1474,25 @@
     "skill": {
       "name": "황혼의 분화",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Shen_1720851421-ornnq.png",
-      "desc": "3초 동안 내구력을 35% 얻습니다. 가장 가까운 적 아래에 화산의 균열을 3개 생성해 1.5초 동안 기절시키고 150%의 마법 피해를 입힙니다.",
-      "startingMana": 40,
-      "skillMana": 100,
-      "stats": ["내구력: 주문력의 35% / 35% / 40%", "대상 피해량: 주문력의 150% / 225% / 360%"]
-    }
+      "desc": "3초 동안 내구력을 얻습니다. 가장 가까운 적 아래에 화산의 균열을 3개 생성해 1.5초 동안 기절시키고 마법 피해를 입힙니다. 이후 같은 적을 대상으로 균열 적중 시 효과가 50% 증가합니다.",
+      "startingMana": 50,
+      "skillMana": 120,
+      "stats": ["내구력: 주문력의 35% / 35% / 40%", "대상 피해량: 주문력의 120% / 180% / 300%"]
+    },
+    "recommendItems": [
+      "TFT_Item_Redemption",
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_RedBuff",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw"
+    ]
   },
   {
     "key": "Shyvana",
     "ingameKey": "TFT12_Shyvana",
     "name": "쉬바나",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Shyvana_1720780262-Shyvana.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Shyvana.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Shyvana_19_1720789466-Shyvana.jpg",
     "traits": ["Dragon", "Shapeshifter"],
     "cost": [2, 5, 17],
@@ -1187,23 +1506,31 @@
     "skill": {
       "name": "용의 강림",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Shyvana_1720844618-shyvanadragonsdescent.png",
-      "desc": "용 형상으로 변신하여 주변의 적에게 초당 마법 피해를 주는 오오라를 얻습니다. 이후 2칸 내의 가장 큰 적 무리 사이로 날아가 1.5초 동안 기절시킵니다.<br><br>용 업그레이드: 용 변신 상태일 때, 불타는 적 하나당 최대 체력의 0.75%를 회복합니다.",
+      "desc": "용 형상으로 변신해 주변 적에게 초당 마법 피해를 입히는 오오라를 얻습니다. 그런 다음 2칸 내의 가장 큰 적 무리로 날아가 기절시킵니다.<br><br>용 업그레이드: 용 형상일 때, 불태우기가 적용된 적이 기본 공격 또는 스킬 피해를 받을 때마다 최대 체력의 1%만큼 체력을 회복합니다.",
       "startingMana": 0,
       "skillMana": 70,
-      "stats": ["초당 피해량: 최대 체력의 1.5% + 주문력의 30% / 45% / 70%", "기절 지속시간: 1.5 / 1.5 / 1.75"]
-    }
+      "stats": ["초당 피해량: 최대 체력의 1.5% + 주문력의 35% / 50% / 75%", "기절 지속시간: 1 / 1 / 1.25"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_Redemption",
+      "TFT_Item_BrambleVest"
+    ]
   },
   {
     "key": "Smolder",
     "ingameKey": "TFT12_Smolder",
     "name": "스몰더",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Smolder_1720780268-Smolder.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Smolder.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Smolder_19_1720789472-Smolder.jpg",
     "traits": ["Dragon", "Blaster"],
     "cost": [5, 14, 44],
     "health": [1000, 1800, 3240],
-    "attackDamage": [75, 113, 169],
-    "damagePerSecond": [64, 96, 144],
+    "attackDamage": [80, 120, 180],
+    "damagePerSecond": [68, 102, 153],
     "attackRange": 10,
     "attackSpeed": 0.85,
     "armor": 50,
@@ -1211,9 +1538,9 @@
     "skill": {
       "name": "비행 학습",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Smolder_1720841797-icons_smolder_e.png",
-      "desc": "기본 지속 효과: 주변을 날며 가장 가까운 적을 공격합니다.<br><br>사용 시: 공격 속도를 얻고 4초 동안 스몰더의 기본 공격은 물리 피해를 입히는 화염구로 교체합니다.<br><br>용 업그레이드: 각 화염구가 체력도 20 회복시킵니다.",
+      "desc": "기본 지속 효과: 주변을 날며 가장 가까운 적을 공격합니다.<br><br>사용 시: 공격 속도를 얻고 6 / 6 / 60초 동안 스몰더의 기본 공격을 물리 피해를 입히는 화염구로 교체합니다.<br><br>용 업그레이드: 각 화염구가 체력도 회복시킵니다.",
       "startingMana": 30,
-      "skillMana": 100,
+      "skillMana": 80,
       "stats": [
         "추가 공격 속도: 50% / 50% / 500%",
         "공격력 비례 피해량: 185% / 190% / 888%",
@@ -1221,13 +1548,21 @@
         "피해량: 공격력 비례 피해량 + 주문력 비례 피해량",
         "용 업그레이드 체력 회복: 20 / 30 / 200"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_MadredsBloodrazor",
+      "TFT12_Item_PyroEmblemItem"
+    ]
   },
   {
     "key": "Soraka",
     "ingameKey": "TFT12_Soraka",
     "name": "소라카",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Soraka_1720780462-Soraka.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Soraka.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Soraka_19_1720789568-Soraka.jpg",
     "traits": ["Sugarcraft", "Mage"],
     "cost": [1, 3, 9],
@@ -1241,17 +1576,25 @@
     "skill": {
       "name": "유성",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Soraka_1720850674-soraka_q.png",
-      "desc": "대상에게 별을 소환하여 주변의 적에게 마법 피해를 입힙니다. 근처 아군 1명의 체력을 회복시키고, 체력이 50% 미만일 경우 증가합니다.",
+      "desc": "대상에게 별을 떨어뜨려 주변 적에게 마법 피해를 입힌 후 주변 아군 1명의 체력을 회복시킵니다.",
       "startingMana": 20,
       "skillMana": 60,
-      "stats": ["마법 피해량: 180 / 270 / 405", "회복량: 100 / 120 / 150"]
-    }
+      "stats": ["마법 피해량: 180 / 270 / 405", "체력 회복량: 100 / 120 / 150"]
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_ArchangelsStaff",
+      "TFT_Item_Leviathan",
+      "TFT_Item_StatikkShiv"
+    ]
   },
   {
     "key": "Swain",
     "ingameKey": "TFT12_Swain",
     "name": "스웨인",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Swain_1720780273-Swain.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Swain.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Swain_19_1720789476-Swain.jpg",
     "traits": ["Frost", "Shapeshifter"],
     "cost": [3, 8, 26],
@@ -1265,22 +1608,30 @@
     "skill": {
       "name": "눈보라",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Swain_1720845969-swain_r.png",
-      "desc": "변신해 최대 체력이 275% 증가합니다. 변신하면 2칸 내 적에게 초당 25%의 마법 피해를 입힙니다.<br><br>이미 변신 상태라면, 추가 최대 체력을 얻고 피해량이 15% 증가합니다.",
+      "desc": "변신해 최대 체력이 증가합니다. 변신하면 2칸 내 적에게 초당 마법 피해를 입힙니다.<br><br>이미 변신 상태라면, 추가 최대 체력을 얻고 피해량이 증가합니다.",
       "startingMana": 70,
       "skillMana": 140,
       "stats": [
-        "최초 최대 체력: 275% / 325% / 400%",
-        "마법 피해량: 25% / 35% / 60%",
-        "추가 최대 체력: 175% / 225% / 300%",
-        "추가 피해량: 15 / 25 / 35"
+        "최초 최대 체력: 주문력의 275% / 325% / 400%",
+        "마법 피해량: 주문력의 30% / 40% / 65%",
+        "추가 최대 체력: 주문력의 150% / 200% / 275%",
+        "추가 피해량: 주문력의 10 / 15 / 25"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Redemption",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_ArchangelsStaff"
+    ]
   },
   {
     "key": "Syndra",
     "ingameKey": "TFT12_Syndra",
     "name": "신드라",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Syndra_1720780473-Syndra.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Syndra.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Syndra_19_1720789580-Syndra.jpg",
     "traits": ["Eldritch", "Incantor"],
     "cost": [2, 5, 17],
@@ -1294,17 +1645,25 @@
     "skill": {
       "name": "깨달음",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Syndra_1720851449-syndrapassive.png",
-      "desc": "균열을 불러내 마법 피해를 입히고 5초 동안 대상에게 20%의 파쇄 효과를 적용합니다. 이 스킬은 사용할수록 업그레이드됩니다.<br><br>15회 사용 시: 대상 주변 모든 적이 파쇄 효과를 받고 마법 피해를 입습니다.<br>30회+ 사용 시: 스킬을 30회 사용할 때마다 33%의 피해를 입히는 균열을 추가로 생성합니다.<br><br>파쇄: 마법 저항력 감소",
+      "desc": "대상에게 균열을 불러내 마법 피해를 입히고 6초 동안 파쇄를 20% 적용합니다. 이 스킬은 사용할수록 업그레이드됩니다.<br><br>15회 사용 시: 대상 주변 모든 적이 파쇄 효과를 받고 마법 피해를 입습니다.<br>30회+ 사용 시: 스킬을 30회 사용할 때마다, 35%의 피해를 입히는 균열을 주변 적에게 추가로 생성합니다.<br><br>파쇄: 마법 저항력 감소",
       "startingMana": 0,
       "skillMana": 60,
-      "stats": ["1차 대상 피해량: 280% / 420% / 650%", "범위 피해량: 140% / 210% / 325%"]
-    }
+      "stats": ["1차 대상 피해량: 225% / 340% / 520%", "범위 피해량: 110% / 170% / 260%"]
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_Leviathan",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_RabadonsDeathcap",
+      "TFT_Item_GuinsoosRageblade"
+    ]
   },
   {
     "key": "TahmKench",
     "ingameKey": "TFT12_TahmKench",
     "name": "탐 켄치",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/TahmKench_1720780514-TahmKench.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/TahmKench.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/TahmKench_19_1720789626-TahmKench.jpg",
     "traits": ["Arcana", "Vanguard"],
     "cost": [4, 11, 35],
@@ -1318,17 +1677,25 @@
     "skill": {
       "name": "점술 잠수",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/TahmKench_1720852766-tahmkenchw.png",
-      "desc": "가장 가까운 적 옆 칸의 아래로 잠수하여 가장 먼 적을 향해 충격파를 내보냅니다. 충격파에 맞은 2칸 내의 적은 마법 피해를 받고 1.75초 동안 기절합니다.",
+      "desc": "땅 아래로 잠수한 후 가장 가까운 적 옆으로 튀어 올라옵니다. 4칸 내 가장 먼 적을 향해 충격파를 날립니다. 2칸 내 적 또는 충격파에 맞은 적은 마법 피해를 입고 기절합니다.",
       "startingMana": 80,
       "skillMana": 180,
-      "stats": ["피해량: 주문력의 100% / 150% / 1000% + 체력의 3%", "기절 지속시간: 1.75 / 2 / 8"]
-    }
+      "stats": ["피해량: 주문력의 100% / 150% / 1000% + 체력의 5%", "기절 지속시간: 1.75 / 2 / 8"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_Redemption",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_BrambleVest"
+    ]
   },
   {
     "key": "Taric",
     "ingameKey": "TFT12_Taric",
     "name": "타릭",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Taric_1720780281-Taric.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Taric.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Taric_19_1720789483-Taric.jpg",
     "traits": ["Portal", "Bastion"],
     "cost": [4, 11, 35],
@@ -1342,19 +1709,27 @@
     "skill": {
       "name": "다들 날 바라봐",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Taric_1720846212-taric_q.png",
-      "desc": "4초 동안 피해량 감소를 얻고 주변 적 투사체를 끌어당깁니다. 종료 시, 신성이 폭발해 2칸 내에 마법 피해를 입힙니다.",
+      "desc": "4초 동안 내구력을 얻고 주변 적 투사체를 끌어당깁니다. 종료 시, 신성이 폭발해 2칸 내에 마법 피해를 입힙니다.",
       "startingMana": 50,
       "skillMana": 100,
-      "stats": ["피해량 감소: 55% / 60% / 90%", "기본 피해량: 100% / 150% / 1000%"]
-    }
+      "stats": ["내구력: 55% / 60% / 90%", "피해량: 100% / 150% / 1000% + 50 / 75 / 600"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Redemption",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_BrambleVest"
+    ]
   },
   {
     "key": "Tristana",
     "ingameKey": "TFT12_Tristana",
     "name": "트리스타나",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Tristana_1720780520-Tristana.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Tristana.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Tristana_19_1720789631-Tristana.jpg",
-    "traits": ["Frost", "Blaster"],
+    "traits": ["Faerie", "Blaster"],
     "cost": [2, 5, 17],
     "health": [550, 990, 1782],
     "attackDamage": [55, 83, 124],
@@ -1374,13 +1749,21 @@
         "주문력 비례 피해량: 40% / 55% / 90%",
         "피해량: 공격력 비례 피해량 + 주문력 비례 피해량"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT12_Item_Faerie_QueensCrown",
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_MadredsBloodrazor"
+    ]
   },
   {
     "key": "Twitch",
     "ingameKey": "TFT12_Twitch",
     "name": "트위치",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Twitch_1720780286-Twitch.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Twitch.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Twitch_19_1720789488-Twitch.jpg",
     "traits": ["Frost", "Hunter"],
     "cost": [1, 3, 9],
@@ -1394,17 +1777,25 @@
     "skill": {
       "name": "얼음 파편",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Twitch_1720844163-twitch_r.png",
-      "desc": "대상에게 적중한 적을 관통하는 얼음 파편을 발사해 물리 피해를 입힙니다. 적중한 적 하나당 피해가 20%씩 감소합니다. 대상에게 5초 동안 파열 효과가 적용됩니다.<br><br>파열: 방어력 감소",
+      "desc": "대상에게 적중한 적을 관통하는 얼음 파편을 발사해 물리 피해를 입힙니다. 적중한 적 하나당 피해가 10%씩 감소합니다. 대상에게 5초 동안 파열 효과가 적용됩니다.<br><br>파열: 방어력 감소",
       "startingMana": 0,
-      "skillMana": 40,
-      "stats": ["기본 피해량: 20 / 30 / 45", "피해량: 공격력의 145% + 기본 피해량"]
-    }
+      "skillMana": 35,
+      "stats": ["기본 피해량: 20 / 30 / 45", "피해량: 공격력의 160% + 기본 피해량"]
+    },
+    "recommendItems": [
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_MadredsBloodrazor",
+      "TFT_Item_RunaansHurricane"
+    ]
   },
   {
     "key": "Varus",
     "ingameKey": "TFT12_Varus",
     "name": "바루스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Varus_1720780291-Varus.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Varus.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Varus_19_1720789493-Varus.jpg",
     "traits": ["Pyro", "Blaster"],
     "cost": [4, 11, 35],
@@ -1416,48 +1807,64 @@
     "armor": 30,
     "magicalResistance": 30,
     "skill": {
-      "name": "빗발치는 지옥불",
+      "name": "지옥불 우박",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Varus_1720833452-varusq.png",
-      "desc": "공격 범위 내에 있는 가장 큰 적 무리에게 초신성을 발사하여 대상과 인접한 1칸 내의 적에게 물리 피해를 입힙니다. 초신성은 폭발하여 불덩이로 변하며 각각 물리 피해를 입힙니다.",
+      "desc": "공격 사거리+1칸 내에 있는 가장 큰 적 무리에게 초신성을 발사해 대상과 주변 적에게 물리 피해를 입힙니다. 초신성은 여러 개의 화염구로 분열해 각각 물리 피해를 입힙니다.",
       "startingMana": 20,
       "skillMana": 100,
       "stats": [
-        "공격력 비례 피해량: 270% / 275% / 600%",
-        "주문력 비례 피해량: 50% / 75% / 200%",
+        "초신성 공격력 비례 피해량: 270% / 275% / 600%",
+        "초신성 주문력 비례 피해량: 50% / 75% / 200%",
         "초신성 피해량: 공격력 비례 피해량 + 주문력 비례 피해량",
-        "불덩이 피해량: 초신성 피해량의 50% / 55% / 80%"
+        "화염구 피해량: 초신성 피해량의 50% / 55% / 80%"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_InfinityEdge",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_LastWhisper",
+      "TFT_Item_RapidFireCannon"
+    ]
   },
   {
     "key": "Veigar",
     "ingameKey": "TFT12_Veigar",
     "name": "베이가",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Veigar_1720780297-Veigar.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Veigar.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Veigar_19_1720789497-Veigar.jpg",
     "traits": ["Honeymancy", "Mage"],
     "cost": [3, 8, 26],
     "health": [650, 1170, 2106],
-    "attackDamage": [45, 68, 101],
-    "damagePerSecond": [34, 51, 76],
+    "attackDamage": [40, 60, 90],
+    "damagePerSecond": [30, 45, 68],
     "attackRange": 4,
     "attackSpeed": 0.75,
     "armor": 25,
     "magicalResistance": 25,
     "skill": {
-      "name": "꿀벌 왕의 심판",
+      "name": "꿀벌왕의 심판",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Veigar_1720847062-veigarprimordialburst.png",
-      "desc": "기본 지속 효과: 구매한 ZAP 하나당 주문력이 3 증가합니다.<br><br>사용 시: 대상에게 마법 피해를 줍니다.",
+      "desc": "기본 지속 효과: 구매한 주술당 주문력을 3 얻습니다.<br><br>사용 시: 대상에게 마법 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 40,
-      "stats": ["피해량: 215 / 320 / 515"]
-    }
+      "stats": ["피해량: 200 / 300 / 480"]
+    },
+    "recommendItems": [
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_BlueBuff",
+      "TFT_Item_Leviathan",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_RabadonsDeathcap"
+    ]
   },
   {
     "key": "Vex",
     "ingameKey": "TFT12_Vex",
     "name": "벡스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Vex_1720780303-Vex.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Vex.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Vex_19_1720789502-Vex.jpg",
     "traits": ["Chrono", "Mage"],
     "cost": [3, 8, 26],
@@ -1474,14 +1881,22 @@
       "desc": "4초 동안 보호막을 얻습니다. 이 보호막은 벡스를 대상으로 지정한 적마다 5% 증가합니다. 보호막이 사라지면 2칸 내 적에게 마법 피해를 입힙니다.",
       "startingMana": 50,
       "skillMana": 100,
-      "stats": ["보호막 흡수량: 375% / 450% / 525%", "피해량: 80% / 120% / 200%"]
-    }
+      "stats": ["보호막: 350% / 405% / 480%", "피해량: 80% / 120% / 200%"]
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_DragonsClaw",
+      "TFT_Item_WarmogsArmor",
+      "TFT_Item_IonicSpark",
+      "TFT_Item_BrambleVest"
+    ]
   },
   {
     "key": "Warwick",
     "ingameKey": "TFT12_Warwick",
     "name": "워윅",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Warwick_1720780308-Warwick.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Warwick.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Warwick_19_1720789506-Warwick.jpg",
     "traits": ["Frost", "Vanguard"],
     "cost": [1, 3, 9],
@@ -1495,17 +1910,24 @@
     "skill": {
       "name": "굶주린 사냥꾼",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Warwick_1720847265-warwickw.png",
-      "desc": "기본 지속 효과: 적을 처치할 때마다 공격 속도와 이동 속도가 영구적으로 1% 증가합니다. 공격 시 체력을 회복하고 추가 물리 피해를 입힙니다. 체력이 25% 미만인 대상을 공격할 때, 체력 회복량과 물리 피해량이 두 배로 증가합니다.",
+      "desc": "기본 지속 효과: 처치한 챔피언 하나당 공격 속도와 이동 속도를 영구히 1% 얻습니다. 기본 공격 시 체력을 회복하고 추가 물리 피해를 입힙니다. 대상의 체력이 25% 아래라면 체력 회복량과 물리 피해량이 2배가 됩니다.",
       "startingMana": 0,
       "skillMana": 0,
       "stats": ["추가 피해량: 50% / 50% / 50%", "회복량: 15% / 20% / 30%"]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_GuinsoosRageblade",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_Quicksilver",
+      "TFT_Item_SteraksGage"
+    ]
   },
   {
     "key": "WinterStatue",
     "ingameKey": "TFT12_WinterStatue",
-    "name": "겨울 동상",
-    "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/WinterStatue_1720845889-Dummy_1689746192-tft_trainingdummy_donothing.png",
+    "name": "얼음 병사",
+    "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/WinterStatue_1721879191-tft12_winterstatue_square.tft_set12.png",
     "traits": [],
     "isHidden": true,
     "cost": [0, -1, -1],
@@ -1517,9 +1939,9 @@
     "armor": 45,
     "magicalResistance": 45,
     "skill": {
-      "name": "살아있는 얼음",
-      "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/WinterStatue_1720845857-Dummy_1689746192-tft_trainingdummy_donothing.png",
-      "desc": "겨울 마법의 사용자들을 보호하기 위해 생성된 살아있는 얼음 석상입니다.",
+      "name": "병사의 희생",
+      "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/WinterStatue_1721879183-tft12_winterstatue_square.tft_set12.png",
+      "desc": "사망 시 1칸 내 적에게 600~800의 마법 피해를 입힙니다. (현재 스테이지에 비례)",
       "startingMana": 0,
       "skillMana": 0,
       "stats": []
@@ -1528,7 +1950,7 @@
   {
     "key": "WitchFrog",
     "ingameKey": "TFT12_WitchFrog",
-    "name": "마녀의 개구리",
+    "name": "심술두꺼비",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/WitchFrog_1720845897-Dummy_1689746192-tft_trainingdummy_donothing.png",
     "traits": [],
     "isHidden": true,
@@ -1539,7 +1961,7 @@
     "attackRange": 1,
     "attackSpeed": 0.8,
     "armor": 0,
-    "magicalResistance": 0,
+    "magicalResistance": 20,
     "skill": {
       "name": "WitchFrog",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/WitchFrog_1720845686-Dummy_1689746192-tft_trainingdummy_donothing.png",
@@ -1554,6 +1976,7 @@
     "ingameKey": "TFT12_Wukong",
     "name": "오공",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/MonkeyKing_1720780490-Wukong.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/MonkeyKing.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/MonkeyKing_19_1720789596-Wukong.jpg",
     "traits": ["Druid"],
     "cost": [3, 8, 26],
@@ -1567,22 +1990,30 @@
     "skill": {
       "name": "회전격",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/MonkeyKing_1720852373-monkeykingcyclone2.png",
-      "desc": "기본 지속 효과: 모든 요소로부터 추가 방어력과 마법 저항력을 30% 얻습니다. 사용 시: 회전해 4초 동안 피해를 흡수하는 보호막을 얻고 주변의 적에게 물리 피해를 입힙니다. 전투가 끝날 때까지 공격력과 공격 속도를 얻습니다. 이 효과는 중첩됩니다.",
+      "desc": "기본 지속 효과: 모든 요소로부터 추가 방어력과 마법 저항력을 30% 얻습니다.<br><br>사용 시: 회전해 4초 동안 보호막을 얻고 주변의 적에게 물리 피해를 입힙니다.",
       "startingMana": 20,
       "skillMana": 70,
       "stats": [
-        "보호막 흡수량: 315% / 410% / 500%",
-        "방어력 %: 55% / 60% / 60%",
-        "마법 저항력 %: 55% / 60% / 60%",
-        "스킬 피해량: 60 / 90 / 145 + 마법 저항력 + 방어력"
+        "보호막 흡수량: 330% / 440% / 550%",
+        "방어력 비율: 55% / 60% / 65%",
+        "마법 저항력 비율: 55% / 60% / 65%",
+        "스킬 피해량: 80 / 120 / 195 + 방어력 비율 + 마법 저항력 비율"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_GargoyleStoneplate",
+      "TFT_Item_Bloodthirster",
+      "TFT_Item_TitansResolve",
+      "TFT_Item_Redemption",
+      "TFT_Item_SteraksGage"
+    ]
   },
   {
     "key": "Xerath",
     "ingameKey": "TFT12_Xerath",
     "name": "제라스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Xerath_1720780313-Xerath.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Xerath.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Xerath_19_1720789511-Xerath.jpg",
     "traits": ["Arcana", "Ascendant"],
     "cost": [5, 14, 44],
@@ -1596,17 +2027,25 @@
     "skill": {
       "name": "마법사의 눈",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Xerath_1720847361-xerath_w1.png",
-      "desc": "무작위 적에게 각각 피해를 입히는 비전 폭격을 10회 발사합니다.",
+      "desc": "무작위 적에게 각각 피해를 입히는 비전 폭격을 발사합니다.",
       "startingMana": 0,
       "skillMana": 120,
-      "stats": ["마법 피해량: 210% / 315% / 666%", "폭격 횟수: 10 / 10 / 99"]
-    }
+      "stats": ["마법 피해량: 200% / 300% / 666%", "폭격 횟수: 10 / 10 / 99"]
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_ArchangelsStaff",
+      "TFT_Item_RabadonsDeathcap",
+      "TFT_Item_GuinsoosRageblade"
+    ]
   },
   {
     "key": "Yuumi",
     "ingameKey": "TFT12_Yuumi",
     "name": "유미",
-    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/14.13.1/img/champion/Yuumi.png",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Yuumi.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Yuumi.png",
     "traits": [],
     "isHidden": true,
     "cost": [0, -1, -1],
@@ -1620,10 +2059,10 @@
     "skill": {
       "name": "영원한 친구!",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Yuumi_1720843060-yuumiq2.png",
-      "desc": "4초마다 연결된 아군의 체력을 회복시키고 역할에 따라 주문력 10 또는 공격력 10% 중 하나를 부여하며, 체력이 최대치인 아군을 회복시키면 두 배로 증가합니다. '마법' 역할의 챔피언에게는 주문력을, '공격' 역할의 챔피언에게는 공격력을 부여합니다.",
+      "desc": "4초마다 밀착한 아군의 체력을 회복시키고 해당 아군의 역할군에 따라 주문력 또는 공격력을 부여합니다. 유미가 최대 체력을 초과해 체력을 회복시키면 이 수치가 2배로 증가합니다. 유미는 '주문력' 역할군 챔피언에게는 주문력을, '공격력' 역할군 챔피언에게는 공격력을 부여합니다.",
       "startingMana": 0,
       "skillMana": 0,
-      "stats": ["회복량: 150 / 225 / 3000", "주문력: 10 / 12 / 200", "공격력: 10% / 12% / 200%"]
+      "stats": ["체력 회복량: 150 / 200 / 3000", "주문력: 6 / 9 / 200", "공격력: 6% / 9% / 200%"]
     }
   },
   {
@@ -1631,12 +2070,13 @@
     "ingameKey": "TFT12_Ziggs",
     "name": "직스",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Ziggs_1720780400-Ziggs.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Ziggs.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Ziggs_19_1720789516-Ziggs.jpg",
     "traits": ["Honeymancy", "Incantor"],
     "cost": [1, 3, 9],
     "health": [450, 810, 1458],
-    "attackDamage": [40, 60, 90],
-    "damagePerSecond": [28, 42, 63],
+    "attackDamage": [30, 45, 68],
+    "damagePerSecond": [21, 31, 48],
     "attackRange": 4,
     "attackSpeed": 0.7,
     "armor": 15,
@@ -1644,23 +2084,31 @@
     "skill": {
       "name": "통통 튀는 꿀벌",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Ziggs_1720849263-ziggsq.png",
-      "desc": "가장 먼 적에게 반동 폭탄을 던집니다. 폭탄은 적에게 처음 적중하면 폭발해 대상에게 200%의 마법 피해를 입히고 주변 모든 적에게는 100%의 마법 피해를 입힙니다.",
+      "desc": "가장 먼 적에게 반동 폭탄을 던집니다. 폭탄은 적에게 처음 적중하면 폭발해 대상에게 마법 피해를 입히고 주변 모든 적에게는 범위 마법 피해를 입힙니다.",
       "startingMana": 0,
       "skillMana": 50,
-      "stats": ["마법 피해량: 200% / 300% / 450%", "광역 피해량: 100% / 150% / 225%"]
-    }
+      "stats": ["마법 피해량: 200% / 300% / 450%", "범위 피해량: 100% / 150% / 225%"]
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_Leviathan",
+      "TFT_Item_StatikkShiv",
+      "TFT_Item_BlueBuff"
+    ]
   },
   {
     "key": "Zilean",
     "ingameKey": "TFT12_Zilean",
     "name": "질리언",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Zilean_1720780325-Zilean.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Zilean.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Zilean_19_1720789523-Zilean.jpg",
     "traits": ["Chrono", "Frost", "Preserver"],
     "cost": [2, 5, 17],
     "health": [550, 990, 1782],
-    "attackDamage": [40, 60, 90],
-    "damagePerSecond": [30, 45, 68],
+    "attackDamage": [35, 53, 79],
+    "damagePerSecond": [26, 40, 59],
     "attackRange": 4,
     "attackSpeed": 0.75,
     "armor": 20,
@@ -1668,21 +2116,29 @@
     "skill": {
       "name": "시한 폭탄",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Zilean_1720849336-zilean_q.png",
-      "desc": "현재 대상에게 폭탄을 설치하여 마법 피해를 입히고 1.25초 동안 기절시킵니다. 기절이 끝나거나 대상이 사망하면 폭탄이 폭발하여 대상에게 마법 피해를 입히고 주변의 적에게 마법 피해를 입힙니다.",
+      "desc": "대상에게 폭탄을 설치해 마법 피해를 입히고 1.25초 동안 기절시킵니다. 기절이 끝나거나 대상이 처치되면 폭탄이 폭발해 대상에게 마법 피해를 입히고 대상 주변 적에게도 2차 폭발 마법 피해를 입힙니다.",
       "startingMana": 20,
       "skillMana": 70,
       "stats": [
-        "초기 피해량: 180% / 270% / 420%",
+        "최초 피해량: 180% / 270% / 420%",
         "1차 폭발 피해량: 180% / 270% / 420%",
         "2차 폭발 피해량: 150% / 225% / 350%"
       ]
-    }
+    },
+    "recommendItems": [
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_Leviathan",
+      "TFT_Item_ArchangelsStaff",
+      "TFT_Item_RabadonsDeathcap"
+    ]
   },
   {
     "key": "Zoe",
     "ingameKey": "TFT12_Zoe",
     "name": "조이",
     "imageUrl": "https://cdn.lolchess.gg/upload/images/champions/Zoe_1720780502-Zoe.png",
+    "originalImageUrl": "https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/Zoe.png",
     "splashUrl": "https://cdn.lolchess.gg/upload/images/champion-splashes/Zoe_19_1720789613-Zoe.jpg",
     "traits": ["Portal", "Witchcraft", "Scholar"],
     "cost": [1, 3, 9],
@@ -1694,13 +2150,20 @@
     "armor": 15,
     "magicalResistance": 15,
     "skill": {
-      "name": "헤롱헤롱방울",
+      "name": "헤롱헤롱 물병",
       "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Zoe_1720852521-zoe_q.png",
-      "desc": "대상에게 마법 피해를 입히고 남은 전투 동안 대상의 마법 저항력을 10만큼 감소시킵니다.",
+      "desc": "대상에게 마법 피해를 입히고 전투가 끝날 때까지 대상의 마법 저항력을 감소시킵니다.",
       "startingMana": 0,
       "skillMana": 30,
-      "stats": ["피해량: 130% / 195% / 295%", "마법 저항력 감소: 10 / 15 / 20"]
-    }
+      "stats": ["피해량: 125% / 190% / 285%", "마법 저항력 감소: 10 / 15 / 20"]
+    },
+    "recommendItems": [
+      "TFT_Item_JeweledGauntlet",
+      "TFT_Item_BlueBuff",
+      "TFT_Item_Leviathan",
+      "TFT_Item_SpearOfShojin",
+      "TFT_Item_ArchangelsStaff"
+    ]
   },
   {
     "key": "Sentinel",
@@ -1727,6 +2190,32 @@
       "startingMana": 30,
       "skillMana": 100,
       "stats": ["피해량: 335% / 500% / 750%"]
+    }
+  },
+  {
+    "key": "TFTElderDragon",
+    "ingameKey": "TFT_ElderDragon",
+    "name": "TFTElderDragon",
+    "traits": [],
+    "isHidden": true,
+    "isHiddenGuide": true,
+    "isHiddenLanding": true,
+    "isHiddenTeamBuilder": true,
+    "cost": [0, -1, -1],
+    "health": [0, 0, 0],
+    "attackDamage": [0, 0, 0],
+    "damagePerSecond": [0, 0, 0],
+    "attackRange": 0,
+    "attackSpeed": 0,
+    "armor": 0,
+    "magicalResistance": 0,
+    "skill": {
+      "name": "TFTElderDragon",
+      "imageUrl": "https://cdn.lolchess.gg/upload/images/champion-skills/Dummy_1701222575-Dummy_1689746192-tft_trainingdummy_donothing.png",
+      "desc": "TBA",
+      "startingMana": 0,
+      "skillMana": 0,
+      "stats": ["TBA: TBA"]
     }
   },
   {
