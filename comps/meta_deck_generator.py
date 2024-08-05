@@ -9,14 +9,17 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import MultiLabelBinarizer
 
 ROIT_API_KEY = os.getenv("RIOT_API_KEY")
-GAME_VERSION = "14.13"
-SEARCH_SCALE = 40
-MIN_ITEM_USAGE = 20
+GAME_VERSION = "14.15"
+SEARCH_SCALE = 15
+MIN_ITEM_USAGE = 10
 
 # API URL 정의
-CHALLENGER_API = f"https://kr.api.riotgames.com/tft/league/v1/challenger?queue=RANKED_TFT&api_key={ROIT_API_KEY}"
+# CHALLENGER_API = f"https://kr.api.riotgames.com/tft/league/v1/challenger?queue=RANKED_TFT&api_key={ROIT_API_KEY}"
+# 마스터 정보
+CHALLENGER_API = f"https://kr.api.riotgames.com/tft/league/v1/master?queue=RANKED_TFT&api_key={ROIT_API_KEY}"
 SUMMONER_DTO_API = lambda summonerId: f"https://kr.api.riotgames.com/tft/summoner/v1/summoners/{summonerId}?api_key={ROIT_API_KEY}"
-MATCHES_BY_PUUID_API = lambda puuid, start=0, count=20: f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{puuid}/ids?start={start}&count={count}&api_key={ROIT_API_KEY}"
+# MATCHES_BY_PUUID_API = lambda puuid, start=0, count=20: f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{puuid}/ids?start={start}&count={count}&api_key={ROIT_API_KEY}"
+MATCHES_BY_PUUID_API = lambda puuid, start=0, count=40: f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{puuid}/ids?start={start}&count={count}&api_key={ROIT_API_KEY}" # 임시 40개 게임 데이터
 MATCH_DATA_API = lambda match_id: f"https://asia.api.riotgames.com/tft/match/v1/matches/{match_id}?api_key={ROIT_API_KEY}"
 
 # 챌린저 데이터 수집
