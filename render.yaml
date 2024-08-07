@@ -1,0 +1,24 @@
+databases:
+  - name: TFTDB
+    plan: free
+    databaseName: TFTDB
+    user: TFT
+    region: singapore
+
+services:
+  - type: web
+    plan: free
+    name: TFT-backend
+    region: singapore
+    runtime: python
+    buildCommand: './build.sh'
+    startCommand: 'gunicorn config.wsgi:application'
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: TFTDB
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
