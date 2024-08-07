@@ -1,8 +1,8 @@
 databases:
   - name: TFTDB
     plan: free
-    databaseName: TFTDB
-    user: TFT
+    databaseName: tftdb
+    user: tftadmin
     region: singapore
 
 services:
