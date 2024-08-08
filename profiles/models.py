@@ -4,9 +4,10 @@ from django.db import models
 
 
 class SummonerPuuid(models.Model):
+    id = models.AutoField(primary_key=True)  # 기본 키로 사용할 id 필드 추가
     puuid = models.TextField(
         max_length=200,
-        primary_key=True,
+        unique=True,
     )
     gameName = models.CharField(max_length=200, default="hide on bush")
     tagLine = models.CharField(max_length=20, default="KR1")
