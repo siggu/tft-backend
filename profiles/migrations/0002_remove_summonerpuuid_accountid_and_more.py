@@ -3,6 +3,11 @@
 import django.db.models.deletion
 from django.db import migrations, models
 
+def set_default_id(apps, schema_editor):
+    SummonerPuuid = apps.get_model('profiles', 'SummonerPuuid')
+    for sp in SummonerPuuid.objects.all():
+        sp.id = sp.pk  # id를 pk로 설정
+        sp.save()
 
 class Migration(migrations.Migration):
 
