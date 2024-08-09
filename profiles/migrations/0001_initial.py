@@ -54,7 +54,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='SummonerPuuid',
             fields=[
-                ('id', models.CharField(max_length=100, primary_key=True, serialize=False)),
+                ('id', models.IntegerField(max_length=100, primary_key=True, serialize=False)),
                 ('accountId', models.CharField(max_length=100)),
                 ('puuid', models.CharField(max_length=100, unique=True)),
                 ('name', models.CharField(default='소환사닉네임', max_length=30)),
