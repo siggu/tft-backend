@@ -14,6 +14,8 @@ from pathlib import Path
 import os
 import environ
 import dj_database_url
+import sentry_sdk
+
 
 env = environ.Env()
 
@@ -169,3 +171,15 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 MEDIA_ROOT = "uploads"
 
 MEDIA_URL = "user-upload/"
+
+if not DEBUG:
+    sentry_sdk.init(
+        dsn="https://8ea0b7fbfa155e947f8de1ce0bac856a@o4507570729582592.ingest.us.sentry.io/4507752155119616",
+        # Set traces_sample_rate to 1.0 to capture 100%
+        # of transactions for performance monitoring.
+        traces_sample_rate=1.0,
+        # Set profiles_sample_rate to 1.0 to profile 100%
+        # of sampled transactions.
+        # We recommend adjusting this value in production.
+        profiles_sample_rate=1.0,
+    )

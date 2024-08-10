@@ -64,3 +64,6 @@ class Set12Portals(APIView):
                 response_data.append(serializer.errors)
 
         return Response(response_data)
+
+def make_error(request):
+    division_by_zero = 1/0
