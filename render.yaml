@@ -12,7 +12,7 @@ services:
     region: singapore
     runtime: python
     buildCommand: './build.sh'
-    startCommand: 'gunicorn config.wsgi:application'
+    startCommand: 'gunicorn config.wsgi:application --workers=2'
     envVars:
       - key: DATABASE_URL
         fromDatabase:
