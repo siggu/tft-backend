@@ -80,8 +80,7 @@ MIDDLEWARE = [
 INSTALLED_APPS = THIRD_PARTY_APPS + CUSTOM_APPS
 
 if DEBUG:
-
-    CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
+    CORS_ALLOWED_ORIGINS = ["http://127.0.0.1:3000"]
 else:
     CORS_ALLOWED_ORIGINS=["https://tft-frontend.onrender.com"]
 
