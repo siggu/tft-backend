@@ -135,6 +135,7 @@ class SummonerProfileDetailAPIView(APIView):
         except SummonerPuuid.DoesNotExist:
             return NotFound
 
+
     def get(self, request, gameName, tagLine):
         print(gameName, tagLine)
         try:
