@@ -185,8 +185,14 @@ if not DEBUG:
         # We recommend adjusting this value in production.
         profiles_sample_rate=1.0,
     )
-CORS_ALLOWED_ORIGINS = ["http://127.0.0.1:3000"]
-CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:3000"]
+
+if DEBUG:
+    CORS_ALLOWED_ORIGINS = ["http://127.0.0.1:3000"]
+    CSRF_TRUSTED_ORIGINS = ["http://127.0.0.1:3000"]
+else:
+    CORS_ALLOWED_ORIGINS = ["https://tft-frontend.onrender.com"]
+    CSRF_TRUSTED_ORIGINS = ["https://tft-frontend.onrender.com"]
+
 CORS_ALLOW_CREDENTIALS = True # 자바스크립트로부터 쿠키를 허용
 CORS_ALLOW_HEADERS = [
     'content-type',
