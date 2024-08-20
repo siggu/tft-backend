@@ -23,7 +23,7 @@ ACCOUNT_URL = "https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-i
 
 # summoner puuid로 summoner 프로필 정보 찾아내기 SummonerDTO
 # URL + /{puuid}?api_key={API_KEY}
-SUMMONER_URL = "https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/"
+SUMMONER_URL = "https://kr.api.riotgames.com/tft/summoner/v1/summoners/by-puuid/"
 
 # summonerId로 랭크 게임 기본 정보 찾아내기 LeagueEntryDTO
 # URL+{summonerId}?api_key={API_KEY}
