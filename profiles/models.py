@@ -4,7 +4,6 @@ from django.db import models
 
 
 class SummonerPuuid(models.Model):
-    # id = models.IntegerField(primary_key=True, serialize=False)  # 기본 키로 사용할 id 필드 추가
     puuid = models.CharField(
         max_length=200,
         unique=True,

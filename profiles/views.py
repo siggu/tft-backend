@@ -144,7 +144,6 @@ class SummonerProfileDetailAPIView(APIView):
             
             serializer = serializers.SummonerPuuidSerializer(
                 user,
-                many=True,
             )
             return Response(serializer.data)
         except Exception as e:
@@ -190,7 +189,6 @@ class SummonerProfileDetailAPIView(APIView):
 
                             serializer = serializers.SummonerPuuidSerializer(
                                 data=summoner_data,
-                                many=True,
                             )
 
                             if serializer.is_valid():
