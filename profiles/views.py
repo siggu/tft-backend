@@ -493,3 +493,22 @@ class EntryBySummonerDetailAPIView(APIView):
                     "Exception": str(e),
                     }
                 )
+
+    def delete(self, request, summonerId):
+        try:
+            entryData = self.get_object(summonerId)
+            entryData.delete()
+            return Response(
+                {"message": f"Entry for summonerId {summonerId} has been deleted."},
+                status=status.HTTP_204_NO_CONTENT,
+            )
+        except LeagueEntryDTO.DoesNotExist:
+            return Response(
+                {"message": f"Entry for summonerId {summonerId} not found."},
+                status=status.HTTP_404_NOT_FOUND,
+            )
+        except Exception as e:
+            return Response(
+                {"message": "An error occurred while deleting the entry.", "Exception": str(e)},
+                status=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            )
