@@ -35,8 +35,8 @@ RIOT_API_KEY = env("RIOT_API_KEY")
 DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = [
-    "*"
-    # ,"localhost","backend.reroll.lol"
+    # "*"
+    "localhost","backend.reroll.lol"
     ]
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
