@@ -175,6 +175,8 @@ MEDIA_ROOT = "uploads"
 MEDIA_URL = "user-upload/"
 
 if not DEBUG:
+    SESSION_COOKIE_DOMAIN = ".reroll.lol"
+    CSRF_COOKIE_DOMAIN = ".reroll.lol"
     sentry_sdk.init(
         dsn="https://8ea0b7fbfa155e947f8de1ce0bac856a@o4507570729582592.ingest.us.sentry.io/4507752155119616",
         # Set traces_sample_rate to 1.0 to capture 100%
