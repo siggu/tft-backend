@@ -4,6 +4,7 @@ from .views import (
     SummonerProfileAPIView,
     SummonerProfileDetailAPIView,
     SummonerMathcesByPuuidAPIView,
+    SummonerBadMatchesByPuuidAPIView,
     SummonerMatchByMatchIdAPIView,
     EntryBySummonerAPIView,
 )
@@ -21,4 +22,6 @@ urlpatterns = [
         "matchDetails/<str:matchId>",
         SummonerMatchByMatchIdAPIView.as_view(),
     ),
+    path("bad-matches-by-puuid/<str:puuid>", SummonerBadMatchesByPuuidAPIView.as_view()),
 ]
+

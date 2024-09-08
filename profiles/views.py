@@ -10,6 +10,7 @@ from .models import (
     SummonerPuuid,
     SummonerMatchesByPuuid,
     SummonerMatchByMatchId,
+    SummonerBadMatchesByPuuid,
     MatchDetailsByMatchId,
 )
 import requests
@@ -240,7 +241,7 @@ class SummonerProfileDetailAPIView(APIView):
 
 
 
-# 특정 유저 puuid로 매치 ids GET, POST
+# 특정 유저 puuid로 매치 ids GET, POST(20개)
 class SummonerMathcesByPuuidAPIView(APIView):
 
     def get(self, request, puuid):
@@ -331,6 +332,141 @@ class SummonerMathcesByPuuidAPIView(APIView):
         try:
             # 특정 puuid에 해당하는 모든 매치 데이터를 삭제
             matches = SummonerMatchesByPuuid.objects.filter(summoner_puuid=puuid)
+            if matches.exists():
+                matches.delete()
+                return Response({"message": "전적 데이터가 성공적으로 삭제되었습니다."}, status=status.HTTP_200_OK)
+            else:
+                return Response({"error": "전적 데이터를 찾을 수 없습니다."}, status=status.HTTP_404_NOT_FOUND)
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+        
+
+# 특정 유저 puuid로 매치 ids GET, POST(60개)
+class SummonerBadMatchesByPuuidAPIView(APIView):
+
+    def get(self, request, puuid):
+        try:
+            SummonerPuuid.objects.get(puuid=puuid)
+        except SummonerPuuid.DoesNotExist:
+            return Response({"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND)
+
+        matchesByPuuid = SummonerBadMatchesByPuuid.objects.filter(summoner_puuid=puuid)
+
+        if len(matchesByPuuid) == 0:
+            # 데이터가 없으면 POST 요청을 내부적으로 호출
+            post_response = self.post(request, puuid)
+            if post_response.status_code != status.HTTP_200_OK:
+                return post_response
+            matchesByPuuid = SummonerBadMatchesByPuuid.objects.filter(summoner_puuid=puuid).order_by('-id')[:60]
+            if len(matchesByPuuid) == 0:
+                raise NotFound("match 데이터가 없어서 puuid의 매치 데이터를 DB에 저장할 수 없음.")
+        
+        match_details = []
+        for match in matchesByPuuid:
+            try:
+                match_detail = MatchDetailsByMatchId.objects.get(
+                    match_id=match.match_id
+                )
+                match_details.append(match_detail)
+            except MatchDetailsByMatchId.DoesNotExist:
+                raise NotFound("matchId는 있지만 해당 매치의 matchDetails는 없음")
+
+        # 시리얼라이저를 사용하여 데이터 직렬화
+        serializer = serializers.MatchDetailsByMatchIdSerializer(match_details, many=True)
+        data = serializer.data
+
+        # puuid를 URL에서 추출
+        puuid = self.kwargs['puuid']
+
+         # match_detail의 info 필터링
+        filtered_match_details = []
+        for item in data:
+            match_detail = item['match_detail']
+
+            # queueId 필터링
+            if match_detail.get('info', {}).get('queueId') == 1100:
+                # participants 리스트 필터링
+                filtered_participants = [
+                    participant for participant in match_detail['info'].get('participants', []) 
+                    if participant['puuid'] == puuid and participant['placement'] > 4
+                ]
+
+                # If there are any filtered participants, update the match_detail
+                if filtered_participants:
+                    # Create a copy of match_detail and update participants
+                    filtered_match_detail = match_detail.copy()
+                    filtered_match_detail['info']['participants'] = filtered_participants
+
+                    filtered_match_details.append({
+                        'match_id': item['match_id'],
+                        'match_detail': filtered_match_detail
+                    })
+
+        if not filtered_match_details:
+            return Response({"message": "조건을 만족하는 매치 데이터가 없습니다."}, status=status.HTTP_404_NOT_FOUND)
+
+        return Response(filtered_match_details)
+
+
+    def post(self, request, puuid):
+        try:
+            summoner_instance = SummonerPuuid.objects.get(puuid=puuid)
+        except SummonerPuuid.DoesNotExist:
+            return Response({"error": "SummonerPuuid not found"}, status=status.HTTP_404_NOT_FOUND)
+
+        url = f"https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=60&api_key={API_KEY}"
+
+        try:
+            response = requests.get(url)
+            if response.status_code == 200:
+                matches_data = response.json()
+
+                if isinstance(matches_data, list) and matches_data:
+                    match_instances = []
+                    for match_id in matches_data:
+                        match_instance, created = SummonerBadMatchesByPuuid.objects.update_or_create(
+                            summoner_puuid=summoner_instance, 
+                            match_id=match_id
+                        )
+                        match_instances.append(match_instance)
+
+                    # 각 match_id에 대해 SummonerMatchByMatchIdAPIView의 post 요청을 수행
+                    for match_id in matches_data:
+                        match_id_post_response = SummonerMatchByMatchIdAPIView().post(request, match_id)
+                        if match_id_post_response.status_code not in [status.HTTP_200_OK, status.HTTP_201_CREATED]:
+                            return Response(
+                                {"error": f"Failed to save match details for match_id {match_id}"},
+                                status=status.HTTP_500_INTERNAL_SERVER_ERROR
+                            )
+
+                    return Response(
+                        {
+                            "message": f"{len(match_instances)} match data saved successfully!"
+                        }
+                    )
+                else:
+                    return Response(
+                        {"error": "No match_id found in the response"},
+                        status=status.HTTP_404_NOT_FOUND,
+                    )
+            else:
+                return Response(
+                    {
+                        "error": f"riot api 실패(https://asia.api.riotgames.com/tft/match/v1/matches/by-puuid/{summoner_instance.puuid}/ids?start=0&count=60&api_key=)",
+                        "status_code": response.status_code,
+                    },
+                    status=response.status_code,
+                )
+        except Exception as e:
+            return Response(
+                {"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )
+    
+    def delete(self, request, puuid):
+        try:
+            # 특정 puuid에 해당하는 모든 매치 데이터를 삭제
+            matches = SummonerBadMatchesByPuuid.objects.filter(summoner_puuid=puuid)
             if matches.exists():
                 matches.delete()
                 return Response({"message": "전적 데이터가 성공적으로 삭제되었습니다."}, status=status.HTTP_200_OK)
