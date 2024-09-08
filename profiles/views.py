@@ -391,12 +391,18 @@ class SummonerBadMatchesByPuuidAPIView(APIView):
                     participant for participant in match_detail['info'].get('participants', []) 
                     if participant['puuid'] == puuid and participant['placement'] > 4
                 ]
+                
+                filtered_traits = [
+                    participant for participant in match_detail['info']['participants'][0].get('traits', [])
+                    if participant['style'] > 0
+                ]
 
                 # If there are any filtered participants, update the match_detail
                 if filtered_participants:
                     # Create a copy of match_detail and update participants
                     filtered_match_detail = match_detail.copy()
                     filtered_match_detail['info']['participants'] = filtered_participants
+                    filtered_match_detail['info']['participants'][0]['traits'] = filtered_traits
 
                     filtered_match_details.append({
                         'match_id': item['match_id'],
