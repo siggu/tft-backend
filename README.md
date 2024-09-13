@@ -6,7 +6,7 @@
 # 📃 프로젝트
 ## 0. 화면 소개
 ### 추천 메타
-![추천메타](https://github.com/user-attachments/assets/e61dcc07-0625-404f-be52-a1d9899c6a47)
+![추천메타](https://github.com/user-attachments/assets/42c0daf6-02ae-495b-986a-e659358b0355)
 
 
 ## 1. 제작기간
