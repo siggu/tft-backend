@@ -194,6 +194,11 @@ class Set12Champions(APIView):
 
         return Response(response_data)
     
+    def delete(self, requets):
+        champions = Set12Champions.objects.all()
+        champions.delete()
+        return Response(status=status.HTTP_200_OK)
+    
     
 class Set12ChampionDetail(APIView):
     def get_object(self, key):

@@ -109,3 +109,8 @@ class Set12Items(APIView):
                 response_data.append(serializer.errors)
 
         return Response(response_data)
+    
+    def delete(self, requets):
+        items = Set12Items.objects.all()
+        items.delete()
+        return Response(status=status.HTTP_200_OK)

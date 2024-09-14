@@ -84,3 +84,8 @@ class Set12Traits(APIView):
                 response_data.append(serializer.errors)
 
         return Response(response_data)
+
+    def delete(self, requets):
+        triats = Set12Traits.objects.all()
+        triats.delete()
+        return Response(status=status.HTTP_200_OK)

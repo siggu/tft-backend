@@ -65,5 +65,10 @@ class Set12Portals(APIView):
 
         return Response(response_data)
 
+    def delete(self, requets):
+        portals = Set12Portals.objects.all()
+        portals.delete()
+        return Response(status=status.HTTP_200_OK)
+
 def make_error(request):
     division_by_zero = 1/0

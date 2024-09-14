@@ -59,7 +59,7 @@ class Set12Augments(APIView):
             # legendCodes 필드 처리
             if 'legendCodes' in augment_data_copy:
                 for i, legendCode in enumerate(augment_data_copy['legendCodes']):
-                    augment_data_copy[f'legendCode{i+1}'] = legendCode.get('legnedCode')
+                    augment_data_copy[f'legendCode{i+1}'] = legendCode
             
             serializer = serializers.Set12AugmentSerializer(data=augment_data_copy)
 
@@ -74,3 +74,8 @@ class Set12Augments(APIView):
                 response_data.append(serializer.errors)
 
         return Response(response_data)
+    
+    def delete(self, requets):
+        augments = Set12Augments.objects.all()
+        augments.delete()
+        return Response(status=status.HTTP_200_OK)
