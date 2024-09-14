@@ -203,3 +203,6 @@ class Set12Trait(models.Model):
         blank=True,
         null=True,
     )
+    isHidden = models.BooleanField(
+        default=False
+    )

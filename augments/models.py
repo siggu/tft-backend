@@ -72,8 +72,7 @@ class Set12Augment(models.Model):
         default="https://cdn.lolchess.gg/upload/images/items/ACutAbove_1685417489-A-Cut-Above-II.TFT_Set9.png"
     )
     isHidden = models.BooleanField(
-        blank=True,
-        null=True,
+        default=False,
     )
     tier = models.PositiveIntegerField(default=1)
     championIngameKey = models.CharField(
@@ -87,16 +86,6 @@ class Set12Augment(models.Model):
         null=True,
     )
     legendCode2 = models.CharField(
-        max_length=30,
-        blank=True,
-        null=True,
-    )
-    tag1 = models.CharField(
-        max_length=30,
-        blank=True,
-        null=True,
-    )
-    tag2 = models.CharField(
         max_length=30,
         blank=True,
         null=True,

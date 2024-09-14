@@ -9,11 +9,4 @@ class ItemAdmin(admin.ModelAdmin):
     list_display = (
         "key",
         "name",
-        "description",
-        "shortDesc",
-        "composition1",
-        "composition2",
-        "tag1",
-        "tag2",
-        "tag3",
     )

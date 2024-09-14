@@ -6,14 +6,15 @@ class Set11Item(models.Model):
 
     key = models.CharField(max_length=100, default="Eng_Key")
     ingameKey = models.CharField(max_length=100, default="TFT_")
+    ingameIcon = models.CharField(max_length=200, blank=True)
     name = models.CharField(max_length=100)
-    description = models.TextField()
+    desc = models.TextField()
     shortDesc = models.TextField(blank=True)
-    imageUrl = models.URLField(
-        default=""
-    )
+    fromDesc = models.TextField(blank=True)
+    imageUrl = models.URLField()
     composition1 = models.CharField(blank=True, max_length=50)
     composition2 = models.CharField(blank=True, max_length=50)
+    affectedTraitKey = models.CharField(max_length=20, blank=True)
     isFromItem = models.BooleanField(
         blank=True,
         null=True,
@@ -46,48 +47,8 @@ class Set11Item(models.Model):
         blank=True,
         null=True,
     )
-
-    class TagChoice(models.TextChoices):
-        # 태그 - 아이템 유형
-
-        # 재료가 되는 기본 아이템
-        FROMITEM = ("fromitem", "Fromitem")
-
-        # 조합 가능한 아이템 (상징 미포함)
-        NORMAL = ("normal", "Normal")
-
-        # 상징
-        EMBLEM = ("emblem", "Emblem")
-
-        # 지원 아이템
-        SUPPORT = ("support", "Support")
-
-        # 오른 아이템
-        ARTIFACT = ("artifact", "Artifact")
-
-        # 찬란한 아이템
-        RADIANT = ("radiant", "Radiant")
-
-        # 고유 아이템
-        UNIQUE = ("unique", "Unique")
-
-        # 새로 나온 아이템
-        NEW = ("new", "New")
-
-    tag1 = models.TextField(
-        choices=TagChoice.choices,
-        blank=True,
-        null=True,
-    )
-    tag2 = models.TextField(
-        choices=TagChoice.choices,
-        blank=True,
-        null=True,
-    )
-    tag3 = models.TextField(
-        choices=TagChoice.choices,
-        blank=True,
-        null=True,
+    isHidden = models.BooleanField(
+        default=False,
     )
 
     def __str__(self):
@@ -99,14 +60,15 @@ class Set12Item(models.Model):
 
     key = models.CharField(max_length=100, default="Eng_Key")
     ingameKey = models.CharField(max_length=100, default="TFT_")
+    ingameIcon = models.CharField(max_length=200, blank=True)
     name = models.CharField(max_length=100)
-    description = models.TextField()
+    desc = models.TextField()
     shortDesc = models.TextField(blank=True)
-    imageUrl = models.URLField(
-        default=""
-    )
+    fromDesc = models.TextField(blank=True)
+    imageUrl = models.URLField()
     composition1 = models.CharField(blank=True, max_length=50)
     composition2 = models.CharField(blank=True, max_length=50)
+    affectedTraitKey = models.CharField(max_length=20, blank=True)
     isFromItem = models.BooleanField(
         blank=True,
         null=True,
@@ -139,48 +101,8 @@ class Set12Item(models.Model):
         blank=True,
         null=True,
     )
-
-    class TagChoice(models.TextChoices):
-        # 태그 - 아이템 유형
-
-        # 재료가 되는 기본 아이템
-        FROMITEM = ("fromitem", "Fromitem")
-
-        # 조합 가능한 아이템 (상징 미포함)
-        NORMAL = ("normal", "Normal")
-
-        # 상징
-        EMBLEM = ("emblem", "Emblem")
-
-        # 지원 아이템
-        SUPPORT = ("support", "Support")
-
-        # 오른 아이템
-        ARTIFACT = ("artifact", "Artifact")
-
-        # 찬란한 아이템
-        RADIANT = ("radiant", "Radiant")
-
-        # 고유 아이템
-        UNIQUE = ("unique", "Unique")
-
-        # 새로 나온 아이템
-        NEW = ("new", "New")
-
-    tag1 = models.TextField(
-        choices=TagChoice.choices,
-        blank=True,
-        null=True,
-    )
-    tag2 = models.TextField(
-        choices=TagChoice.choices,
-        blank=True,
-        null=True,
-    )
-    tag3 = models.TextField(
-        choices=TagChoice.choices,
-        blank=True,
-        null=True,
+    isHidden = models.BooleanField(
+        default=False,
     )
 
     def __str__(self):
