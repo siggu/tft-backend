@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from . import serializers
 from .models import Set11Augment, Set12Augment
-
+from rest_framework import status
 
 # Create your views here.
 class Set11Augments(APIView):
@@ -76,6 +76,6 @@ class Set12Augments(APIView):
         return Response(response_data)
     
     def delete(self, requets):
-        augments = Set12Augments.objects.all()
+        augments = Set12Augment.objects.all()
         augments.delete()
         return Response(status=status.HTTP_200_OK)

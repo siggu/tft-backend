@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.exceptions import NotFound
 from . import serializers
 from .models import Set11Trait, Set12Trait
-
+from rest_framework import status
 
 # Create your views here.
 class Set11Traits(APIView):
@@ -86,6 +86,6 @@ class Set12Traits(APIView):
         return Response(response_data)
 
     def delete(self, requets):
-        triats = Set12Traits.objects.all()
+        triats = Set12Trait.objects.all()
         triats.delete()
         return Response(status=status.HTTP_200_OK)

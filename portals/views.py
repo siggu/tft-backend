@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from . import serializers
 from .models import Set11Portal, Set12Portal
-
+from rest_framework import status
 # Create your views here.
 
 
@@ -66,7 +66,7 @@ class Set12Portals(APIView):
         return Response(response_data)
 
     def delete(self, requets):
-        portals = Set12Portals.objects.all()
+        portals = Set12Portal.objects.all()
         portals.delete()
         return Response(status=status.HTTP_200_OK)
 

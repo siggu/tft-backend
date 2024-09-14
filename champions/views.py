@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.exceptions import NotFound
 from . import serializers
 from .models import Set11Champion, Set12Champion
-
+from rest_framework import status
 # Create your views here.
 
 
@@ -195,7 +195,7 @@ class Set12Champions(APIView):
         return Response(response_data)
     
     def delete(self, requets):
-        champions = Set12Champions.objects.all()
+        champions = Set12Champion.objects.all()
         champions.delete()
         return Response(status=status.HTTP_200_OK)
     

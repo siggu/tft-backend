@@ -2,6 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from . import serializers
 from .models import Set11Item, Set12Item
+from rest_framework import status
 
 
 # Create your views here.
@@ -111,6 +112,6 @@ class Set12Items(APIView):
         return Response(response_data)
     
     def delete(self, requets):
-        items = Set12Items.objects.all()
+        items = Set12Item.objects.all()
         items.delete()
         return Response(status=status.HTTP_200_OK)
