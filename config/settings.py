@@ -66,6 +66,7 @@ CUSTOM_APPS = [
     "items.apps.ItemsConfig",
     "encounters.apps.EncountersConfig",
     "profiles.apps.ProfilesConfig",
+    "charms.apps.CharmsConfig",
 ]
 
 MIDDLEWARE = [

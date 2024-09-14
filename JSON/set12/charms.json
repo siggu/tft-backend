@@ -1,0 +1,891 @@
+[
+  {
+    "name": "퇴보",
+    "cost": 0,
+    "tier": 1,
+    "_key": "regression",
+    "desc": "상점을 새로고침해 모두 지금보다 1단계 낮은 챔피언으로 채웁니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "1단계 집결",
+    "cost": 0,
+    "tier": 1,
+    "_key": "stage_1_convergence",
+    "desc": "상점을 새로고침해 모두 1단계 챔피언으로 채웁니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "훈련 봇 소환",
+    "cost": 0,
+    "tier": 1,
+    "_key": "training_bot_summon",
+    "desc": "1라운드 동안 훈련 봇 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "동전 던지기",
+    "cost": 0,
+    "tier": 1,
+    "_key": "coin_toss",
+    "desc": "사용한 동전 던지기마다 50% 확률로 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "하급 갬빗",
+    "cost": 1,
+    "tier": 1,
+    "_key": "minor_gambit",
+    "desc": "다음 플레이어 대상 전투에서 승리하면 3골드를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "땜질",
+    "cost": 0,
+    "tier": 1,
+    "_key": "patching_up",
+    "desc": "재조합기와 자석 제거기를 1개씩 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "작은 소원",
+    "cost": 1,
+    "tier": 1,
+    "_key": "small_wish",
+    "desc": "무작위 하급 효과 1개를 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "수정 구슬",
+    "cost": 0,
+    "tier": 1,
+    "_key": "crystal_ball",
+    "desc": "다음 상대를 공개합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "하급 변이",
+    "cost": 0,
+    "tier": 1,
+    "_key": "minor_mutation",
+    "desc": "비전투 시: 보유한 1단계 챔피언 1명이 2단계 챔피언으로 바뀝니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "단검화",
+    "cost": 1,
+    "tier": 1,
+    "_key": "daggerification",
+    "desc": "1라운드 동안 보유한 모든 아이템이 스태틱의 단검으로 바뀝니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "흉내쟁이",
+    "cost": 1,
+    "tier": 1,
+    "_key": "imitation",
+    "desc": "다음 전투: 처음 처치된 적 챔피언의 1성 복사본을 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "마법 거울",
+    "cost": 2,
+    "tier": 1,
+    "_key": "magic_mirror",
+    "desc": "지난 전투에서 전장에 배치한 무작위 챔피언의 1성 복사본을 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+
+  {
+    "name": "누워서 케이크 먹기",
+    "cost": 2,
+    "tier": 2,
+    "_key": "cake_laying",
+    "desc": "달콤술사 케이크에 설탕을 25개 추가합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "섬뜩한 허기",
+    "cost": 1,
+    "tier": 2,
+    "_key": "chilling_hunger",
+    "desc": "다음 전투: 섬뜩한 힘의 아군 고대 신이 처치에 관여하면 를 20%, 을 10% 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "수리수리 마수리",
+    "cost": 1,
+    "tier": 2,
+    "_key": "repair_repair",
+    "desc": "다음 전투: 마녀가 주문력을 25 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "방화광",
+    "cost": 1,
+    "tier": 2,
+    "_key": "arsonist",
+    "desc": "화염 특성 지옥 잉걸불을 10개 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "부지런한 꿀벌",
+    "cost": 1,
+    "tier": 2,
+    "_key": "diligent_bee",
+    "desc": "이번 라운드에 아군 꿀벌이 공격 속도를 25% 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "퀸스 갬빗",
+    "cost": 1,
+    "tier": 2,
+    "_key": "queens_gambit",
+    "desc": "다음 전투: 승리하면 가장 단계가 높은 아군 요정 유닛의 복사본을 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "불 뿜기",
+    "cost": 1,
+    "tier": 2,
+    "_key": "flame_breath",
+    "desc": "다음 전투: 용의 기본 공격이 최대 체력의 1%의 추가 고정 피해를 입힙니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "가속화",
+    "cost": 1,
+    "tier": 2,
+    "_key": "acceleration",
+    "desc": "다음 전투: 시공간이 초읽기 후 를 +30% 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "혹한의 견고함",
+    "cost": 2,
+    "tier": 2,
+    "_key": "icebound_fortitude",
+    "desc": "다음 전투: 얼음 병사의 체력이 40% 증가합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "차원문 뛰어넘기",
+    "cost": 0,
+    "tier": 2,
+    "_key": "dimension_jump",
+    "desc": "무작위 차원문 챔피언 1명을 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "최고위 아르카나",
+    "cost": 1,
+    "tier": 2,
+    "_key": "high_arcana",
+    "desc": "1라운드 동안 아군 하이 아르카나 챔피언이 피해 증폭과 내구력을 20% 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-4.png"
+  },
+  {
+    "name": "2단계 집결",
+    "cost": 1,
+    "tier": 2,
+    "_key": "stage_2_convergence",
+    "desc": "상점을 새로고침해 모두 2단계 챔피언으로 채웁니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "3단계 집결",
+    "cost": 1,
+    "tier": 2,
+    "_key": "stage_3_convergence",
+    "desc": "상점을 새로고침해 모두 3단계 챔피언으로 채웁니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "불길한 거래",
+    "cost": 1,
+    "tier": 2,
+    "_key": "ominous_trade",
+    "desc": "2골드를 획득합니다. 이 주술은 플레이어 체력을 1 소모합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "자유로운 새로고침",
+    "cost": 2,
+    "tier": 2,
+    "_key": "free_refresh",
+    "desc": "상점 새로고침을 2회 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "상징 연성",
+    "cost": 12,
+    "tier": 2,
+    "_key": "symbol_crafting",
+    "desc": "무작위 상징 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "신속의 의식",
+    "cost": 1,
+    "tier": 2,
+    "_key": "ritual_of_swiftness",
+    "desc": "1라운드 동안 아군이 공격 속도를 10% 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "휴전",
+    "cost": 0,
+    "tier": 2,
+    "_key": "truce",
+    "desc": "자신과 상대방이 1골드를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "주사위 굴리기",
+    "cost": 2,
+    "tier": 2,
+    "_key": "dice_rolling",
+    "desc": "주사위를 굴립니다. 주사위의 값에 따라 골드를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "변이",
+    "cost": 0,
+    "tier": 2,
+    "_key": "mutation",
+    "desc": "비전투 시: 보유한 2단계 챔피언 1명이 3단계 챔피언으로 바뀝니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "극한의 초월",
+    "cost": 0,
+    "tier": 2,
+    "_key": "extreme_transcendence",
+    "desc": "다음 전투: 22초 후, 아군이 피해 증폭을 300% 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "슈우우웅화",
+    "cost": 0,
+    "tier": 2,
+    "_key": "shooing",
+    "desc": "1라운드 동안 아군이 이동 속도를 200% 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "거대화",
+    "cost": 1,
+    "tier": 2,
+    "_key": "gigantism",
+    "desc": "1라운드 동안 가장 이 높은 챔피언이 성장해 을 500 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "마법공학 폭발",
+    "cost": 2,
+    "tier": 2,
+    "_key": "mecha_explosion",
+    "desc": "다음 전투: 처음으로 처치된 아군 챔피언이 폭발해 600의 마법 피해를 입힙니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "빛바랜 별 방패",
+    "cost": 1,
+    "tier": 2,
+    "_key": "faded_star_shield",
+    "desc": "다음 전투: 모든 아군 1성 챔피언에게 300의 보호막을 부여합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "추억의 음식",
+    "cost": 1,
+    "tier": 2,
+    "_key": "memory_food",
+    "desc": "플레이어 체력을 1 얻습니다. 다음 플레이어 대상 전투 패배 시 2 더 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "공허충 소환",
+    "cost": 2,
+    "tier": 2.5,
+    "_key": "voidling_summon",
+    "desc": "1라운드 동안 공허충 1마리를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "암살자",
+    "cost": 2,
+    "tier": 2.5,
+    "_key": "assassin",
+    "desc": "다음 전투: 가장 이 높은 챔피언이 적의 후방으로 도약합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "보물 사냥꾼",
+    "cost": 2,
+    "tier": 2.5,
+    "_key": "treasure_hunter",
+    "desc": "1라운드 동안 아이템이 없는 챔피언 1명이 불안정한 보물 상자 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "여진",
+    "cost": 2,
+    "tier": 2.5,
+    "_key": "aftershock",
+    "desc": "다음 전투: 10초 후, 1.5초 동안 모든 적을 기절시킵니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "유령 장갑",
+    "cost": 3,
+    "tier": 2.5,
+    "_key": "phantom_gloves",
+    "desc": "1라운드 동안 임시 도적의 장갑을 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "깜짝선물!",
+    "cost": 2,
+    "tier": 2.5,
+    "_key": "surprise_gift",
+    "desc": "1라운드 동안 아이템이 없는 챔피언 1명이 수상한 외투 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "허리띠 뭉치",
+    "cost": 2,
+    "tier": 2.5,
+    "_key": "belt_bundle",
+    "desc": "1라운드 동안 아군이 장착 해제할 수 없는 거인의 허리띠 6개를 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "횡재",
+    "cost": 0,
+    "tier": 2.5,
+    "_key": "windfall",
+    "desc": "1골드를 얻습니다. 1라운드 동안 아군이 체력을 50 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "월광 의식",
+    "cost": 3,
+    "tier": 2.5,
+    "_key": "moonlight_rite",
+    "desc": "다음 전투: 무작위 1단계 또는 2단계 챔피언 1명의 별 레벨이 오릅니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "모루 연성",
+    "cost": 8,
+    "tier": 2.5,
+    "_key": "anvil_crafting",
+    "desc": "조합 아이템 모루 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "하급 모방",
+    "cost": 5,
+    "tier": 2.5,
+    "_key": "minor_imitation",
+    "desc": "하급 챔피언 복제기 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "결집",
+    "cost": 12,
+    "tier": 2.5,
+    "_key": "convergence",
+    "desc": "1단계 챔피언의 복사본을 1명씩 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "황금빛 훈련 봇",
+    "cost": 2,
+    "tier": 2.5,
+    "_key": "golden_training_bot",
+    "desc": "1라운드 동안 훈련 봇 1개를 획득합니다. 아군 훈련 봇이 피해를 받는 동안 골드를 떨어뜨립니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "무장 해제",
+    "cost": 1,
+    "tier": 2.5,
+    "_key": "disarm",
+    "desc": "다음 전투: 8초 동안 모든 적에게 파쇄 및 파열을 30%만큼 적용합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "4단계 집결",
+    "cost": 3,
+    "tier": 3,
+    "_key": "tier_4_convergence",
+    "desc": "상점을 새로고침해 모두 4단계 챔피언으로 채웁니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "지진",
+    "cost": 5,
+    "tier": 3,
+    "_key": "earthquake",
+    "desc": "다음 전투: 2초 동안 모든 적을 기절시킵니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "백작",
+    "cost": 2,
+    "tier": 3,
+    "_key": "count",
+    "desc": "상점을 새로고침해 1, 2, 3, 4, 5단계 챔피언 1명씩으로 채웁니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "벼락",
+    "cost": 2,
+    "tier": 3,
+    "_key": "lightning",
+    "desc": "다음 전투: 모든 적에게 최대 체력의 10%를 고정 피해로 입힙니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "훈련 봇 소환",
+    "cost": 2,
+    "tier": 3,
+    "_key": "training_bot_summon",
+    "desc": "1라운드 동안 훈련 봇 2개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "유령 발톱",
+    "cost": 2,
+    "tier": 3,
+    "_key": "phantom_claws",
+    "desc": "1라운드 동안 임시 용의 발톱 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "은빛 수호",
+    "cost": 2,
+    "tier": 3,
+    "_key": "silver_guard",
+    "desc": "다음 전투 시작: 8초 동안 아군이 군중 제어에 면역이 됩니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "재활용 전문가",
+    "cost": 1,
+    "tier": 3,
+    "_key": "recycling_expert",
+    "desc": "이번 라운드에 대기석에 있는 챔피언이 장착한 모든 아이템이 해제 및 분해됩니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "유령 상징",
+    "cost": 6,
+    "tier": 3,
+    "_key": "ghost_symbol",
+    "desc": "1라운드 동안 가장 많이 활성화된 아군 특성의 임시 상징을 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "태양불꽃 마법",
+    "cost": 3,
+    "tier": 3,
+    "_key": "sunfire_magic",
+    "desc": "다음 전투: 10초 동안 적에게 불태우기와 상처를 적용합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "지도력",
+    "cost": 5,
+    "tier": 3,
+    "_key": "leadership",
+    "desc": "완성 아이템 3개를 장착한 챔피언 1명이 체력을 영구히 300 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "유령 조끼",
+    "cost": 2,
+    "tier": 3,
+    "_key": "phantom_vest",
+    "desc": "1라운드 동안 임시 덤불 조끼 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "뒤집개 연성",
+    "cost": 15,
+    "tier": 3,
+    "_key": "spatula_crafting",
+    "desc": "뒤집개 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "도벽",
+    "cost": 6,
+    "tier": 3,
+    "_key": "kleptomania",
+    "desc": "다음 전투: 아군이 처음으로 처치한 적의 조합 아이템 1개를 복사합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "상급 소원",
+    "cost": 5,
+    "tier": 3,
+    "_key": "advanced_wish",
+    "desc": "무작위 효과를 1개 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "상급 갬빗",
+    "cost": 2,
+    "tier": 3,
+    "_key": "advanced_gambit",
+    "desc": "다음 플레이어 대상 전투에서 승리하면 10골드를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "생명보험",
+    "cost": 1,
+    "tier": 3,
+    "_key": "life_insurance",
+    "desc": "다음 전투: 아군 챔피언이 사망 시 50% 확률로 1골드를 떨어뜨립니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "움직이는 상점",
+    "cost": 6,
+    "tier": 3,
+    "_key": "moving_shop",
+    "desc": "20초 동안, 상점이 2초마다 무료로 새로고침됩니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "할인",
+    "cost": 0,
+    "tier": 3,
+    "_key": "discount",
+    "desc": "이번 라운드에 구매하는 다음 챔피언이 무료가 됩니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "요들 영혼",
+    "cost": 3,
+    "tier": 3,
+    "_key": "yordle_soul",
+    "desc": "다음 전투: 4초 동안 아군이 99%의 확률로 기본 공격을 회피합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "유령 유물",
+    "cost": 2,
+    "tier": 3,
+    "_key": "ghost_relic",
+    "desc": "1라운드 동안 임시 유물 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "철갑 영혼",
+    "cost": 1,
+    "tier": 3,
+    "_key": "ironclad_soul",
+    "desc": "1라운드 동안 아군이 방어력을 30 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "신비한 영혼",
+    "cost": 1,
+    "tier": 3,
+    "_key": "mystic_soul",
+    "desc": "1라운드 동안 아군이 마법 저항력을 30 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "고물 모으기",
+    "cost": 4,
+    "tier": 3,
+    "_key": "scrap_collection",
+    "desc": "아이템을 장착하지 않은 챔피언 2명이 임시 완성 아이템 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "인도자",
+    "cost": 0,
+    "tier": 3,
+    "_key": "guide",
+    "desc": "다음 전투: 아군이 입히는 물리 피해가 마법 피해가 됩니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "마법 차단",
+    "cost": 4,
+    "tier": 3,
+    "_key": "magic_block",
+    "desc": "다음 전투: 모든 적에게 마나 강탈 효과를 적용합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "프라이팬 연성",
+    "cost": 15,
+    "tier": 3,
+    "_key": "frying_pan_crafting",
+    "desc": "프라이팬 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "사신",
+    "cost": 4,
+    "tier": 3,
+    "_key": "reaper",
+    "desc": "다음 전투: 아군 유닛이 체력이 200 미만인 적을 처형합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "상급 모방",
+    "cost": 10,
+    "tier": 4,
+    "_key": "advanced_imitation",
+    "desc": "챔피언 복제기 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "5단계 집결",
+    "cost": 8,
+    "tier": 4,
+    "_key": "tier_5_convergence",
+    "desc": "상점을 새로고침해 모두 5단계 챔피언으로 채웁니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "진보",
+    "cost": 1,
+    "tier": 4,
+    "_key": "progress",
+    "desc": "상점을 새로고침해 모두 지금보다 1단계 높은 챔피언으로 채웁니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "유물 연성",
+    "cost": 18,
+    "tier": 4,
+    "_key": "relic_crafting",
+    "desc": "유물 모루 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "불길한 상점",
+    "cost": 4,
+    "tier": 4,
+    "_key": "ominous_shop",
+    "desc": "상점 새로고침을 6회 얻습니다. 이 주술은 플레이어 체력을 4 소모합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-1.png"
+  },
+  {
+    "name": "무리 생성",
+    "cost": 4,
+    "tier": 4,
+    "_key": "swarm_creation",
+    "desc": "다음 전투: 가장 먼저 처치된 전방 유닛 2명이 공허충을 1마리 생성합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "상급 변이",
+    "cost": 0,
+    "tier": 4,
+    "_key": "advanced_mutation",
+    "desc": "비전투 시: 보유한 4단계 챔피언 1명이 5단계 챔피언으로 바뀝니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "후방의 핵심",
+    "cost": 2,
+    "tier": 4,
+    "_key": "backline_core",
+    "desc": "다음 전투: 후방의 무작위 챔피언 1명이 7초 동안 40%의 공격 속도를 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "대기만성",
+    "cost": 6,
+    "tier": 4,
+    "_key": "waiting_perfection",
+    "desc": "1단계 3성 챔피언과 자석 제거기 1개를 영구히 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "찬란함",
+    "cost": 10,
+    "tier": 4,
+    "_key": "brilliance",
+    "desc": "1라운드 동안 챔피언 1명에게 장착한 완성 아이템 1개가 찬란한 아이템이 됩니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "큰 깜짝선물!",
+    "cost": 6,
+    "tier": 4,
+    "_key": "big_surprise",
+    "desc": "1라운드 동안 아이템을 장착하지 않은 챔피언 2명이 수상한 외투 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "보물 파티",
+    "cost": 6,
+    "tier": 4,
+    "_key": "treasure_party",
+    "desc": "1라운드 동안 아이템이 없는 챔피언 1명이 불안정한 보물 상자 2개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "용 소환",
+    "cost": 10,
+    "tier": 4,
+    "_key": "dragon_summon",
+    "desc": "1라운드 동안 체력이 3200인 용을 소환합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "일생일대의 걸작",
+    "cost": 99,
+    "tier": 4,
+    "_key": "masterpiece",
+    "desc": "플레이어 체력을 66 잃습니다. 5단계 3성 챔피언을 영구히 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "움직이는 대기석",
+    "cost": 4,
+    "tier": 4,
+    "_key": "moving_bench",
+    "desc": "다음 전투: 6초마다 아군 대기석에 있는 챔피언 1명이 전투에 합류합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "진동",
+    "cost": 8,
+    "tier": 4,
+    "_key": "vibration",
+    "desc": "전투 시작 시 및 8초마다, 1.25초 동안 모든 적을 기절시킵니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "방어막",
+    "cost": 6,
+    "tier": 4,
+    "_key": "shield",
+    "desc": "다음 전투: 아군에게 1000의 보호막을 부여합니다. 보호막은 5초에 걸쳐 사라집니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "도적단",
+    "cost": 8,
+    "tier": 4,
+    "_key": "thieves_gang",
+    "desc": "1라운드 동안 임시 도적의 장갑 3개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "유성 폭풍",
+    "cost": 5,
+    "tier": 4,
+    "_key": "meteor_storm",
+    "desc": "전투 시작: 4명의 적을 불태우고 최대 체력의 30%만큼 마법 피해를 입힙니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "형벌",
+    "cost": 6,
+    "tier": 4,
+    "_key": "punishment",
+    "desc": "다음 전투: 적에게 8초 동안 동상, 불태우기, 파쇄, 파열을 적용합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "골렘 소환",
+    "cost": 8,
+    "tier": 4,
+    "_key": "golem_summon",
+    "desc": "1라운드 동안 방어 아이템을 장착한 거대 골렘을 소환합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-2.png"
+  },
+  {
+    "name": "절박한 간청",
+    "cost": 5,
+    "tier": 4,
+    "_key": "desperate_plea",
+    "desc": "다음 전투: 플레이어가 받는 피해량이 80% 감소합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-3.png"
+  },
+  {
+    "name": "태양",
+    "cost": 32,
+    "tier": 5,
+    "_key": "sun",
+    "desc": "지원 모루와 유물 모루를 1개씩 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  },
+  {
+    "name": "황제",
+    "cost": 5,
+    "tier": 5,
+    "_key": "emperor",
+    "desc": "다음 전투: 제라스가 피해 증폭을 20% 얻고 제라스의 아군이 피해 증폭을 10% 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  },
+  {
+    "name": "심판",
+    "cost": 2,
+    "tier": 5,
+    "_key": "judgment",
+    "desc": "다음 전투: 승리하면 12골드를 획득하고 패배하면 경험치를 20 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  },
+  {
+    "name": "별",
+    "cost": 7,
+    "tier": 5,
+    "_key": "star",
+    "desc": "다음 전투: 1성 유닛 별 레벨 상승 및 다른 아군은 보호막을 200, 공격 속도를 20 얻습니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  },
+  {
+    "name": "탑",
+    "cost": 5,
+    "tier": 5,
+    "_key": "top",
+    "desc": "1라운드 동안 주변 적에게 번개를 떨어뜨리는 번개 훈련 봇 1개를 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  },
+  {
+    "name": "세계",
+    "cost": 30,
+    "tier": 5,
+    "_key": "world",
+    "desc": "모든 4단계 챔피언의 복사본을 1명씩 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  },
+  {
+    "name": "연인",
+    "cost": 2,
+    "tier": 5,
+    "_key": "lover",
+    "desc": "5단계 챔피언 1명 및 해당 챔피언과 특성을 공유하는 2단계 챔피언 2명을 획득합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  },
+  {
+    "name": "전차",
+    "cost": 3,
+    "tier": 5,
+    "_key": "tank",
+    "desc": "이번 라운드에 새로고침 비용이 1골드가 되고 경험치 구매 비용이 3골드가 됩니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  },
+  {
+    "name": "달",
+    "cost": 2,
+    "tier": 5,
+    "_key": "moon",
+    "desc": "5단계 상점 확률이 영구히 4% 증가합니다.",
+    "imageUrl": "https://cdn.dak.gg/tft/images2/charms/set12/charm-5.png"
+  }
+]
